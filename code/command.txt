@@ -1,0 +1,15 @@
+--- initialization work space ---
+1- create a directory
+2- colcon build --symlink-install
+3- source intsall/local_setup.bash
+
+--- install pkg ---
+1- create directory "src"
+2- ros2 pkg create --build-type ament_cmake --node-name my_node my_package
+3- colcon build  --packages-select my_package
+4- source intsall/local_setup.bash
+5- ros2 run my_package my_node 
+
+--- create sub & pub ros2 pkg with c++ ---
+1- ros2 pkg create cpp_pubsub --build-type ament_cmake --dependencies rclcpp std_msgs
+
