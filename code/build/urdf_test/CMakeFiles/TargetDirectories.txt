@@ -1,0 +1,9 @@
+/home/ziad/Ziad_WS/ROS2/code/build/urdf_test/CMakeFiles/uninstall.dir
+/home/ziad/Ziad_WS/ROS2/code/build/urdf_test/CMakeFiles/urdf_test_uninstall.dir
+/home/ziad/Ziad_WS/ROS2/code/build/urdf_test/CMakeFiles/test.dir
+/home/ziad/Ziad_WS/ROS2/code/build/urdf_test/CMakeFiles/edit_cache.dir
+/home/ziad/Ziad_WS/ROS2/code/build/urdf_test/CMakeFiles/rebuild_cache.dir
+/home/ziad/Ziad_WS/ROS2/code/build/urdf_test/CMakeFiles/list_install_components.dir
+/home/ziad/Ziad_WS/ROS2/code/build/urdf_test/CMakeFiles/install.dir
+/home/ziad/Ziad_WS/ROS2/code/build/urdf_test/CMakeFiles/install/local.dir
+/home/ziad/Ziad_WS/ROS2/code/build/urdf_test/CMakeFiles/install/strip.dir

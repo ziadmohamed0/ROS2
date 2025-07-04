@@ -1,0 +1,51 @@
+[0.015s] Invoking command in '/home/ziad/Ziad_WS/ROS2/code/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/code/src/my_package -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/code/install/my_package
+[0.190s] -- The C compiler identification is GNU 11.4.0
+[0.361s] -- The CXX compiler identification is GNU 11.4.0
+[0.374s] -- Detecting C compiler ABI info
+[0.484s] -- Detecting C compiler ABI info - done
+[0.493s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.499s] -- Detecting C compile features
+[0.500s] -- Detecting C compile features - done
+[0.505s] -- Detecting CXX compiler ABI info
+[0.607s] -- Detecting CXX compiler ABI info - done
+[0.618s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.619s] -- Detecting CXX compile features
+[0.619s] -- Detecting CXX compile features - done
+[0.632s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.388s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.528s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.678s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.678s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ziad/Ziad_WS/ROS2/code/src/my_package/include>
+[1.678s] -- Configured cppcheck exclude dirs and/or files: 
+[1.681s] -- Added test 'lint_cmake' to check CMake code style
+[1.684s] -- Added test 'uncrustify' to check C / C++ code style
+[1.684s] -- Configured uncrustify additional arguments: 
+[1.684s] -- Added test 'xmllint' to check XML markup files
+[1.686s] -- Configuring done
+[1.691s] -- Generating done
+[1.696s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/code/build/my_package
+[1.702s] Invoked command in '/home/ziad/Ziad_WS/ROS2/code/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/code/src/my_package -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/code/install/my_package
+[1.704s] Invoking command in '/home/ziad/Ziad_WS/ROS2/code/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/code/build/my_package -- -j4 -l4
+[1.778s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.821s] [100%] [32m[1mLinking CXX executable my_node[0m
+[1.889s] [100%] Built target my_node
+[1.911s] Invoked command in '/home/ziad/Ziad_WS/ROS2/code/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/code/build/my_package -- -j4 -l4
+[1.934s] Invoking command in '/home/ziad/Ziad_WS/ROS2/code/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/code/build/my_package
+[1.944s] -- Install configuration: ""
+[1.944s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/lib/my_package/my_node
+[1.945s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.945s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.946s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.946s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.946s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/environment/path.sh
+[1.946s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/environment/path.dsv
+[1.947s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/local_setup.bash
+[1.947s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/local_setup.sh
+[1.947s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/local_setup.zsh
+[1.948s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/local_setup.dsv
+[1.948s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/package.dsv
+[1.948s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.948s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.948s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.948s] -- Installing: /home/ziad/Ziad_WS/ROS2/code/install/my_package/share/my_package/package.xml
+[1.951s] Invoked command in '/home/ziad/Ziad_WS/ROS2/code/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/code/build/my_package

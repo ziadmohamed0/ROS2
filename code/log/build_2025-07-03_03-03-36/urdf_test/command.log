@@ -1,0 +1,6 @@
+Invoking command in '/home/ziad/Ziad_WS/ROS2/code/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/code/src/urdf_test -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/code/install/urdf_test
+Invoked command in '/home/ziad/Ziad_WS/ROS2/code/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/code/src/urdf_test -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/code/install/urdf_test
+Invoking command in '/home/ziad/Ziad_WS/ROS2/code/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/code/build/urdf_test -- -j4 -l4
+Invoked command in '/home/ziad/Ziad_WS/ROS2/code/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/code/build/urdf_test -- -j4 -l4
+Invoking command in '/home/ziad/Ziad_WS/ROS2/code/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/code/build/urdf_test
+Invoked command in '/home/ziad/Ziad_WS/ROS2/code/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/code/build/urdf_test
