@@ -1,0 +1,15 @@
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/ament_index/resource_index/package_run_dependencies/pub_sub
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/ament_index/resource_index/parent_prefix_path/pub_sub
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/environment/ament_prefix_path.sh
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/environment/ament_prefix_path.dsv
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/environment/path.sh
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/environment/path.dsv
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/local_setup.bash
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/local_setup.sh
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/local_setup.zsh
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/local_setup.dsv
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/package.dsv
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/ament_index/resource_index/packages/pub_sub
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/cmake/pub_subConfig.cmake
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/cmake/pub_subConfig-version.cmake
+/home/ziad/Ziad_WS/ROS2/code/install/pub_sub/share/pub_sub/package.xml
