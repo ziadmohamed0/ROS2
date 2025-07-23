@@ -1,0 +1,25 @@
+[0.107s] Invoking command in '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub -- -j8 -l8
+[0.382s] [35m[1mConsolidate compiler generated dependencies of target sub[0m
+[0.382s] [35m[1mConsolidate compiler generated dependencies of target pub[0m
+[0.412s] [ 50%] Built target pub
+[0.420s] [ 75%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[5.481s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.481s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.483s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.483s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.483s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.484s]                  from [01m[K/home/ziad/Ziad_work_space/ROS2/work_space/src/simple_pub_sub/src/sub.cpp:13[m[K:
+[5.485s] [01m[K/home/ziad/Ziad_work_space/ROS2/work_space/src/simple_pub_sub/src/sub.cpp:[m[K In member function ‘[01m[Kvoid subscriper::callBack(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.485s] [01m[K/home/ziad/Ziad_work_space/ROS2/work_space/src/simple_pub_sub/src/sub.cpp:25:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[5.485s]    25 |             RCLCPP_INFO(this->get_logger(), "I heared: [%s]", msg.[01;31m[Kdata[m[K.c_str());
+[5.486s]       |                                                                   [01;31m[K^~~~[m[K
+[9.148s] gmake[2]: *** [CMakeFiles/sub.dir/build.make:76: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+[9.148s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sub.dir/all] Error 2
+[9.149s] gmake: *** [Makefile:146: all] Error 2
+[9.156s] Invoked command in '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub -- -j8 -l8

@@ -1,0 +1,11 @@
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/uninstall.dir
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/simple_pub_sub_uninstall.dir
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/pub.dir
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/sub.dir
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/test.dir
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/edit_cache.dir
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/rebuild_cache.dir
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/list_install_components.dir
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/install.dir
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/install/local.dir
+/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub/CMakeFiles/install/strip.dir

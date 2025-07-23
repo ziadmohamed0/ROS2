@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (simple_pub_sub) JobQueued: {'identifier': 'simple_pub_sub', 'dependencies': OrderedDict()}
+[0.000465] (simple_pub_sub) JobStarted: {'identifier': 'simple_pub_sub'}
+[0.029892] (simple_pub_sub) JobProgress: {'identifier': 'simple_pub_sub', 'progress': 'cmake'}
+[0.030759] (simple_pub_sub) JobProgress: {'identifier': 'simple_pub_sub', 'progress': 'build'}
+[0.032031] (simple_pub_sub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub', '--', '-j8', '-l8'], 'cwd': '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_work_space/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1135'), ('SYSTEMD_EXEC_PID', '2418'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '33957'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ziad/Ziad_work_space/ROS2/work_space/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:13960'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ziad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/flutter/bin'), ('SESSION_MANAGER', 'local/ZiadFathy:@/tmp/.ICE-unix/1551,unix/ZiadFathy:/tmp/.ICE-unix/1551'), ('INVOCATION_ID', '08ced1484dab4b55a1a2182b844b0a08'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H97MA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:17d611c0-2c24-4696-aa9e-8201926e6138'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub:/opt/ros/humble')]), 'shell': False}
+[0.098623] (-) TimerEvent: {}
+[0.199129] (-) TimerEvent: {}
+[0.299911] (-) TimerEvent: {}
+[0.387799] (simple_pub_sub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sub\x1b[0m\n'}
+[0.400045] (-) TimerEvent: {}
+[0.410914] (simple_pub_sub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[0.413714] (simple_pub_sub) StdoutLine: {'line': b'[ 75%] Built target sub\n'}
+[0.500310] (-) TimerEvent: {}
+[0.601052] (-) TimerEvent: {}
+[0.701662] (-) TimerEvent: {}
+[0.802333] (-) TimerEvent: {}
+[0.902888] (-) TimerEvent: {}
+[1.003420] (-) TimerEvent: {}
+[1.103929] (-) TimerEvent: {}
+[1.204289] (-) TimerEvent: {}
+[1.304677] (-) TimerEvent: {}
+[1.405077] (-) TimerEvent: {}
+[1.505635] (-) TimerEvent: {}
+[1.606164] (-) TimerEvent: {}
+[1.706740] (-) TimerEvent: {}
+[1.807408] (-) TimerEvent: {}
+[1.908045] (-) TimerEvent: {}
+[2.008641] (-) TimerEvent: {}
+[2.109196] (-) TimerEvent: {}
+[2.209828] (-) TimerEvent: {}
+[2.310455] (-) TimerEvent: {}
+[2.411081] (-) TimerEvent: {}
+[2.511646] (-) TimerEvent: {}
+[2.612284] (-) TimerEvent: {}
+[2.712861] (-) TimerEvent: {}
+[2.813452] (-) TimerEvent: {}
+[2.914134] (-) TimerEvent: {}
+[3.014699] (-) TimerEvent: {}
+[3.115239] (-) TimerEvent: {}
+[3.215831] (-) TimerEvent: {}
+[3.316463] (-) TimerEvent: {}
+[3.417093] (-) TimerEvent: {}
+[3.517650] (-) TimerEvent: {}
+[3.618255] (-) TimerEvent: {}
+[3.718825] (-) TimerEvent: {}
+[3.819455] (-) TimerEvent: {}
+[3.920080] (-) TimerEvent: {}
+[4.020674] (-) TimerEvent: {}
+[4.121265] (-) TimerEvent: {}
+[4.221885] (-) TimerEvent: {}
+[4.322485] (-) TimerEvent: {}
+[4.423106] (-) TimerEvent: {}
+[4.523696] (-) TimerEvent: {}
+[4.624271] (-) TimerEvent: {}
+[4.724896] (-) TimerEvent: {}
+[4.825545] (-) TimerEvent: {}
+[4.926155] (-) TimerEvent: {}
+[5.026735] (-) TimerEvent: {}
+[5.127329] (-) TimerEvent: {}
+[5.227957] (-) TimerEvent: {}
+[5.328438] (-) TimerEvent: {}
+[5.429051] (-) TimerEvent: {}
+[5.529646] (-) TimerEvent: {}
+[5.630063] (-) TimerEvent: {}
+[5.730684] (-) TimerEvent: {}
+[5.831272] (-) TimerEvent: {}
+[5.931965] (-) TimerEvent: {}
+[6.032690] (-) TimerEvent: {}
+[6.133366] (-) TimerEvent: {}
+[6.234298] (-) TimerEvent: {}
+[6.334925] (-) TimerEvent: {}
+[6.435549] (-) TimerEvent: {}
+[6.536135] (-) TimerEvent: {}
+[6.636720] (-) TimerEvent: {}
+[6.737380] (-) TimerEvent: {}
+[6.837998] (-) TimerEvent: {}
+[6.938626] (-) TimerEvent: {}
+[7.039223] (-) TimerEvent: {}
+[7.139803] (-) TimerEvent: {}
+[7.240402] (-) TimerEvent: {}
+[7.341047] (-) TimerEvent: {}
+[7.441627] (-) TimerEvent: {}
+[7.542356] (-) TimerEvent: {}
+[7.643046] (-) TimerEvent: {}
+[7.743698] (-) TimerEvent: {}
+[7.844356] (-) TimerEvent: {}
+[7.945024] (-) TimerEvent: {}
+[8.045690] (-) TimerEvent: {}
+[8.146326] (-) TimerEvent: {}
+[8.247003] (-) TimerEvent: {}
+[8.347625] (-) TimerEvent: {}
+[8.448283] (-) TimerEvent: {}
+[8.548897] (-) TimerEvent: {}
+[8.649601] (-) TimerEvent: {}
+[8.750203] (-) TimerEvent: {}
+[8.850872] (-) TimerEvent: {}
+[8.951550] (-) TimerEvent: {}
+[9.052238] (-) TimerEvent: {}
+[9.152904] (-) TimerEvent: {}
+[9.253567] (-) TimerEvent: {}
+[9.354186] (-) TimerEvent: {}
+[9.454824] (-) TimerEvent: {}
+[9.555424] (-) TimerEvent: {}
+[9.656118] (-) TimerEvent: {}
+[9.756722] (-) TimerEvent: {}
+[9.857325] (-) TimerEvent: {}
+[9.957973] (-) TimerEvent: {}
+[10.058648] (-) TimerEvent: {}
+[10.159314] (-) TimerEvent: {}
+[10.260003] (-) TimerEvent: {}
+[10.360662] (-) TimerEvent: {}
+[10.461268] (-) TimerEvent: {}
+[10.561910] (-) TimerEvent: {}
+[10.662626] (-) TimerEvent: {}
+[10.763229] (-) TimerEvent: {}
+[10.863845] (-) TimerEvent: {}
+[10.964436] (-) TimerEvent: {}
+[11.065055] (-) TimerEvent: {}
+[11.165643] (-) TimerEvent: {}
+[11.266233] (-) TimerEvent: {}
+[11.366862] (-) TimerEvent: {}
+[11.467404] (-) TimerEvent: {}
+[11.567976] (-) TimerEvent: {}
+[11.668591] (-) TimerEvent: {}
+[11.769219] (-) TimerEvent: {}
+[11.869899] (-) TimerEvent: {}
+[11.970573] (-) TimerEvent: {}
+[12.071113] (-) TimerEvent: {}
+[12.171763] (-) TimerEvent: {}
+[12.272399] (-) TimerEvent: {}
+[12.373046] (-) TimerEvent: {}
+[12.473690] (-) TimerEvent: {}
+[12.574297] (-) TimerEvent: {}
+[12.674999] (-) TimerEvent: {}
+[12.775661] (-) TimerEvent: {}
+[12.876276] (-) TimerEvent: {}
+[12.943459] (simple_pub_sub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub\x1b[0m\n'}
+[12.976457] (-) TimerEvent: {}
+[13.077015] (-) TimerEvent: {}
+[13.177548] (-) TimerEvent: {}
+[13.278073] (-) TimerEvent: {}
+[13.378718] (-) TimerEvent: {}
+[13.479361] (-) TimerEvent: {}
+[13.580010] (-) TimerEvent: {}
+[13.680692] (-) TimerEvent: {}
+[13.781338] (-) TimerEvent: {}
+[13.798512] (simple_pub_sub) StdoutLine: {'line': b'[100%] Built target pub\n'}
+[13.830543] (simple_pub_sub) CommandEnded: {'returncode': 0}
+[13.832394] (simple_pub_sub) JobProgress: {'identifier': 'simple_pub_sub', 'progress': 'install'}
+[13.863293] (simple_pub_sub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub'], 'cwd': '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_work_space/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1135'), ('SYSTEMD_EXEC_PID', '2418'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '33957'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ziad/Ziad_work_space/ROS2/work_space/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:13960'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ziad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/flutter/bin'), ('SESSION_MANAGER', 'local/ZiadFathy:@/tmp/.ICE-unix/1551,unix/ZiadFathy:/tmp/.ICE-unix/1551'), ('INVOCATION_ID', '08ced1484dab4b55a1a2182b844b0a08'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H97MA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:17d611c0-2c24-4696-aa9e-8201926e6138'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub:/opt/ros/humble')]), 'shell': False}
+[13.881575] (-) TimerEvent: {}
+[13.919938] (simple_pub_sub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.920740] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/sub\n'}
+[13.921399] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/pub\n'}
+[13.924704] (simple_pub_sub) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/pub" to ""\n'}
+[13.936089] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/package_run_dependencies/simple_pub_sub\n'}
+[13.936735] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/parent_prefix_path/simple_pub_sub\n'}
+[13.937075] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.sh\n'}
+[13.937536] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.dsv\n'}
+[13.937866] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/path.sh\n'}
+[13.938169] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/path.dsv\n'}
+[13.938587] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.bash\n'}
+[13.939127] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.sh\n'}
+[13.939420] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.zsh\n'}
+[13.939760] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.dsv\n'}
+[13.940065] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/package.dsv\n'}
+[13.940365] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/packages/simple_pub_sub\n'}
+[13.940804] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig.cmake\n'}
+[13.941245] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig-version.cmake\n'}
+[13.941561] (simple_pub_sub) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/package.xml\n'}
+[13.945055] (simple_pub_sub) CommandEnded: {'returncode': 0}
+[13.982287] (-) TimerEvent: {}
+[14.003022] (simple_pub_sub) JobEnded: {'identifier': 'simple_pub_sub', 'rc': 0}
+[14.004083] (-) EventReactorShutdown: {}

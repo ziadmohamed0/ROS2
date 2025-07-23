@@ -1,0 +1,29 @@
+[0.019s] Invoking command in '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub -- -j8 -l8
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target sub[0m
+[0.119s] [ 50%] Built target pub
+[0.127s] [ 75%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[13.031s] [100%] [32m[1mLinking CXX executable sub[0m
+[13.716s] [100%] Built target sub
+[13.736s] Invoked command in '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub -- -j8 -l8
+[13.754s] Invoking command in '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub
+[13.764s] -- Install configuration: ""
+[13.781s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/sub
+[13.787s] -- Set runtime path of "/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/sub" to ""
+[13.787s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/pub
+[13.789s] -- Set runtime path of "/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/pub" to ""
+[13.789s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/package_run_dependencies/simple_pub_sub
+[13.789s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/parent_prefix_path/simple_pub_sub
+[13.802s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.sh
+[13.809s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.dsv
+[13.809s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/path.sh
+[13.810s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/path.dsv
+[13.828s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.bash
+[13.829s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.sh
+[13.830s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.zsh
+[13.830s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.dsv
+[13.831s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/package.dsv
+[13.832s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/packages/simple_pub_sub
+[13.832s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig.cmake
+[13.833s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig-version.cmake
+[13.833s] -- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/package.xml
+[13.840s] Invoked command in '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub

@@ -1,0 +1,17 @@
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/sub
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/pub
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/package_run_dependencies/simple_pub_sub
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/parent_prefix_path/simple_pub_sub
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.sh
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.dsv
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/path.sh
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/path.dsv
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.bash
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.sh
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.zsh
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.dsv
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/package.dsv
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/packages/simple_pub_sub
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig.cmake
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig-version.cmake
+/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/package.xml

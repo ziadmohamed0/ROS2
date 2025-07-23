@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target sub[0m
+[ 50%] Built target pub
+[ 75%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sub[0m
+[100%] Built target sub
+-- Install configuration: ""
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/sub
+-- Set runtime path of "/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/sub" to ""
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/pub
+-- Set runtime path of "/home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/lib/simple_pub_sub/pub" to ""
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/package_run_dependencies/simple_pub_sub
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/parent_prefix_path/simple_pub_sub
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.sh
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.dsv
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/path.sh
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/environment/path.dsv
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.bash
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.sh
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.zsh
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/local_setup.dsv
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/package.dsv
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/ament_index/resource_index/packages/simple_pub_sub
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig.cmake
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig-version.cmake
+-- Installing: /home/ziad/Ziad_work_space/ROS2/work_space/install/simple_pub_sub/share/simple_pub_sub/package.xml
