@@ -1,0 +1,4 @@
+source;share/AhmedMoo/local_setup.bash
+source;share/AhmedMoo/local_setup.dsv
+source;share/AhmedMoo/local_setup.sh
+source;share/AhmedMoo/local_setup.zsh

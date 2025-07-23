@@ -1,0 +1,5 @@
+int32 start
+---
+int32 final
+---
+int32 current

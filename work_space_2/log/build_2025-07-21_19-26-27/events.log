@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000490] (AhmedMoo) JobQueued: {'identifier': 'AhmedMoo', 'dependencies': OrderedDict()}
+[0.000535] (AhmedMoo) JobStarted: {'identifier': 'AhmedMoo'}
+[0.006508] (AhmedMoo) JobProgress: {'identifier': 'AhmedMoo', 'progress': 'cmake'}
+[0.007046] (AhmedMoo) Command: {'cmd': ['/usr/bin/cmake', '/home/ziad/Ziad_WS/ROS2/work_space_2/src/AhmedMoo', '-DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space_2/build/AhmedMoo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ziad/.config/autostart/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2098'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('DESKTOP_AUTOSTART_ID', '10aefe87fab5cc50d6175310321039288700000015030016'), ('JOURNAL_STREAM', '8:11472'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1503,unix/ziadfathy:/tmp/.ICE-unix/1503'), ('INVOCATION_ID', '7451b9c903604ce19bf40f411e53746a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5D8T92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5014d586-08f5-4ed5-832d-344e79369a7a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space_2/build/AhmedMoo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098093] (-) TimerEvent: {}
+[0.193096] (AhmedMoo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198201] (-) TimerEvent: {}
+[0.298528] (-) TimerEvent: {}
+[0.356176] (AhmedMoo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.370087] (AhmedMoo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.398695] (-) TimerEvent: {}
+[0.454595] (AhmedMoo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.463148] (AhmedMoo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.463644] (AhmedMoo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.464439] (AhmedMoo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.468472] (AhmedMoo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.498800] (-) TimerEvent: {}
+[0.561131] (AhmedMoo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.571165] (AhmedMoo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.571788] (AhmedMoo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.572687] (AhmedMoo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.584821] (AhmedMoo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.598945] (-) TimerEvent: {}
+[0.699266] (-) TimerEvent: {}
+[0.799587] (-) TimerEvent: {}
+[0.899958] (-) TimerEvent: {}
+[1.000327] (-) TimerEvent: {}
+[1.091382] (AhmedMoo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.100444] (-) TimerEvent: {}
+[1.200809] (-) TimerEvent: {}
+[1.214774] (AhmedMoo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.300915] (-) TimerEvent: {}
+[1.302848] (AhmedMoo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.311759] (AhmedMoo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.324974] (AhmedMoo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.350275] (AhmedMoo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.376359] (AhmedMoo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.401055] (-) TimerEvent: {}
+[1.448441] (AhmedMoo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.452443] (AhmedMoo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.501171] (-) TimerEvent: {}
+[1.571541] (AhmedMoo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.601305] (-) TimerEvent: {}
+[1.606036] (AhmedMoo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.657582] (AhmedMoo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.670241] (AhmedMoo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.701428] (-) TimerEvent: {}
+[1.757317] (AhmedMoo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.757952] (AhmedMoo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.801549] (-) TimerEvent: {}
+[1.837179] (AhmedMoo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.839205] (AhmedMoo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.901682] (-) TimerEvent: {}
+[1.936349] (AhmedMoo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.001806] (-) TimerEvent: {}
+[2.015924] (AhmedMoo) StderrLine: {'line': b'WARNING: Package name "AhmedMoo" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[2.057629] (AhmedMoo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.057959] (AhmedMoo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.058077] (AhmedMoo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.059615] (AhmedMoo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.061261] (AhmedMoo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.061414] (AhmedMoo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.062110] (AhmedMoo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.064125] (AhmedMoo) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.077003] (AhmedMoo) StdoutLine: {'line': b'-- Generating done\n'}
+[2.082051] (AhmedMoo) StdoutLine: {'line': b'-- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space_2/build/AhmedMoo\n'}
+[2.093124] (AhmedMoo) CommandEnded: {'returncode': 0}
+[2.093962] (AhmedMoo) JobProgress: {'identifier': 'AhmedMoo', 'progress': 'build'}
+[2.095253] (AhmedMoo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/Ziad_WS/ROS2/work_space_2/build/AhmedMoo', '--', '-j4', '-l4'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space_2/build/AhmedMoo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ziad/.config/autostart/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2098'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('DESKTOP_AUTOSTART_ID', '10aefe87fab5cc50d6175310321039288700000015030016'), ('JOURNAL_STREAM', '8:11472'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1503,unix/ziadfathy:/tmp/.ICE-unix/1503'), ('INVOCATION_ID', '7451b9c903604ce19bf40f411e53746a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5D8T92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5014d586-08f5-4ed5-832d-344e79369a7a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space_2/build/AhmedMoo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.101930] (-) TimerEvent: {}
+[2.152267] (AhmedMoo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Subscriber_Node.dir/src/sub.cpp.o\x1b[0m\n'}
+[2.152528] (AhmedMoo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Publisher_Node.dir/src/pub.cpp.o\x1b[0m\n'}
+[2.202055] (-) TimerEvent: {}
+[2.302399] (-) TimerEvent: {}
+[2.402801] (-) TimerEvent: {}
+[2.503224] (-) TimerEvent: {}
+[2.603612] (-) TimerEvent: {}
+[2.704027] (-) TimerEvent: {}
+[2.804437] (-) TimerEvent: {}
+[2.904733] (-) TimerEvent: {}
+[3.005124] (-) TimerEvent: {}
+[3.105470] (-) TimerEvent: {}
+[3.205920] (-) TimerEvent: {}
+[3.306326] (-) TimerEvent: {}
+[3.406743] (-) TimerEvent: {}
+[3.507271] (-) TimerEvent: {}
+[3.607673] (-) TimerEvent: {}
+[3.708093] (-) TimerEvent: {}
+[3.808496] (-) TimerEvent: {}
+[3.908913] (-) TimerEvent: {}
+[4.009342] (-) TimerEvent: {}
+[4.109737] (-) TimerEvent: {}
+[4.210166] (-) TimerEvent: {}
+[4.310634] (-) TimerEvent: {}
+[4.411049] (-) TimerEvent: {}
+[4.511468] (-) TimerEvent: {}
+[4.611895] (-) TimerEvent: {}
+[4.712337] (-) TimerEvent: {}
+[4.812837] (-) TimerEvent: {}
+[4.913254] (-) TimerEvent: {}
+[5.013601] (-) TimerEvent: {}
+[5.114050] (-) TimerEvent: {}
+[5.214361] (-) TimerEvent: {}
+[5.314730] (-) TimerEvent: {}
+[5.415221] (-) TimerEvent: {}
+[5.515745] (-) TimerEvent: {}
+[5.616163] (-) TimerEvent: {}
+[5.716604] (-) TimerEvent: {}
+[5.817170] (-) TimerEvent: {}
+[5.917575] (-) TimerEvent: {}
+[6.018013] (-) TimerEvent: {}
+[6.118418] (-) TimerEvent: {}
+[6.218818] (-) TimerEvent: {}
+[6.319231] (-) TimerEvent: {}
+[6.419628] (-) TimerEvent: {}
+[6.520037] (-) TimerEvent: {}
+[6.620385] (-) TimerEvent: {}
+[6.720710] (-) TimerEvent: {}
+[6.821013] (-) TimerEvent: {}
+[6.921315] (-) TimerEvent: {}
+[7.021748] (-) TimerEvent: {}
+[7.122148] (-) TimerEvent: {}
+[7.222507] (-) TimerEvent: {}
+[7.322925] (-) TimerEvent: {}
+[7.423295] (-) TimerEvent: {}
+[7.523714] (-) TimerEvent: {}
+[7.624109] (-) TimerEvent: {}
+[7.724626] (-) TimerEvent: {}
+[7.824988] (-) TimerEvent: {}
+[7.925337] (-) TimerEvent: {}
+[8.025978] (-) TimerEvent: {}
+[8.127219] (-) TimerEvent: {}
+[8.227598] (-) TimerEvent: {}
+[8.328007] (-) TimerEvent: {}
+[8.428478] (-) TimerEvent: {}
+[8.528844] (-) TimerEvent: {}
+[8.629193] (-) TimerEvent: {}
+[8.729611] (-) TimerEvent: {}
+[8.829972] (-) TimerEvent: {}
+[8.930372] (-) TimerEvent: {}
+[9.030720] (-) TimerEvent: {}
+[9.131055] (-) TimerEvent: {}
+[9.231443] (-) TimerEvent: {}
+[9.331829] (-) TimerEvent: {}
+[9.433757] (-) TimerEvent: {}
+[9.534304] (-) TimerEvent: {}
+[9.634740] (-) TimerEvent: {}
+[9.735158] (-) TimerEvent: {}
+[9.835574] (-) TimerEvent: {}
+[9.935994] (-) TimerEvent: {}
+[10.036414] (-) TimerEvent: {}
+[10.136783] (-) TimerEvent: {}
+[10.237146] (-) TimerEvent: {}
+[10.337523] (-) TimerEvent: {}
+[10.437909] (-) TimerEvent: {}
+[10.538273] (-) TimerEvent: {}
+[10.638662] (-) TimerEvent: {}
+[10.739022] (-) TimerEvent: {}
+[10.839394] (-) TimerEvent: {}
+[10.925162] (AhmedMoo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable Publisher_Node\x1b[0m\n'}
+[10.939552] (-) TimerEvent: {}
+[11.040199] (-) TimerEvent: {}
+[11.141065] (-) TimerEvent: {}
+[11.241525] (-) TimerEvent: {}
+[11.341956] (-) TimerEvent: {}
+[11.370082] (AhmedMoo) StdoutLine: {'line': b'[ 75%] Built target Publisher_Node\n'}
+[11.442091] (-) TimerEvent: {}
+[11.542403] (-) TimerEvent: {}
+[11.642737] (-) TimerEvent: {}
+[11.743103] (-) TimerEvent: {}
+[11.843391] (-) TimerEvent: {}
+[11.943710] (-) TimerEvent: {}
+[12.044022] (-) TimerEvent: {}
+[12.144325] (-) TimerEvent: {}
+[12.244621] (-) TimerEvent: {}
+[12.344936] (-) TimerEvent: {}
+[12.445236] (-) TimerEvent: {}
+[12.545558] (-) TimerEvent: {}
+[12.645871] (-) TimerEvent: {}
+[12.746166] (-) TimerEvent: {}
+[12.846472] (-) TimerEvent: {}
+[12.946733] (-) TimerEvent: {}
+[13.047073] (-) TimerEvent: {}
+[13.147400] (-) TimerEvent: {}
+[13.247733] (-) TimerEvent: {}
+[13.348067] (-) TimerEvent: {}
+[13.448403] (-) TimerEvent: {}
+[13.548742] (-) TimerEvent: {}
+[13.649080] (-) TimerEvent: {}
+[13.749402] (-) TimerEvent: {}
+[13.849731] (-) TimerEvent: {}
+[13.950063] (-) TimerEvent: {}
+[14.050388] (-) TimerEvent: {}
+[14.150724] (-) TimerEvent: {}
+[14.251056] (-) TimerEvent: {}
+[14.351380] (-) TimerEvent: {}
+[14.451711] (-) TimerEvent: {}
+[14.552049] (-) TimerEvent: {}
+[14.652431] (-) TimerEvent: {}
+[14.752724] (-) TimerEvent: {}
+[14.853058] (-) TimerEvent: {}
+[14.953388] (-) TimerEvent: {}
+[15.053769] (-) TimerEvent: {}
+[15.154142] (-) TimerEvent: {}
+[15.254442] (-) TimerEvent: {}
+[15.303185] (AhmedMoo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Subscriber_Node\x1b[0m\n'}
+[15.354576] (-) TimerEvent: {}
+[15.454984] (-) TimerEvent: {}
+[15.555360] (-) TimerEvent: {}
+[15.655684] (-) TimerEvent: {}
+[15.755969] (-) TimerEvent: {}
+[15.784440] (AhmedMoo) StdoutLine: {'line': b'[100%] Built target Subscriber_Node\n'}
+[15.798287] (AhmedMoo) CommandEnded: {'returncode': 0}
+[15.799272] (AhmedMoo) JobProgress: {'identifier': 'AhmedMoo', 'progress': 'install'}
+[15.808296] (AhmedMoo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/Ziad_WS/ROS2/work_space_2/build/AhmedMoo'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space_2/build/AhmedMoo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ziad/.config/autostart/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2098'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('DESKTOP_AUTOSTART_ID', '10aefe87fab5cc50d6175310321039288700000015030016'), ('JOURNAL_STREAM', '8:11472'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1503,unix/ziadfathy:/tmp/.ICE-unix/1503'), ('INVOCATION_ID', '7451b9c903604ce19bf40f411e53746a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5D8T92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5014d586-08f5-4ed5-832d-344e79369a7a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space_2/build/AhmedMoo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.817012] (AhmedMoo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.817372] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/lib/AhmedMoo/Publisher_Node\n'}
+[15.818555] (AhmedMoo) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/lib/AhmedMoo/Publisher_Node" to ""\n'}
+[15.818837] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/lib/AhmedMoo/Subscriber_Node\n'}
+[15.821837] (AhmedMoo) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/lib/AhmedMoo/Subscriber_Node" to ""\n'}
+[15.822187] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/ament_index/resource_index/package_run_dependencies/AhmedMoo\n'}
+[15.822397] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/ament_index/resource_index/parent_prefix_path/AhmedMoo\n'}
+[15.823045] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/environment/ament_prefix_path.sh\n'}
+[15.823969] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/environment/ament_prefix_path.dsv\n'}
+[15.824285] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/environment/path.sh\n'}
+[15.824555] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/environment/path.dsv\n'}
+[15.824814] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/local_setup.bash\n'}
+[15.825117] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/local_setup.sh\n'}
+[15.825364] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/local_setup.zsh\n'}
+[15.825626] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/local_setup.dsv\n'}
+[15.826036] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/package.dsv\n'}
+[15.826349] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/ament_index/resource_index/packages/AhmedMoo\n'}
+[15.826585] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/cmake/AhmedMooConfig.cmake\n'}
+[15.827180] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/cmake/AhmedMooConfig-version.cmake\n'}
+[15.827414] (AhmedMoo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space_2/install/AhmedMoo/share/AhmedMoo/package.xml\n'}
+[15.829654] (AhmedMoo) CommandEnded: {'returncode': 0}
+[15.857971] (-) TimerEvent: {}
+[15.863516] (AhmedMoo) JobEnded: {'identifier': 'AhmedMoo', 'rc': 0}
+[15.865204] (-) EventReactorShutdown: {}
