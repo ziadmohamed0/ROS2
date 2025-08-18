@@ -1,0 +1,7 @@
+[0.040s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/practise_actions_services': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/practise_actions_services -- -j4 -l4
+[0.209s] [ 25%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/add_two_number_client.cpp.o[0m
+[0.230s] [ 50%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/add_two_number_serv.cpp.o[0m
+[14.464s] [ 75%] [32m[1mLinking CXX executable service_client[0m
+[14.681s] [100%] [32m[1mLinking CXX executable service_server[0m
+[15.466s] [100%] Built target service_client
+[15.529s] [100%] Built target service_server

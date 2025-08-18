@@ -1,0 +1,27 @@
+[0.037s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action -- -j4 -l4
+[0.257s] [  2%] Built target ros2_action__cpp
+[0.284s] [ 10%] Built target ros2_action__rosidl_generator_c
+[0.284s] [ 10%] Built target ament_cmake_python_symlink_ros2_action
+[0.371s] [ 19%] Built target ros2_action__rosidl_typesupport_fastrtps_cpp
+[0.371s] [ 27%] Built target ros2_action__rosidl_typesupport_cpp
+[0.412s] [ 36%] Built target ros2_action__rosidl_typesupport_introspection_cpp
+[0.412s] [ 44%] Built target ros2_action__rosidl_typesupport_fastrtps_c
+[0.454s] [ 53%] Built target ros2_action__rosidl_typesupport_introspection_c
+[0.462s] [ 61%] Built target ros2_action__rosidl_typesupport_c
+[0.518s] [ 65%] Built target add_two_ints_client
+[0.520s] [ 70%] Built target add_two_ints_server
+[0.550s] [ 74%] Built target countdown_server
+[0.569s] [ 74%] Built target ros2_action
+[0.591s] [ 78%] Built target countdown_client
+[0.608s] [ 80%] Built target ros2_action__py
+[0.645s] [ 87%] Built target ros2_action__rosidl_generator_py
+[0.687s] [ 97%] Built target ros2_action__rosidl_typesupport_introspection_c__pyext
+[0.688s] [100%] Built target ros2_action__rosidl_typesupport_fastrtps_c__pyext
+[0.688s] [100%] Built target ros2_action__rosidl_typesupport_c__pyext
+[1.144s] running egg_info
+[1.175s] writing ros2_action.egg-info/PKG-INFO
+[1.175s] writing dependency_links to ros2_action.egg-info/dependency_links.txt
+[1.176s] writing top-level names to ros2_action.egg-info/top_level.txt
+[1.276s] reading manifest file 'ros2_action.egg-info/SOURCES.txt'
+[1.277s] writing manifest file 'ros2_action.egg-info/SOURCES.txt'
+[1.338s] [100%] Built target ament_cmake_python_build_ros2_action_egg

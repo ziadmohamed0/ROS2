@@ -1,0 +1,53 @@
+[0.039s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/practise_actions_services': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/practise_actions_services -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.301s] -- The CXX compiler identification is GNU 11.4.0
+[0.313s] -- Detecting C compiler ABI info
+[0.467s] -- Detecting C compiler ABI info - done
+[0.485s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.485s] -- Detecting C compile features
+[0.486s] -- Detecting C compile features - done
+[0.493s] -- Detecting CXX compiler ABI info
+[0.656s] -- Detecting CXX compiler ABI info - done
+[0.673s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.673s] -- Detecting CXX compile features
+[0.676s] -- Detecting CXX compile features - done
+[0.681s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.823s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.071s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[3.178s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.193s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.217s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.400s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.408s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.591s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.665s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.785s] -- Looking for pthread.h
+[3.930s] -- Looking for pthread.h - found
+[3.930s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.106s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.108s] -- Found Threads: TRUE  
+[4.244s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.361s] -- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.395s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.679s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.680s] -- Configured cppcheck include dirs: 
+[4.680s] -- Configured cppcheck exclude dirs and/or files: 
+[4.683s] -- Added test 'lint_cmake' to check CMake code style
+[4.686s] -- Added test 'uncrustify' to check C / C++ code style
+[4.689s] -- Configured uncrustify additional arguments: 
+[4.689s] -- Added test 'xmllint' to check XML markup files
+[4.692s] -- Configuring done
+[4.727s] -- Generating done
+[4.733s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/practise_actions_services
+[4.762s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/practise_actions_services' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/practise_actions_services -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services
+[4.763s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/practise_actions_services': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/practise_actions_services -- -j4 -l4
+[4.945s] [ 25%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/add_two_number_serv.cpp.o[0m
+[4.957s] [ 50%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/add_two_number_client.cpp.o[0m
+[25.159s] gmake[2]: *** [CMakeFiles/service_server.dir/build.make:76: CMakeFiles/service_server.dir/src/add_two_number_serv.cpp.o] Interrupt
+[25.180s] gmake[2]: *** [CMakeFiles/service_client.dir/build.make:76: CMakeFiles/service_client.dir/src/add_two_number_client.cpp.o] Interrupt
+[25.189s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/service_server.dir/all] Interrupt
+[25.191s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/service_client.dir/all] Interrupt
+[25.191s] gmake: *** [Makefile:146: all] Interrupt

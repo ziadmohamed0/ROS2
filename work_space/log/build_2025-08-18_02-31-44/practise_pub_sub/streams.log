@@ -1,0 +1,58 @@
+[0.033s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/practise_pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/practise_pub_sub -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.259s] -- The CXX compiler identification is GNU 11.4.0
+[0.274s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.426s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.426s] -- Detecting C compile features
+[0.427s] -- Detecting C compile features - done
+[0.436s] -- Detecting CXX compiler ABI info
+[0.590s] -- Detecting CXX compiler ABI info - done
+[0.608s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.610s] -- Detecting CXX compile features
+[0.613s] -- Detecting CXX compile features - done
+[0.634s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.685s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.950s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[3.107s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.128s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.154s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.353s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.361s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.557s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.624s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.737s] -- Looking for pthread.h
+[3.881s] -- Looking for pthread.h - found
+[3.882s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.060s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.065s] -- Found Threads: TRUE  
+[4.208s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.439s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.439s] -- Configured cppcheck include dirs: 
+[4.440s] -- Configured cppcheck exclude dirs and/or files: 
+[4.441s] -- Added test 'lint_cmake' to check CMake code style
+[4.443s] -- Added test 'uncrustify' to check C / C++ code style
+[4.443s] -- Configured uncrustify additional arguments: 
+[4.446s] -- Added test 'xmllint' to check XML markup files
+[4.449s] -- Configuring done
+[4.488s] -- Generating done
+[4.509s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/practise_pub_sub
+[4.531s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/practise_pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/practise_pub_sub -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub
+[4.536s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/practise_pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/practise_pub_sub -- -j4 -l4
+[4.654s] [ 12%] [32mBuilding CXX object CMakeFiles/publisher_str.dir/src/pub_str.cpp.o[0m
+[4.675s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_int.dir/src/pub_int.cpp.o[0m
+[4.675s] [ 37%] [32mBuilding CXX object CMakeFiles/subscriper_int.dir/src/sub_int.cpp.o[0m
+[4.681s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriper_str.dir/src/sub_str.cpp.o[0m
+[25.121s] gmake[2]: *** [CMakeFiles/publisher_str.dir/build.make:76: CMakeFiles/publisher_str.dir/src/pub_str.cpp.o] Interrupt
+[25.128s] gmake[2]: *** [CMakeFiles/publisher_int.dir/build.make:76: CMakeFiles/publisher_int.dir/src/pub_int.cpp.o] Interrupt
+[25.128s] gmake[2]: *** [CMakeFiles/subscriper_int.dir/build.make:76: CMakeFiles/subscriper_int.dir/src/sub_int.cpp.o] Interrupt
+[25.129s] gmake[2]: *** [CMakeFiles/subscriper_str.dir/build.make:76: CMakeFiles/subscriper_str.dir/src/sub_str.cpp.o] Interrupt
+[25.129s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/publisher_int.dir/all] Interrupt
+[25.136s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/publisher_str.dir/all] Interrupt
+[25.179s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/subscriper_int.dir/all] Interrupt
+[25.180s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/subscriper_str.dir/all] Interrupt
+[25.180s] gmake: *** [Makefile:146: all] Interrupt
+[25.201s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/practise_pub_sub' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/practise_pub_sub -- -j4 -l4

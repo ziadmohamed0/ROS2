@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/srv_act_ros2__rosidl_typesupport_c.dir/build.make:111: CMakeFiles/srv_act_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/srv_act_ros2/action/countdown__type_support.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:351: CMakeFiles/srv_act_ros2__rosidl_typesupport_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

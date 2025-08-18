@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6f417e48ee9528a69ad3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "practise_pub_sub",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "practise_pub_sub_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practise_pub_sub_uninstall-55761f6cbbdf61109ac1.json",
+					"name" : "practise_pub_sub_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_int::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_int-6a5bae425e8650d628e0.json",
+					"name" : "publisher_int",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_str::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_str-7168d9223cb15a3562fb.json",
+					"name" : "publisher_str",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriper_int::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriper_int-aaa7f52d9a71f634de14.json",
+					"name" : "subscriper_int",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriper_str::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriper_str-0bca6c21f1c855fbf784.json",
+					"name" : "subscriper_str",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e69a73672c0fb635e31f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ziad/Ziad_WS/ROS2/work_space/build/practise_pub_sub",
+		"source" : "/home/ziad/Ziad_WS/ROS2/work_space/src/practise_pub_sub"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

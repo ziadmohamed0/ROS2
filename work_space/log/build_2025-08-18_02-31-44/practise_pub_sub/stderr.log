@@ -1,0 +1,9 @@
+gmake[2]: *** [CMakeFiles/publisher_str.dir/build.make:76: CMakeFiles/publisher_str.dir/src/pub_str.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/publisher_int.dir/build.make:76: CMakeFiles/publisher_int.dir/src/pub_int.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/subscriper_int.dir/build.make:76: CMakeFiles/subscriper_int.dir/src/sub_int.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/subscriper_str.dir/build.make:76: CMakeFiles/subscriper_str.dir/src/sub_str.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/publisher_int.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/publisher_str.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/subscriper_int.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/subscriper_str.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,235 @@
+[0.033s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/ros2_action -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action
+[0.057s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.342s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.377s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.380s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.387s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.457s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.459s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.592s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.651s] -- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.689s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.074s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.710s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.745s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.745s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.745s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.816s] -- Configuring done
+[1.960s] -- Generating done
+[1.981s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action
+[1.994s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/ros2_action -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action
+[1.997s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action -- -j4 -l4
+[2.054s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.068s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.082s] [  4%] Built target ament_cmake_python_symlink_ros2_action
+[2.749s] running egg_info
+[2.783s] writing ros2_action.egg-info/PKG-INFO
+[2.784s] writing dependency_links to ros2_action.egg-info/dependency_links.txt
+[2.784s] writing top-level names to ros2_action.egg-info/top_level.txt
+[2.966s] reading manifest file 'ros2_action.egg-info/SOURCES.txt'
+[2.966s] writing manifest file 'ros2_action.egg-info/SOURCES.txt'
+[3.067s] [  4%] Built target ament_cmake_python_build_ros2_action_egg
+[3.121s] [  4%] Built target ros2_action__cpp
+[3.142s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.144s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.146s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.348s] [35m[1mConsolidate compiler generated dependencies of target ros2_action__rosidl_generator_c[0m
+[3.368s] [ 12%] [32mBuilding C object CMakeFiles/ros2_action__rosidl_generator_c.dir/rosidl_generator_c/ros2_action/srv/detail/add_two_ints__functions.c.o[0m
+[3.599s] [ 14%] [32mBuilding C object CMakeFiles/ros2_action__rosidl_generator_c.dir/rosidl_generator_c/ros2_action/action/detail/countdown__functions.c.o[0m
+[3.895s] [ 17%] [32m[1mLinking C shared library libros2_action__rosidl_generator_c.so[0m
+[3.932s] [ 19%] [32mBuilding CXX object CMakeFiles/ros2_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_action/srv/add_two_ints__type_support.cpp.o[0m
+[3.976s] [ 19%] Built target ros2_action__rosidl_generator_c
+[3.991s] [ 21%] [32mBuilding CXX object CMakeFiles/ros2_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_action/action/countdown__type_support.cpp.o[0m
+[4.023s] [ 23%] [32mBuilding CXX object CMakeFiles/ros2_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_action/srv/detail/add_two_ints__type_support.cpp.o[0m
+[4.210s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_action/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[4.558s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.928s] [ 29%] [32mBuilding CXX object CMakeFiles/ros2_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_action/action/detail/countdown__type_support.cpp.o[0m
+[5.031s] [ 31%] [32m[1mLinking CXX shared library libros2_action__rosidl_typesupport_cpp.so[0m
+[5.063s] [ 34%] [32mBuilding CXX object CMakeFiles/ros2_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_action/action/detail/dds_fastrtps/countdown__type_support.cpp.o[0m
+[5.108s] [ 34%] Built target ros2_action__rosidl_typesupport_cpp
+[5.127s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.742s] [ 38%] [32mBuilding CXX object CMakeFiles/ros2_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_action/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[6.166s] [ 40%] [32mBuilding C object CMakeFiles/ros2_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_action/srv/detail/add_two_ints__type_support.c.o[0m
+[6.219s] [ 42%] [32m[1mLinking CXX shared library libros2_action__rosidl_typesupport_introspection_cpp.so[0m
+[6.237s] [ 44%] [32mBuilding C object CMakeFiles/ros2_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_action/action/detail/countdown__type_support.c.o[0m
+[6.307s] [ 46%] [32m[1mLinking CXX shared library libros2_action__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.338s] [ 48%] [32m[1mLinking C shared library libros2_action__rosidl_typesupport_introspection_c.so[0m
+[6.406s] [ 48%] Built target ros2_action__rosidl_typesupport_introspection_cpp
+[6.406s] [ 48%] Built target ros2_action__rosidl_typesupport_introspection_c
+[6.428s] [ 51%] [32mBuilding CXX object CMakeFiles/ros2_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_action/action/detail/countdown__type_support_c.cpp.o[0m
+[6.428s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.503s] [ 53%] Built target ros2_action__rosidl_typesupport_fastrtps_cpp
+[6.541s] [ 55%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[6.557s] [ 57%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[7.181s] [ 59%] [32mBuilding CXX object CMakeFiles/ros2_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_action/srv/add_two_ints__type_support.cpp.o[0m
+[7.203s] [ 61%] [32m[1mLinking CXX shared library libros2_action__rosidl_typesupport_fastrtps_c.so[0m
+[7.241s] [ 63%] [32mBuilding CXX object CMakeFiles/ros2_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_action/action/countdown__type_support.cpp.o[0m
+[7.350s] [ 65%] [32m[1mLinking CXX shared library libros2_action__rosidl_typesupport_c.so[0m
+[7.392s] [ 65%] Built target ros2_action__rosidl_typesupport_fastrtps_c
+[7.442s] [ 68%] [32mBuilding CXX object CMakeFiles/countdown_server.dir/src/countdown_server.cpp.o[0m
+[7.442s] [ 68%] Built target ros2_action__rosidl_typesupport_c
+[7.480s] [ 70%] [32mBuilding CXX object CMakeFiles/countdown_client.dir/src/countdown_client.cpp.o[0m
+[15.270s] [ 72%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[15.547s] [ 74%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[15.826s] [ 74%] Built target add_two_ints_server
+[15.887s] [ 74%] Built target ros2_action
+[15.957s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.152s] [ 76%] Built target add_two_ints_client
+[17.047s] [ 78%] [32m[1mLinking CXX executable countdown_server[0m
+[17.263s] [ 80%] [32m[1mLinking CXX executable countdown_client[0m
+[17.398s] [ 80%] Built target countdown_server
+[17.509s] [ 80%] Built target countdown_client
+[17.881s] [ 80%] Built target ros2_action__py
+[17.908s] [ 85%] [32mBuilding C object CMakeFiles/ros2_action__rosidl_generator_py.dir/rosidl_generator_py/ros2_action/srv/_add_two_ints_s.c.o[0m
+[17.908s] [ 85%] [32mBuilding C object CMakeFiles/ros2_action__rosidl_generator_py.dir/rosidl_generator_py/ros2_action/action/_countdown_s.c.o[0m
+[18.129s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ros2_action/libros2_action__rosidl_generator_py.so[0m
+[18.186s] [ 87%] Built target ros2_action__rosidl_generator_py
+[18.219s] [ 89%] [32mBuilding C object CMakeFiles/ros2_action__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_action/_ros2_action_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.220s] [ 91%] [32mBuilding C object CMakeFiles/ros2_action__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_action/_ros2_action_s.ep.rosidl_typesupport_c.c.o[0m
+[18.224s] [ 93%] [32mBuilding C object CMakeFiles/ros2_action__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_action/_ros2_action_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.439s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ros2_action/ros2_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.458s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros2_action/ros2_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.495s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_action/ros2_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.512s] [100%] Built target ros2_action__rosidl_typesupport_c__pyext
+[18.517s] [100%] Built target ros2_action__rosidl_typesupport_fastrtps_c__pyext
+[18.550s] [100%] Built target ros2_action__rosidl_typesupport_introspection_c__pyext
+[18.563s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action -- -j4 -l4
+[18.566s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action
+[18.583s] -- Install configuration: ""
+[18.584s] -- Execute custom install script
+[18.585s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ament_index/resource_index/rosidl_interfaces/ros2_action
+[18.599s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/countdown.h
+[18.609s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__functions.h
+[18.619s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__struct.h
+[18.629s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__type_support.h
+[18.639s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/msg/rosidl_generator_c__visibility_control.h
+[18.651s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/add_two_ints.h
+[18.661s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__functions.h
+[18.671s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__struct.h
+[18.681s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__type_support.h
+[18.697s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/environment/library_path.sh
+[18.707s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/environment/library_path.dsv
+[18.720s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__rosidl_typesupport_fastrtps_c.h
+[18.730s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.740s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[18.751s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/countdown.hpp
+[18.761s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__builder.hpp
+[18.772s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__struct.hpp
+[18.782s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__traits.hpp
+[18.794s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__type_support.hpp
+[18.804s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.814s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/add_two_ints.hpp
+[18.824s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__builder.hpp
+[18.834s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__struct.hpp
+[18.844s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__traits.hpp
+[18.854s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__type_support.hpp
+[18.865s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__rosidl_typesupport_fastrtps_cpp.hpp
+[18.875s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.885s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[18.897s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__rosidl_typesupport_introspection_c.h
+[18.907s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.917s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[18.928s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/action/detail/countdown__rosidl_typesupport_introspection_cpp.hpp
+[18.937s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/include/ros2_action/ros2_action/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[18.948s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/environment/pythonpath.sh
+[18.958s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/environment/pythonpath.dsv
+[18.968s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action-0.0.0-py3.10.egg-info/PKG-INFO
+[18.978s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.990s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action-0.0.0-py3.10.egg-info/dependency_links.txt
+[19.000s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action-0.0.0-py3.10.egg-info/top_level.txt
+[19.011s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/__init__.py
+[19.021s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/_ros2_action_s.ep.rosidl_typesupport_c.c
+[19.031s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/_ros2_action_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.041s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/_ros2_action_s.ep.rosidl_typesupport_introspection_c.c
+[19.051s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/action/__init__.py
+[19.062s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/action/_countdown.py
+[19.074s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/action/_countdown_s.c
+[19.084s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/libros2_action__rosidl_generator_py.so
+[19.096s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/ros2_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.106s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/ros2_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.116s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/ros2_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.126s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/srv/__init__.py
+[19.136s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/srv/_add_two_ints.py
+[19.146s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/srv/_add_two_ints_s.c
+[19.159s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/ros2_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.159s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/ros2_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.160s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/ros2_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.160s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/srv/AddTwoInts.idl
+[19.170s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/action/Countdown.idl
+[19.181s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/srv/AddTwoInts.srv
+[19.192s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/srv/AddTwoInts_Request.msg
+[19.202s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/srv/AddTwoInts_Response.msg
+[19.213s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/action/Countdown.action
+[19.224s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/ros2_action/add_two_ints_server
+[19.234s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/ros2_action/add_two_ints_client
+[19.244s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/ros2_action/countdown_server
+[19.254s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/ros2_action/countdown_client
+[19.265s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ament_index/resource_index/package_run_dependencies/ros2_action
+[19.275s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ament_index/resource_index/parent_prefix_path/ros2_action
+[19.285s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/environment/ament_prefix_path.sh
+[19.299s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/environment/ament_prefix_path.dsv
+[19.309s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/environment/path.sh
+[19.319s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/environment/path.dsv
+[19.329s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/local_setup.bash
+[19.339s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/local_setup.sh
+[19.349s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/local_setup.zsh
+[19.363s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/local_setup.dsv
+[19.374s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/package.dsv
+[19.384s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ament_index/resource_index/packages/ros2_action
+[19.397s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/rosidl_cmake-extras.cmake
+[19.408s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.418s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.428s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ament_cmake_export_libraries-extras.cmake
+[19.438s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ament_cmake_export_targets-extras.cmake
+[19.448s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.458s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.468s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ros2_actionConfig.cmake
+[19.478s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ros2_actionConfig-version.cmake
+[19.490s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/package.xml
+[19.501s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_generator_c.so
+[19.502s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_generator_c.so" to ""
+[19.502s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_fastrtps_c.so
+[19.502s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_fastrtps_c.so" to ""
+[19.503s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_fastrtps_cpp.so
+[19.503s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.503s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_introspection_c.so
+[19.504s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_introspection_c.so" to ""
+[19.504s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_c.so
+[19.505s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_c.so" to ""
+[19.505s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_introspection_cpp.so
+[19.505s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_introspection_cpp.so" to ""
+[19.506s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_cpp.so
+[19.506s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_typesupport_cpp.so" to ""
+[19.567s] Listing '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action'...
+[19.567s] Compiling '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/__init__.py'...
+[19.567s] Listing '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/action'...
+[19.567s] Compiling '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/action/__init__.py'...
+[19.568s] Compiling '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/action/_countdown.py'...
+[19.568s] Listing '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/srv'...
+[19.568s] Compiling '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/srv/__init__.py'...
+[19.568s] Compiling '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/local/lib/python3.10/dist-packages/ros2_action/srv/_add_two_ints.py'...
+[19.573s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_generator_py.so
+[19.574s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/lib/libros2_action__rosidl_generator_py.so" to ""
+[19.574s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/export_ros2_action__rosidl_generator_cExport.cmake
+[19.574s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/export_ros2_action__rosidl_generator_cExport-noconfig.cmake
+[19.575s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/export_ros2_action__rosidl_typesupport_fastrtps_cExport.cmake
+[19.575s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/export_ros2_action__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.575s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/export_ros2_action__rosidl_generator_cppExport.cmake
+[19.576s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/export_ros2_action__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.576s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/export_ros2_action__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.576s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ros2_action__rosidl_typesupport_introspection_cExport.cmake
+[19.577s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ros2_action__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.577s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ros2_action__rosidl_typesupport_cExport.cmake
+[19.578s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ros2_action__rosidl_typesupport_cExport-noconfig.cmake
+[19.578s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ros2_action__rosidl_typesupport_introspection_cppExport.cmake
+[19.578s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ros2_action__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.579s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ros2_action__rosidl_typesupport_cppExport.cmake
+[19.579s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/ros2_action__rosidl_typesupport_cppExport-noconfig.cmake
+[19.579s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/export_ros2_action__rosidl_generator_pyExport.cmake
+[19.580s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_action/share/ros2_action/cmake/export_ros2_action__rosidl_generator_pyExport-noconfig.cmake
+[19.583s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_action

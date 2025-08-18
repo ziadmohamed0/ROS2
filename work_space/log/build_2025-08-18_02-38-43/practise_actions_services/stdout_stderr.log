@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target service_client[0m
+[35m[1mConsolidate compiler generated dependencies of target service_server[0m
+[ 50%] Built target service_server
+[100%] Built target service_client
+-- Install configuration: ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/lib/practise_actions_services/service_client
+-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/lib/practise_actions_services/service_client" to ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/lib/practise_actions_services/service_server
+-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/lib/practise_actions_services/service_server" to ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/ament_index/resource_index/package_run_dependencies/practise_actions_services
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/ament_index/resource_index/parent_prefix_path/practise_actions_services
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/environment/ament_prefix_path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/environment/ament_prefix_path.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/environment/path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/environment/path.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/local_setup.bash
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/local_setup.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/local_setup.zsh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/local_setup.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/package.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/ament_index/resource_index/packages/practise_actions_services
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/cmake/practise_actions_servicesConfig.cmake
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/cmake/practise_actions_servicesConfig-version.cmake
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_actions_services/share/practise_actions_services/package.xml

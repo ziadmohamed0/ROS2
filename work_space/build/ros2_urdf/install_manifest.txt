@@ -1,0 +1,16 @@
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/urdf/simple_box.urdf
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/package_run_dependencies/ros2_urdf
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/parent_prefix_path/ros2_urdf
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/ament_prefix_path.sh
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/ament_prefix_path.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/path.sh
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/path.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.bash
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.sh
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.zsh
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/packages/ros2_urdf
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/cmake/ros2_urdfConfig.cmake
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/cmake/ros2_urdfConfig-version.cmake
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.xml

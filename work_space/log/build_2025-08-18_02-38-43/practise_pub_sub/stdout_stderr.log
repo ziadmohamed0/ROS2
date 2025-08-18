@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target subscriper_int[0m
+[35m[1mConsolidate compiler generated dependencies of target subscriper_str[0m
+[35m[1mConsolidate compiler generated dependencies of target publisher_str[0m
+[35m[1mConsolidate compiler generated dependencies of target publisher_int[0m
+[ 25%] Built target subscriper_str
+[ 50%] Built target publisher_str
+[ 75%] Built target subscriper_int
+[100%] Built target publisher_int
+-- Install configuration: ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/lib/practise_pub_sub/publisher_int
+-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/lib/practise_pub_sub/publisher_int" to ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/lib/practise_pub_sub/subscriper_int
+-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/lib/practise_pub_sub/subscriper_int" to ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/lib/practise_pub_sub/publisher_str
+-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/lib/practise_pub_sub/publisher_str" to ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/lib/practise_pub_sub/subscriper_str
+-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/lib/practise_pub_sub/subscriper_str" to ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/ament_index/resource_index/package_run_dependencies/practise_pub_sub
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/ament_index/resource_index/parent_prefix_path/practise_pub_sub
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/environment/ament_prefix_path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/environment/ament_prefix_path.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/environment/path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/environment/path.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/local_setup.bash
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/local_setup.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/local_setup.zsh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/local_setup.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/package.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/ament_index/resource_index/packages/practise_pub_sub
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/cmake/practise_pub_subConfig.cmake
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/cmake/practise_pub_subConfig-version.cmake
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/practise_pub_sub/share/practise_pub_sub/package.xml

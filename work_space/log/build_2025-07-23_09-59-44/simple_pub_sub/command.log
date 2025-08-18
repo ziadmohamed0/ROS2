@@ -1,4 +1,0 @@
-Invoking command in '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub -- -j8 -l8
-Invoked command in '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub -- -j8 -l8
-Invoking command in '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub
-Invoked command in '/home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_work_space/ROS2/work_space/build/simple_pub_sub
