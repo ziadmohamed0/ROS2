@@ -325,4 +325,4 @@ MIT
 
 Ziad Mohamed Fathy
 Mechatronics and Embedded Systems Engineer
-LinkedIn: add your link here
+LinkedIn: www.linkedin.com/in/ziad-fathy
