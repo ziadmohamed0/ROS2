@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from services_actions/action/Countdown.action
+// generated code does not contain a copyright notice
+
+
+module services_actions {
+  module action {
+    struct Countdown_Goal {
+      int32 start;
+    };
+    struct Countdown_Result {
+      int32 final;
+    };
+    struct Countdown_Feedback {
+      int32 current;
+    };
+  };
+};

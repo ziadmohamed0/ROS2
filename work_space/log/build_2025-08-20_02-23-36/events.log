@@ -1,0 +1,800 @@
+[0.000000] (-) TimerEvent: {}
+[0.000261] (publisher_subscriber) JobQueued: {'identifier': 'publisher_subscriber', 'dependencies': OrderedDict()}
+[0.000303] (services_actions) JobQueued: {'identifier': 'services_actions', 'dependencies': OrderedDict()}
+[0.000327] (publisher_subscriber) JobStarted: {'identifier': 'publisher_subscriber'}
+[0.007854] (services_actions) JobStarted: {'identifier': 'services_actions'}
+[0.016350] (publisher_subscriber) JobProgress: {'identifier': 'publisher_subscriber', 'progress': 'cmake'}
+[0.017033] (publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '/home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber', '-DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/work_space/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1276'), ('SYSTEMD_EXEC_PID', '2184'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26313'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:16499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1507,unix/ziadfathy:/tmp/.ICE-unix/1507'), ('INVOCATION_ID', '0c7be027c7f1404c8399635a4c8bcbdf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MMJQB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:87b1bd42-316b-4d5c-9e1d-55e8554d466f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/home/ziad/turtlebot3_ws/build/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/build/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.020997] (services_actions) JobProgress: {'identifier': 'services_actions', 'progress': 'cmake'}
+[0.021473] (services_actions) Command: {'cmd': ['/usr/bin/cmake', '/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions', '-DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/work_space/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1276'), ('SYSTEMD_EXEC_PID', '2184'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26313'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:16499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1507,unix/ziadfathy:/tmp/.ICE-unix/1507'), ('INVOCATION_ID', '0c7be027c7f1404c8399635a4c8bcbdf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MMJQB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:87b1bd42-316b-4d5c-9e1d-55e8554d466f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/home/ziad/turtlebot3_ws/build/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/build/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.099056] (-) TimerEvent: {}
+[0.103279] (publisher_subscriber) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.105286] (services_actions) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.182479] (publisher_subscriber) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.184464] (services_actions) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.197516] (services_actions) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.197736] (publisher_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199135] (-) TimerEvent: {}
+[0.289482] (publisher_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.289821] (services_actions) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299234] (-) TimerEvent: {}
+[0.306110] (publisher_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.306734] (publisher_subscriber) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.306945] (services_actions) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.307292] (services_actions) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.307657] (publisher_subscriber) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.307979] (services_actions) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.313843] (publisher_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.314044] (services_actions) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399392] (-) TimerEvent: {}
+[0.417292] (publisher_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.417543] (services_actions) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.426914] (services_actions) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.427459] (services_actions) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.427836] (publisher_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.428339] (publisher_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.428593] (services_actions) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.429061] (publisher_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.438478] (services_actions) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.438769] (publisher_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499549] (-) TimerEvent: {}
+[0.600049] (-) TimerEvent: {}
+[0.700398] (-) TimerEvent: {}
+[0.800718] (-) TimerEvent: {}
+[0.901032] (-) TimerEvent: {}
+[1.001364] (-) TimerEvent: {}
+[1.101685] (-) TimerEvent: {}
+[1.202023] (-) TimerEvent: {}
+[1.302384] (-) TimerEvent: {}
+[1.402719] (-) TimerEvent: {}
+[1.503062] (-) TimerEvent: {}
+[1.579752] (publisher_subscriber) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.598111] (services_actions) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.603194] (-) TimerEvent: {}
+[1.703569] (-) TimerEvent: {}
+[1.747028] (publisher_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.747379] (services_actions) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.803702] (-) TimerEvent: {}
+[1.840686] (publisher_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.840939] (services_actions) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.856531] (services_actions) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.856729] (publisher_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.872888] (publisher_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.873113] (services_actions) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.903817] (-) TimerEvent: {}
+[1.907891] (publisher_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.908101] (services_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.941923] (publisher_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.942209] (services_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.003938] (-) TimerEvent: {}
+[2.031919] (services_actions) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.032112] (publisher_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.040842] (publisher_subscriber) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.041034] (services_actions) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.104042] (-) TimerEvent: {}
+[2.184557] (services_actions) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.184856] (publisher_subscriber) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.204181] (-) TimerEvent: {}
+[2.226734] (publisher_subscriber) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.227017] (services_actions) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.287584] (services_actions) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.287885] (publisher_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.304295] (-) TimerEvent: {}
+[2.304675] (services_actions) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.304908] (publisher_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.396281] (publisher_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.396532] (services_actions) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.396749] (services_actions) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.396992] (publisher_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.404408] (-) TimerEvent: {}
+[2.488334] (services_actions) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.489287] (publisher_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.489790] (services_actions) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.490696] (publisher_subscriber) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.504513] (-) TimerEvent: {}
+[2.604814] (-) TimerEvent: {}
+[2.606300] (services_actions) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.609611] (publisher_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.677379] (services_actions) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.704916] (-) TimerEvent: {}
+[2.774938] (publisher_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.775270] (publisher_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.775444] (publisher_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.776284] (publisher_subscriber) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.777458] (publisher_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.778636] (publisher_subscriber) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.780490] (publisher_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.780774] (publisher_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.781845] (publisher_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.784220] (publisher_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.797484] (publisher_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[2.803144] (publisher_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber\n'}
+[2.805022] (-) TimerEvent: {}
+[2.816085] (publisher_subscriber) CommandEnded: {'returncode': 0}
+[2.816812] (publisher_subscriber) JobProgress: {'identifier': 'publisher_subscriber', 'progress': 'build'}
+[2.817548] (publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber', '--', '-j4', '-l4'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/work_space/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1276'), ('SYSTEMD_EXEC_PID', '2184'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26313'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:16499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1507,unix/ziadfathy:/tmp/.ICE-unix/1507'), ('INVOCATION_ID', '0c7be027c7f1404c8399635a4c8bcbdf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MMJQB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:87b1bd42-316b-4d5c-9e1d-55e8554d466f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/home/ziad/turtlebot3_ws/build/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/build/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[2.889459] (publisher_subscriber) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[2.897436] (publisher_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[2.905132] (-) TimerEvent: {}
+[3.006253] (-) TimerEvent: {}
+[3.106718] (-) TimerEvent: {}
+[3.206748] (services_actions) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.207140] (-) TimerEvent: {}
+[3.307466] (-) TimerEvent: {}
+[3.407828] (-) TimerEvent: {}
+[3.508321] (-) TimerEvent: {}
+[3.608886] (-) TimerEvent: {}
+[3.709294] (-) TimerEvent: {}
+[3.788332] (services_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.810252] (-) TimerEvent: {}
+[3.910642] (-) TimerEvent: {}
+[4.011144] (-) TimerEvent: {}
+[4.093604] (services_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.111243] (-) TimerEvent: {}
+[4.154553] (services_actions) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.160457] (services_actions) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.211373] (-) TimerEvent: {}
+[4.224024] (services_actions) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.224408] (services_actions) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.224570] (services_actions) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.224705] (services_actions) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.275844] (services_actions) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.313248] (-) TimerEvent: {}
+[4.408281] (services_actions) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.413362] (-) TimerEvent: {}
+[4.467274] (services_actions) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.468984] (services_actions) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.469798] (services_actions) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.470750] (services_actions) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.472602] (services_actions) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.474180] (services_actions) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.477353] (services_actions) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.477671] (services_actions) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.478920] (services_actions) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.485252] (services_actions) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.513548] (-) TimerEvent: {}
+[4.590078] (services_actions) StdoutLine: {'line': b'-- Generating done\n'}
+[4.613666] (-) TimerEvent: {}
+[4.630067] (services_actions) StdoutLine: {'line': b'-- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/services_actions\n'}
+[4.661145] (services_actions) CommandEnded: {'returncode': 0}
+[4.662007] (services_actions) JobProgress: {'identifier': 'services_actions', 'progress': 'build'}
+[4.662066] (services_actions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions', '--', '-j4', '-l4'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/work_space/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1276'), ('SYSTEMD_EXEC_PID', '2184'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26313'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:16499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1507,unix/ziadfathy:/tmp/.ICE-unix/1507'), ('INVOCATION_ID', '0c7be027c7f1404c8399635a4c8bcbdf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MMJQB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:87b1bd42-316b-4d5c-9e1d-55e8554d466f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/home/ziad/turtlebot3_ws/build/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/build/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[4.713791] (-) TimerEvent: {}
+[4.758589] (services_actions) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.779326] (services_actions) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.816235] (-) TimerEvent: {}
+[4.829352] (services_actions) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_services_actions\n'}
+[4.916351] (-) TimerEvent: {}
+[5.016748] (-) TimerEvent: {}
+[5.117247] (-) TimerEvent: {}
+[5.220227] (-) TimerEvent: {}
+[5.320696] (-) TimerEvent: {}
+[5.421198] (-) TimerEvent: {}
+[5.521678] (-) TimerEvent: {}
+[5.622109] (-) TimerEvent: {}
+[5.725230] (-) TimerEvent: {}
+[5.825705] (-) TimerEvent: {}
+[5.926078] (-) TimerEvent: {}
+[5.956511] (services_actions) StdoutLine: {'line': b'running egg_info\n'}
+[5.958397] (services_actions) StdoutLine: {'line': b'creating services_actions.egg-info\n'}
+[6.021942] (services_actions) StdoutLine: {'line': b'writing services_actions.egg-info/PKG-INFO\n'}
+[6.022309] (services_actions) StdoutLine: {'line': b'writing dependency_links to services_actions.egg-info/dependency_links.txt\n'}
+[6.023140] (services_actions) StdoutLine: {'line': b'writing top-level names to services_actions.egg-info/top_level.txt\n'}
+[6.026086] (services_actions) StdoutLine: {'line': b"writing manifest file 'services_actions.egg-info/SOURCES.txt'\n"}
+[6.026322] (-) TimerEvent: {}
+[6.127417] (-) TimerEvent: {}
+[6.209237] (services_actions) StdoutLine: {'line': b"reading manifest file 'services_actions.egg-info/SOURCES.txt'\n"}
+[6.209989] (services_actions) StdoutLine: {'line': b"writing manifest file 'services_actions.egg-info/SOURCES.txt'\n"}
+[6.227554] (-) TimerEvent: {}
+[6.330476] (-) TimerEvent: {}
+[6.344902] (services_actions) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_services_actions_egg\n'}
+[6.430646] (-) TimerEvent: {}
+[6.531261] (-) TimerEvent: {}
+[6.605438] (services_actions) StdoutLine: {'line': b'[  4%] Built target services_actions__cpp\n'}
+[6.629938] (services_actions) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.631376] (-) TimerEvent: {}
+[6.634500] (services_actions) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.647105] (services_actions) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.650295] (services_actions) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/services_actions__rosidl_generator_c.dir/rosidl_generator_c/services_actions/srv/detail/add_two_int__functions.c.o\x1b[0m\n'}
+[6.731474] (-) TimerEvent: {}
+[6.831872] (-) TimerEvent: {}
+[6.863625] (services_actions) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/services_actions__rosidl_generator_c.dir/rosidl_generator_c/services_actions/action/detail/countdown__functions.c.o\x1b[0m\n'}
+[6.933261] (-) TimerEvent: {}
+[7.033668] (-) TimerEvent: {}
+[7.134252] (-) TimerEvent: {}
+[7.146227] (services_actions) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libservices_actions__rosidl_generator_c.so\x1b[0m\n'}
+[7.237232] (-) TimerEvent: {}
+[7.284312] (services_actions) StdoutLine: {'line': b'[ 17%] Built target services_actions__rosidl_generator_c\n'}
+[7.318964] (services_actions) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.337345] (-) TimerEvent: {}
+[7.439228] (-) TimerEvent: {}
+[7.539736] (-) TimerEvent: {}
+[7.640109] (-) TimerEvent: {}
+[7.742214] (-) TimerEvent: {}
+[7.820098] (services_actions) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/services_actions/srv/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[7.843610] (-) TimerEvent: {}
+[7.943978] (-) TimerEvent: {}
+[8.044454] (-) TimerEvent: {}
+[8.146362] (-) TimerEvent: {}
+[8.246746] (-) TimerEvent: {}
+[8.269312] (services_actions) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/services_actions/srv/detail/dds_fastrtps/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[8.271461] (services_actions) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/services_actions/srv/detail/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[8.346995] (-) TimerEvent: {}
+[8.447550] (-) TimerEvent: {}
+[8.551290] (-) TimerEvent: {}
+[8.651840] (-) TimerEvent: {}
+[8.694387] (services_actions) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/services_actions/srv/detail/add_two_int__type_support_c.cpp.o\x1b[0m\n'}
+[8.751976] (-) TimerEvent: {}
+[8.852676] (-) TimerEvent: {}
+[8.860052] (services_actions) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/services_actions/action/countdown__type_support.cpp.o\x1b[0m\n'}
+[8.952823] (-) TimerEvent: {}
+[9.055376] (-) TimerEvent: {}
+[9.155872] (-) TimerEvent: {}
+[9.256449] (-) TimerEvent: {}
+[9.334193] (services_actions) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/services_actions/action/detail/dds_fastrtps/countdown__type_support.cpp.o\x1b[0m\n'}
+[9.357875] (-) TimerEvent: {}
+[9.459890] (-) TimerEvent: {}
+[9.563256] (-) TimerEvent: {}
+[9.597449] (services_actions) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/services_actions/action/detail/countdown__type_support.cpp.o\x1b[0m\n'}
+[9.629334] (services_actions) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/services_actions/action/detail/countdown__type_support_c.cpp.o\x1b[0m\n'}
+[9.664254] (-) TimerEvent: {}
+[9.764763] (-) TimerEvent: {}
+[9.865290] (-) TimerEvent: {}
+[9.965839] (-) TimerEvent: {}
+[10.067263] (-) TimerEvent: {}
+[10.167805] (-) TimerEvent: {}
+[10.271452] (-) TimerEvent: {}
+[10.371954] (-) TimerEvent: {}
+[10.472420] (-) TimerEvent: {}
+[10.535231] (services_actions) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libservices_actions__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.573303] (-) TimerEvent: {}
+[10.673728] (-) TimerEvent: {}
+[10.778338] (-) TimerEvent: {}
+[10.878939] (-) TimerEvent: {}
+[10.901011] (services_actions) StdoutLine: {'line': b'[ 38%] Built target services_actions__rosidl_typesupport_fastrtps_c\n'}
+[10.929121] (services_actions) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libservices_actions__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.955901] (services_actions) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.979072] (-) TimerEvent: {}
+[11.042918] (services_actions) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libservices_actions__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.080507] (-) TimerEvent: {}
+[11.137776] (services_actions) StdoutLine: {'line': b'[ 44%] Built target services_actions__rosidl_typesupport_cpp\n'}
+[11.182599] (-) TimerEvent: {}
+[11.189343] (services_actions) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.285291] (-) TimerEvent: {}
+[11.365521] (services_actions) StdoutLine: {'line': b'[ 46%] Built target services_actions__rosidl_typesupport_introspection_cpp\n'}
+[11.386234] (-) TimerEvent: {}
+[11.455407] (services_actions) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/service_add_two_int_server.cpp.o\x1b[0m\n'}
+[11.486345] (-) TimerEvent: {}
+[11.586730] (-) TimerEvent: {}
+[11.687142] (-) TimerEvent: {}
+[11.788234] (-) TimerEvent: {}
+[11.888699] (-) TimerEvent: {}
+[11.990428] (-) TimerEvent: {}
+[12.062587] (services_actions) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libservices_actions__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.091758] (-) TimerEvent: {}
+[12.192840] (-) TimerEvent: {}
+[12.295507] (-) TimerEvent: {}
+[12.396946] (-) TimerEvent: {}
+[12.418559] (services_actions) StdoutLine: {'line': b'[ 51%] Built target services_actions__rosidl_typesupport_fastrtps_cpp\n'}
+[12.470388] (services_actions) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/service_add_two_int_client.cpp.o\x1b[0m\n'}
+[12.498206] (-) TimerEvent: {}
+[12.598690] (-) TimerEvent: {}
+[12.699202] (services_actions) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/services_actions/srv/add_two_int__type_support.cpp.o\x1b[0m\n'}
+[12.699459] (-) TimerEvent: {}
+[12.800011] (-) TimerEvent: {}
+[12.838432] (services_actions) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/services_actions/action/countdown__type_support.cpp.o\x1b[0m\n'}
+[12.900137] (-) TimerEvent: {}
+[12.963346] (services_actions) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libservices_actions__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.003254] (-) TimerEvent: {}
+[13.103689] (-) TimerEvent: {}
+[13.147426] (services_actions) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/services_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/services_actions/srv/detail/add_two_int__type_support.c.o\x1b[0m\n'}
+[13.171334] (services_actions) StdoutLine: {'line': b'[ 61%] Built target services_actions__rosidl_typesupport_c\n'}
+[13.206915] (-) TimerEvent: {}
+[13.269657] (services_actions) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/count_down_action_server.dir/src/action_count_down_server.cpp.o\x1b[0m\n'}
+[13.302881] (services_actions) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/services_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/services_actions/action/detail/countdown__type_support.c.o\x1b[0m\n'}
+[13.307038] (-) TimerEvent: {}
+[13.412264] (-) TimerEvent: {}
+[13.512848] (-) TimerEvent: {}
+[13.549454] (services_actions) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libservices_actions__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.614799] (-) TimerEvent: {}
+[13.715249] (-) TimerEvent: {}
+[13.766431] (services_actions) StdoutLine: {'line': b'[ 68%] Built target services_actions__rosidl_typesupport_introspection_c\n'}
+[13.815718] (-) TimerEvent: {}
+[13.886269] (services_actions) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/count_down_action_client.dir/src/action_count_down_client.cpp.o\x1b[0m\n'}
+[13.917255] (-) TimerEvent: {}
+[14.027712] (-) TimerEvent: {}
+[14.128778] (-) TimerEvent: {}
+[14.233271] (-) TimerEvent: {}
+[14.334293] (-) TimerEvent: {}
+[14.437240] (-) TimerEvent: {}
+[14.538289] (-) TimerEvent: {}
+[14.638863] (-) TimerEvent: {}
+[14.739311] (-) TimerEvent: {}
+[14.839790] (-) TimerEvent: {}
+[14.941246] (-) TimerEvent: {}
+[15.041696] (-) TimerEvent: {}
+[15.144868] (-) TimerEvent: {}
+[15.245303] (-) TimerEvent: {}
+[15.349278] (-) TimerEvent: {}
+[15.451123] (-) TimerEvent: {}
+[15.558287] (-) TimerEvent: {}
+[15.660243] (-) TimerEvent: {}
+[15.760928] (-) TimerEvent: {}
+[15.863510] (-) TimerEvent: {}
+[15.964223] (-) TimerEvent: {}
+[16.066466] (-) TimerEvent: {}
+[16.166891] (-) TimerEvent: {}
+[16.268435] (-) TimerEvent: {}
+[16.368897] (-) TimerEvent: {}
+[16.469318] (-) TimerEvent: {}
+[16.569764] (-) TimerEvent: {}
+[16.672468] (-) TimerEvent: {}
+[16.773140] (-) TimerEvent: {}
+[16.873566] (-) TimerEvent: {}
+[16.973872] (-) TimerEvent: {}
+[17.074179] (-) TimerEvent: {}
+[17.174467] (-) TimerEvent: {}
+[17.274772] (-) TimerEvent: {}
+[17.375080] (-) TimerEvent: {}
+[17.475487] (-) TimerEvent: {}
+[17.575779] (-) TimerEvent: {}
+[17.676122] (-) TimerEvent: {}
+[17.776497] (-) TimerEvent: {}
+[17.876805] (-) TimerEvent: {}
+[17.977327] (-) TimerEvent: {}
+[18.077668] (-) TimerEvent: {}
+[18.178003] (-) TimerEvent: {}
+[18.278372] (-) TimerEvent: {}
+[18.378760] (-) TimerEvent: {}
+[18.479214] (-) TimerEvent: {}
+[18.579518] (-) TimerEvent: {}
+[18.679838] (-) TimerEvent: {}
+[18.780191] (-) TimerEvent: {}
+[18.880577] (-) TimerEvent: {}
+[18.980942] (-) TimerEvent: {}
+[19.081462] (-) TimerEvent: {}
+[19.181992] (-) TimerEvent: {}
+[19.283319] (-) TimerEvent: {}
+[19.383728] (-) TimerEvent: {}
+[19.484130] (-) TimerEvent: {}
+[19.584467] (-) TimerEvent: {}
+[19.684884] (-) TimerEvent: {}
+[19.785221] (-) TimerEvent: {}
+[19.885569] (-) TimerEvent: {}
+[19.985918] (-) TimerEvent: {}
+[20.086347] (-) TimerEvent: {}
+[20.186652] (-) TimerEvent: {}
+[20.286943] (-) TimerEvent: {}
+[20.387346] (-) TimerEvent: {}
+[20.488105] (-) TimerEvent: {}
+[20.588445] (-) TimerEvent: {}
+[20.688769] (-) TimerEvent: {}
+[20.789062] (-) TimerEvent: {}
+[20.889387] (-) TimerEvent: {}
+[20.989696] (-) TimerEvent: {}
+[21.090005] (-) TimerEvent: {}
+[21.190382] (-) TimerEvent: {}
+[21.290680] (-) TimerEvent: {}
+[21.391007] (-) TimerEvent: {}
+[21.491310] (-) TimerEvent: {}
+[21.591631] (-) TimerEvent: {}
+[21.691941] (-) TimerEvent: {}
+[21.792214] (-) TimerEvent: {}
+[21.892564] (-) TimerEvent: {}
+[21.992863] (-) TimerEvent: {}
+[22.093195] (-) TimerEvent: {}
+[22.193632] (-) TimerEvent: {}
+[22.294187] (-) TimerEvent: {}
+[22.394605] (-) TimerEvent: {}
+[22.494927] (-) TimerEvent: {}
+[22.595296] (-) TimerEvent: {}
+[22.697287] (-) TimerEvent: {}
+[22.797919] (-) TimerEvent: {}
+[22.899097] (-) TimerEvent: {}
+[22.999493] (-) TimerEvent: {}
+[23.099831] (-) TimerEvent: {}
+[23.200141] (-) TimerEvent: {}
+[23.300561] (-) TimerEvent: {}
+[23.401183] (-) TimerEvent: {}
+[23.501501] (-) TimerEvent: {}
+[23.601808] (-) TimerEvent: {}
+[23.702220] (-) TimerEvent: {}
+[23.802590] (-) TimerEvent: {}
+[23.902941] (-) TimerEvent: {}
+[24.003220] (-) TimerEvent: {}
+[24.103531] (-) TimerEvent: {}
+[24.203824] (-) TimerEvent: {}
+[24.304153] (-) TimerEvent: {}
+[24.404757] (-) TimerEvent: {}
+[24.505194] (-) TimerEvent: {}
+[24.607919] (-) TimerEvent: {}
+[24.708294] (-) TimerEvent: {}
+[24.808590] (-) TimerEvent: {}
+[24.908965] (-) TimerEvent: {}
+[25.009345] (-) TimerEvent: {}
+[25.109858] (-) TimerEvent: {}
+[25.212264] (-) TimerEvent: {}
+[25.312674] (-) TimerEvent: {}
+[25.413077] (-) TimerEvent: {}
+[25.513491] (-) TimerEvent: {}
+[25.614024] (-) TimerEvent: {}
+[25.714470] (-) TimerEvent: {}
+[25.816413] (-) TimerEvent: {}
+[25.916826] (-) TimerEvent: {}
+[26.019512] (-) TimerEvent: {}
+[26.120030] (-) TimerEvent: {}
+[26.221525] (-) TimerEvent: {}
+[26.325267] (-) TimerEvent: {}
+[26.425894] (-) TimerEvent: {}
+[26.526334] (-) TimerEvent: {}
+[26.626757] (-) TimerEvent: {}
+[26.727260] (-) TimerEvent: {}
+[26.761213] (publisher_subscriber) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[26.827387] (-) TimerEvent: {}
+[26.928400] (-) TimerEvent: {}
+[27.028791] (-) TimerEvent: {}
+[27.132444] (-) TimerEvent: {}
+[27.232871] (-) TimerEvent: {}
+[27.333322] (-) TimerEvent: {}
+[27.434869] (-) TimerEvent: {}
+[27.535255] (-) TimerEvent: {}
+[27.638251] (-) TimerEvent: {}
+[27.738667] (-) TimerEvent: {}
+[27.838992] (-) TimerEvent: {}
+[27.939304] (-) TimerEvent: {}
+[28.039599] (-) TimerEvent: {}
+[28.139920] (-) TimerEvent: {}
+[28.240245] (-) TimerEvent: {}
+[28.340645] (-) TimerEvent: {}
+[28.441069] (-) TimerEvent: {}
+[28.541492] (-) TimerEvent: {}
+[28.641783] (-) TimerEvent: {}
+[28.742108] (-) TimerEvent: {}
+[28.842450] (-) TimerEvent: {}
+[28.942783] (-) TimerEvent: {}
+[29.043130] (-) TimerEvent: {}
+[29.143555] (-) TimerEvent: {}
+[29.244688] (-) TimerEvent: {}
+[29.350088] (-) TimerEvent: {}
+[29.450541] (-) TimerEvent: {}
+[29.550993] (-) TimerEvent: {}
+[29.651295] (-) TimerEvent: {}
+[29.751601] (-) TimerEvent: {}
+[29.851941] (-) TimerEvent: {}
+[29.952231] (-) TimerEvent: {}
+[30.052606] (-) TimerEvent: {}
+[30.152955] (-) TimerEvent: {}
+[30.253222] (-) TimerEvent: {}
+[30.353534] (-) TimerEvent: {}
+[30.870777] (-) TimerEvent: {}
+[31.016587] (-) TimerEvent: {}
+[31.131189] (-) TimerEvent: {}
+[31.269291] (-) TimerEvent: {}
+[31.369779] (-) TimerEvent: {}
+[31.470152] (-) TimerEvent: {}
+[31.570501] (-) TimerEvent: {}
+[31.674586] (-) TimerEvent: {}
+[31.775056] (-) TimerEvent: {}
+[31.875498] (-) TimerEvent: {}
+[31.975892] (-) TimerEvent: {}
+[32.076389] (-) TimerEvent: {}
+[32.176915] (-) TimerEvent: {}
+[32.279266] (-) TimerEvent: {}
+[32.383240] (-) TimerEvent: {}
+[32.483659] (-) TimerEvent: {}
+[32.584324] (-) TimerEvent: {}
+[32.685007] (-) TimerEvent: {}
+[32.786244] (-) TimerEvent: {}
+[32.886684] (-) TimerEvent: {}
+[32.987027] (-) TimerEvent: {}
+[33.068556] (publisher_subscriber) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[33.089348] (-) TimerEvent: {}
+[33.189919] (-) TimerEvent: {}
+[33.290482] (-) TimerEvent: {}
+[33.334391] (services_actions) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_server\x1b[0m\n'}
+[33.390600] (-) TimerEvent: {}
+[33.408931] (services_actions) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable count_down_action_server\x1b[0m\n'}
+[33.493373] (-) TimerEvent: {}
+[33.593833] (-) TimerEvent: {}
+[33.694728] (-) TimerEvent: {}
+[33.797777] (-) TimerEvent: {}
+[33.901182] (-) TimerEvent: {}
+[34.004761] (-) TimerEvent: {}
+[34.105541] (-) TimerEvent: {}
+[34.206256] (-) TimerEvent: {}
+[34.317363] (-) TimerEvent: {}
+[34.429342] (-) TimerEvent: {}
+[34.489401] (services_actions) StdoutLine: {'line': b'[ 74%] Built target add_two_ints_server\n'}
+[34.507852] (services_actions) StdoutLine: {'line': b'[ 74%] Built target count_down_action_server\n'}
+[34.530463] (-) TimerEvent: {}
+[34.569095] (services_actions) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable count_down_action_client\x1b[0m\n'}
+[34.630622] (-) TimerEvent: {}
+[34.733697] (-) TimerEvent: {}
+[34.835122] (-) TimerEvent: {}
+[34.935788] (-) TimerEvent: {}
+[35.036188] (-) TimerEvent: {}
+[35.072240] (services_actions) StdoutLine: {'line': b'[ 76%] Built target count_down_action_client\n'}
+[35.136318] (-) TimerEvent: {}
+[35.206419] (services_actions) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client\x1b[0m\n'}
+[35.236457] (-) TimerEvent: {}
+[35.337032] (-) TimerEvent: {}
+[35.437998] (-) TimerEvent: {}
+[35.514037] (services_actions) StdoutLine: {'line': b'[ 78%] Built target add_two_ints_client\n'}
+[35.537997] (-) TimerEvent: {}
+[35.563539] (services_actions) StdoutLine: {'line': b'[ 78%] Built target services_actions\n'}
+[35.615193] (services_actions) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[35.638118] (-) TimerEvent: {}
+[35.738515] (-) TimerEvent: {}
+[35.839008] (-) TimerEvent: {}
+[35.939377] (-) TimerEvent: {}
+[36.039719] (-) TimerEvent: {}
+[36.140079] (-) TimerEvent: {}
+[36.240637] (-) TimerEvent: {}
+[36.341022] (-) TimerEvent: {}
+[36.441359] (-) TimerEvent: {}
+[36.541711] (-) TimerEvent: {}
+[36.642051] (-) TimerEvent: {}
+[36.742435] (-) TimerEvent: {}
+[36.842807] (-) TimerEvent: {}
+[36.881480] (services_actions) StdoutLine: {'line': b'[ 80%] Built target services_actions__py\n'}
+[36.913843] (services_actions) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/services_actions__rosidl_generator_py.dir/rosidl_generator_py/services_actions/srv/_add_two_int_s.c.o\x1b[0m\n'}
+[36.942915] (-) TimerEvent: {}
+[37.043335] (-) TimerEvent: {}
+[37.143790] (-) TimerEvent: {}
+[37.244115] (-) TimerEvent: {}
+[37.344443] (-) TimerEvent: {}
+[37.444777] (-) TimerEvent: {}
+[37.545183] (-) TimerEvent: {}
+[37.645512] (-) TimerEvent: {}
+[37.745862] (-) TimerEvent: {}
+[37.786492] (services_actions) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/services_actions__rosidl_generator_py.dir/rosidl_generator_py/services_actions/action/_countdown_s.c.o\x1b[0m\n'}
+[37.846004] (-) TimerEvent: {}
+[37.946449] (-) TimerEvent: {}
+[37.983017] (services_actions) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/services_actions/libservices_actions__rosidl_generator_py.so\x1b[0m\n'}
+[38.012507] (publisher_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[38.046662] (-) TimerEvent: {}
+[38.050572] (services_actions) StdoutLine: {'line': b'[ 87%] Built target services_actions__rosidl_generator_py\n'}
+[38.087883] (services_actions) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/services_actions__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/services_actions/_services_actions_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[38.146842] (-) TimerEvent: {}
+[38.247377] (-) TimerEvent: {}
+[38.334626] (services_actions) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[38.347526] (-) TimerEvent: {}
+[38.394017] (services_actions) StdoutLine: {'line': b'[ 91%] Built target services_actions__rosidl_typesupport_fastrtps_c__pyext\n'}
+[38.437290] (services_actions) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/services_actions__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/services_actions/_services_actions_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[38.448262] (-) TimerEvent: {}
+[38.548645] (-) TimerEvent: {}
+[38.649039] (-) TimerEvent: {}
+[38.683259] (services_actions) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[38.749248] (-) TimerEvent: {}
+[38.757381] (services_actions) StdoutLine: {'line': b'[ 95%] Built target services_actions__rosidl_typesupport_c__pyext\n'}
+[38.773065] (publisher_subscriber) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[38.799411] (services_actions) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/services_actions__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/services_actions/_services_actions_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[38.851943] (-) TimerEvent: {}
+[38.865033] (publisher_subscriber) CommandEnded: {'returncode': 0}
+[38.937579] (publisher_subscriber) JobProgress: {'identifier': 'publisher_subscriber', 'progress': 'install'}
+[38.952083] (-) TimerEvent: {}
+[38.985849] (publisher_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/work_space/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1276'), ('SYSTEMD_EXEC_PID', '2184'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26313'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:16499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1507,unix/ziadfathy:/tmp/.ICE-unix/1507'), ('INVOCATION_ID', '0c7be027c7f1404c8399635a4c8bcbdf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MMJQB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:87b1bd42-316b-4d5c-9e1d-55e8554d466f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/home/ziad/turtlebot3_ws/build/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/build/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[39.001423] (publisher_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.003144] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/subscriber\n'}
+[39.005270] (services_actions) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[39.006893] (publisher_subscriber) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/subscriber" to ""\n'}
+[39.007273] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/publisher\n'}
+[39.008462] (publisher_subscriber) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/publisher" to ""\n'}
+[39.008743] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/launch\n'}
+[39.008961] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/launch/run.launch.py\n'}
+[39.009464] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/publisher_subscriber\n'}
+[39.009832] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/publisher_subscriber\n'}
+[39.011370] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/ament_prefix_path.sh\n'}
+[39.011714] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/ament_prefix_path.dsv\n'}
+[39.011978] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/path.sh\n'}
+[39.012297] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/path.dsv\n'}
+[39.012713] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.bash\n'}
+[39.013018] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.sh\n'}
+[39.013377] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.zsh\n'}
+[39.013643] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.dsv\n'}
+[39.013828] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.dsv\n'}
+[39.014072] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/packages/publisher_subscriber\n'}
+[39.014353] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/cmake/publisher_subscriberConfig.cmake\n'}
+[39.014679] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/cmake/publisher_subscriberConfig-version.cmake\n'}
+[39.015006] (publisher_subscriber) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.xml\n'}
+[39.020124] (publisher_subscriber) CommandEnded: {'returncode': 0}
+[39.054606] (-) TimerEvent: {}
+[39.056541] (services_actions) StdoutLine: {'line': b'[100%] Built target services_actions__rosidl_typesupport_introspection_c__pyext\n'}
+[39.143026] (publisher_subscriber) JobEnded: {'identifier': 'publisher_subscriber', 'rc': 0}
+[39.146881] (services_actions) CommandEnded: {'returncode': 0}
+[39.148452] (services_actions) JobProgress: {'identifier': 'services_actions', 'progress': 'install'}
+[39.150557] (services_actions) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/work_space/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1276'), ('SYSTEMD_EXEC_PID', '2184'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26313'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:16499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1507,unix/ziadfathy:/tmp/.ICE-unix/1507'), ('INVOCATION_ID', '0c7be027c7f1404c8399635a4c8bcbdf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MMJQB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:87b1bd42-316b-4d5c-9e1d-55e8554d466f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/home/ziad/turtlebot3_ws/build/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/build/turtlebot3_example:/home/ziad/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziad/turtlebot3_ws/install/turtlebot3:/home/ziad/turtlebot3_ws/install/turtlebot3_bringup:/home/ziad/turtlebot3_ws/install/turtlebot3_node:/home/ziad/turtlebot3_ws/install/turtlebot3_navigation2:/home/ziad/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/turtlebot3_ws/install/turtlebot3_description:/home/ziad/turtlebot3_ws/install/turtlebot3_cartographer:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_examples:/home/ziad/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/turtlebot3_ws/install/dynamixel_sdk:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[39.154727] (-) TimerEvent: {}
+[39.162453] (services_actions) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.162795] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/ament_index/resource_index/rosidl_interfaces/services_actions\n'}
+[39.163130] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions\n'}
+[39.163578] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action\n'}
+[39.163838] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail\n'}
+[39.164035] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__type_support.h\n'}
+[39.164220] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__functions.h\n'}
+[39.164509] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__functions.c\n'}
+[39.164768] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__struct.h\n'}
+[39.164967] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/countdown.h\n'}
+[39.165134] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv\n'}
+[39.165418] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/add_two_int.h\n'}
+[39.165642] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail\n'}
+[39.165814] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__struct.h\n'}
+[39.165968] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__functions.h\n'}
+[39.166128] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__functions.c\n'}
+[39.166338] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__type_support.h\n'}
+[39.166518] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/msg\n'}
+[39.166750] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/msg/rosidl_generator_c__visibility_control.h\n'}
+[39.167515] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/environment/library_path.sh\n'}
+[39.167862] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/environment/library_path.dsv\n'}
+[39.168289] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_generator_c.so\n'}
+[39.168902] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_generator_c.so" to ""\n'}
+[39.169098] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions\n'}
+[39.169261] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action\n'}
+[39.169435] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail\n'}
+[39.169577] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__rosidl_typesupport_fastrtps_c.h\n'}
+[39.169715] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv\n'}
+[39.169828] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail\n'}
+[39.169976] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__rosidl_typesupport_fastrtps_c.h\n'}
+[39.170086] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/msg\n'}
+[39.170273] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[39.170627] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_fastrtps_c.so\n'}
+[39.171165] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[39.171316] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions\n'}
+[39.171495] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action\n'}
+[39.171647] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/countdown.hpp\n'}
+[39.171768] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail\n'}
+[39.171894] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__struct.hpp\n'}
+[39.172025] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__builder.hpp\n'}
+[39.172431] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__traits.hpp\n'}
+[39.172611] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__type_support.hpp\n'}
+[39.172822] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv\n'}
+[39.172919] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail\n'}
+[39.173040] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__type_support.hpp\n'}
+[39.173230] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__struct.hpp\n'}
+[39.173414] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__builder.hpp\n'}
+[39.173595] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__traits.hpp\n'}
+[39.173767] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/add_two_int.hpp\n'}
+[39.174001] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/msg\n'}
+[39.174300] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[39.174713] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions\n'}
+[39.174962] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action\n'}
+[39.175313] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail\n'}
+[39.175557] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/dds_fastrtps\n'}
+[39.175828] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.176062] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv\n'}
+[39.176600] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail\n'}
+[39.176802] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.177054] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/dds_fastrtps\n'}
+[39.177411] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/msg\n'}
+[39.177704] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[39.177991] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_fastrtps_cpp.so\n'}
+[39.178802] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[39.179767] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions\n'}
+[39.180045] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action\n'}
+[39.180280] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail\n'}
+[39.180486] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__type_support.c\n'}
+[39.180668] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__rosidl_typesupport_introspection_c.h\n'}
+[39.180797] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv\n'}
+[39.180932] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail\n'}
+[39.181060] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__type_support.c\n'}
+[39.181236] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__rosidl_typesupport_introspection_c.h\n'}
+[39.181339] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/msg\n'}
+[39.181460] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[39.181633] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_introspection_c.so\n'}
+[39.182098] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_introspection_c.so" to ""\n'}
+[39.182390] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_c.so\n'}
+[39.182876] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_c.so" to ""\n'}
+[39.183126] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions\n'}
+[39.183311] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action\n'}
+[39.183486] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail\n'}
+[39.183622] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.183796] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/action/detail/countdown__type_support.cpp\n'}
+[39.183946] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv\n'}
+[39.184123] (services_actions) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail\n'}
+[39.184338] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.184500] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/include/services_actions/services_actions/srv/detail/add_two_int__type_support.cpp\n'}
+[39.184740] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_introspection_cpp.so\n'}
+[39.185245] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[39.185437] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_cpp.so\n'}
+[39.185752] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_typesupport_cpp.so" to ""\n'}
+[39.185883] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/environment/pythonpath.sh\n'}
+[39.186143] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/environment/pythonpath.dsv\n'}
+[39.186438] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions-0.0.0-py3.10.egg-info\n'}
+[39.186752] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[39.186890] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[39.187013] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[39.187139] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[39.187444] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions\n'}
+[39.187556] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/_services_actions_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[39.187735] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/action\n'}
+[39.187845] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/action/_countdown.py\n'}
+[39.188006] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/action/_countdown_s.c\n'}
+[39.188165] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/action/__init__.py\n'}
+[39.188325] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.188496] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/srv\n'}
+[39.188615] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/srv/_add_two_int_s.c\n'}
+[39.188724] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/srv/_add_two_int.py\n'}
+[39.188855] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/srv/__init__.py\n'}
+[39.188981] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/_services_actions_s.ep.rosidl_typesupport_c.c\n'}
+[39.189310] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/_services_actions_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[39.189486] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.189696] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/__init__.py\n'}
+[39.189810] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.189970] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/libservices_actions__rosidl_generator_py.so\n'}
+[39.250025] (services_actions) StdoutLine: {'line': b"Listing '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions'...\n"}
+[39.250338] (services_actions) StdoutLine: {'line': b"Compiling '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/__init__.py'...\n"}
+[39.250468] (services_actions) StdoutLine: {'line': b"Listing '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/action'...\n"}
+[39.250586] (services_actions) StdoutLine: {'line': b"Compiling '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/action/__init__.py'...\n"}
+[39.250702] (services_actions) StdoutLine: {'line': b"Compiling '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/action/_countdown.py'...\n"}
+[39.250834] (services_actions) StdoutLine: {'line': b"Listing '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/srv'...\n"}
+[39.250949] (services_actions) StdoutLine: {'line': b"Compiling '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/srv/__init__.py'...\n"}
+[39.251077] (services_actions) StdoutLine: {'line': b"Compiling '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/srv/_add_two_int.py'...\n"}
+[39.254836] (-) TimerEvent: {}
+[39.256934] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.257362] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[39.257620] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.258024] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[39.258287] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[39.258704] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[39.258871] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_generator_py.so\n'}
+[39.259173] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/libservices_actions__rosidl_generator_py.so" to ""\n'}
+[39.259301] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/srv/AddTwoInt.idl\n'}
+[39.259494] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/action/Countdown.idl\n'}
+[39.259686] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/srv/AddTwoInt.srv\n'}
+[39.259976] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/srv/AddTwoInt_Request.msg\n'}
+[39.260401] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/srv/AddTwoInt_Response.msg\n'}
+[39.260705] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/action/Countdown.action\n'}
+[39.261059] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/services_actions/add_two_ints_server\n'}
+[39.262000] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/services_actions/add_two_ints_server" to ""\n'}
+[39.262190] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/services_actions/add_two_ints_client\n'}
+[39.262980] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/services_actions/add_two_ints_client" to ""\n'}
+[39.263145] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/services_actions/count_down_action_server\n'}
+[39.264029] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/services_actions/count_down_action_server" to ""\n'}
+[39.264190] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/services_actions/count_down_action_client\n'}
+[39.265075] (services_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/services_actions/count_down_action_client" to ""\n'}
+[39.265363] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/launch\n'}
+[39.265556] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/launch/run_action.launch.py\n'}
+[39.265723] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/launch/run_service.launch.py\n'}
+[39.265975] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/launch/run.launch.py\n'}
+[39.266369] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/ament_index/resource_index/package_run_dependencies/services_actions\n'}
+[39.266719] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/ament_index/resource_index/parent_prefix_path/services_actions\n'}
+[39.267043] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/environment/ament_prefix_path.sh\n'}
+[39.267277] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/environment/ament_prefix_path.dsv\n'}
+[39.267627] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/environment/path.sh\n'}
+[39.267813] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/environment/path.dsv\n'}
+[39.268106] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/local_setup.bash\n'}
+[39.268419] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/local_setup.sh\n'}
+[39.268721] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/local_setup.zsh\n'}
+[39.268940] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/local_setup.dsv\n'}
+[39.269134] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.dsv\n'}
+[39.269421] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/ament_index/resource_index/packages/services_actions\n'}
+[39.269666] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/export_services_actions__rosidl_generator_cExport.cmake\n'}
+[39.269977] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/export_services_actions__rosidl_generator_cExport-noconfig.cmake\n'}
+[39.270312] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/export_services_actions__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[39.270608] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/export_services_actions__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[39.270919] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/export_services_actions__rosidl_generator_cppExport.cmake\n'}
+[39.271257] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/export_services_actions__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[39.271605] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/export_services_actions__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[39.271951] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/services_actions__rosidl_typesupport_introspection_cExport.cmake\n'}
+[39.272405] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/services_actions__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[39.272752] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/services_actions__rosidl_typesupport_cExport.cmake\n'}
+[39.273086] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/services_actions__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[39.273440] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/services_actions__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[39.273730] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/services_actions__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[39.274045] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/services_actions__rosidl_typesupport_cppExport.cmake\n'}
+[39.274411] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/services_actions__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[39.274718] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/export_services_actions__rosidl_generator_pyExport.cmake\n'}
+[39.275029] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/export_services_actions__rosidl_generator_pyExport-noconfig.cmake\n'}
+[39.275347] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/rosidl_cmake-extras.cmake\n'}
+[39.275642] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[39.275975] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[39.276289] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[39.276518] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[39.276700] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[39.276908] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[39.277116] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/services_actionsConfig.cmake\n'}
+[39.277363] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/cmake/services_actionsConfig-version.cmake\n'}
+[39.277632] (services_actions) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.xml\n'}
+[39.280912] (services_actions) CommandEnded: {'returncode': 0}
+[39.308900] (services_actions) JobEnded: {'identifier': 'services_actions', 'rc': 0}
+[39.313671] (-) EventReactorShutdown: {}

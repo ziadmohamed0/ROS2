@@ -1,0 +1,44 @@
+[0.030s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/ros2_urdf -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf
+[0.465s] -- The C compiler identification is GNU 11.4.0
+[0.619s] -- The CXX compiler identification is GNU 11.4.0
+[0.635s] -- Detecting C compiler ABI info
+[0.733s] -- Detecting C compiler ABI info - done
+[0.743s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.750s] -- Detecting C compile features
+[0.751s] -- Detecting C compile features - done
+[0.755s] -- Detecting CXX compiler ABI info
+[0.858s] -- Detecting CXX compiler ABI info - done
+[0.867s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.868s] -- Detecting CXX compile features
+[0.868s] -- Detecting CXX compile features - done
+[0.882s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.041s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.205s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.350s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.351s] -- Added test 'lint_cmake' to check CMake code style
+[2.352s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.354s] -- Added test 'xmllint' to check XML markup files
+[2.357s] -- Configuring done
+[2.360s] -- Generating done
+[2.362s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf
+[2.368s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/ros2_urdf -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf
+[2.370s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf -- -j4 -l4
+[2.415s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf -- -j4 -l4
+[2.417s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf
+[2.428s] -- Install configuration: ""
+[2.428s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/package_run_dependencies/ros2_urdf
+[2.429s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/parent_prefix_path/ros2_urdf
+[2.429s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/ament_prefix_path.sh
+[2.429s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/ament_prefix_path.dsv
+[2.429s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/path.sh
+[2.430s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/path.dsv
+[2.430s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.bash
+[2.430s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.sh
+[2.430s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.zsh
+[2.430s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.dsv
+[2.431s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.dsv
+[2.431s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/packages/ros2_urdf
+[2.431s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/cmake/ros2_urdfConfig.cmake
+[2.431s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/cmake/ros2_urdfConfig-version.cmake
+[2.432s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.xml
+[2.434s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf

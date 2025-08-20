@@ -1,0 +1,278 @@
+[0.271s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.271s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fbe58ba9540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbe58b221d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbe58b221d0>>, mixin_verb=('build',))[0m
+[0.771s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.771s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.771s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.771s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.771s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.771s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.771s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/ziad/Ziad_WS/ROS2/work_space'
+[0.772s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.772s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.772s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.772s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.772s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.772s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.772s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.772s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.804s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.804s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.804s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.804s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.804s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.805s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.805s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.805s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.805s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.805s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.805s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.806s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.807s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/URDF) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/URDF) by extension 'ignore'
+[0.807s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/URDF) by extension 'ignore_ament_install'
+[0.807s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/URDF) by extensions ['colcon_pkg']
+[0.807s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/URDF) by extension 'colcon_pkg'
+[0.807s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/URDF) by extensions ['colcon_meta']
+[0.807s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/URDF) by extension 'colcon_meta'
+[0.807s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/URDF) by extensions ['ros']
+[0.807s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/URDF) by extension 'ros'
+[0.813s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/URDF' with type 'ros.ament_cmake' and name 'URDF'[0m
+[0.814s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.814s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extension 'ignore'
+[0.814s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extension 'ignore_ament_install'
+[0.814s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extensions ['colcon_pkg']
+[0.814s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extension 'colcon_pkg'
+[0.814s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extensions ['colcon_meta']
+[0.814s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extension 'colcon_meta'
+[0.814s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extensions ['ros']
+[0.814s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extension 'ros'
+[0.815s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/publisher_subscriber' with type 'ros.ament_cmake' and name 'publisher_subscriber'[0m
+[0.815s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extension 'ignore'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extension 'ignore_ament_install'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extensions ['colcon_pkg']
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extension 'colcon_pkg'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extensions ['colcon_meta']
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extension 'colcon_meta'
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extensions ['ros']
+[0.816s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extension 'ros'
+[0.817s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/services_actions' with type 'ros.ament_cmake' and name 'services_actions'[0m
+[0.817s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.817s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.817s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.817s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.817s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.844s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.844s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.851s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/ziad/Ziad_WS/ROS2/work_space/install[0m
+[0.855s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 12 installed packages in /home/ziad/turtlebot3_ws/install[0m
+[0.857s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 375 installed packages in /opt/ros/humble[0m
+[0.860s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.933s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'URDF' build argument 'cmake_args' from command line to 'None'
+[0.934s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'URDF' build argument 'cmake_target' from command line to 'None'
+[0.934s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'URDF' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.934s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'URDF' build argument 'cmake_clean_cache' from command line to 'False'
+[0.934s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'URDF' build argument 'cmake_clean_first' from command line to 'False'
+[0.934s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'URDF' build argument 'cmake_force_configure' from command line to 'False'
+[0.934s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'URDF' build argument 'ament_cmake_args' from command line to 'None'
+[0.934s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'URDF' build argument 'catkin_cmake_args' from command line to 'None'
+[0.934s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'URDF' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.934s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'URDF' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/URDF', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/URDF', 'symlink_install': False, 'test_result_base': None}[0m
+[0.934s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'publisher_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber', 'symlink_install': False, 'test_result_base': None}[0m
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_args' from command line to 'None'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_target' from command line to 'None'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_clean_first' from command line to 'False'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_force_configure' from command line to 'False'
+[0.935s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'ament_cmake_args' from command line to 'None'
+[0.936s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.936s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.936s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'services_actions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions', 'symlink_install': False, 'test_result_base': None}[0m
+[0.936s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.937s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.937s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/URDF' with build type 'ament_cmake'
+[0.938s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/URDF'
+[0.943s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.943s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.943s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.953s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber' with build type 'ament_cmake'
+[0.953s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber'
+[0.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.954s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.963s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions' with build type 'ament_cmake'
+[0.963s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions'
+[0.964s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.964s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.979s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/URDF': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/URDF -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/URDF[0m
+[0.992s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber -- -j4 -l4[0m
+[0.999s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/services_actions -- -j4 -l4[0m
+[1.253s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber -- -j4 -l4[0m
+[1.303s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber[0m
+[1.345s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(publisher_subscriber)
+[1.347s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber[0m
+[1.367s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber' for CMake module files
+[1.378s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber' for CMake config files
+[1.379s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('publisher_subscriber', 'cmake_prefix_path')
+[1.383s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.ps1'
+[1.389s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.dsv'
+[1.390s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.sh'
+[1.394s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib'
+[1.394s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/bin'
+[1.395s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/pkgconfig/publisher_subscriber.pc'
+[1.397s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/python3.10/site-packages'
+[1.398s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/bin'
+[1.402s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.ps1'
+[1.407s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.dsv'
+[1.411s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.sh'
+[1.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.bash'
+[1.418s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.zsh'
+[1.420s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/colcon-core/packages/publisher_subscriber)
+[1.422s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(publisher_subscriber)
+[1.422s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber' for CMake module files
+[1.423s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber' for CMake config files
+[1.424s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('publisher_subscriber', 'cmake_prefix_path')
+[1.424s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.ps1'
+[1.428s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.dsv'
+[1.429s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.sh'
+[1.430s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib'
+[1.430s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/bin'
+[1.431s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/pkgconfig/publisher_subscriber.pc'
+[1.433s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/python3.10/site-packages'
+[1.433s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/bin'
+[1.434s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.ps1'
+[1.435s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.dsv'
+[1.437s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.sh'
+[1.438s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.bash'
+[1.439s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.zsh'
+[1.441s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/colcon-core/packages/publisher_subscriber)
+[2.770s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/services_actions -- -j4 -l4[0m
+[2.779s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/services_actions[0m
+[2.920s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(services_actions)
+[2.920s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions' for CMake module files
+[2.922s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/services_actions[0m
+[2.923s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions' for CMake config files
+[2.925s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('services_actions', 'cmake_prefix_path')
+[2.926s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/cmake_prefix_path.ps1'
+[2.926s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/cmake_prefix_path.dsv'
+[2.927s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/cmake_prefix_path.sh'
+[2.928s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib'
+[2.928s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('services_actions', 'ld_library_path_lib')
+[2.929s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/ld_library_path_lib.ps1'
+[2.931s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/ld_library_path_lib.dsv'
+[2.932s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/ld_library_path_lib.sh'
+[2.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/bin'
+[2.933s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/pkgconfig/services_actions.pc'
+[2.933s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/python3.10/site-packages'
+[2.934s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/bin'
+[2.934s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.ps1'
+[2.935s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.dsv'
+[2.936s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.sh'
+[2.937s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.bash'
+[2.937s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.zsh'
+[2.938s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/colcon-core/packages/services_actions)
+[2.939s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(services_actions)
+[2.940s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions' for CMake module files
+[2.941s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions' for CMake config files
+[2.943s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('services_actions', 'cmake_prefix_path')
+[2.943s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/cmake_prefix_path.ps1'
+[2.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/cmake_prefix_path.dsv'
+[2.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/cmake_prefix_path.sh'
+[2.946s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib'
+[2.946s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('services_actions', 'ld_library_path_lib')
+[2.946s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/ld_library_path_lib.ps1'
+[2.947s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/ld_library_path_lib.dsv'
+[2.948s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/hook/ld_library_path_lib.sh'
+[2.949s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/bin'
+[2.949s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/pkgconfig/services_actions.pc'
+[2.949s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib/python3.10/site-packages'
+[2.950s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/bin'
+[2.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.ps1'
+[2.952s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.dsv'
+[2.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.sh'
+[2.954s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.bash'
+[2.955s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/services_actions/package.zsh'
+[2.956s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/share/colcon-core/packages/services_actions)
+[3.458s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/URDF' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/URDF -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/URDF[0m
+[3.461s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/URDF': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/URDF -- -j4 -l4[0m
+[3.511s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/URDF' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/URDF -- -j4 -l4[0m
+[3.514s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/URDF': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/URDF[0m
+[3.528s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(URDF)
+[3.529s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF' for CMake module files
+[3.530s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/URDF' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/URDF[0m
+[3.532s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF' for CMake config files
+[3.532s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('URDF', 'cmake_prefix_path')
+[3.532s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/hook/cmake_prefix_path.ps1'
+[3.533s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/hook/cmake_prefix_path.dsv'
+[3.533s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/hook/cmake_prefix_path.sh'
+[3.534s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/bin'
+[3.534s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/lib/pkgconfig/URDF.pc'
+[3.534s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/lib/python3.10/site-packages'
+[3.534s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/bin'
+[3.535s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/package.ps1'
+[3.535s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/package.dsv'
+[3.536s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/package.sh'
+[3.536s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/package.bash'
+[3.537s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/package.zsh'
+[3.537s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/colcon-core/packages/URDF)
+[3.538s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(URDF)
+[3.538s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF' for CMake module files
+[3.539s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF' for CMake config files
+[3.539s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('URDF', 'cmake_prefix_path')
+[3.539s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/hook/cmake_prefix_path.ps1'
+[3.540s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/hook/cmake_prefix_path.dsv'
+[3.540s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/hook/cmake_prefix_path.sh'
+[3.541s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/bin'
+[3.541s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/lib/pkgconfig/URDF.pc'
+[3.541s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/lib/python3.10/site-packages'
+[3.541s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/bin'
+[3.542s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/package.ps1'
+[3.542s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/package.dsv'
+[3.543s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/package.sh'
+[3.544s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/package.bash'
+[3.545s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/URDF/package.zsh'
+[3.546s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/URDF/share/colcon-core/packages/URDF)
+[3.546s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[3.547s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[3.547s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[3.547s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[3.579s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.580s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.580s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[3.599s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[3.599s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ziad/Ziad_WS/ROS2/work_space/install/local_setup.ps1'
+[3.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ziad/Ziad_WS/ROS2/work_space/install/_local_setup_util_ps1.py'
+[3.603s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ziad/Ziad_WS/ROS2/work_space/install/setup.ps1'
+[3.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ziad/Ziad_WS/ROS2/work_space/install/local_setup.sh'
+[3.606s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ziad/Ziad_WS/ROS2/work_space/install/_local_setup_util_sh.py'
+[3.607s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ziad/Ziad_WS/ROS2/work_space/install/setup.sh'
+[3.609s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ziad/Ziad_WS/ROS2/work_space/install/local_setup.bash'
+[3.609s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ziad/Ziad_WS/ROS2/work_space/install/setup.bash'
+[3.611s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ziad/Ziad_WS/ROS2/work_space/install/local_setup.zsh'
+[3.612s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ziad/Ziad_WS/ROS2/work_space/install/setup.zsh'

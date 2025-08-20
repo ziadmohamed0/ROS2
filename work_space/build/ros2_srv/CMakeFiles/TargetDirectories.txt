@@ -1,9 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_srv/CMakeFiles/uninstall.dir
-/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_srv/CMakeFiles/ros2_srv_uninstall.dir
-/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_srv/CMakeFiles/test.dir
-/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_srv/CMakeFiles/edit_cache.dir
-/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_srv/CMakeFiles/rebuild_cache.dir
-/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_srv/CMakeFiles/list_install_components.dir
-/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_srv/CMakeFiles/install.dir
-/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_srv/CMakeFiles/install/local.dir
-/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_srv/CMakeFiles/install/strip.dir

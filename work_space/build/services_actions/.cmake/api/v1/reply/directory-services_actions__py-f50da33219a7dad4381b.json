@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "services_actions__py",
+		"source" : "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/services_actions__py"
+	}
+}

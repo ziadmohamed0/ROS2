@@ -1,0 +1,2 @@
+source;share/URDF/environment/ament_prefix_path.sh
+source;share/URDF/environment/path.sh

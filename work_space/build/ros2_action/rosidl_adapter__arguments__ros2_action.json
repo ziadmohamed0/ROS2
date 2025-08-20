@@ -1,7 +1,0 @@
-{
-  "package_name": "ros2_action",
-  "non_idl_tuples": [
-    "/home/ziad/Ziad_WS/ROS2/work_space/src/ros2_action:srv/AddTwoInts.srv",
-    "/home/ziad/Ziad_WS/ROS2/work_space/src/ros2_action:action/Countdown.action"
-  ]
-}

@@ -1,6 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/add_two_number_client.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/add_two_number_serv.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable service_client[0m
-[100%] [32m[1mLinking CXX executable service_server[0m
-[100%] Built target service_client
-[100%] Built target service_server

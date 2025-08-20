@@ -1,6 +1,0 @@
-action/Countdown.action
-action/Countdown.idl
-srv/AddTwoInts.idl
-srv/AddTwoInts.srv
-srv/AddTwoInts_Request.msg
-srv/AddTwoInts_Response.msg

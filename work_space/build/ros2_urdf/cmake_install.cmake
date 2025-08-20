@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_urdf" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/src/ros2_urdf/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_urdf" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/src/ros2_urdf/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
