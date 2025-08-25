@@ -1,0 +1,3 @@
+/home/ziad/Ziad_WS/ROS2/Computer_Vision_Tutorials/basic_drawing/build/CMakeFiles/drawing_geometric.dir
+/home/ziad/Ziad_WS/ROS2/Computer_Vision_Tutorials/basic_drawing/build/CMakeFiles/edit_cache.dir
+/home/ziad/Ziad_WS/ROS2/Computer_Vision_Tutorials/basic_drawing/build/CMakeFiles/rebuild_cache.dir

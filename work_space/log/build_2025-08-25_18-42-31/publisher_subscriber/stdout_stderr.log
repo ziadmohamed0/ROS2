@@ -1,0 +1,22 @@
+[ 50%] Built target publisher
+[100%] Built target subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/subscriber
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/publisher
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/launch
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/launch/run.launch.py
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/publisher_subscriber
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/publisher_subscriber
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/path.sh
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/path.dsv
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.bash
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.sh
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.zsh
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.dsv
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/packages/publisher_subscriber
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/cmake/publisher_subscriberConfig.cmake
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/cmake/publisher_subscriberConfig-version.cmake
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.xml

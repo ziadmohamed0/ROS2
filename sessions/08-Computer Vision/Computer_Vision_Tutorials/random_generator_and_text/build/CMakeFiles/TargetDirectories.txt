@@ -1,0 +1,3 @@
+/home/ziad/Ziad_WS/ROS2/Computer_Vision_Tutorials/random_generator_and_text/build/CMakeFiles/random_generator_and_text.dir
+/home/ziad/Ziad_WS/ROS2/Computer_Vision_Tutorials/random_generator_and_text/build/CMakeFiles/edit_cache.dir
+/home/ziad/Ziad_WS/ROS2/Computer_Vision_Tutorials/random_generator_and_text/build/CMakeFiles/rebuild_cache.dir

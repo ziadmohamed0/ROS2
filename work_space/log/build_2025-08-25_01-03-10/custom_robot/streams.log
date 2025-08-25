@@ -1,0 +1,64 @@
+[0.031s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/custom_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/custom_robot -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/custom_robot
+[0.779s] -- The C compiler identification is GNU 11.4.0
+[1.149s] -- The CXX compiler identification is GNU 11.4.0
+[1.165s] -- Detecting C compiler ABI info
+[1.254s] -- Detecting C compiler ABI info - done
+[1.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.292s] -- Detecting C compile features
+[1.293s] -- Detecting C compile features - done
+[1.297s] -- Detecting CXX compiler ABI info
+[1.399s] -- Detecting CXX compiler ABI info - done
+[1.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.420s] -- Detecting CXX compile features
+[1.421s] -- Detecting CXX compile features - done
+[1.429s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.514s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.663s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.803s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.835s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.872s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.049s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[3.118s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.123s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.256s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.295s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.353s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.368s] -- Looking for pthread.h
+[3.464s] -- Looking for pthread.h - found
+[3.464s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.550s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.551s] -- Found Threads: TRUE  
+[3.622s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.773s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.774s] -- Configured cppcheck include dirs: 
+[3.774s] -- Configured cppcheck exclude dirs and/or files: 
+[3.775s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.776s] -- Added test 'lint_cmake' to check CMake code style
+[3.777s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.779s] -- Added test 'uncrustify' to check C / C++ code style
+[3.780s] -- Configured uncrustify additional arguments: 
+[3.781s] -- Added test 'xmllint' to check XML markup files
+[3.784s] -- Configuring done
+[3.808s] -- Generating done
+[3.816s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/custom_robot
+[3.830s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/custom_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/custom_robot -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/custom_robot
+[3.833s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/custom_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/custom_robot -- -j4 -l4
+[3.892s] [ 50%] [32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_publisher.cpp.o[0m
+[3.893s] [ 50%] [32mBuilding CXX object CMakeFiles/teleop_keyboard.dir/src/teleop_keyboard.cpp.o[0m
+[3.920s] [100%] [32m[1mLinking CXX executable cmd_vel_publisher[0m
+[3.921s] [100%] [32m[1mLinking CXX executable teleop_keyboard[0m
+[4.049s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[4.049s] (.text+0x1b): undefined reference to `main'
+[4.049s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[4.050s] (.text+0x1b): undefined reference to `main'
+[4.053s] collect2: error: ld returned 1 exit status
+[4.053s] collect2: error: ld returned 1 exit status
+[4.056s] gmake[2]: *** [CMakeFiles/cmd_vel_publisher.dir/build.make:167: cmd_vel_publisher] Error 1
+[4.057s] gmake[2]: *** [CMakeFiles/teleop_keyboard.dir/build.make:167: teleop_keyboard] Error 1
+[4.057s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/cmd_vel_publisher.dir/all] Error 2
+[4.057s] gmake[1]: *** Waiting for unfinished jobs....
+[4.057s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/teleop_keyboard.dir/all] Error 2
+[4.057s] gmake: *** [Makefile:146: all] Error 2
+[4.060s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/custom_robot' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/custom_robot -- -j4 -l4
