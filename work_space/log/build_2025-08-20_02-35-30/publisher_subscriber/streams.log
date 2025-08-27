@@ -1,3 +1,0 @@
-[0.027s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber -- -j4 -l4
-[0.135s] [100%] Built target subscriber
-[0.136s] [100%] Built target publisher

@@ -1,0 +1,65 @@
+<robot name="diff_drive_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Base link -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.3 0.2 0.1" />
+            </geometry>
+            <material name="blue">
+                <color rgba="0 0 1 1" />
+            </material>
+        </visual>
+    </link>
+
+    <!-- Wheels -->
+    <link name="wheel_left" />
+    <link name="wheel_right" />
+
+    <joint name="wheel_left_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="wheel_left" />
+        <origin xyz="0 0.1 0" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+    </joint>
+
+    <joint name="wheel_right_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="wheel_right" />
+        <origin xyz="0 -0.1 0" rpy="0 0 0" />
+        <axis xyz="0 1 0" />
+    </joint>
+
+    <!-- LIDAR -->
+    <link name="lidar_link" />
+    <joint name="lidar_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="lidar_link" />
+        <origin xyz="0 0 0.1" rpy="0 0 0" />
+    </joint>
+
+    <gazebo>
+        <sensor type="ray" name="laser">
+            <update_rate>10</update_rate>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>360</samples>
+                        <resolution>1</resolution>
+                        <min_angle>-1.5708</min_angle>
+                        <max_angle>1.5708</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.1</min>
+                    <max>10.0</max>
+                </range>
+            </ray>
+            <plugin name="gazebo_ros_laser" filename="libgazebo_ros_laser.so">
+                <topicName>/scan</topicName>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+
+</robot>
