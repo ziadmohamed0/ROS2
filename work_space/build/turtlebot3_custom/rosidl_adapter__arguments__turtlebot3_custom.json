@@ -1,0 +1,7 @@
+{
+  "package_name": "turtlebot3_custom",
+  "non_idl_tuples": [
+    "/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom:action/NavigateToGoal.action",
+    "/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom:srv/GetRobotStatus.srv"
+  ]
+}

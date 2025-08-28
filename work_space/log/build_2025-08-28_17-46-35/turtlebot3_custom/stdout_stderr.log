@@ -1,0 +1,36 @@
+[  2%] Built target turtlebot3_custom__cpp
+[ 10%] Built target turtlebot3_custom__rosidl_generator_c
+[ 14%] Built target turtlebot3_controller
+[ 14%] Built target ament_cmake_python_copy_turtlebot3_custom
+[ 22%] Built target turtlebot3_custom__rosidl_typesupport_cpp
+[ 30%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_cpp
+[ 38%] Built target turtlebot3_custom__rosidl_typesupport_c
+[ 46%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c
+[ 55%] Built target turtlebot3_custom__rosidl_typesupport_introspection_cpp
+[ 59%] Built target robot_status_server
+[35m[1mConsolidate compiler generated dependencies of target navigation_action_server[0m
+[ 63%] Built target status_client
+[ 65%] [32mBuilding CXX object CMakeFiles/navigation_client.dir/src/navigation_client.cpp.o[0m
+[ 69%] Built target navigation_action_server
+[ 77%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[ 77%] Built target turtlebot3_custom
+[ 79%] Built target turtlebot3_custom__py
+[ 85%] Built target turtlebot3_custom__rosidl_generator_py
+[ 89%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c__pyext
+[01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/navigation_client.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+   17 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[ 97%] Built target turtlebot3_custom__rosidl_typesupport_c__pyext
+gmake[2]: *** [CMakeFiles/navigation_client.dir/build.make:76: CMakeFiles/navigation_client.dir/src/navigation_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:708: CMakeFiles/navigation_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing turtlebot3_custom.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_custom.egg-info/dependency_links.txt
+writing top-level names to turtlebot3_custom.egg-info/top_level.txt
+reading manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_turtlebot3_custom_egg
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,37 @@
+[  2%] Built target turtlebot3_custom__cpp
+[  6%] Built target turtlebot3_controller
+[ 14%] Built target turtlebot3_custom__rosidl_generator_c
+[ 14%] Built target ament_cmake_python_copy_turtlebot3_custom
+[ 22%] Built target turtlebot3_custom__rosidl_typesupport_cpp
+[ 30%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_cpp
+[ 38%] Built target turtlebot3_custom__rosidl_typesupport_introspection_cpp
+[ 46%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[ 55%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c
+[ 63%] Built target turtlebot3_custom__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target robot_status_server[0m
+[35m[1mConsolidate compiler generated dependencies of target status_client[0m
+[ 67%] Built target navigation_action_server
+[ 69%] [32mBuilding CXX object CMakeFiles/status_client.dir/src/status_client.cpp.o[0m
+[ 73%] Built target robot_status_server
+[ 77%] Built target navigation_client
+[ 77%] Built target turtlebot3_custom
+[ 79%] Built target turtlebot3_custom__py
+[ 85%] Built target turtlebot3_custom__rosidl_generator_py
+[ 89%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target turtlebot3_custom__rosidl_typesupport_c__pyext
+running egg_info
+writing turtlebot3_custom.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_custom.egg-info/dependency_links.txt
+writing top-level names to turtlebot3_custom.egg-info/top_level.txt
+reading manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_turtlebot3_custom_egg
+[01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/status_client.cpp:[m[K In member function ‘[01m[Kvoid StatusClient::send_request()[m[K’:
+[01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/status_client.cpp:39:85:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+   39 | :spin_until_future_complete(this->get_node_base_interface(), [01;31m[Kresult[m[K) ==
+      |                                                              [01;31m[K^~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/status_client.dir/build.make:76: CMakeFiles/status_client.dir/src/status_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:654: CMakeFiles/status_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

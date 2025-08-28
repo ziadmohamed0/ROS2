@@ -1,0 +1,29 @@
+[0.052s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf -- -j4 -l4
+[0.347s] [100%] Built target move_to_goal
+[0.526s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf -- -j4 -l4
+[0.531s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf
+[0.573s] -- Install configuration: ""
+[0.575s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/lib/ros2_urdf/move_to_goal
+[0.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/urdf
+[0.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/urdf/three_wheeled_robot.urdf
+[0.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/urdf/simple_robot.urdf
+[0.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/launch
+[0.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/launch/display_simple_robot_rviz2.launch.py
+[0.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/launch/display_three_wheel_robot_rviz2.launch.py
+[0.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/launch/simulation.launch.py
+[0.577s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/package_run_dependencies/ros2_urdf
+[0.582s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/parent_prefix_path/ros2_urdf
+[0.589s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/ament_prefix_path.sh
+[0.589s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/ament_prefix_path.dsv
+[0.589s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/path.sh
+[0.589s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/path.dsv
+[0.593s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.bash
+[0.593s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.sh
+[0.593s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.zsh
+[0.593s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.dsv
+[0.593s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.dsv
+[0.594s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/packages/ros2_urdf
+[0.594s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/cmake/ros2_urdfConfig.cmake
+[0.594s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/cmake/ros2_urdfConfig-version.cmake
+[0.594s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.xml
+[0.776s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf

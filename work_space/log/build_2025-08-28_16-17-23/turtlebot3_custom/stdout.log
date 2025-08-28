@@ -1,0 +1,28 @@
+[  8%] Built target turtlebot3_custom__rosidl_generator_c
+[ 12%] Built target turtlebot3_controller
+[ 14%] Built target turtlebot3_custom__cpp
+[ 22%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[ 22%] Built target ament_cmake_python_copy_turtlebot3_custom
+[ 30%] Built target turtlebot3_custom__rosidl_typesupport_c
+[ 38%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c
+[ 46%] Built target turtlebot3_custom__rosidl_typesupport_cpp
+[ 55%] Built target turtlebot3_custom__rosidl_typesupport_introspection_cpp
+[ 63%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target robot_status_server[0m
+[ 67%] Built target status_client
+[ 71%] Built target navigation_action_server
+[ 73%] [32mBuilding CXX object CMakeFiles/robot_status_server.dir/src/robot_status_server.cpp.o[0m
+[ 77%] Built target navigation_client
+[ 77%] Built target turtlebot3_custom
+[ 79%] Built target turtlebot3_custom__py
+[ 85%] Built target turtlebot3_custom__rosidl_generator_py
+[ 89%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target turtlebot3_custom__rosidl_typesupport_c__pyext
+running egg_info
+writing turtlebot3_custom.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_custom.egg-info/dependency_links.txt
+writing top-level names to turtlebot3_custom.egg-info/top_level.txt
+reading manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_turtlebot3_custom_egg

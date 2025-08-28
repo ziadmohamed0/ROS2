@@ -1,0 +1,38 @@
+[0.247s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4
+[0.635s] [  2%] Built target turtlebot3_custom__cpp
+[0.635s] [ 10%] Built target turtlebot3_custom__rosidl_generator_c
+[0.663s] [ 14%] Built target turtlebot3_controller
+[0.663s] [ 14%] Built target ament_cmake_python_copy_turtlebot3_custom
+[0.749s] [ 22%] Built target turtlebot3_custom__rosidl_typesupport_cpp
+[0.775s] [ 30%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_cpp
+[0.783s] [ 38%] Built target turtlebot3_custom__rosidl_typesupport_c
+[0.834s] [ 46%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c
+[0.895s] [ 55%] Built target turtlebot3_custom__rosidl_typesupport_introspection_cpp
+[0.917s] [ 59%] Built target robot_status_server
+[0.959s] [35m[1mConsolidate compiler generated dependencies of target navigation_action_server[0m
+[0.978s] [ 63%] Built target status_client
+[1.084s] [ 65%] [32mBuilding CXX object CMakeFiles/navigation_client.dir/src/navigation_client.cpp.o[0m
+[1.086s] [ 69%] Built target navigation_action_server
+[1.111s] [ 77%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[1.243s] [ 77%] Built target turtlebot3_custom
+[1.343s] [ 79%] Built target turtlebot3_custom__py
+[1.446s] [ 85%] Built target turtlebot3_custom__rosidl_generator_py
+[1.551s] [ 89%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext
+[1.555s] [ 93%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c__pyext
+[1.662s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/navigation_client.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.662s]    17 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[1.662s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.663s] compilation terminated.
+[1.668s] [ 97%] Built target turtlebot3_custom__rosidl_typesupport_c__pyext
+[1.675s] gmake[2]: *** [CMakeFiles/navigation_client.dir/build.make:76: CMakeFiles/navigation_client.dir/src/navigation_client.cpp.o] Error 1
+[1.676s] gmake[1]: *** [CMakeFiles/Makefile2:708: CMakeFiles/navigation_client.dir/all] Error 2
+[1.676s] gmake[1]: *** Waiting for unfinished jobs....
+[2.670s] running egg_info
+[2.749s] writing turtlebot3_custom.egg-info/PKG-INFO
+[2.749s] writing dependency_links to turtlebot3_custom.egg-info/dependency_links.txt
+[2.750s] writing top-level names to turtlebot3_custom.egg-info/top_level.txt
+[3.005s] reading manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[3.005s] writing manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[3.178s] [ 97%] Built target ament_cmake_python_build_turtlebot3_custom_egg
+[3.181s] gmake: *** [Makefile:146: all] Error 2
+[3.184s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4

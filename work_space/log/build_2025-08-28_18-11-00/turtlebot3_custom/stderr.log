@@ -1,0 +1,12 @@
+[01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/modern_teleop_controller.cpp:180:56:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K@[m[K’ in program
+  180 | me_ = this->now();your name (you[01;31m[K@[m[Kdomain.com)
+      |                                 [01;31m[K^[m[K
+
+[01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/modern_teleop_controller.cpp:[m[K In member function ‘[01m[Kvoid ModernTeleopController::processKeyInput(char)[m[K’:
+[01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/modern_teleop_controller.cpp:180:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour[m[K’ was not declared in this scope
+  180 | ast_command_time_ = this->now();[01;31m[Kyour[m[K name (you@domain.com)
+      |                                 [01;31m[K^~~~[m[K
+
+gmake[2]: *** [CMakeFiles/modern_teleop_controller.dir/build.make:76: CMakeFiles/modern_teleop_controller.dir/src/modern_teleop_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:736: CMakeFiles/modern_teleop_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

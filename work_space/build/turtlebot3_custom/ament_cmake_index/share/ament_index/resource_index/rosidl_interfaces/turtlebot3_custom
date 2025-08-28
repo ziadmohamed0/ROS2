@@ -1,0 +1,6 @@
+action/NavigateToGoal.action
+action/NavigateToGoal.idl
+srv/GetRobotStatus.idl
+srv/GetRobotStatus.srv
+srv/GetRobotStatus_Request.msg
+srv/GetRobotStatus_Response.msg

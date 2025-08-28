@@ -1,0 +1,4 @@
+[01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/navigation_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse NavigationActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const turtlebot3_custom::action::NavigateToGoal_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/navigation_action_server.cpp:45:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   45 |         [01;35m[Kstd::shared_ptr<const NavigateToGoal::Goal> goal[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K

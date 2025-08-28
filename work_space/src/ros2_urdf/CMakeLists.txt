@@ -11,10 +11,21 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
+
+add_executable(move_to_goal src/move_to_goal.cpp)
+ament_target_dependencies(move_to_goal rclcpp geometry_msgs)
+
+install(TARGETS move_to_goal
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 install(
   DIRECTORY urdf
   DESTINATION share/${PROJECT_NAME}
 )
+
 install(
   DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}

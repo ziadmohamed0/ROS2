@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtlebot3_custom/srv/GetRobotStatus.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "sensor_msgs/msg/BatteryState.idl"
+
+module turtlebot3_custom {
+  module srv {
+    struct GetRobotStatus_Request {
+      string query_type;
+    };
+    struct GetRobotStatus_Response {
+      boolean success;
+
+      string status_message;
+
+      geometry_msgs::msg::Pose current_pose;
+
+      sensor_msgs::msg::BatteryState battery_info;
+    };
+  };
+};

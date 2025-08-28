@@ -1,7 +1,9 @@
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/lib/ros2_urdf/move_to_goal
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/urdf/three_wheeled_robot.urdf
 /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/urdf/simple_robot.urdf
-/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/urdf/three_wheel_robot.urdf
 /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/launch/display_simple_robot_rviz2.launch.py
 /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/launch/display_three_wheel_robot_rviz2.launch.py
+/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/launch/simulation.launch.py
 /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/package_run_dependencies/ros2_urdf
 /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/parent_prefix_path/ros2_urdf
 /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/ament_prefix_path.sh

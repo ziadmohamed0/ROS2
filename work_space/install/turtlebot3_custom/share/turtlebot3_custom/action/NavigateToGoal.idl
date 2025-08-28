@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from turtlebot3_custom/action/NavigateToGoal.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module turtlebot3_custom {
+  module action {
+    struct NavigateToGoal_Goal {
+      geometry_msgs::msg::Pose target_pose;
+    };
+    struct NavigateToGoal_Result {
+      boolean success;
+
+      string message;
+
+      geometry_msgs::msg::Pose final_pose;
+    };
+    struct NavigateToGoal_Feedback {
+      geometry_msgs::msg::Pose current_pose;
+
+      float distance_remaining;
+
+      float time_elapsed;
+    };
+  };
+};

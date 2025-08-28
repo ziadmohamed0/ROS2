@@ -1,0 +1,37 @@
+[0.098s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4
+[0.505s] [  8%] Built target turtlebot3_custom__rosidl_generator_c
+[0.540s] [ 12%] Built target turtlebot3_controller
+[0.545s] [ 14%] Built target turtlebot3_custom__cpp
+[0.690s] [ 22%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[0.695s] [ 22%] Built target ament_cmake_python_copy_turtlebot3_custom
+[0.695s] [ 30%] Built target turtlebot3_custom__rosidl_typesupport_c
+[0.714s] [ 38%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c
+[0.870s] [ 46%] Built target turtlebot3_custom__rosidl_typesupport_cpp
+[0.900s] [ 55%] Built target turtlebot3_custom__rosidl_typesupport_introspection_cpp
+[0.934s] [ 63%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_cpp
+[0.995s] [35m[1mConsolidate compiler generated dependencies of target robot_status_server[0m
+[1.050s] [ 67%] Built target status_client
+[1.065s] [ 71%] Built target navigation_action_server
+[1.077s] [ 73%] [32mBuilding CXX object CMakeFiles/robot_status_server.dir/src/robot_status_server.cpp.o[0m
+[1.158s] [ 77%] Built target navigation_client
+[1.171s] [ 77%] Built target turtlebot3_custom
+[1.256s] [ 79%] Built target turtlebot3_custom__py
+[1.349s] [ 85%] Built target turtlebot3_custom__rosidl_generator_py
+[1.452s] [ 89%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c__pyext
+[1.481s] [ 93%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext
+[1.558s] [ 97%] Built target turtlebot3_custom__rosidl_typesupport_c__pyext
+[2.788s] running egg_info
+[2.885s] writing turtlebot3_custom.egg-info/PKG-INFO
+[2.885s] writing dependency_links to turtlebot3_custom.egg-info/dependency_links.txt
+[2.887s] writing top-level names to turtlebot3_custom.egg-info/top_level.txt
+[3.167s] reading manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[3.167s] writing manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[3.366s] [ 97%] Built target ament_cmake_python_build_turtlebot3_custom_egg
+[7.804s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/robot_status_server.cpp:[m[K In constructor ‘[01m[KRobotStatusServer::RobotStatusServer()[m[K’:
+[7.804s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/robot_status_server.cpp:31:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kthis[m[K’
+[7.804s]    31 |             [01;31m[Kthis[m[K->odom_sub_ = this->create_subscription<nav_msgs::msg::Odometry>(
+[7.805s]       |             [01;31m[K^~~~[m[K
+[12.258s] gmake[2]: *** [CMakeFiles/robot_status_server.dir/build.make:76: CMakeFiles/robot_status_server.dir/src/robot_status_server.cpp.o] Error 1
+[12.258s] gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/robot_status_server.dir/all] Error 2
+[12.259s] gmake: *** [Makefile:146: all] Error 2
+[12.262s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4

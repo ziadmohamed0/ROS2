@@ -1,0 +1,43 @@
+[0.144s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4
+[0.565s] [  1%] Built target turtlebot3_custom__cpp
+[0.580s] [  9%] Built target turtlebot3_custom__rosidl_generator_c
+[0.628s] [ 13%] Built target turtlebot3_controller
+[0.696s] [35m[1mConsolidate compiler generated dependencies of target modern_teleop_controller[0m
+[0.736s] [ 13%] Built target ament_cmake_python_copy_turtlebot3_custom
+[0.824s] [ 21%] Built target turtlebot3_custom__rosidl_typesupport_cpp
+[0.841s] [ 23%] [32mBuilding CXX object CMakeFiles/modern_teleop_controller.dir/src/modern_teleop_controller.cpp.o[0m
+[0.850s] [ 31%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[0.961s] [ 39%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_cpp
+[1.054s] [ 47%] Built target turtlebot3_custom__rosidl_typesupport_c
+[1.117s] [ 54%] Built target turtlebot3_custom__rosidl_typesupport_introspection_cpp
+[1.131s] [ 62%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c
+[1.294s] [ 66%] Built target robot_status_server
+[1.300s] [ 70%] Built target status_client
+[1.446s] [ 74%] Built target navigation_client
+[1.506s] [ 78%] Built target navigation_action_server
+[1.569s] [ 78%] Built target turtlebot3_custom
+[1.695s] [ 80%] Built target turtlebot3_custom__py
+[1.820s] [ 86%] Built target turtlebot3_custom__rosidl_generator_py
+[1.952s] [ 90%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext
+[1.980s] [ 94%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c__pyext
+[2.079s] [ 98%] Built target turtlebot3_custom__rosidl_typesupport_c__pyext
+[2.926s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/modern_teleop_controller.cpp:180:56:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K@[m[K’ in program
+[2.930s]   180 | me_ = this->now();your name (you[01;31m[K@[m[Kdomain.com)
+[2.930s]       |                                 [01;31m[K^[m[K
+[2.930s] 
+[3.286s] running egg_info
+[3.523s] writing turtlebot3_custom.egg-info/PKG-INFO
+[3.523s] writing dependency_links to turtlebot3_custom.egg-info/dependency_links.txt
+[3.523s] writing top-level names to turtlebot3_custom.egg-info/top_level.txt
+[3.898s] reading manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[3.900s] writing manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[4.133s] [ 98%] Built target ament_cmake_python_build_turtlebot3_custom_egg
+[8.888s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/modern_teleop_controller.cpp:[m[K In member function ‘[01m[Kvoid ModernTeleopController::processKeyInput(char)[m[K’:
+[8.888s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/modern_teleop_controller.cpp:180:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kyour[m[K’ was not declared in this scope
+[8.888s]   180 | ast_command_time_ = this->now();[01;31m[Kyour[m[K name (you@domain.com)
+[8.888s]       |                                 [01;31m[K^~~~[m[K
+[8.888s] 
+[14.488s] gmake[2]: *** [CMakeFiles/modern_teleop_controller.dir/build.make:76: CMakeFiles/modern_teleop_controller.dir/src/modern_teleop_controller.cpp.o] Error 1
+[14.495s] gmake[1]: *** [CMakeFiles/Makefile2:736: CMakeFiles/modern_teleop_controller.dir/all] Error 2
+[14.495s] gmake: *** [Makefile:146: all] Error 2
+[14.503s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4

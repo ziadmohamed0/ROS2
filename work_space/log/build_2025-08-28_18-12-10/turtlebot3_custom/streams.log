@@ -1,0 +1,207 @@
+[0.091s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4
+[0.631s] [  1%] Built target turtlebot3_custom__cpp
+[0.664s] [  9%] Built target turtlebot3_custom__rosidl_generator_c
+[0.780s] [ 13%] Built target turtlebot3_controller
+[0.786s] [ 13%] Built target ament_cmake_python_copy_turtlebot3_custom
+[0.809s] [35m[1mConsolidate compiler generated dependencies of target modern_teleop_controller[0m
+[0.862s] [ 21%] Built target turtlebot3_custom__rosidl_typesupport_cpp
+[0.950s] [ 23%] [32mBuilding CXX object CMakeFiles/modern_teleop_controller.dir/src/modern_teleop_controller.cpp.o[0m
+[0.986s] [ 31%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[0.998s] [ 39%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_cpp
+[0.998s] [ 47%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c
+[1.123s] [ 54%] Built target turtlebot3_custom__rosidl_typesupport_introspection_cpp
+[1.127s] [ 62%] Built target turtlebot3_custom__rosidl_typesupport_c
+[1.281s] [ 66%] Built target status_client
+[1.289s] [ 70%] Built target robot_status_server
+[1.447s] [ 74%] Built target navigation_action_server
+[1.456s] [ 78%] Built target navigation_client
+[1.567s] [ 78%] Built target turtlebot3_custom
+[1.672s] [ 80%] Built target turtlebot3_custom__py
+[1.828s] [ 86%] Built target turtlebot3_custom__rosidl_generator_py
+[1.980s] [ 90%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c__pyext
+[1.992s] [ 94%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext
+[2.135s] [ 98%] Built target turtlebot3_custom__rosidl_typesupport_c__pyext
+[3.550s] running egg_info
+[3.728s] writing turtlebot3_custom.egg-info/PKG-INFO
+[3.731s] writing dependency_links to turtlebot3_custom.egg-info/dependency_links.txt
+[3.731s] writing top-level names to turtlebot3_custom.egg-info/top_level.txt
+[4.195s] reading manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[4.195s] writing manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[4.425s] [ 98%] Built target ament_cmake_python_build_turtlebot3_custom_egg
+[28.777s] [100%] [32m[1mLinking CXX executable modern_teleop_controller[0m
+[30.010s] [100%] Built target modern_teleop_controller
+[30.028s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4
+[30.031s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom
+[30.043s] -- Install configuration: ""
+[30.045s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_custom
+[30.045s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom
+[30.045s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action
+[30.046s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/navigate_to_goal.h
+[30.046s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail
+[30.046s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__functions.c
+[30.046s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__functions.h
+[30.046s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__type_support.h
+[30.047s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__struct.h
+[30.047s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv
+[30.047s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/get_robot_status.h
+[30.047s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail
+[30.047s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__functions.h
+[30.047s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__type_support.h
+[30.047s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__functions.c
+[30.048s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__struct.h
+[30.048s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/msg
+[30.048s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/msg/rosidl_generator_c__visibility_control.h
+[30.048s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/environment/library_path.sh
+[30.048s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/environment/library_path.dsv
+[30.049s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/libturtlebot3_custom__rosidl_generator_c.so
+[30.049s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom
+[30.049s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action
+[30.050s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail
+[30.050s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__rosidl_typesupport_fastrtps_c.h
+[30.050s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv
+[30.050s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail
+[30.050s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__rosidl_typesupport_fastrtps_c.h
+[30.050s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/msg
+[30.050s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.051s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/libturtlebot3_custom__rosidl_typesupport_fastrtps_c.so
+[30.051s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom
+[30.052s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action
+[30.052s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/navigate_to_goal.hpp
+[30.052s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail
+[30.052s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__traits.hpp
+[30.052s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__type_support.hpp
+[30.052s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__builder.hpp
+[30.053s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__struct.hpp
+[30.053s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv
+[30.053s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail
+[30.053s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__builder.hpp
+[30.053s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__traits.hpp
+[30.053s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__type_support.hpp
+[30.053s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__struct.hpp
+[30.053s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/get_robot_status.hpp
+[30.053s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/msg
+[30.053s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/msg/rosidl_generator_cpp__visibility_control.hpp
+[30.054s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom
+[30.054s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action
+[30.054s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail
+[30.054s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/dds_fastrtps
+[30.054s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[30.054s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv
+[30.054s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail
+[30.054s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/dds_fastrtps
+[30.054s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[30.054s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/msg
+[30.055s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.055s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/libturtlebot3_custom__rosidl_typesupport_fastrtps_cpp.so
+[30.055s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom
+[30.056s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action
+[30.056s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail
+[30.056s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__type_support.c
+[30.056s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__rosidl_typesupport_introspection_c.h
+[30.056s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv
+[30.057s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail
+[30.057s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__type_support.c
+[30.057s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__rosidl_typesupport_introspection_c.h
+[30.057s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/msg
+[30.057s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.057s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/libturtlebot3_custom__rosidl_typesupport_introspection_c.so
+[30.058s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/libturtlebot3_custom__rosidl_typesupport_c.so
+[30.058s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom
+[30.059s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action
+[30.059s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail
+[30.059s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__rosidl_typesupport_introspection_cpp.hpp
+[30.059s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/action/detail/navigate_to_goal__type_support.cpp
+[30.059s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv
+[30.059s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail
+[30.060s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__type_support.cpp
+[30.060s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/include/turtlebot3_custom/turtlebot3_custom/srv/detail/get_robot_status__rosidl_typesupport_introspection_cpp.hpp
+[30.060s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/libturtlebot3_custom__rosidl_typesupport_introspection_cpp.so
+[30.061s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/libturtlebot3_custom__rosidl_typesupport_cpp.so
+[30.061s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/environment/pythonpath.sh
+[30.062s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/environment/pythonpath.dsv
+[30.062s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom-0.0.0-py3.10.egg-info
+[30.062s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom-0.0.0-py3.10.egg-info/dependency_links.txt
+[30.063s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom-0.0.0-py3.10.egg-info/top_level.txt
+[30.063s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom-0.0.0-py3.10.egg-info/PKG-INFO
+[30.063s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom-0.0.0-py3.10.egg-info/SOURCES.txt
+[30.064s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom
+[30.064s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/_turtlebot3_custom_s.ep.rosidl_typesupport_introspection_c.c
+[30.064s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/turtlebot3_custom_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.064s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/action
+[30.065s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/action/_navigate_to_goal.py
+[30.065s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/action/_navigate_to_goal_s.c
+[30.065s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/action/__init__.py
+[30.065s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/srv
+[30.066s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/srv/_get_robot_status_s.c
+[30.066s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/srv/_get_robot_status.py
+[30.066s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/srv/__init__.py
+[30.066s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/_turtlebot3_custom_s.ep.rosidl_typesupport_c.c
+[30.066s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/turtlebot3_custom_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[30.066s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/turtlebot3_custom_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.066s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/_turtlebot3_custom_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.066s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/__init__.py
+[30.067s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/libturtlebot3_custom__rosidl_generator_py.so
+[30.127s] Listing '/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom'...
+[30.127s] Listing '/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/action'...
+[30.127s] Listing '/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/srv'...
+[30.135s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/turtlebot3_custom_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.136s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/turtlebot3_custom_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.137s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages/turtlebot3_custom/turtlebot3_custom_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[30.138s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/libturtlebot3_custom__rosidl_generator_py.so
+[30.138s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/action/NavigateToGoal.idl
+[30.138s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/srv/GetRobotStatus.idl
+[30.138s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/action/NavigateToGoal.action
+[30.139s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/srv/GetRobotStatus.srv
+[30.139s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/srv/GetRobotStatus_Request.msg
+[30.139s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/srv/GetRobotStatus_Response.msg
+[30.140s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/turtlebot3_custom/turtlebot3_controller
+[30.141s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/turtlebot3_custom/robot_status_server
+[30.142s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/turtlebot3_custom/status_client
+[30.143s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/turtlebot3_custom/navigation_action_server
+[30.144s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/turtlebot3_custom/navigation_client
+[30.145s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/turtlebot3_custom/modern_teleop_controller
+[30.151s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib/turtlebot3_custom/modern_teleop_controller" to ""
+[30.152s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom//launch
+[30.152s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom//launch/turtlebot3_simulation.launch.py
+[30.153s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom//launch/modern_teleop.launch.py
+[30.153s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom//launch/turtlebot3_custom.launch.py
+[30.153s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/ament_index/resource_index/package_run_dependencies/turtlebot3_custom
+[30.154s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/ament_index/resource_index/parent_prefix_path/turtlebot3_custom
+[30.155s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/environment/ament_prefix_path.sh
+[30.155s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/environment/ament_prefix_path.dsv
+[30.155s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/environment/path.sh
+[30.155s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/environment/path.dsv
+[30.155s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.bash
+[30.155s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.sh
+[30.155s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.zsh
+[30.156s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.dsv
+[30.156s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/package.dsv
+[30.156s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/ament_index/resource_index/packages/turtlebot3_custom
+[30.157s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/export_turtlebot3_custom__rosidl_generator_cExport.cmake
+[30.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/export_turtlebot3_custom__rosidl_generator_cExport-noconfig.cmake
+[30.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/export_turtlebot3_custom__rosidl_typesupport_fastrtps_cExport.cmake
+[30.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/export_turtlebot3_custom__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[30.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/export_turtlebot3_custom__rosidl_generator_cppExport.cmake
+[30.159s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/export_turtlebot3_custom__rosidl_typesupport_fastrtps_cppExport.cmake
+[30.159s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/export_turtlebot3_custom__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[30.159s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_custom__rosidl_typesupport_introspection_cExport.cmake
+[30.160s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_custom__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[30.160s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_custom__rosidl_typesupport_cExport.cmake
+[30.160s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_custom__rosidl_typesupport_cExport-noconfig.cmake
+[30.161s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_custom__rosidl_typesupport_introspection_cppExport.cmake
+[30.161s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_custom__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[30.161s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_custom__rosidl_typesupport_cppExport.cmake
+[30.161s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_custom__rosidl_typesupport_cppExport-noconfig.cmake
+[30.162s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/export_turtlebot3_custom__rosidl_generator_pyExport.cmake
+[30.162s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/export_turtlebot3_custom__rosidl_generator_pyExport-noconfig.cmake
+[30.162s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/rosidl_cmake-extras.cmake
+[30.162s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.162s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.162s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/ament_cmake_export_libraries-extras.cmake
+[30.162s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/ament_cmake_export_targets-extras.cmake
+[30.163s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[30.163s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.163s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_customConfig.cmake
+[30.163s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_customConfig-version.cmake
+[30.163s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/share/turtlebot3_custom/package.xml
+[30.166s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom

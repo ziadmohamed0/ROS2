@@ -1,0 +1,77 @@
+[0.024s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber
+[0.225s] -- The C compiler identification is GNU 11.4.0
+[0.389s] -- The CXX compiler identification is GNU 11.4.0
+[0.411s] -- Detecting C compiler ABI info
+[0.542s] -- Detecting C compiler ABI info - done
+[0.561s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.561s] -- Detecting C compile features
+[0.562s] -- Detecting C compile features - done
+[0.580s] -- Detecting CXX compiler ABI info
+[0.726s] -- Detecting CXX compiler ABI info - done
+[0.748s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.749s] -- Detecting CXX compile features
+[0.751s] -- Detecting CXX compile features - done
+[0.754s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.667s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.884s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[2.993s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.006s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.026s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.196s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.203s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.391s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.460s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.556s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.573s] -- Looking for pthread.h
+[3.722s] -- Looking for pthread.h - found
+[3.723s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.874s] -- Found Threads: TRUE  
+[4.002s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.227s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.227s] -- Configured cppcheck include dirs: 
+[4.229s] -- Configured cppcheck exclude dirs and/or files: 
+[4.230s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.230s] -- Added test 'lint_cmake' to check CMake code style
+[4.231s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.233s] -- Added test 'uncrustify' to check C / C++ code style
+[4.233s] -- Configured uncrustify additional arguments: 
+[4.235s] -- Added test 'xmllint' to check XML markup files
+[4.237s] -- Configuring done
+[4.266s] -- Generating done
+[4.281s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber
+[4.297s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber
+[4.301s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber -- -j4 -l4
+[4.398s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[4.426s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[25.279s] [ 75%] [32m[1mLinking CXX executable publisher[0m
+[26.914s] [ 75%] Built target publisher
+[39.605s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[40.171s] [100%] Built target subscriber
+[40.186s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber -- -j4 -l4
+[40.187s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber
+[40.195s] -- Install configuration: ""
+[40.195s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/subscriber
+[40.200s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/subscriber" to ""
+[40.200s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/publisher
+[40.201s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/publisher" to ""
+[40.201s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/launch
+[40.201s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/launch/run.launch.py
+[40.202s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/publisher_subscriber
+[40.202s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/publisher_subscriber
+[40.202s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/ament_prefix_path.sh
+[40.203s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/ament_prefix_path.dsv
+[40.203s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/path.sh
+[40.203s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/path.dsv
+[40.203s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.bash
+[40.204s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.sh
+[40.204s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.zsh
+[40.205s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.dsv
+[40.205s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.dsv
+[40.212s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/packages/publisher_subscriber
+[40.213s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/cmake/publisher_subscriberConfig.cmake
+[40.213s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/cmake/publisher_subscriberConfig-version.cmake
+[40.213s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.xml
+[40.216s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber

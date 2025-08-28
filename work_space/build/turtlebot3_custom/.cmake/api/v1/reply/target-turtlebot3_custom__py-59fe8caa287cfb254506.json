@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/turtlebot3_custom__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "turtlebot3_custom::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "turtlebot3_custom__py::@687098ba163bed6c04c5",
+	"name" : "turtlebot3_custom__py",
+	"paths" : 
+	{
+		"build" : "turtlebot3_custom__py",
+		"source" : "/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/turtlebot3_custom__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/turtlebot3_custom__py/CMakeFiles/turtlebot3_custom__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/turtlebot3_custom__py/CMakeFiles/turtlebot3_custom__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/rosidl_generator_py/turtlebot3_custom/_turtlebot3_custom_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

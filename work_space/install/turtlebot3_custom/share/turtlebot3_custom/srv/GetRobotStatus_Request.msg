@@ -1,0 +1,1 @@
+string query_type

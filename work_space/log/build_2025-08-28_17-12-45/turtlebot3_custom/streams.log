@@ -1,0 +1,68 @@
+[0.082s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4
+[0.578s] [  2%] Built target turtlebot3_custom__cpp
+[0.697s] [  6%] Built target turtlebot3_controller
+[0.734s] [  6%] Built target ament_cmake_python_copy_turtlebot3_custom
+[0.744s] [ 14%] Built target turtlebot3_custom__rosidl_generator_c
+[0.803s] [ 22%] Built target turtlebot3_custom__rosidl_typesupport_cpp
+[0.866s] [ 30%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_cpp
+[0.901s] [ 38%] Built target turtlebot3_custom__rosidl_typesupport_introspection_cpp
+[1.027s] [ 46%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[1.141s] [ 55%] Built target turtlebot3_custom__rosidl_typesupport_c
+[1.146s] [ 63%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c
+[1.228s] [ 67%] Built target robot_status_server
+[1.274s] [ 69%] [32mBuilding CXX object CMakeFiles/navigation_action_server.dir/src/navigation_action_server.cpp.o[0m
+[1.283s] [35m[1mConsolidate compiler generated dependencies of target status_client[0m
+[1.317s] [ 73%] Built target navigation_client
+[1.336s] [ 75%] [32mBuilding CXX object CMakeFiles/status_client.dir/src/status_client.cpp.o[0m
+[2.941s] [ 75%] Built target turtlebot3_custom
+[3.404s] running egg_info
+[3.476s] writing turtlebot3_custom.egg-info/PKG-INFO
+[3.601s] writing dependency_links to turtlebot3_custom.egg-info/dependency_links.txt
+[3.651s] writing top-level names to turtlebot3_custom.egg-info/top_level.txt
+[4.236s] reading manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[4.252s] writing manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[4.421s] [ 75%] Built target ament_cmake_python_build_turtlebot3_custom_egg
+[15.555s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[15.555s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[15.555s]                  from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+[15.555s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[15.555s]                  from [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/navigation_action_server.cpp:13[m[K:
+[15.555s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = NavigationActionServer; _Args = {}; _Tp = NavigationActionServer][m[K’:
+[15.555s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = NavigationActionServer; _Args = {}; _Tp = NavigationActionServer; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<NavigationActionServer>][m[K’
+[15.555s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = NavigationActionServer; _Alloc = std::allocator<NavigationActionServer>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[15.555s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = NavigationActionServer; _Alloc = std::allocator<NavigationActionServer>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[15.555s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<NavigationActionServer>; _Args = {}; _Tp = NavigationActionServer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[15.555s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<NavigationActionServer>; _Args = {}; _Tp = NavigationActionServer][m[K’
+[15.556s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = NavigationActionServer; _Alloc = std::allocator<NavigationActionServer>; _Args = {}][m[K’
+[15.556s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = NavigationActionServer; _Args = {}][m[K’
+[15.556s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/navigation_action_server.cpp:33:58:[m[K   required from here
+[15.556s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KNavigationActionServer::NavigationActionServer()[m[K’
+[15.556s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[15.556s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.561s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/navigation_action_server.cpp:24:7:[m[K [01;36m[Knote: [m[K‘[01m[KNavigationActionServer::NavigationActionServer()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[15.561s]    24 | class [01;36m[KNavigationActionServer[m[K : public rclcpp::Node {
+[15.561s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.562s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/navigation_action_server.cpp:24:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[15.562s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[15.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[15.562s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[15.562s]                  from [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/navigation_action_server.cpp:16[m[K:
+[15.562s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[15.562s]  1294 |   [01;36m[KNode[m[K(
+[15.563s]       |   [01;36m[K^~~~[m[K
+[15.570s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[15.570s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[15.570s]   101 |   explicit [01;36m[KNode[m[K(
+[15.571s]       |            [01;36m[K^~~~[m[K
+[15.573s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[15.574s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[15.574s]    89 |   explicit [01;36m[KNode[m[K(
+[15.574s]       |            [01;36m[K^~~~[m[K
+[15.574s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[15.894s] gmake[2]: *** [CMakeFiles/navigation_action_server.dir/build.make:76: CMakeFiles/navigation_action_server.dir/src/navigation_action_server.cpp.o] Error 1
+[15.894s] gmake[1]: *** [CMakeFiles/Makefile2:681: CMakeFiles/navigation_action_server.dir/all] Error 2
+[15.895s] gmake[1]: *** Waiting for unfinished jobs....
+[17.477s] [ 77%] [32m[1mLinking CXX executable status_client[0m
+[18.421s] [ 77%] Built target status_client
+[18.422s] gmake: *** [Makefile:146: all] Error 2
+[18.425s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4
