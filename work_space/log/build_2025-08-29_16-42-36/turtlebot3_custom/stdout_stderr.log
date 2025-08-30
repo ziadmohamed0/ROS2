@@ -1,0 +1,13 @@
+[  1%] Built target turtlebot3_custom__cpp
+[  9%] Built target turtlebot3_custom__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target turtlebot3_controller[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/turtlebot3_controller.dir/src/turtlebot3_controller.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/modern_teleop_controller.dir/src/modern_teleop_controller.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/modern_teleop_controller.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/modern_teleop_controller.dir/build.make:76: CMakeFiles/modern_teleop_controller.dir/src/modern_teleop_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:736: CMakeFiles/modern_teleop_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 15%] [32m[1mLinking CXX executable turtlebot3_controller[0m
+[ 15%] Built target turtlebot3_controller
+gmake: *** [Makefile:146: all] Error 2

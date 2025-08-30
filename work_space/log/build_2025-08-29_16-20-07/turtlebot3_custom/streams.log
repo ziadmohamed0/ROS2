@@ -1,0 +1,66 @@
+[0.086s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4
+[0.258s] [  1%] Built target turtlebot3_custom__cpp
+[0.363s] [  3%] [32mBuilding CXX object CMakeFiles/turtlebot3_controller.dir/src/turtlebot3_controller.cpp.o[0m
+[6.626s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleBot3Controller::execute_state_behavior(geometry_msgs::msg::Twist&, double)[m[K’:
+[6.626s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:355:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(geometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type&, float, float)[m[K’
+[6.626s]   355 |         twist.linear.x = [01;31m[Kstd::clamp(twist.linear.x, -0.3f, 0.3f)[m[K;
+[6.626s]       |                          [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.627s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[6.627s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[6.627s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.628s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.628s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.628s]                  from [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:117[m[K:
+[6.628s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)[m[K’
+[6.628s]  3656 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+[6.628s]       |     [01;36m[K^~~~~[m[K
+[6.628s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.629s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:355:36:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+[6.629s]   355 |         twist.linear.x = [01;36m[Kstd::clamp(twist.linear.x, -0.3f, 0.3f)[m[K;
+[6.629s]       |                          [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.629s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[6.629s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[6.629s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.629s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.629s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.629s]                  from [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:117[m[K:
+[6.630s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+[6.630s]  3674 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+[6.630s]       |     [01;36m[K^~~~~[m[K
+[6.630s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.630s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:355:36:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+[6.630s]   355 |         twist.linear.x = [01;36m[Kstd::clamp(twist.linear.x, -0.3f, 0.3f)[m[K;
+[6.630s]       |                          [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.630s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:356:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(geometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type&, float, float)[m[K’
+[6.631s]   356 |         twist.angular.z = [01;31m[Kstd::clamp(twist.angular.z, -1.0f, 1.0f)[m[K;
+[6.631s]       |                           [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.631s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[6.631s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[6.631s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.631s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.631s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.631s]                  from [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:117[m[K:
+[6.632s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)[m[K’
+[6.632s]  3656 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+[6.632s]       |     [01;36m[K^~~~~[m[K
+[6.632s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.632s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:356:37:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+[6.632s]   356 |         twist.angular.z = [01;36m[Kstd::clamp(twist.angular.z, -1.0f, 1.0f)[m[K;
+[6.632s]       |                           [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.632s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[6.633s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[6.633s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.633s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.633s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.633s]                  from [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:117[m[K:
+[6.633s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+[6.634s]  3674 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+[6.634s]       |     [01;36m[K^~~~~[m[K
+[6.634s] [01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.634s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom/src/turtlebot3_controller.cpp:356:37:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+[6.634s]   356 |         twist.angular.z = [01;36m[Kstd::clamp(twist.angular.z, -1.0f, 1.0f)[m[K;
+[6.634s]       |                           [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.072s] gmake[2]: *** [CMakeFiles/turtlebot3_controller.dir/build.make:76: CMakeFiles/turtlebot3_controller.dir/src/turtlebot3_controller.cpp.o] Error 1
+[11.073s] gmake[1]: *** [CMakeFiles/Makefile2:602: CMakeFiles/turtlebot3_controller.dir/all] Error 2
+[11.073s] gmake: *** [Makefile:146: all] Error 2
+[11.076s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4

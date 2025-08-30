@@ -458,19 +458,6 @@ navigation_client/fast:
 .PHONY : navigation_client/fast
 
 #=============================================================================
-# Target rules for targets named modern_teleop_controller
-
-# Build rule for target.
-modern_teleop_controller: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modern_teleop_controller
-.PHONY : modern_teleop_controller
-
-# fast build rule for target.
-modern_teleop_controller/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modern_teleop_controller.dir/build.make CMakeFiles/modern_teleop_controller.dir/build
-.PHONY : modern_teleop_controller/fast
-
-#=============================================================================
 # Target rules for targets named turtlebot3_custom__py
 
 # Build rule for target.
@@ -939,30 +926,6 @@ rosidl_typesupport_introspection_cpp/turtlebot3_custom/srv/detail/get_robot_stat
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlebot3_custom__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/turtlebot3_custom__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_custom/srv/detail/get_robot_status__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/turtlebot3_custom/srv/detail/get_robot_status__type_support.cpp.s
 
-src/modern_teleop_controller.o: src/modern_teleop_controller.cpp.o
-.PHONY : src/modern_teleop_controller.o
-
-# target to build an object file
-src/modern_teleop_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modern_teleop_controller.dir/build.make CMakeFiles/modern_teleop_controller.dir/src/modern_teleop_controller.cpp.o
-.PHONY : src/modern_teleop_controller.cpp.o
-
-src/modern_teleop_controller.i: src/modern_teleop_controller.cpp.i
-.PHONY : src/modern_teleop_controller.i
-
-# target to preprocess a source file
-src/modern_teleop_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modern_teleop_controller.dir/build.make CMakeFiles/modern_teleop_controller.dir/src/modern_teleop_controller.cpp.i
-.PHONY : src/modern_teleop_controller.cpp.i
-
-src/modern_teleop_controller.s: src/modern_teleop_controller.cpp.s
-.PHONY : src/modern_teleop_controller.s
-
-# target to generate assembly for a file
-src/modern_teleop_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/modern_teleop_controller.dir/build.make CMakeFiles/modern_teleop_controller.dir/src/modern_teleop_controller.cpp.s
-.PHONY : src/modern_teleop_controller.cpp.s
-
 src/navigation_action_server.o: src/navigation_action_server.cpp.o
 .PHONY : src/navigation_action_server.o
 
@@ -1103,7 +1066,6 @@ help:
 	@echo "... turtlebot3_custom__py"
 	@echo "... turtlebot3_custom_uninstall"
 	@echo "... uninstall"
-	@echo "... modern_teleop_controller"
 	@echo "... navigation_action_server"
 	@echo "... navigation_client"
 	@echo "... robot_status_server"
@@ -1177,9 +1139,6 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/turtlebot3_custom/srv/detail/get_robot_status__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/turtlebot3_custom/srv/detail/get_robot_status__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/turtlebot3_custom/srv/detail/get_robot_status__type_support.s"
-	@echo "... src/modern_teleop_controller.o"
-	@echo "... src/modern_teleop_controller.i"
-	@echo "... src/modern_teleop_controller.s"
 	@echo "... src/navigation_action_server.o"
 	@echo "... src/navigation_action_server.i"
 	@echo "... src/navigation_action_server.s"

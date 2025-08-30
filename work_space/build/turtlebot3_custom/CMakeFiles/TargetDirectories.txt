@@ -20,7 +20,6 @@
 /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/CMakeFiles/status_client.dir
 /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/CMakeFiles/navigation_action_server.dir
 /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/CMakeFiles/navigation_client.dir
-/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/CMakeFiles/modern_teleop_controller.dir
 /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/CMakeFiles/test.dir
 /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/CMakeFiles/edit_cache.dir
 /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/CMakeFiles/rebuild_cache.dir

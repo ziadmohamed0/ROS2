@@ -29,7 +29,6 @@ add_executable(robot_status_server src/robot_status_server.cpp)
 add_executable(status_client src/status_client.cpp)
 add_executable(navigation_action_server src/navigation_action_server.cpp)
 add_executable(navigation_client src/navigation_client.cpp)
-add_executable(modern_teleop_controller src/modern_teleop_controller.cpp)
 
 ament_target_dependencies(turtlebot3_controller
 rclcpp std_msgs geometry_msgs sensor_msgs nav_msgs tf2 tf2_ros tf2_geometry_msgs)
@@ -52,17 +51,6 @@ ament_target_dependencies(navigation_client
   nav_msgs
 )
 
-ament_target_dependencies(modern_teleop_controller
-  rclcpp 
-  std_msgs 
-  geometry_msgs 
-  sensor_msgs 
-  nav_msgs 
-  tf2 
-  tf2_ros 
-  tf2_geometry_msgs
-)
-
 rosidl_get_typesupport_target(robot_status_server_typesupport ${PROJECT_NAME} "rosidl_typesupport_cpp")
 target_link_libraries(robot_status_server ${robot_status_server_typesupport})
 
@@ -81,7 +69,6 @@ install(TARGETS
   status_client
   navigation_action_server
   navigation_client
-  modern_teleop_controller
   DESTINATION lib/${PROJECT_NAME}
 )
 

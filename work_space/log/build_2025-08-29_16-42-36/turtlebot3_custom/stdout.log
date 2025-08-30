@@ -1,0 +1,7 @@
+[  1%] Built target turtlebot3_custom__cpp
+[  9%] Built target turtlebot3_custom__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target turtlebot3_controller[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/turtlebot3_controller.dir/src/turtlebot3_controller.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/modern_teleop_controller.dir/src/modern_teleop_controller.cpp.o[0m
+[ 15%] [32m[1mLinking CXX executable turtlebot3_controller[0m
+[ 15%] Built target turtlebot3_controller

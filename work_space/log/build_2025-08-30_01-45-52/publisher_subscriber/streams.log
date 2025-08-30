@@ -1,0 +1,26 @@
+[0.035s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber -- -j4 -l4
+[1.549s] [ 50%] Built target publisher
+[1.554s] [100%] Built target subscriber
+[1.576s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber -- -j4 -l4
+[1.672s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber
+[1.690s] -- Install configuration: ""
+[1.734s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/subscriber
+[1.750s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/publisher_subscriber/publisher
+[1.756s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/launch
+[1.768s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/launch/run.launch.py
+[1.777s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/package_run_dependencies/publisher_subscriber
+[1.780s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/parent_prefix_path/publisher_subscriber
+[1.783s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/ament_prefix_path.sh
+[1.783s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/ament_prefix_path.dsv
+[1.783s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/path.sh
+[1.784s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/environment/path.dsv
+[1.784s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.bash
+[1.784s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.sh
+[1.784s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.zsh
+[1.784s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/local_setup.dsv
+[1.784s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.dsv
+[1.785s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/ament_index/resource_index/packages/publisher_subscriber
+[1.792s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/cmake/publisher_subscriberConfig.cmake
+[1.792s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/cmake/publisher_subscriberConfig-version.cmake
+[1.792s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.xml
+[1.795s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber

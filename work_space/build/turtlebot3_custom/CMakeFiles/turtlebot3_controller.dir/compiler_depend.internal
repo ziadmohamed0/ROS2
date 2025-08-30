@@ -717,6 +717,7 @@ CMakeFiles/turtlebot3_controller.dir/src/turtlebot3_controller.cpp.o
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.hpp
  /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp
  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp
  /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp
