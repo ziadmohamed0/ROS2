@@ -1,0 +1,17 @@
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/lib/simple_panda_control/simple_hand_control
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/launch/simple_demo.launch.py
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/package_run_dependencies/simple_panda_control
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/parent_prefix_path/simple_panda_control
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/ament_prefix_path.sh
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/ament_prefix_path.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/path.sh
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/path.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.bash
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.sh
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.zsh
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/package.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/packages/simple_panda_control
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/cmake/simple_panda_controlConfig.cmake
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/cmake/simple_panda_controlConfig-version.cmake
+/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/package.xml

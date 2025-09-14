@@ -1,0 +1,11 @@
+[01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleHandControl::moveRobotToHand(const Point2f&)[m[K’:
+[01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control/src/simple_controller.cpp:137:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  137 | ->plan(plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K) {
+      |                                                              [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control/src/simple_controller.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.412
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.412

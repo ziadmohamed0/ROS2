@@ -1,0 +1,9 @@
+/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3/CMakeFiles/uninstall.dir
+/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3/CMakeFiles/custom_turtleBot3_uninstall.dir
+/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3/CMakeFiles/test.dir
+/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3/CMakeFiles/edit_cache.dir
+/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3/CMakeFiles/rebuild_cache.dir
+/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3/CMakeFiles/list_install_components.dir
+/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3/CMakeFiles/install.dir
+/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3/CMakeFiles/install/local.dir
+/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3/CMakeFiles/install/strip.dir

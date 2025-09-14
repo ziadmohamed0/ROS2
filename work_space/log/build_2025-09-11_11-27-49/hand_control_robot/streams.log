@@ -1,0 +1,65 @@
+[0.013s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/hand_control_robot -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot
+[0.029s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.176s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.185s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.239s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.242s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.249s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.312s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.314s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.452s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.512s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.547s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.558s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[0.585s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.598s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.755s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.786s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.794s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.818s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.858s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.890s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.002s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.037s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.061s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.102s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.210s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.211s] -- Configured cppcheck include dirs: 
+[1.211s] -- Configured cppcheck exclude dirs and/or files: 
+[1.211s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.212s] -- Added test 'lint_cmake' to check CMake code style
+[1.212s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.213s] -- Added test 'uncrustify' to check C / C++ code style
+[1.213s] -- Configured uncrustify additional arguments: 
+[1.214s] -- Added test 'xmllint' to check XML markup files
+[1.215s] -- Configuring done
+[1.255s] -- Generating done
+[1.265s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot
+[1.280s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/hand_control_robot -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot
+[1.282s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot -- -j4 -l4
+[1.334s] [35m[1mConsolidate compiler generated dependencies of target hand_control[0m
+[1.363s] [100%] Built target hand_control
+[1.376s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot -- -j4 -l4
+[1.387s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot
+[1.397s] -- Install configuration: "Release"
+[1.398s] -- Execute custom install script
+[1.398s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/lib/hand_control_robot/hand_control
+[1.399s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot//launch/hand_control.launch.py
+[1.409s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/ament_index/resource_index/package_run_dependencies/hand_control_robot
+[1.409s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/ament_index/resource_index/parent_prefix_path/hand_control_robot
+[1.410s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/ament_prefix_path.sh
+[1.410s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/ament_prefix_path.dsv
+[1.410s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/path.sh
+[1.410s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/path.dsv
+[1.411s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.bash
+[1.411s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.sh
+[1.411s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.zsh
+[1.411s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.dsv
+[1.412s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/package.dsv
+[1.422s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/ament_index/resource_index/packages/hand_control_robot
+[1.422s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/cmake/hand_control_robotConfig.cmake
+[1.422s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/cmake/hand_control_robotConfig-version.cmake
+[1.423s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/package.xml
+[1.425s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot

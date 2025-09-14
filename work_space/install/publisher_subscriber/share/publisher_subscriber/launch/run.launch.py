@@ -1,16 +1,1 @@
-from launch import LaunchDescription
-from launch_ros.actions import Node
-
-def generate_launch_description():
-    return LaunchDescription([
-        Node(
-            package='publisher_subscriber',
-            executable='publisher',
-            name='publisher'
-        ),
-        Node(
-            package='publisher_subscriber',
-            executable='subscriber',
-            name='subscriber'
-        )
-    ])
+/home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber/launch/run.launch.py

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit_task_constructor_demo/alternative_path_costs" "TARGETS" "moveit_task_constructor_demo_alternative_path_costs" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/moveit_task_constructor_demo")

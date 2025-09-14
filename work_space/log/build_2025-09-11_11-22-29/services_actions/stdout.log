@@ -1,0 +1,4 @@
+[  2%] Built target services_actions__cpp
+[ 10%] Built target services_actions__rosidl_generator_c
+[ 19%] Built target services_actions__rosidl_typesupport_cpp
+[ 27%] Built target services_actions__rosidl_typesupport_fastrtps_cpp

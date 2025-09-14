@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials/doc/examples/realtime_servo/servo_keyboard_input" "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials/doc/examples/realtime_servo/servo_cpp_interface_demo" "TARGETS" "servo_keyboard_input" "servo_cpp_interface_demo" "DESTINATION" "lib/moveit2_tutorials")

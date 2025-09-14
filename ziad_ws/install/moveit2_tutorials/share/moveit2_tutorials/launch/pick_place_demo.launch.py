@@ -1,0 +1,1 @@
+/home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit2_tutorials/doc/tutorials/pick_and_place_with_moveit_task_constructor/launch/pick_place_demo.launch.py

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/pilz_move_group" "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/pilz_mtc" "TARGETS" "pilz_move_group" "pilz_mtc" "DESTINATION" "lib/moveit2_tutorials")

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fb24470421ccd07fc8bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "publisher_subscriber",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher-Release-85ab9eb2fe0a13474494.json",
+					"name" : "publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_subscriber_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_subscriber_uninstall-Release-ee2e0c913e2c53025d34.json",
+					"name" : "publisher_subscriber_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber-Release-a81fc1de3613410b23e8.json",
+					"name" : "subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-ef4efea7f62f707b55ef.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber",
+		"source" : "/home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

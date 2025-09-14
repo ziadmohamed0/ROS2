@@ -1,0 +1,40 @@
+[01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/src/move_program.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/src/move_program.cpp:9:46:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KNode[m[K’?
+    9 | st node = std::make_shared<rclcpp::[01;31m[Knode[m[K>(
+      |                                    [01;31m[K^~~~[m[K
+      |                                    [32m[KNode[m[K
+[01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/src/move_program.cpp:9:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(const char [13], rclcpp::NodeOptions&)[m[K’
+    9 | st node = [01;31m[Kstd::make_shared<rclcpp::node>([m[K
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   10 | [01;31m[Kprogram",[m[K
+      | [01;31m[K~~~~~~~~~[m[K                                
+
+   11 | [01;31m[K::NodeOptions().automatically_declare_parameters_from_overrides(true)[m[K
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+   12 | 
+      |                                          
+
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/src/move_program.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/src/move_program.cpp:9:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 | st node = [01;31m[Kstd::make_shared<rclcpp::node>([m[K
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   10 | [01;31m[Kprogram",[m[K
+      | [01;31m[K~~~~~~~~~[m[K                                
+
+   11 | [01;31m[K::NodeOptions().automatically_declare_parameters_from_overrides(true)[m[K
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+   12 | 
+      |                                          
+
+gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

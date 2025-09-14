@@ -1,0 +1,278 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1e5494a65af02db16034.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				},
+				{
+					"build" : "turtlebot3_custom__py",
+					"jsonFile" : "directory-turtlebot3_custom__py-Release-6f5f67f9f6e417a5283f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom/turtlebot3_custom__py",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "turtlebot3_custom",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_turtlebot3_custom_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_turtlebot3_custom_egg-Release-4ba752855650ad658387.json",
+					"name" : "ament_cmake_python_build_turtlebot3_custom_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_turtlebot3_custom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_turtlebot3_custom-Release-ad068ec33fac81149ac5.json",
+					"name" : "ament_cmake_python_symlink_turtlebot3_custom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_action_server-Release-1516c6843cde50095214.json",
+					"name" : "navigation_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_client-Release-917a03f76166d1cea495.json",
+					"name" : "navigation_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_status_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_status_server-Release-291daeb4da3c47bdffb2.json",
+					"name" : "robot_status_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_client-Release-3c31122ef2b8e2e4c2d7.json",
+					"name" : "status_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_controller-Release-1808eac5ce81de0a6d79.json",
+					"name" : "turtlebot3_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom-Release-9aeb2faa5dbe7f411d8e.json",
+					"name" : "turtlebot3_custom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__cpp-Release-4ec9947a07419688f144.json",
+					"name" : "turtlebot3_custom__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "turtlebot3_custom__py::@687098ba163bed6c04c5",
+					"jsonFile" : "target-turtlebot3_custom__py-Release-59fe8caa287cfb254506.json",
+					"name" : "turtlebot3_custom__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_generator_c-Release-663e8239944a100e43ea.json",
+					"name" : "turtlebot3_custom__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_generator_py-Release-1c08d3bf5703e06facd3.json",
+					"name" : "turtlebot3_custom__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_typesupport_c-Release-bcdfa9320f4931459404.json",
+					"name" : "turtlebot3_custom__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_typesupport_c__pyext-Release-c4344e0f6774210ce386.json",
+					"name" : "turtlebot3_custom__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_typesupport_cpp-Release-a029f8ed197e188de9b1.json",
+					"name" : "turtlebot3_custom__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_typesupport_fastrtps_c-Release-f019c2da19cf525cfb6c.json",
+					"name" : "turtlebot3_custom__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext-Release-015bea806633e8542cae.json",
+					"name" : "turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_typesupport_fastrtps_cpp-Release-6fdcd34fc9f9bee86fda.json",
+					"name" : "turtlebot3_custom__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_typesupport_introspection_c-Release-1a4795004e89edc42d5c.json",
+					"name" : "turtlebot3_custom__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_typesupport_introspection_c__pyext-Release-9f5638556241e40edc87.json",
+					"name" : "turtlebot3_custom__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom__rosidl_typesupport_introspection_cpp-Release-d70f1455e0863948fe98.json",
+					"name" : "turtlebot3_custom__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_custom_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_custom_uninstall-Release-4dc6b45903aa488f4298.json",
+					"name" : "turtlebot3_custom_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-b6f5cf13282db4bebdec.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom",
+		"source" : "/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

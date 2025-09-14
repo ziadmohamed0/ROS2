@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[100%] Built target simple_controller
+-- Install configuration: "Release"
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/lib/simple_panda_control/simple_controller
+-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/lib/simple_panda_control/simple_controller" to ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/launch
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/launch/simple_demo.launch.py
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/package_run_dependencies/simple_panda_control
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/parent_prefix_path/simple_panda_control
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/ament_prefix_path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/ament_prefix_path.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/path.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.bash
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.zsh
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/package.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/packages/simple_panda_control
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/cmake/simple_panda_controlConfig.cmake
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/cmake/simple_panda_controlConfig-version.cmake
+-- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/package.xml

@@ -1,0 +1,64 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_panda_controller
+[35m[1mConsolidate compiler generated dependencies of target panda_pick_place[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/panda_pick_place.dir/src/panda_pick_place.cpp.o[0m
+[01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/custom_panda_controller/src/panda_pick_place.cpp:[m[K In member function ‘[01m[Kvoid PandaPickPlace::executePlan()[m[K’:
+[01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/custom_panda_controller/src/panda_pick_place.cpp:177:97:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  177 | ::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                    [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/custom_panda_controller/src/panda_pick_place.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable panda_pick_place[0m
+[100%] Built target panda_pick_place
+-- Install configuration: ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/lib/custom_panda_controller/panda_pick_place
+-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/lib/custom_panda_controller/panda_pick_place" to ""
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/launch
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/launch/simple_panda_demo.launch.py
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/config
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/config/panda.srdf
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/rviz
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/rviz/moveiot.rviz
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/ament_index/resource_index/package_run_dependencies/custom_panda_controller
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/ament_index/resource_index/parent_prefix_path/custom_panda_controller
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/environment/ament_prefix_path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/environment/path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/environment/path.dsv
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/local_setup.bash
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/local_setup.sh
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/local_setup.zsh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/local_setup.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/package.dsv
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/ament_index/resource_index/packages/custom_panda_controller
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/cmake/custom_panda_controllerConfig.cmake
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/cmake/custom_panda_controllerConfig-version.cmake
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/package.xml

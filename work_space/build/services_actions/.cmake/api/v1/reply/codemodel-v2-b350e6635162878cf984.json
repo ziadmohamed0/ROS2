@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-8ce8c353cbe8135d0d14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "services_actions__py",
+					"jsonFile" : "directory-services_actions__py-Release-f50da33219a7dad4381b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/services_actions__py",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "services_actions",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client-Release-75f07c063d324de516b3.json",
+					"name" : "add_two_ints_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_server-Release-e65568906820f8c14db1.json",
+					"name" : "add_two_ints_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_services_actions_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_services_actions_egg-Release-6425669a10d3a0437d7a.json",
+					"name" : "ament_cmake_python_build_services_actions_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_services_actions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_services_actions-Release-1d149086899388fc3b4a.json",
+					"name" : "ament_cmake_python_symlink_services_actions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_down_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_down_action_client-Release-d347b3e3a36edd6a1911.json",
+					"name" : "count_down_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "count_down_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count_down_action_server-Release-725fdd1d707b3453f38f.json",
+					"name" : "count_down_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions-Release-ee014705a9605ed56827.json",
+					"name" : "services_actions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__cpp-Release-f110b0becfd03ebfe18d.json",
+					"name" : "services_actions__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "services_actions__py::@12e5f86929c1ff9e2425",
+					"jsonFile" : "target-services_actions__py-Release-1233e0a1f2684cabfc82.json",
+					"name" : "services_actions__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_generator_c-Release-0b672291983d37f333df.json",
+					"name" : "services_actions__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_generator_py-Release-bd39f81a20412618da75.json",
+					"name" : "services_actions__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_typesupport_c-Release-3efc9e818a4ba40386f1.json",
+					"name" : "services_actions__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_typesupport_c__pyext-Release-83bed673af2625f75c73.json",
+					"name" : "services_actions__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_typesupport_cpp-Release-058a422ca1b1737dfea6.json",
+					"name" : "services_actions__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_typesupport_fastrtps_c-Release-5db1ada572770b6557e5.json",
+					"name" : "services_actions__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_typesupport_fastrtps_c__pyext-Release-4392f4deb073d9234f66.json",
+					"name" : "services_actions__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_typesupport_fastrtps_cpp-Release-00877d3ac95248513828.json",
+					"name" : "services_actions__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_typesupport_introspection_c-Release-046632064cbade2ce2e4.json",
+					"name" : "services_actions__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_typesupport_introspection_c__pyext-Release-c67bd843325003cd019d.json",
+					"name" : "services_actions__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions__rosidl_typesupport_introspection_cpp-Release-46a048a8e7793c4f0973.json",
+					"name" : "services_actions__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "services_actions_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-services_actions_uninstall-Release-eb7d3847488cfdda6dea.json",
+					"name" : "services_actions_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-40d5bb7cdc5356c21f12.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions",
+		"source" : "/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

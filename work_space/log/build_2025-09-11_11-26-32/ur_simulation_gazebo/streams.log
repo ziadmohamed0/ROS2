@@ -1,0 +1,12 @@
+[0.030s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/ur_simulation_gazebo
+[0.053s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.279s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.288s] -- Found launch_testing_ament_cmake: 1.0.10 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.289s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.321s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.321s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.322s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.324s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.436s] -- Configuring done
+[0.441s] -- Generating done
+[0.443s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/ur_simulation_gazebo

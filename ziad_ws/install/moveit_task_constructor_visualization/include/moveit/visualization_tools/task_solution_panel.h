@@ -1,0 +1,1 @@
+/home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/task_solution_panel.h

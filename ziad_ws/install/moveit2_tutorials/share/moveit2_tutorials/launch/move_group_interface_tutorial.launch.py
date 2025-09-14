@@ -1,0 +1,1 @@
+/home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit2_tutorials/doc/examples/move_group_interface/launch/move_group_interface_tutorial.launch.py

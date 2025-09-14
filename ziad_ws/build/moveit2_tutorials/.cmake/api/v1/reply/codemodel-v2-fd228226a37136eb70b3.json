@@ -1,0 +1,376 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fb7f477b97f6e81440b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						14
+					]
+				},
+				{
+					"build" : "doc/tutorials/quickstart_in_rviz",
+					"jsonFile" : "directory-doc.tutorials.quickstart_in_rviz-Release-b50bfdf25d4e2b88039a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/tutorials/quickstart_in_rviz"
+				},
+				{
+					"build" : "doc/tutorials/pick_and_place_with_moveit_task_constructor",
+					"jsonFile" : "directory-doc.tutorials.pick_and_place_with_moveit_task_constructor-Release-d70b7a897c3f8ef3e18c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/tutorials/pick_and_place_with_moveit_task_constructor",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "doc/examples/motion_planning_api",
+					"jsonFile" : "directory-doc.examples.motion_planning_api-Release-8c49f692b1ace94ecfec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/examples/motion_planning_api",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "doc/examples/move_group_interface",
+					"jsonFile" : "directory-doc.examples.move_group_interface-Release-c05d886db7b613401814.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/examples/move_group_interface",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "doc/examples/pilz_industrial_motion_planner",
+					"jsonFile" : "directory-doc.examples.pilz_industrial_motion_planner-Release-c200095549803a5bd532.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/examples/pilz_industrial_motion_planner",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "doc/examples/planning_scene",
+					"jsonFile" : "directory-doc.examples.planning_scene-Release-7e39943909f010fa5d50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/examples/planning_scene",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "doc/examples/planning_scene_ros_api",
+					"jsonFile" : "directory-doc.examples.planning_scene_ros_api-Release-4d958e6e96b54db50394.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/examples/planning_scene_ros_api",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "doc/examples/robot_model_and_robot_state",
+					"jsonFile" : "directory-doc.examples.robot_model_and_robot_state-Release-c579eafa4aa2e00ada6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/examples/robot_model_and_robot_state",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "doc/examples/moveit_cpp",
+					"jsonFile" : "directory-doc.examples.moveit_cpp-Release-09e18707eee173c6e79c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/examples/moveit_cpp",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "doc/examples/realtime_servo",
+					"jsonFile" : "directory-doc.examples.realtime_servo-Release-d0d591ad966b60fb9356.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/examples/realtime_servo",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "doc/how_to_guides/chomp_planner",
+					"jsonFile" : "directory-doc.how_to_guides.chomp_planner-Release-3b8e2d841148685edf69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/how_to_guides/chomp_planner"
+				},
+				{
+					"build" : "doc/how_to_guides/using_ompl_constrained_planning",
+					"jsonFile" : "directory-doc.how_to_guides.using_ompl_constrained_planning-Release-bab6c0cf6e96e27550aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc/how_to_guides/using_ompl_constrained_planning",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "moveit2_tutorials",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "minimal_mtc_tutorial::@4d7e21e888c057532d19",
+					"jsonFile" : "target-minimal_mtc_tutorial-Release-a3e07cbe47c8676bcd3b.json",
+					"name" : "minimal_mtc_tutorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "motion_planning_api_tutorial::@03bc4781c2676d925853",
+					"jsonFile" : "target-motion_planning_api_tutorial-Release-da7124a17dccfc869839.json",
+					"name" : "motion_planning_api_tutorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "move_group_interface_tutorial::@48b392b00550ccb3313e",
+					"jsonFile" : "target-move_group_interface_tutorial-Release-9a3cc7072cbec862e9f3.json",
+					"name" : "move_group_interface_tutorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit2_tutorials_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit2_tutorials_uninstall-Release-616ba44f803c8aa889d9.json",
+					"name" : "moveit2_tutorials_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "moveit_cpp_tutorial::@24a2191d4f850a4634c6",
+					"jsonFile" : "target-moveit_cpp_tutorial-Release-1a37e3a4f2451523e03d.json",
+					"name" : "moveit_cpp_tutorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mtc_tutorial::@4d7e21e888c057532d19",
+					"jsonFile" : "target-mtc_tutorial-Release-ed20709dcf6a608b03d8.json",
+					"name" : "mtc_tutorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ompl_constrained_planning::@664ca8e915128587a64e",
+					"jsonFile" : "target-ompl_constrained_planning-Release-695508586d88ea8d968a.json",
+					"name" : "ompl_constrained_planning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pilz_move_group::@8694ae961a1b546cd600",
+					"jsonFile" : "target-pilz_move_group-Release-16ca4850d6a119761f35.json",
+					"name" : "pilz_move_group",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pilz_mtc::@8694ae961a1b546cd600",
+					"jsonFile" : "target-pilz_mtc-Release-be36b46955198d9041e9.json",
+					"name" : "pilz_mtc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "planning_scene_ros_api_tutorial::@ec9567101772be98a1fe",
+					"jsonFile" : "target-planning_scene_ros_api_tutorial-Release-f5f325026aa5dcd168a0.json",
+					"name" : "planning_scene_ros_api_tutorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "planning_scene_tutorial::@52c91b70db191c947aba",
+					"jsonFile" : "target-planning_scene_tutorial-Release-8b9919bce255cb04f7df.json",
+					"name" : "planning_scene_tutorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "robot_model_and_robot_state_tutorial::@eaa1ff1a4443f988150a",
+					"jsonFile" : "target-robot_model_and_robot_state_tutorial-Release-19a7c60c826440f94dc6.json",
+					"name" : "robot_model_and_robot_state_tutorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "servo_cpp_interface_demo::@09eb06646011d32f2337",
+					"jsonFile" : "target-servo_cpp_interface_demo-Release-e1397bc93e45fee2c2b3.json",
+					"name" : "servo_cpp_interface_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "servo_keyboard_input::@09eb06646011d32f2337",
+					"jsonFile" : "target-servo_keyboard_input-Release-8d064f9f807a877f2c18.json",
+					"name" : "servo_keyboard_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-951afc360a58dee2786c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials",
+		"source" : "/home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit2_tutorials"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

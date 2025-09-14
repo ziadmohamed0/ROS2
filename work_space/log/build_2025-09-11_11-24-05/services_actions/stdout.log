@@ -1,0 +1,7 @@
+[  8%] Built target services_actions__rosidl_generator_c
+[ 10%] Built target services_actions__cpp
+[35m[1mConsolidate compiler generated dependencies of target services_actions__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target services_actions__rosidl_typesupport_fastrtps_c[0m
+[ 19%] Built target services_actions__rosidl_typesupport_c
+[ 27%] Built target services_actions__rosidl_typesupport_introspection_c
+[ 36%] Built target services_actions__rosidl_typesupport_fastrtps_c

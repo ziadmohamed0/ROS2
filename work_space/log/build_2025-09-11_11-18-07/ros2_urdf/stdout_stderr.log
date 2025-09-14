@@ -1,0 +1,24 @@
+[100%] Built target move_to_goal
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/lib/ros2_urdf/move_to_goal
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/urdf/simple_robot.urdf
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/urdf/three_wheeled_robot.urdf
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/launch/display_simple_robot_rviz2.launch.py
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/launch/display_three_wheel_robot_rviz2.launch.py
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/launch/simulation.launch.py
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/package_run_dependencies/ros2_urdf
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/parent_prefix_path/ros2_urdf
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/ament_prefix_path.sh
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/path.sh
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/environment/path.dsv
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.bash
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.sh
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.zsh
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/local_setup.dsv
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.dsv
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ament_index/resource_index/packages/ros2_urdf
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/cmake/ros2_urdfConfig.cmake
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/cmake/ros2_urdfConfig-version.cmake
+-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.xml

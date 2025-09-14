@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "doc/examples/motion_planning_api",
+		"source" : "doc/examples/motion_planning_api"
+	}
+}

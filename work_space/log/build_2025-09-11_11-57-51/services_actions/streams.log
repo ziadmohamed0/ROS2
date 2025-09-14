@@ -1,0 +1,54 @@
+[0.048s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/services_actions -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions
+[0.079s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.359s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.374s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.436s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.441s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.452s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.477s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.508s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.576s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.580s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.814s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.934s] -- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.004s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.656s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.435s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.486s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.516s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.516s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.516s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.574s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.595s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.597s] -- Configured cppcheck include dirs: 
+[2.597s] -- Configured cppcheck exclude dirs and/or files: 
+[2.598s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.599s] -- Added test 'lint_cmake' to check CMake code style
+[2.599s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.601s] -- Added test 'uncrustify' to check C / C++ code style
+[2.602s] -- Configured uncrustify additional arguments: 
+[2.602s] -- Added test 'xmllint' to check XML markup files
+[2.609s] -- Configuring done
+[2.709s] -- Generating done
+[2.733s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/services_actions
+[2.751s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/services_actions -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions
+[2.754s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/services_actions -- -j4 -l4
+[2.815s] [35m[1mConsolidate compiler generated dependencies of target services_actions__rosidl_generator_c[0m
+[2.838s] [  2%] Built target services_actions__cpp
+[2.839s] [ 10%] Built target services_actions__rosidl_generator_c
+[2.849s] failed to create symbolic link '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_python/services_actions/services_actions' because existing path cannot be removed: Is a directory
+[2.852s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_services_actions.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_services_actions] Error 1
+[2.853s] gmake[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/ament_cmake_python_symlink_services_actions.dir/all] Error 2
+[2.853s] gmake[1]: *** Waiting for unfinished jobs....
+[2.859s] [35m[1mConsolidate compiler generated dependencies of target services_actions__rosidl_typesupport_fastrtps_cpp[0m
+[2.861s] [35m[1mConsolidate compiler generated dependencies of target services_actions__rosidl_typesupport_cpp[0m
+[2.870s] [35m[1mConsolidate compiler generated dependencies of target services_actions__rosidl_typesupport_introspection_cpp[0m
+[2.897s] [ 12%] [32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/services_actions/srv/detail/add_two_int__type_support.cpp.o[0m
+[2.898s] [ 21%] Built target services_actions__rosidl_typesupport_cpp
+[2.908s] [ 29%] Built target services_actions__rosidl_typesupport_fastrtps_cpp
+[2.915s] [ 31%] [32mBuilding CXX object CMakeFiles/services_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/services_actions/action/detail/countdown__type_support.cpp.o[0m
+[4.082s] [ 34%] [32m[1mLinking CXX shared library libservices_actions__rosidl_typesupport_introspection_cpp.so[0m
+[4.178s] [ 36%] Built target services_actions__rosidl_typesupport_introspection_cpp
+[4.180s] gmake: *** [Makefile:146: all] Error 2
+[4.183s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/services_actions -- -j4 -l4

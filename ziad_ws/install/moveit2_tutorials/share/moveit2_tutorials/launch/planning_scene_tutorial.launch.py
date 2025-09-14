@@ -1,0 +1,1 @@
+/home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit2_tutorials/doc/examples/planning_scene/launch/planning_scene_tutorial.launch.py

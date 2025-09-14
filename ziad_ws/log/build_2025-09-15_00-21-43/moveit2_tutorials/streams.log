@@ -1,0 +1,61 @@
+[0.024s] Invoking command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit2_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials
+[0.408s] -- The C compiler identification is GNU 11.4.0
+[0.573s] -- The CXX compiler identification is GNU 11.4.0
+[0.587s] -- Detecting C compiler ABI info
+[0.719s] -- Detecting C compiler ABI info - done
+[0.735s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.735s] -- Detecting C compile features
+[0.736s] -- Detecting C compile features - done
+[0.741s] -- Detecting CXX compiler ABI info
+[0.856s] -- Detecting CXX compiler ABI info - done
+[0.866s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.866s] -- Detecting CXX compile features
+[0.867s] -- Detecting CXX compile features - done
+[0.872s] -- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)
+[0.884s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.500s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.588s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.774s] [0mmoveit2_tutorials: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[3.193s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[3.198s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[3.265s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.280s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.290s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.560s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[3.583s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.658s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.719s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.723s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.839s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.874s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.932s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.948s] -- Found Threads: TRUE  
+[4.013s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.046s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.162s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.232s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.232s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.528s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[4.529s]   By not providing "Findmoveit_task_constructor_core.cmake" in
+[4.529s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[4.529s]   configuration file provided by "moveit_task_constructor_core", but CMake
+[4.529s]   did not find one.
+[4.529s] 
+[4.529s]   Could not find a package configuration file provided by
+[4.529s]   "moveit_task_constructor_core" with any of the following names:
+[4.529s] 
+[4.530s]     moveit_task_constructor_coreConfig.cmake
+[4.530s]     moveit_task_constructor_core-config.cmake
+[4.530s] 
+[4.530s]   Add the installation prefix of "moveit_task_constructor_core" to
+[4.530s]   CMAKE_PREFIX_PATH or set "moveit_task_constructor_core_DIR" to a directory
+[4.530s]   containing one of the above files.  If "moveit_task_constructor_core"
+[4.530s]   provides a separate development package or SDK, be sure it has been
+[4.530s]   installed.
+[4.530s] 
+[4.530s] [0m
+[4.531s] -- Configuring incomplete, errors occurred!
+[4.531s] See also "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials/CMakeFiles/CMakeOutput.log".
+[4.547s] Invoked command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit2_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials

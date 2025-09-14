@@ -1,0 +1,4 @@
+Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo -- -j4 -l4
+Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo -- -j4 -l4
+Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo
+Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo

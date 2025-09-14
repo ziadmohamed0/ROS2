@@ -1,0 +1,27 @@
+[0.022s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot -- -j4 -l4
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target hand_control[0m
+[0.183s] [ 50%] [32mBuilding CXX object CMakeFiles/hand_control.dir/src/hand_control.cpp.o[0m
+[11.848s] [100%] [32m[1mLinking CXX executable hand_control[0m
+[12.418s] [100%] Built target hand_control
+[12.431s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot -- -j4 -l4
+[12.444s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot
+[12.452s] -- Install configuration: "Release"
+[12.452s] -- Execute custom install script
+[12.453s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/lib/hand_control_robot/hand_control
+[12.454s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot//launch/hand_control.launch.py
+[12.454s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/ament_index/resource_index/package_run_dependencies/hand_control_robot
+[12.454s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/ament_index/resource_index/parent_prefix_path/hand_control_robot
+[12.454s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/ament_prefix_path.sh
+[12.455s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/ament_prefix_path.dsv
+[12.455s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/path.sh
+[12.455s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/path.dsv
+[12.455s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.bash
+[12.455s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.sh
+[12.456s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.zsh
+[12.456s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.dsv
+[12.456s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/package.dsv
+[12.466s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/ament_index/resource_index/packages/hand_control_robot
+[12.467s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/cmake/hand_control_robotConfig.cmake
+[12.467s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/cmake/hand_control_robotConfig-version.cmake
+[12.467s] -- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/package.xml
+[12.470s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot

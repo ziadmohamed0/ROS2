@@ -1,0 +1,274 @@
+[0.000000] (-) TimerEvent: {}
+[0.001282] (bt_demo) JobQueued: {'identifier': 'bt_demo', 'dependencies': OrderedDict()}
+[0.001342] (move_program) JobQueued: {'identifier': 'move_program', 'dependencies': OrderedDict()}
+[0.001395] (bt_demo) JobStarted: {'identifier': 'bt_demo'}
+[0.037919] (move_program) JobStarted: {'identifier': 'move_program'}
+[0.052521] (bt_demo) JobProgress: {'identifier': 'bt_demo', 'progress': 'cmake'}
+[0.053918] (bt_demo) JobProgress: {'identifier': 'bt_demo', 'progress': 'build'}
+[0.054866] (bt_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo', '--', '-j4', '-l4'], 'cwd': '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15537'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:13925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1506,unix/ziadfathy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '2871e8f4e9a341ef9406b3e1aeca2948'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T17PC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ccc532e0-9b75-4806-a69e-9fec6adafcba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.059409] (move_program) JobProgress: {'identifier': 'move_program', 'progress': 'cmake'}
+[0.072185] (move_program) JobProgress: {'identifier': 'move_program', 'progress': 'build'}
+[0.072350] (move_program) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program', '--', '-j4', '-l4'], 'cwd': '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15537'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:13925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1506,unix/ziadfathy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '2871e8f4e9a341ef9406b3e1aeca2948'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T17PC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ccc532e0-9b75-4806-a69e-9fec6adafcba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098662] (-) TimerEvent: {}
+[0.200588] (-) TimerEvent: {}
+[0.258640] (move_program) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target move_program\x1b[0m\n'}
+[0.301582] (-) TimerEvent: {}
+[0.302750] (bt_demo) StdoutLine: {'line': b'[100%] Built target bt_main\n'}
+[0.322535] (move_program) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_program.dir/src/move_program.cpp.o\x1b[0m\n'}
+[0.332076] (bt_demo) CommandEnded: {'returncode': 0}
+[0.338099] (bt_demo) JobProgress: {'identifier': 'bt_demo', 'progress': 'install'}
+[0.357114] (bt_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo'], 'cwd': '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15537'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:13925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1506,unix/ziadfathy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '2871e8f4e9a341ef9406b3e1aeca2948'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T17PC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ccc532e0-9b75-4806-a69e-9fec6adafcba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.379622] (bt_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.383855] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/lib/bt_demo/bt_main\n'}
+[0.386319] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/my_tree.xml\n'}
+[0.387132] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/ament_index/resource_index/package_run_dependencies/bt_demo\n'}
+[0.387385] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/ament_index/resource_index/parent_prefix_path/bt_demo\n'}
+[0.388141] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/ament_prefix_path.sh\n'}
+[0.388346] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/ament_prefix_path.dsv\n'}
+[0.388636] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/path.sh\n'}
+[0.388790] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/path.dsv\n'}
+[0.388928] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.bash\n'}
+[0.389077] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.sh\n'}
+[0.389228] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.zsh\n'}
+[0.389426] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.dsv\n'}
+[0.389687] (bt_demo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/package.dsv\n'}
+[0.389840] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/ament_index/resource_index/packages/bt_demo\n'}
+[0.390064] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/cmake/bt_demoConfig.cmake\n'}
+[0.390201] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/cmake/bt_demoConfig-version.cmake\n'}
+[0.390443] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/package.xml\n'}
+[0.396735] (bt_demo) CommandEnded: {'returncode': 0}
+[0.401728] (-) TimerEvent: {}
+[0.455954] (bt_demo) JobEnded: {'identifier': 'bt_demo', 'rc': 0}
+[0.501850] (-) TimerEvent: {}
+[0.602145] (-) TimerEvent: {}
+[0.702511] (-) TimerEvent: {}
+[0.802837] (-) TimerEvent: {}
+[0.903137] (-) TimerEvent: {}
+[1.003532] (-) TimerEvent: {}
+[1.104436] (-) TimerEvent: {}
+[1.204882] (-) TimerEvent: {}
+[1.305428] (-) TimerEvent: {}
+[1.405768] (-) TimerEvent: {}
+[1.506075] (-) TimerEvent: {}
+[1.606388] (-) TimerEvent: {}
+[1.706985] (-) TimerEvent: {}
+[1.807355] (-) TimerEvent: {}
+[1.907720] (-) TimerEvent: {}
+[2.008048] (-) TimerEvent: {}
+[2.108406] (-) TimerEvent: {}
+[2.208762] (-) TimerEvent: {}
+[2.309052] (-) TimerEvent: {}
+[2.409885] (-) TimerEvent: {}
+[2.510548] (-) TimerEvent: {}
+[2.614708] (-) TimerEvent: {}
+[2.716012] (-) TimerEvent: {}
+[2.817610] (-) TimerEvent: {}
+[2.918000] (-) TimerEvent: {}
+[3.018670] (-) TimerEvent: {}
+[3.119048] (-) TimerEvent: {}
+[3.219347] (-) TimerEvent: {}
+[3.319838] (-) TimerEvent: {}
+[3.420396] (-) TimerEvent: {}
+[3.520788] (-) TimerEvent: {}
+[3.621069] (-) TimerEvent: {}
+[3.721396] (-) TimerEvent: {}
+[3.821736] (-) TimerEvent: {}
+[3.922111] (-) TimerEvent: {}
+[4.022491] (-) TimerEvent: {}
+[4.122917] (-) TimerEvent: {}
+[4.223956] (-) TimerEvent: {}
+[4.324388] (-) TimerEvent: {}
+[4.424702] (-) TimerEvent: {}
+[4.525180] (-) TimerEvent: {}
+[4.625458] (-) TimerEvent: {}
+[4.725958] (-) TimerEvent: {}
+[4.826320] (-) TimerEvent: {}
+[4.926701] (-) TimerEvent: {}
+[5.027108] (-) TimerEvent: {}
+[5.127479] (-) TimerEvent: {}
+[5.227916] (-) TimerEvent: {}
+[5.328281] (-) TimerEvent: {}
+[5.428582] (-) TimerEvent: {}
+[5.528904] (-) TimerEvent: {}
+[5.629252] (-) TimerEvent: {}
+[5.729670] (-) TimerEvent: {}
+[5.830049] (-) TimerEvent: {}
+[5.930760] (-) TimerEvent: {}
+[6.031877] (-) TimerEvent: {}
+[6.132171] (-) TimerEvent: {}
+[6.233092] (-) TimerEvent: {}
+[6.333892] (-) TimerEvent: {}
+[6.434314] (-) TimerEvent: {}
+[6.534840] (-) TimerEvent: {}
+[6.635190] (-) TimerEvent: {}
+[6.735515] (-) TimerEvent: {}
+[6.835861] (-) TimerEvent: {}
+[6.937514] (-) TimerEvent: {}
+[7.037851] (-) TimerEvent: {}
+[7.138217] (-) TimerEvent: {}
+[7.238666] (-) TimerEvent: {}
+[7.339033] (-) TimerEvent: {}
+[7.439392] (-) TimerEvent: {}
+[7.539783] (-) TimerEvent: {}
+[7.640122] (-) TimerEvent: {}
+[7.740448] (-) TimerEvent: {}
+[7.840759] (-) TimerEvent: {}
+[7.941064] (-) TimerEvent: {}
+[8.041400] (-) TimerEvent: {}
+[8.141759] (-) TimerEvent: {}
+[8.242133] (-) TimerEvent: {}
+[8.342450] (-) TimerEvent: {}
+[8.442804] (-) TimerEvent: {}
+[8.543172] (-) TimerEvent: {}
+[8.643551] (-) TimerEvent: {}
+[8.744877] (-) TimerEvent: {}
+[8.847076] (-) TimerEvent: {}
+[8.950617] (-) TimerEvent: {}
+[9.051846] (-) TimerEvent: {}
+[9.152185] (-) TimerEvent: {}
+[9.252767] (-) TimerEvent: {}
+[9.353175] (-) TimerEvent: {}
+[9.453672] (-) TimerEvent: {}
+[9.554003] (-) TimerEvent: {}
+[9.654327] (-) TimerEvent: {}
+[9.754660] (-) TimerEvent: {}
+[9.855076] (-) TimerEvent: {}
+[9.955458] (-) TimerEvent: {}
+[10.055853] (-) TimerEvent: {}
+[10.156182] (-) TimerEvent: {}
+[10.256580] (-) TimerEvent: {}
+[10.356942] (-) TimerEvent: {}
+[10.457290] (-) TimerEvent: {}
+[10.557641] (-) TimerEvent: {}
+[10.657970] (-) TimerEvent: {}
+[10.758284] (-) TimerEvent: {}
+[10.858603] (-) TimerEvent: {}
+[10.958949] (-) TimerEvent: {}
+[11.059250] (-) TimerEvent: {}
+[11.159559] (-) TimerEvent: {}
+[11.259883] (-) TimerEvent: {}
+[11.360249] (-) TimerEvent: {}
+[11.460735] (-) TimerEvent: {}
+[11.563639] (-) TimerEvent: {}
+[11.667629] (-) TimerEvent: {}
+[11.770300] (-) TimerEvent: {}
+[11.871534] (-) TimerEvent: {}
+[11.973557] (-) TimerEvent: {}
+[12.074045] (-) TimerEvent: {}
+[12.175480] (-) TimerEvent: {}
+[12.276477] (-) TimerEvent: {}
+[12.377025] (-) TimerEvent: {}
+[12.477462] (-) TimerEvent: {}
+[12.577942] (-) TimerEvent: {}
+[12.678284] (-) TimerEvent: {}
+[12.778635] (-) TimerEvent: {}
+[12.879098] (-) TimerEvent: {}
+[12.979664] (-) TimerEvent: {}
+[13.080211] (-) TimerEvent: {}
+[13.180548] (-) TimerEvent: {}
+[13.280902] (-) TimerEvent: {}
+[13.381271] (-) TimerEvent: {}
+[13.482131] (-) TimerEvent: {}
+[13.582454] (-) TimerEvent: {}
+[13.682908] (-) TimerEvent: {}
+[13.783463] (-) TimerEvent: {}
+[13.883787] (-) TimerEvent: {}
+[13.984105] (-) TimerEvent: {}
+[14.085281] (-) TimerEvent: {}
+[14.186605] (-) TimerEvent: {}
+[14.293721] (-) TimerEvent: {}
+[14.394193] (-) TimerEvent: {}
+[14.496101] (-) TimerEvent: {}
+[14.596845] (-) TimerEvent: {}
+[14.699518] (-) TimerEvent: {}
+[14.801526] (-) TimerEvent: {}
+[14.902525] (-) TimerEvent: {}
+[15.005980] (-) TimerEvent: {}
+[15.106586] (-) TimerEvent: {}
+[15.212417] (-) TimerEvent: {}
+[15.313535] (-) TimerEvent: {}
+[15.414510] (-) TimerEvent: {}
+[15.515334] (-) TimerEvent: {}
+[15.615806] (-) TimerEvent: {}
+[15.716677] (-) TimerEvent: {}
+[15.817176] (-) TimerEvent: {}
+[15.918293] (-) TimerEvent: {}
+[16.019080] (-) TimerEvent: {}
+[16.119750] (-) TimerEvent: {}
+[16.221012] (-) TimerEvent: {}
+[16.322654] (-) TimerEvent: {}
+[16.425357] (-) TimerEvent: {}
+[16.526475] (-) TimerEvent: {}
+[16.627483] (-) TimerEvent: {}
+[16.729220] (-) TimerEvent: {}
+[16.831478] (-) TimerEvent: {}
+[16.934336] (-) TimerEvent: {}
+[17.034898] (-) TimerEvent: {}
+[17.135500] (-) TimerEvent: {}
+[17.236300] (-) TimerEvent: {}
+[17.336806] (-) TimerEvent: {}
+[17.437167] (-) TimerEvent: {}
+[17.537581] (-) TimerEvent: {}
+[17.638066] (-) TimerEvent: {}
+[17.738593] (-) TimerEvent: {}
+[17.840457] (-) TimerEvent: {}
+[17.940876] (-) TimerEvent: {}
+[18.043108] (-) TimerEvent: {}
+[18.146190] (-) TimerEvent: {}
+[18.248518] (-) TimerEvent: {}
+[18.350586] (-) TimerEvent: {}
+[18.451425] (-) TimerEvent: {}
+[18.552496] (-) TimerEvent: {}
+[18.652864] (-) TimerEvent: {}
+[18.753300] (-) TimerEvent: {}
+[18.853727] (-) TimerEvent: {}
+[18.954174] (-) TimerEvent: {}
+[19.056471] (-) TimerEvent: {}
+[19.156875] (-) TimerEvent: {}
+[19.257344] (-) TimerEvent: {}
+[19.357733] (-) TimerEvent: {}
+[19.458090] (-) TimerEvent: {}
+[19.558462] (-) TimerEvent: {}
+[19.658957] (-) TimerEvent: {}
+[19.759407] (-) TimerEvent: {}
+[19.859754] (-) TimerEvent: {}
+[19.960157] (-) TimerEvent: {}
+[20.061233] (-) TimerEvent: {}
+[20.161816] (-) TimerEvent: {}
+[20.262118] (-) TimerEvent: {}
+[20.362602] (-) TimerEvent: {}
+[20.463494] (-) TimerEvent: {}
+[20.563800] (-) TimerEvent: {}
+[20.592592] (move_program) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable move_program\x1b[0m\n'}
+[20.663937] (-) TimerEvent: {}
+[20.764251] (-) TimerEvent: {}
+[20.864568] (-) TimerEvent: {}
+[20.964902] (-) TimerEvent: {}
+[21.065305] (-) TimerEvent: {}
+[21.165624] (-) TimerEvent: {}
+[21.250147] (move_program) StdoutLine: {'line': b'[100%] Built target move_program\n'}
+[21.264999] (move_program) CommandEnded: {'returncode': 0}
+[21.266067] (-) TimerEvent: {}
+[21.266940] (move_program) JobProgress: {'identifier': 'move_program', 'progress': 'install'}
+[21.267871] (move_program) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program'], 'cwd': '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15537'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:13925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1506,unix/ziadfathy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '2871e8f4e9a341ef9406b3e1aeca2948'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T17PC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ccc532e0-9b75-4806-a69e-9fec6adafcba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.280053] (move_program) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.280938] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/lib/move_program/move_program\n'}
+[21.282087] (move_program) StdoutLine: {'line': b'-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/lib/move_program/move_program" to ""\n'}
+[21.283020] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/ament_index/resource_index/package_run_dependencies/move_program\n'}
+[21.283496] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/ament_index/resource_index/parent_prefix_path/move_program\n'}
+[21.284877] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/environment/ament_prefix_path.sh\n'}
+[21.285382] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/environment/ament_prefix_path.dsv\n'}
+[21.285724] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/environment/path.sh\n'}
+[21.286053] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/environment/path.dsv\n'}
+[21.286379] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/local_setup.bash\n'}
+[21.286710] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/local_setup.sh\n'}
+[21.287009] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/local_setup.zsh\n'}
+[21.287270] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/local_setup.dsv\n'}
+[21.287559] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/package.dsv\n'}
+[21.288060] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/ament_index/resource_index/packages/move_program\n'}
+[21.288316] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/cmake/move_programConfig.cmake\n'}
+[21.288642] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/cmake/move_programConfig-version.cmake\n'}
+[21.288948] (move_program) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/package.xml\n'}
+[21.291300] (move_program) CommandEnded: {'returncode': 0}
+[21.317964] (move_program) JobEnded: {'identifier': 'move_program', 'rc': 0}
+[21.318846] (-) EventReactorShutdown: {}

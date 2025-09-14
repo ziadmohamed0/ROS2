@@ -1,0 +1,4 @@
+WARNING: Package name "custom_turtleBot3" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0mCMake Error: Cannot determine link language for target "controller".[0m
+[0mCMake Error: CMake can not determine linker language for target: controller[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

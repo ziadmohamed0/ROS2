@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "doc/examples/moveit_cpp",
+		"source" : "doc/examples/moveit_cpp"
+	}
+}

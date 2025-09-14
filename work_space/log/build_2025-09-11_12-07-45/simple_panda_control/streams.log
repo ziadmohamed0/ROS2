@@ -1,0 +1,74 @@
+[0.043s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control -- -j4 -l4
+[0.072s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.264s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.317s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.320s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.327s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.341s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.395s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.397s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.545s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.605s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[0.625s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.658s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.668s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.694s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.756s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.825s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.099s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.107s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.129s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.165s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.191s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.243s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.270s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.412s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.412s] -- Configured cppcheck include dirs: 
+[1.412s] -- Configured cppcheck exclude dirs and/or files: 
+[1.413s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.413s] -- Added test 'lint_cmake' to check CMake code style
+[1.414s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.415s] -- Added test 'uncrustify' to check C / C++ code style
+[1.415s] -- Configured uncrustify additional arguments: 
+[1.416s] -- Added test 'xmllint' to check XML markup files
+[1.417s] -- Configuring done
+[1.480s] -- Generating done
+[1.491s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control
+[1.543s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_hand_control.dir/src/simple_controller.cpp.o[0m
+[10.338s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleHandControl::moveRobotToHand(const Point2f&)[m[K’:
+[10.338s] [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control/src/simple_controller.cpp:137:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.338s]   137 | ->plan(plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K) {
+[10.338s]       |                                                              [01;35m[K^~~~~~~[m[K
+[10.338s] 
+[10.338s] In file included from [01m[K/home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control/src/simple_controller.cpp:3[m[K:
+[10.338s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.338s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[10.338s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[23.364s] [100%] [32m[1mLinking CXX executable simple_hand_control[0m
+[25.058s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.412
+[25.060s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.412
+[25.857s] [100%] Built target simple_hand_control
+[25.872s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control -- -j4 -l4
+[25.884s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control
+[25.893s] -- Install configuration: "Release"
+[25.893s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/lib/simple_panda_control/simple_hand_control
+[25.894s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/lib/simple_panda_control/simple_hand_control" to ""
+[25.894s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/launch
+[25.895s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/launch/simple_demo.launch.py
+[25.895s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/package_run_dependencies/simple_panda_control
+[25.895s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/parent_prefix_path/simple_panda_control
+[25.895s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/ament_prefix_path.sh
+[25.896s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/ament_prefix_path.dsv
+[25.896s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/path.sh
+[25.896s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/path.dsv
+[25.896s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.bash
+[25.896s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.sh
+[25.896s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.zsh
+[25.896s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.dsv
+[25.896s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/package.dsv
+[25.897s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/packages/simple_panda_control
+[25.897s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/cmake/simple_panda_controlConfig.cmake
+[25.897s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/cmake/simple_panda_controlConfig-version.cmake
+[25.897s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/package.xml
+[25.899s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control

@@ -1,0 +1,28 @@
+[0.033s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control -- -j4 -l4
+[0.196s] [35m[1mConsolidate compiler generated dependencies of target simple_hand_control[0m
+[0.243s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_hand_control.dir/src/simple_controller.cpp.o[0m
+[14.838s] [100%] [32m[1mLinking CXX executable simple_hand_control[0m
+[15.534s] [100%] Built target simple_hand_control
+[15.548s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control -- -j4 -l4
+[15.563s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control
+[15.573s] -- Install configuration: "Release"
+[15.574s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/lib/simple_panda_control/simple_hand_control
+[15.575s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/lib/simple_panda_control/simple_hand_control" to ""
+[15.575s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/launch
+[15.575s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/launch/simple_demo.launch.py
+[15.575s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/package_run_dependencies/simple_panda_control
+[15.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/parent_prefix_path/simple_panda_control
+[15.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/ament_prefix_path.sh
+[15.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/ament_prefix_path.dsv
+[15.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/path.sh
+[15.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/path.dsv
+[15.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.bash
+[15.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.sh
+[15.576s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.zsh
+[15.577s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.dsv
+[15.577s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/package.dsv
+[15.577s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/packages/simple_panda_control
+[15.577s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/cmake/simple_panda_controlConfig.cmake
+[15.577s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/cmake/simple_panda_controlConfig-version.cmake
+[15.577s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/package.xml
+[15.580s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control

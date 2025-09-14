@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target panda_pick_place[0m
+[100%] Built target panda_pick_place
+-- Install configuration: ""
+-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/lib/custom_panda_controller/panda_pick_place
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/launch
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/ament_index/resource_index/package_run_dependencies/custom_panda_controller
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/ament_index/resource_index/parent_prefix_path/custom_panda_controller
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/environment/ament_prefix_path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/environment/path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/environment/path.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/local_setup.bash
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/local_setup.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/local_setup.zsh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/local_setup.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/package.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/ament_index/resource_index/packages/custom_panda_controller
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/cmake/custom_panda_controllerConfig.cmake
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/cmake/custom_panda_controllerConfig-version.cmake
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller/share/custom_panda_controller/package.xml

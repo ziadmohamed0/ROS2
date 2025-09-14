@@ -1,0 +1,1 @@
+Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control

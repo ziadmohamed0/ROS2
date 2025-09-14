@@ -1,0 +1,167 @@
+[0.046s] Invoking command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake CMAKE_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_turtleBot3:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit2_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials
+[0.090s] -- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)
+[0.092s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.358s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.563s] [0mmoveit2_tutorials: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.589s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[0.595s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.680s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.689s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.704s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.726s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.040s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[1.056s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.130s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.193s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.203s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.416s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.515s] -- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.565s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.647s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.764s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.236s] -- Found moveit_task_constructor_core: 0.1.3 (/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[2.264s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.349s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.386s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.452s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.634s] -- Found moveit_ros_perception: 2.5.9 (/opt/ros/humble/share/moveit_ros_perception/cmake)
+[2.647s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[2.683s] -- Found moveit_servo: 2.5.9 (/opt/ros/humble/share/moveit_servo/cmake)
+[2.800s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[2.811s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[2.910s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.933s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.939s] -- Found OGRE
+[2.939s] --   static     : OFF
+[2.939s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.940s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.940s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.940s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.940s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.940s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.940s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.941s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.941s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.941s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.941s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.019s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.040s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.266s] -- Found X11: /usr/include   
+[3.266s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.473s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.474s] -- Looking for gethostbyname
+[3.668s] -- Looking for gethostbyname - found
+[3.668s] -- Looking for connect
+[3.858s] -- Looking for connect - found
+[3.860s] -- Looking for remove
+[4.058s] -- Looking for remove - found
+[4.058s] -- Looking for shmat
+[4.266s] -- Looking for shmat - found
+[4.266s] -- Looking for IceConnectionNumber in ICE
+[4.464s] -- Looking for IceConnectionNumber in ICE - found
+[4.681s] -- Found moveit_visual_tools: 4.1.2 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[5.067s] -- Configuring done
+[5.668s] -- Generating done
+[5.939s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials
+[6.007s] Invoked command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake CMAKE_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_turtleBot3:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit2_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials
+[6.013s] Invoking command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake CMAKE_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_turtleBot3:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials -- -j4 -l4
+[6.147s] [  3%] [32mBuilding CXX object doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src/motion_planning_api_tutorial.cpp.o[0m
+[6.150s] [  7%] [32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/minimal_mtc_tutorial.dir/src/minimal.cpp.o[0m
+[6.166s] [ 11%] [32mBuilding CXX object doc/examples/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o[0m
+[6.169s] [ 15%] [32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/mtc_tutorial.dir/src/mtc_node.cpp.o[0m
+[73.838s] [ 19%] [32m[1mLinking CXX executable mtc_tutorial[0m
+[78.317s] [ 19%] Built target mtc_tutorial
+[236.504s] [ 23%] [32m[1mLinking CXX executable minimal_mtc_tutorial[0m
+[238.167s] [ 23%] Built target minimal_mtc_tutorial
+[266.694s] [ 26%] [32m[1mLinking CXX executable motion_planning_api_tutorial[0m
+[268.499s] [ 26%] Built target motion_planning_api_tutorial
+[273.094s] [ 30%] [32m[1mLinking CXX executable move_group_interface_tutorial[0m
+[274.841s] [ 30%] Built target move_group_interface_tutorial
+[274.909s] [ 34%] [32mBuilding CXX object doc/examples/planning_scene/CMakeFiles/planning_scene_tutorial.dir/src/planning_scene_tutorial.cpp.o[0m
+[297.629s] [ 38%] [32m[1mLinking CXX executable planning_scene_tutorial[0m
+[298.937s] [ 38%] Built target planning_scene_tutorial
+[299.001s] [ 42%] [32mBuilding CXX object doc/examples/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.dir/src/planning_scene_ros_api_tutorial.cpp.o[0m
+[329.718s] [ 46%] [32m[1mLinking CXX executable planning_scene_ros_api_tutorial[0m
+[330.955s] [ 46%] Built target planning_scene_ros_api_tutorial
+[331.017s] [ 50%] [32mBuilding CXX object doc/examples/robot_model_and_robot_state/CMakeFiles/robot_model_and_robot_state_tutorial.dir/src/robot_model_and_robot_state_tutorial.cpp.o[0m
+[348.081s] [ 53%] [32m[1mLinking CXX executable robot_model_and_robot_state_tutorial[0m
+[349.556s] [ 53%] Built target robot_model_and_robot_state_tutorial
+[349.593s] [ 57%] [32mBuilding CXX object doc/examples/moveit_cpp/CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o[0m
+[385.050s] [ 61%] [32m[1mLinking CXX executable moveit_cpp_tutorial[0m
+[386.456s] [ 61%] Built target moveit_cpp_tutorial
+[386.502s] [ 65%] [32mBuilding CXX object doc/examples/realtime_servo/CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o[0m
+[402.190s] [ 69%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[405.295s] [ 69%] Built target servo_keyboard_input
+[405.340s] [ 73%] [32mBuilding CXX object doc/examples/realtime_servo/CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o[0m
+[457.078s] [ 76%] [32m[1mLinking CXX executable servo_cpp_interface_demo[0m
+[458.306s] [ 76%] Built target servo_cpp_interface_demo
+[458.347s] [ 80%] [32mBuilding CXX object doc/how_to_guides/using_ompl_constrained_planning/CMakeFiles/ompl_constrained_planning.dir/src/ompl_constrained_planning_tutorial.cpp.o[0m
+[487.479s] [ 84%] [32m[1mLinking CXX executable ompl_constrained_planning[0m
+[488.769s] [ 84%] Built target ompl_constrained_planning
+[488.810s] [ 88%] [32mBuilding CXX object doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_mtc.dir/src/pilz_mtc.cpp.o[0m
+[505.462s] [ 92%] [32m[1mLinking CXX executable pilz_mtc[0m
+[506.240s] [ 92%] Built target pilz_mtc
+[506.280s] [ 96%] [32mBuilding CXX object doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_move_group.dir/src/pilz_move_group.cpp.o[0m
+[527.943s] [100%] [32m[1mLinking CXX executable pilz_move_group[0m
+[529.206s] [100%] Built target pilz_move_group
+[529.270s] Invoked command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake CMAKE_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_turtleBot3:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials -- -j4 -l4
+[529.276s] Invoking command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake CMAKE_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_turtleBot3:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials
+[529.292s] -- Install configuration: "Release"
+[529.294s] -- Execute custom install script
+[529.296s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/demo.launch.py
+[529.314s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_hello_moveit.rviz
+[529.324s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo.rviz
+[529.343s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo_empty.rviz
+[529.362s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/mtc_tutorial
+[529.373s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/minimal_mtc_tutorial
+[529.391s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc.rviz
+[529.408s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc_demo.launch.py
+[529.418s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc_demo_minimal.launch.py
+[529.437s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/pick_place_demo.launch.py
+[529.448s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial
+[529.466s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/motion_planning_api_tutorial.launch.py
+[529.484s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial
+[529.504s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.launch.py
+[529.514s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.rviz
+[529.534s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group_interface_tutorial.launch.py
+[529.552s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_move_group
+[529.566s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_mtc
+[529.584s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/pilz_mtc.launch.py
+[529.605s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial
+[529.617s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_tutorial.launch.py
+[529.638s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial
+[529.657s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_ros_api_tutorial.launch.py
+[529.675s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial
+[529.697s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/robot_model_and_robot_state_tutorial.launch.py
+[529.721s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial
+[529.733s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.launch.py
+[529.752s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.rviz
+[529.769s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_cpp.yaml
+[529.782s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input
+[529.799s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo
+[529.819s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_cpp_interface_demo.launch.py
+[529.830s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/demo_rviz_config.rviz
+[529.850s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/chomp_demo.launch.py
+[529.867s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_chomp.rviz
+[529.880s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/lib/moveit2_tutorials/ompl_constrained_planning
+[529.897s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/ompl_constrained_planning.launch.py
+[529.916s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/ompl_constrained_planning.rviz
+[529.928s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials
+[529.949s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials
+[529.968s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.sh
+[529.986s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.dsv
+[529.997s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.sh
+[530.016s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.dsv
+[530.034s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.bash
+[530.045s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.sh
+[530.063s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.zsh
+[530.081s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.dsv
+[530.093s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv
+[530.114s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/ament_index/resource_index/packages/moveit2_tutorials
+[530.133s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[530.144s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[530.162s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig.cmake
+[530.173s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig-version.cmake
+[530.190s] -- Symlinking: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit2_tutorials/share/moveit2_tutorials/package.xml
+[530.209s] Invoked command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake CMAKE_PREFIX_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_turtleBot3:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_panda_controller:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/rviz_marker_tools/lib:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials

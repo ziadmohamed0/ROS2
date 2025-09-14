@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f10d867f7cbe72344d21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "moveit_task_constructor_msgs__py",
+					"jsonFile" : "directory-moveit_task_constructor_msgs__py-42e8d33683235d7e407b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit_task_constructor_msgs/moveit_task_constructor_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "moveit_task_constructor_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_moveit_task_constructor_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_moveit_task_constructor_msgs_egg-045d6cbdfe5a95bc05b2.json",
+					"name" : "ament_cmake_python_build_moveit_task_constructor_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_moveit_task_constructor_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_moveit_task_constructor_msgs-a0252164956948bcd33a.json",
+					"name" : "ament_cmake_python_symlink_moveit_task_constructor_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs-faacbb217b9356a42111.json",
+					"name" : "moveit_task_constructor_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__cpp-e9ebdf6badbbcf5d3eee.json",
+					"name" : "moveit_task_constructor_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_task_constructor_msgs__py::@764e44f95d02a36cd862",
+					"jsonFile" : "target-moveit_task_constructor_msgs__py-1dbf0d0ed9ca8de7497c.json",
+					"name" : "moveit_task_constructor_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_generator_c-6369c95fc3e00341efad.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_generator_py-f0dac27fc7db48b62617.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_typesupport_c-4101c18ba209d06aec46.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_typesupport_c__pyext-71debe19980361e5e9c7.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_typesupport_cpp-f9c9f16fc60b9d3e132c.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c-76cb18091fe5bf46ad9c.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext-ef2452e31afdb18be28b.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp-cebf403c4cb3580347bd.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_typesupport_introspection_c-02012e5b5c27dc455427.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext-1b54ee32723bdf65a0b7.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp-bd590debe2052fd2eb59.json",
+					"name" : "moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_msgs_uninstall-b1f6d468116f522388be.json",
+					"name" : "moveit_task_constructor_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8a91142d2a0a0783933b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit_task_constructor_msgs",
+		"source" : "/home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit_task_constructor/msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

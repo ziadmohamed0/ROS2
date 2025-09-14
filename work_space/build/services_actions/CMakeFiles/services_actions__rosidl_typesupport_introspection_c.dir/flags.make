@@ -6,5 +6,5 @@ C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_INTROSPECTION_
 
 C_INCLUDES = -I/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_typesupport_introspection_c -I/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_generator_c -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
 
-C_FLAGS = -fPIC -Wall -std=gnu11
+C_FLAGS = -O3 -DNDEBUG -fPIC -Wall -std=gnu11
 

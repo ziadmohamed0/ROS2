@@ -1,0 +1,29 @@
+[0.067s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4
+[0.256s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_controller[0m
+[0.322s] [  2%] Built target turtlebot3_custom__cpp
+[0.325s] [ 10%] Built target turtlebot3_custom__rosidl_generator_c
+[0.356s] [ 14%] Built target turtlebot3_controller
+[0.373s] [ 14%] Built target ament_cmake_python_copy_turtlebot3_custom
+[0.419s] [ 22%] Built target turtlebot3_custom__rosidl_typesupport_cpp
+[0.437s] [ 30%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_cpp
+[0.452s] [ 38%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c
+[0.478s] [ 46%] Built target turtlebot3_custom__rosidl_typesupport_c
+[0.511s] [ 55%] Built target turtlebot3_custom__rosidl_typesupport_introspection_cpp
+[0.562s] [ 59%] Built target robot_status_server
+[0.574s] [ 63%] Built target status_client
+[0.634s] [ 67%] Built target navigation_action_server
+[0.666s] [ 71%] Built target navigation_client
+[0.683s] [ 79%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[0.728s] [ 79%] Built target turtlebot3_custom
+[0.767s] [ 81%] Built target turtlebot3_custom__py
+[0.811s] [ 87%] Built target turtlebot3_custom__rosidl_generator_py
+[0.889s] [ 91%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext
+[0.899s] [ 95%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c__pyext
+[0.903s] [100%] Built target turtlebot3_custom__rosidl_typesupport_c__pyext
+[1.549s] running egg_info
+[1.597s] writing turtlebot3_custom.egg-info/PKG-INFO
+[1.598s] writing dependency_links to turtlebot3_custom.egg-info/dependency_links.txt
+[1.598s] writing top-level names to turtlebot3_custom.egg-info/top_level.txt
+[1.710s] reading manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[1.711s] writing manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[1.770s] [100%] Built target ament_cmake_python_build_turtlebot3_custom_egg

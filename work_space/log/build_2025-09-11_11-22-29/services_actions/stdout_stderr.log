@@ -1,0 +1,9 @@
+[  2%] Built target services_actions__cpp
+failed to create symbolic link '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_python/services_actions/services_actions' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_services_actions.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_services_actions] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/ament_cmake_python_symlink_services_actions.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 10%] Built target services_actions__rosidl_generator_c
+[ 19%] Built target services_actions__rosidl_typesupport_cpp
+[ 27%] Built target services_actions__rosidl_typesupport_fastrtps_cpp
+gmake: *** [Makefile:146: all] Error 2

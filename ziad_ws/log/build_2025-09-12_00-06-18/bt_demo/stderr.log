@@ -1,0 +1,14 @@
+[01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/bt_demo/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/bt_demo/src/main.cpp:17:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass BT::Tree[m[K’ has no member named ‘[01m[KtickWhileRunning[m[K’; did you mean ‘[01m[KtickRootWhileRunning[m[K’?
+   17 |     tree.[01;31m[KtickWhileRunning[m[K();
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |          [32m[KtickRootWhileRunning[m[K
+[01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/bt_demo/src/main.cpp:5:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    5 | int main ([01;35m[Kint argc[m[K, char* argv[]) {
+      |           [01;35m[K~~~~^~~~[m[K
+[01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/bt_demo/src/main.cpp:5:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    5 | int main (int argc, [01;35m[Kchar* argv[][m[K) {
+      |                     [01;35m[K~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bt_main.dir/build.make:76: CMakeFiles/bt_main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bt_main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

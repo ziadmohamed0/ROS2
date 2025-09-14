@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit_task_constructor_capabilities/libmoveit_task_constructor_capabilities.so" "TARGETS" "moveit_task_constructor_capabilities" "LIBRARY_DESTINATION" "lib")

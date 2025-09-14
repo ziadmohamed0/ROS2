@@ -315,17 +315,17 @@ turtlebot3_custom__rosidl_typesupport_cpp/fast:
 .PHONY : turtlebot3_custom__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_turtlebot3_custom
+# Target rules for targets named ament_cmake_python_symlink_turtlebot3_custom
 
 # Build rule for target.
-ament_cmake_python_copy_turtlebot3_custom: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_turtlebot3_custom
-.PHONY : ament_cmake_python_copy_turtlebot3_custom
+ament_cmake_python_symlink_turtlebot3_custom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_turtlebot3_custom
+.PHONY : ament_cmake_python_symlink_turtlebot3_custom
 
 # fast build rule for target.
-ament_cmake_python_copy_turtlebot3_custom/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_turtlebot3_custom.dir/build.make CMakeFiles/ament_cmake_python_copy_turtlebot3_custom.dir/build
-.PHONY : ament_cmake_python_copy_turtlebot3_custom/fast
+ament_cmake_python_symlink_turtlebot3_custom/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_turtlebot3_custom.dir/build.make CMakeFiles/ament_cmake_python_symlink_turtlebot3_custom.dir/build
+.PHONY : ament_cmake_python_symlink_turtlebot3_custom/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_turtlebot3_custom_egg
@@ -1060,7 +1060,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_turtlebot3_custom_egg"
-	@echo "... ament_cmake_python_copy_turtlebot3_custom"
+	@echo "... ament_cmake_python_symlink_turtlebot3_custom"
 	@echo "... turtlebot3_custom"
 	@echo "... turtlebot3_custom__cpp"
 	@echo "... turtlebot3_custom__py"

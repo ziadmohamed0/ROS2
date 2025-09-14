@@ -1,0 +1,27 @@
+[0.026s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/services_actions -- -j4 -l4
+[0.128s] [  2%] Built target services_actions__cpp
+[0.174s] [ 10%] Built target services_actions__rosidl_generator_c
+[0.175s] [ 10%] Built target ament_cmake_python_copy_services_actions
+[0.222s] [ 19%] Built target services_actions__rosidl_typesupport_cpp
+[0.225s] [ 27%] Built target services_actions__rosidl_typesupport_introspection_cpp
+[0.245s] [ 36%] Built target services_actions__rosidl_typesupport_fastrtps_cpp
+[0.286s] [ 44%] Built target services_actions__rosidl_typesupport_fastrtps_c
+[0.315s] [ 53%] Built target services_actions__rosidl_typesupport_introspection_c
+[0.379s] [ 61%] Built target services_actions__rosidl_typesupport_c
+[0.437s] [ 65%] Built target add_two_ints_server
+[0.438s] [ 70%] Built target add_two_ints_client
+[0.485s] [ 74%] Built target count_down_action_server
+[0.555s] [ 74%] Built target services_actions
+[0.592s] [ 78%] Built target count_down_action_client
+[0.636s] [ 80%] Built target services_actions__py
+[0.697s] [ 87%] Built target services_actions__rosidl_generator_py
+[0.783s] [ 91%] Built target services_actions__rosidl_typesupport_introspection_c__pyext
+[0.789s] [ 95%] Built target services_actions__rosidl_typesupport_c__pyext
+[0.791s] [100%] Built target services_actions__rosidl_typesupport_fastrtps_c__pyext
+[1.270s] running egg_info
+[1.304s] writing services_actions.egg-info/PKG-INFO
+[1.304s] writing dependency_links to services_actions.egg-info/dependency_links.txt
+[1.304s] writing top-level names to services_actions.egg-info/top_level.txt
+[1.409s] reading manifest file 'services_actions.egg-info/SOURCES.txt'
+[1.410s] writing manifest file 'services_actions.egg-info/SOURCES.txt'
+[1.490s] [100%] Built target ament_cmake_python_build_services_actions_egg

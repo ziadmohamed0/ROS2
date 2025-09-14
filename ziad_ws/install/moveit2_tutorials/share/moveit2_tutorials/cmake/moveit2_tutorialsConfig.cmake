@@ -1,0 +1,1 @@
+/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials/ament_cmake_core/moveit2_tutorialsConfig.cmake

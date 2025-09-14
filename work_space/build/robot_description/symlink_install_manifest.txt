@@ -1,0 +1,15 @@
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/environment/path.sh
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/environment/path.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/local_setup.bash
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/local_setup.sh
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/local_setup.zsh
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/local_setup.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/package.dsv
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/ament_index/resource_index/packages/robot_description
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description/share/robot_description/package.xml

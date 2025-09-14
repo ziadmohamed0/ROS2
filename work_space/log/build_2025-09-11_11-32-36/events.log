@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.001051] (-) JobUnselected: {'identifier': 'cyber_robt'}
+[0.001120] (-) JobUnselected: {'identifier': 'publisher_subscriber'}
+[0.001170] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.001368] (-) JobUnselected: {'identifier': 'robot_model_gazebo'}
+[0.001411] (-) JobUnselected: {'identifier': 'ros2_urdf'}
+[0.001472] (-) JobUnselected: {'identifier': 'services_actions'}
+[0.001515] (-) JobUnselected: {'identifier': 'turtlebot3_custom'}
+[0.001554] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
+[0.001731] (hand_control_robot) JobQueued: {'identifier': 'hand_control_robot', 'dependencies': OrderedDict()}
+[0.001779] (hand_control_robot) JobStarted: {'identifier': 'hand_control_robot'}
+[0.021397] (hand_control_robot) JobProgress: {'identifier': 'hand_control_robot', 'progress': 'cmake'}
+[0.022352] (hand_control_robot) JobProgress: {'identifier': 'hand_control_robot', 'progress': 'build'}
+[0.024053] (hand_control_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot', '--', '-j4', '-l4'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib:/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/work_space/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ziad/.config/autostart/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1294'), ('SYSTEMD_EXEC_PID', '4800'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5066'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ziad/Ziad_WS/ROS2/work_space/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('DESKTOP_AUTOSTART_ID', '10fcb6812f60426908175757502457788600000048000016'), ('JOURNAL_STREAM', '8:29082'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/4800,unix/ziadfathy:/tmp/.ICE-unix/4800'), ('INVOCATION_ID', '6a03a9f2931b4656b24b36bde8d2702a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KPMPC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description:/home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot:/home/ziad/Ziad_WS/ROS2/work_space/install/ur_simulation_gazebo:/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom:/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions:/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf:/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo:/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber:/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt:/home/ziad/Ziad_WS/ROS2/work_space/install/custom_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a5bc295b-9af2-4b19-9e83-e9cae256ca7a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages:/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description:/home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot:/home/ziad/Ziad_WS/ROS2/work_space/install/ur_simulation_gazebo:/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom:/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions:/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf:/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo:/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber:/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt:/home/ziad/Ziad_WS/ROS2/work_space/install/custom_robot:/opt/ros/humble')]), 'shell': False}
+[0.098383] (-) TimerEvent: {}
+[0.124701] (hand_control_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hand_control\x1b[0m\n'}
+[0.167981] (hand_control_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hand_control.dir/src/hand_control.cpp.o\x1b[0m\n'}
+[0.199110] (-) TimerEvent: {}
+[0.300160] (-) TimerEvent: {}
+[0.401910] (-) TimerEvent: {}
+[0.502548] (-) TimerEvent: {}
+[0.603254] (-) TimerEvent: {}
+[0.703785] (-) TimerEvent: {}
+[0.804969] (-) TimerEvent: {}
+[0.906388] (-) TimerEvent: {}
+[1.007177] (-) TimerEvent: {}
+[1.107623] (-) TimerEvent: {}
+[1.208011] (-) TimerEvent: {}
+[1.309451] (-) TimerEvent: {}
+[1.410303] (-) TimerEvent: {}
+[1.510823] (-) TimerEvent: {}
+[1.611327] (-) TimerEvent: {}
+[1.711724] (-) TimerEvent: {}
+[1.812156] (-) TimerEvent: {}
+[1.912546] (-) TimerEvent: {}
+[2.012861] (-) TimerEvent: {}
+[2.113250] (-) TimerEvent: {}
+[2.213640] (-) TimerEvent: {}
+[2.314082] (-) TimerEvent: {}
+[2.414600] (-) TimerEvent: {}
+[2.514965] (-) TimerEvent: {}
+[2.615335] (-) TimerEvent: {}
+[2.715797] (-) TimerEvent: {}
+[2.816163] (-) TimerEvent: {}
+[2.916526] (-) TimerEvent: {}
+[3.016918] (-) TimerEvent: {}
+[3.117282] (-) TimerEvent: {}
+[3.217742] (-) TimerEvent: {}
+[3.318146] (-) TimerEvent: {}
+[3.418737] (-) TimerEvent: {}
+[3.519382] (-) TimerEvent: {}
+[3.624854] (-) TimerEvent: {}
+[3.725650] (-) TimerEvent: {}
+[3.826807] (-) TimerEvent: {}
+[3.927202] (-) TimerEvent: {}
+[4.027538] (-) TimerEvent: {}
+[4.127864] (-) TimerEvent: {}
+[4.228171] (-) TimerEvent: {}
+[4.328496] (-) TimerEvent: {}
+[4.428791] (-) TimerEvent: {}
+[4.529100] (-) TimerEvent: {}
+[4.629400] (-) TimerEvent: {}
+[4.729773] (-) TimerEvent: {}
+[4.830125] (-) TimerEvent: {}
+[4.930418] (-) TimerEvent: {}
+[5.030743] (-) TimerEvent: {}
+[5.131049] (-) TimerEvent: {}
+[5.231352] (-) TimerEvent: {}
+[5.331661] (-) TimerEvent: {}
+[5.432007] (-) TimerEvent: {}
+[5.532361] (-) TimerEvent: {}
+[5.632749] (-) TimerEvent: {}
+[5.733136] (-) TimerEvent: {}
+[5.833513] (-) TimerEvent: {}
+[5.933859] (-) TimerEvent: {}
+[6.034208] (-) TimerEvent: {}
+[6.134572] (-) TimerEvent: {}
+[6.234917] (-) TimerEvent: {}
+[6.335285] (-) TimerEvent: {}
+[6.435650] (-) TimerEvent: {}
+[6.536017] (-) TimerEvent: {}
+[6.636515] (-) TimerEvent: {}
+[6.736898] (-) TimerEvent: {}
+[6.837203] (-) TimerEvent: {}
+[6.937507] (-) TimerEvent: {}
+[7.037808] (-) TimerEvent: {}
+[7.138104] (-) TimerEvent: {}
+[7.238420] (-) TimerEvent: {}
+[7.338858] (-) TimerEvent: {}
+[7.439243] (-) TimerEvent: {}
+[7.539622] (-) TimerEvent: {}
+[7.639984] (-) TimerEvent: {}
+[7.740354] (-) TimerEvent: {}
+[7.840798] (-) TimerEvent: {}
+[7.941200] (-) TimerEvent: {}
+[8.041510] (-) TimerEvent: {}
+[8.141840] (-) TimerEvent: {}
+[8.242207] (-) TimerEvent: {}
+[8.342643] (-) TimerEvent: {}
+[8.442982] (-) TimerEvent: {}
+[8.543327] (-) TimerEvent: {}
+[8.644140] (-) TimerEvent: {}
+[8.744540] (-) TimerEvent: {}
+[8.844952] (-) TimerEvent: {}
+[8.945327] (-) TimerEvent: {}
+[9.045759] (-) TimerEvent: {}
+[9.146322] (-) TimerEvent: {}
+[9.246696] (-) TimerEvent: {}
+[9.347006] (-) TimerEvent: {}
+[9.447321] (-) TimerEvent: {}
+[9.547708] (-) TimerEvent: {}
+[9.648228] (-) TimerEvent: {}
+[9.748637] (-) TimerEvent: {}
+[9.848920] (-) TimerEvent: {}
+[9.949240] (-) TimerEvent: {}
+[10.049549] (-) TimerEvent: {}
+[10.149858] (-) TimerEvent: {}
+[10.250133] (-) TimerEvent: {}
+[10.350447] (-) TimerEvent: {}
+[10.450790] (-) TimerEvent: {}
+[10.551283] (-) TimerEvent: {}
+[10.651907] (-) TimerEvent: {}
+[10.752293] (-) TimerEvent: {}
+[10.852633] (-) TimerEvent: {}
+[10.952989] (-) TimerEvent: {}
+[11.053333] (-) TimerEvent: {}
+[11.153621] (-) TimerEvent: {}
+[11.253936] (-) TimerEvent: {}
+[11.354311] (-) TimerEvent: {}
+[11.454675] (-) TimerEvent: {}
+[11.555001] (-) TimerEvent: {}
+[11.655308] (-) TimerEvent: {}
+[11.755628] (-) TimerEvent: {}
+[11.855913] (-) TimerEvent: {}
+[11.956257] (-) TimerEvent: {}
+[12.056551] (-) TimerEvent: {}
+[12.156861] (-) TimerEvent: {}
+[12.257169] (-) TimerEvent: {}
+[12.357485] (-) TimerEvent: {}
+[12.457795] (-) TimerEvent: {}
+[12.558109] (-) TimerEvent: {}
+[12.658412] (-) TimerEvent: {}
+[12.758783] (-) TimerEvent: {}
+[12.859068] (-) TimerEvent: {}
+[12.959369] (-) TimerEvent: {}
+[13.059673] (-) TimerEvent: {}
+[13.159975] (-) TimerEvent: {}
+[13.260275] (-) TimerEvent: {}
+[13.360579] (-) TimerEvent: {}
+[13.460882] (-) TimerEvent: {}
+[13.561188] (-) TimerEvent: {}
+[13.661521] (-) TimerEvent: {}
+[13.713655] (hand_control_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hand_control\x1b[0m\n'}
+[13.761625] (-) TimerEvent: {}
+[13.861934] (-) TimerEvent: {}
+[13.962273] (-) TimerEvent: {}
+[14.062676] (-) TimerEvent: {}
+[14.163277] (-) TimerEvent: {}
+[14.263581] (-) TimerEvent: {}
+[14.363887] (-) TimerEvent: {}
+[14.464256] (-) TimerEvent: {}
+[14.539802] (hand_control_robot) StdoutLine: {'line': b'[100%] Built target hand_control\n'}
+[14.555957] (hand_control_robot) CommandEnded: {'returncode': 0}
+[14.557116] (hand_control_robot) JobProgress: {'identifier': 'hand_control_robot', 'progress': 'install'}
+[14.564360] (-) TimerEvent: {}
+[14.568376] (hand_control_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot'], 'cwd': '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/lib:/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/work_space/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ziad/.config/autostart/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1294'), ('SYSTEMD_EXEC_PID', '4800'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5066'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ziad/Ziad_WS/ROS2/work_space/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('DESKTOP_AUTOSTART_ID', '10fcb6812f60426908175757502457788600000048000016'), ('JOURNAL_STREAM', '8:29082'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/4800,unix/ziadfathy:/tmp/.ICE-unix/4800'), ('INVOCATION_ID', '6a03a9f2931b4656b24b36bde8d2702a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KPMPC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description:/home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot:/home/ziad/Ziad_WS/ROS2/work_space/install/ur_simulation_gazebo:/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom:/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions:/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf:/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo:/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber:/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt:/home/ziad/Ziad_WS/ROS2/work_space/install/custom_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a5bc295b-9af2-4b19-9e83-e9cae256ca7a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/work_space/build/hand_control_robot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom/local/lib/python3.10/dist-packages:/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_description:/home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot:/home/ziad/Ziad_WS/ROS2/work_space/install/ur_simulation_gazebo:/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom:/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions:/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf:/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo:/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber:/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt:/home/ziad/Ziad_WS/ROS2/work_space/install/custom_robot:/opt/ros/humble')]), 'shell': False}
+[14.578817] (hand_control_robot) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[14.579783] (hand_control_robot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.580466] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/lib/hand_control_robot/hand_control\n'}
+[14.581470] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot//launch/hand_control.launch.py\n'}
+[14.581905] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/ament_index/resource_index/package_run_dependencies/hand_control_robot\n'}
+[14.582280] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/ament_index/resource_index/parent_prefix_path/hand_control_robot\n'}
+[14.582691] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/ament_prefix_path.sh\n'}
+[14.583141] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/ament_prefix_path.dsv\n'}
+[14.583632] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/path.sh\n'}
+[14.583984] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/environment/path.dsv\n'}
+[14.584304] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.bash\n'}
+[14.584678] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.sh\n'}
+[14.584984] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.zsh\n'}
+[14.585294] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/local_setup.dsv\n'}
+[14.585553] (hand_control_robot) StdoutLine: {'line': b'-- Symlinking: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/package.dsv\n'}
+[14.597243] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/ament_index/resource_index/packages/hand_control_robot\n'}
+[14.597642] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/cmake/hand_control_robotConfig.cmake\n'}
+[14.597986] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/cmake/hand_control_robotConfig-version.cmake\n'}
+[14.598440] (hand_control_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ziad/Ziad_WS/ROS2/work_space/install/hand_control_robot/share/hand_control_robot/package.xml\n'}
+[14.600718] (hand_control_robot) CommandEnded: {'returncode': 0}
+[14.652507] (hand_control_robot) JobEnded: {'identifier': 'hand_control_robot', 'rc': 0}
+[14.654264] (-) EventReactorShutdown: {}

@@ -315,17 +315,17 @@ services_actions__rosidl_typesupport_cpp/fast:
 .PHONY : services_actions__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_services_actions
+# Target rules for targets named ament_cmake_python_symlink_services_actions
 
 # Build rule for target.
-ament_cmake_python_copy_services_actions: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_services_actions
-.PHONY : ament_cmake_python_copy_services_actions
+ament_cmake_python_symlink_services_actions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_services_actions
+.PHONY : ament_cmake_python_symlink_services_actions
 
 # fast build rule for target.
-ament_cmake_python_copy_services_actions/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_services_actions.dir/build.make CMakeFiles/ament_cmake_python_copy_services_actions.dir/build
-.PHONY : ament_cmake_python_copy_services_actions/fast
+ament_cmake_python_symlink_services_actions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_services_actions.dir/build.make CMakeFiles/ament_cmake_python_symlink_services_actions.dir/build
+.PHONY : ament_cmake_python_symlink_services_actions/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_services_actions_egg
@@ -1023,7 +1023,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_services_actions_egg"
-	@echo "... ament_cmake_python_copy_services_actions"
+	@echo "... ament_cmake_python_symlink_services_actions"
 	@echo "... services_actions"
 	@echo "... services_actions__cpp"
 	@echo "... services_actions__py"

@@ -1,0 +1,32 @@
+[0.056s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/ros2_urdf -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf
+[0.107s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.532s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.554s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.649s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.657s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.673s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.728s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.838s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.842s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.133s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.256s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.290s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.634s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.635s] -- Configured cppcheck include dirs: 
+[1.635s] -- Configured cppcheck exclude dirs and/or files: 
+[1.643s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.647s] -- Added test 'lint_cmake' to check CMake code style
+[1.651s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.673s] -- Added test 'uncrustify' to check C / C++ code style
+[1.673s] -- Configured uncrustify additional arguments: 
+[1.676s] -- Added test 'xmllint' to check XML markup files
+[1.681s] -- Configuring done
+[1.733s] -- Generating done
+[1.747s] -- Build files have been written to: /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf
+[1.781s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/ros2_urdf -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf
+[1.782s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf -- -j4 -l4
+[1.878s] [35m[1mConsolidate compiler generated dependencies of target move_to_goal[0m
+[1.933s] [ 50%] [32mBuilding CXX object CMakeFiles/move_to_goal.dir/src/move_to_goal.cpp.o[0m
+[23.072s] [100%] [32m[1mLinking CXX executable move_to_goal[0m
+[23.861s] [100%] Built target move_to_goal

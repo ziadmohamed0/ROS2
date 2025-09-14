@@ -1,0 +1,24 @@
+[0.016s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control -- -j4 -l4
+[0.105s] [100%] Built target simple_controller
+[0.122s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control -- -j4 -l4
+[0.137s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control
+[0.147s] -- Install configuration: "Release"
+[0.147s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/lib/simple_panda_control/simple_controller
+[0.148s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/launch
+[0.148s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/launch/simple_demo.launch.py
+[0.148s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/package_run_dependencies/simple_panda_control
+[0.148s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/parent_prefix_path/simple_panda_control
+[0.148s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/ament_prefix_path.sh
+[0.149s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/ament_prefix_path.dsv
+[0.149s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/path.sh
+[0.149s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/environment/path.dsv
+[0.149s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.bash
+[0.149s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.sh
+[0.149s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.zsh
+[0.149s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/local_setup.dsv
+[0.150s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/package.dsv
+[0.150s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/ament_index/resource_index/packages/simple_panda_control
+[0.150s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/cmake/simple_panda_controlConfig.cmake
+[0.150s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/cmake/simple_panda_controlConfig-version.cmake
+[0.150s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control/share/simple_panda_control/package.xml
+[0.152s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control

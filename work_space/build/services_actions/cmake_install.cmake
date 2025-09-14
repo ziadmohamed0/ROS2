@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -43,19 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/services_actions")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/services_actions/services_actions" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_generator_c/services_actions/" REGEX "/[^/]*\\.h$")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/environment" TYPE FILE FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/environment" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_environment_hooks/library_path.dsv")
+  include("/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -82,10 +70,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/services_actions/services_actions" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_typesupport_fastrtps_c/services_actions/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservices_actions__rosidl_typesupport_fastrtps_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservices_actions__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHECK
@@ -109,14 +93,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/services_actions/services_actions" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_generator_cpp/services_actions/" REGEX "/[^/]*\\.hpp$")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/services_actions/services_actions" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_typesupport_fastrtps_cpp/services_actions/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservices_actions__rosidl_typesupport_fastrtps_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservices_actions__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHECK
@@ -137,10 +113,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/services_actions/services_actions" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_typesupport_introspection_c/services_actions/" REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -190,10 +162,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/services_actions/services_actions" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_typesupport_introspection_cpp/services_actions/" REGEX "/[^/]*\\.hpp$")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservices_actions__rosidl_typesupport_introspection_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libservices_actions__rosidl_typesupport_introspection_cpp.so")
     file(RPATH_CHECK
@@ -240,96 +208,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/environment" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_environment_hooks/pythonpath.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/environment" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_environment_hooks/pythonpath.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_python/services_actions/services_actions.egg-info/")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_generator_py/services_actions/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
         "/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions/local/lib/python3.10/dist-packages/services_actions"
       )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions" TYPE SHARED_LIBRARY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_generator_py/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_generator_py/services_actions:/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions:/opt/ros/humble/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions" TYPE SHARED_LIBRARY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_generator_py/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_generator_py/services_actions:/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions:/opt/ros/humble/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions" TYPE SHARED_LIBRARY FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_generator_py/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_generator_py/services_actions:/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions:/opt/ros/humble/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/services_actions/services_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -356,162 +239,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/srv" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_adapter/services_actions/srv/AddTwoInt.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/action" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_adapter/services_actions/action/Countdown.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/srv" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions/srv/AddTwoInt.srv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/srv" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_cmake/srv/AddTwoInt_Request.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/srv" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_cmake/srv/AddTwoInt_Response.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/action" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions/action/Countdown.action")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_server" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_server")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_server"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/services_actions" TYPE EXECUTABLE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/add_two_ints_server")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_server" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_server")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_server"
-         OLD_RPATH "/opt/ros/humble/lib:/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_server")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_client" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_client")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_client"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/services_actions" TYPE EXECUTABLE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/add_two_ints_client")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_client" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_client")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_client"
-         OLD_RPATH "/opt/ros/humble/lib:/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/add_two_ints_client")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_server" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_server")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_server"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/services_actions" TYPE EXECUTABLE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/count_down_action_server")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_server" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_server")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_server"
-         OLD_RPATH "/opt/ros/humble/lib:/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_server")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_client" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_client")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_client"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/services_actions" TYPE EXECUTABLE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/count_down_action_client")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_client" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_client")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_client"
-         OLD_RPATH "/opt/ros/humble/lib:/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/services_actions/count_down_action_client")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions" TYPE DIRECTORY FILES "/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions/launch")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/services_actions")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/services_actions")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/environment" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/environment" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_index/share/ament_index/resource_index/packages/services_actions")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake/export_services_actions__rosidl_generator_cExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake/export_services_actions__rosidl_generator_cExport.cmake"
@@ -525,8 +252,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_generator_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_generator_cExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_generator_cExport-release.cmake")
   endif()
 endif()
 
@@ -544,8 +271,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_typesupport_fastrtps_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_typesupport_fastrtps_cExport-release.cmake")
   endif()
 endif()
 
@@ -579,8 +306,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_typesupport_fastrtps_cppExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_typesupport_fastrtps_cppExport-release.cmake")
   endif()
 endif()
 
@@ -598,8 +325,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_introspection_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_introspection_cExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_introspection_cExport-release.cmake")
   endif()
 endif()
 
@@ -617,8 +344,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_cExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_cExport-release.cmake")
   endif()
 endif()
 
@@ -636,8 +363,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_introspection_cppExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_introspection_cppExport-release.cmake")
   endif()
 endif()
 
@@ -655,8 +382,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_cppExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_cppExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/services_actions__rosidl_typesupport_cppExport-release.cmake")
   endif()
 endif()
 
@@ -674,48 +401,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_generator_pyExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_generator_pyExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/CMakeFiles/Export/share/services_actions/cmake/export_services_actions__rosidl_generator_pyExport-release.cmake")
   endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_cmake/rosidl_cmake-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions/cmake" TYPE FILE FILES
-    "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_core/services_actionsConfig.cmake"
-    "/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions/ament_cmake_core/services_actionsConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/services_actions" TYPE FILE FILES "/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

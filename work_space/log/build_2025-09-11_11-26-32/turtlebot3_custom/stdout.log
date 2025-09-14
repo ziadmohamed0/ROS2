@@ -1,0 +1,7 @@
+[  8%] Built target turtlebot3_custom__rosidl_generator_c
+[ 10%] Built target turtlebot3_custom__cpp
+[ 14%] Built target turtlebot3_controller
+[35m[1mConsolidate compiler generated dependencies of target turtlebot3_custom__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlebot3_custom__rosidl_typesupport_introspection_c[0m
+[ 22%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[ 30%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c

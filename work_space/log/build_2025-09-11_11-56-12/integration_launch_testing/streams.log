@@ -1,0 +1,26 @@
+[0.033s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing -- -j4 -l4
+[0.136s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing -- -j4 -l4
+[0.150s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing
+[0.177s] -- Install configuration: "Release"
+[0.177s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/test
+[0.177s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/test/test_move_to_start_example_controller.py
+[0.177s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/test/test_franka_gripper_position.py
+[0.177s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/environment/library_path.sh
+[0.179s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/environment/library_path.dsv
+[0.179s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/ament_index/resource_index/package_run_dependencies/integration_launch_testing
+[0.179s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/ament_index/resource_index/parent_prefix_path/integration_launch_testing
+[0.180s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/environment/ament_prefix_path.sh
+[0.180s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/environment/ament_prefix_path.dsv
+[0.180s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/environment/path.sh
+[0.180s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/environment/path.dsv
+[0.181s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/local_setup.bash
+[0.184s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/local_setup.sh
+[0.184s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/local_setup.zsh
+[0.184s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/local_setup.dsv
+[0.184s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.dsv
+[0.185s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/ament_index/resource_index/packages/integration_launch_testing
+[0.185s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/cmake/ament_cmake_export_libraries-extras.cmake
+[0.185s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/cmake/integration_launch_testingConfig.cmake
+[0.185s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/cmake/integration_launch_testingConfig-version.cmake
+[0.185s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.xml
+[0.190s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing

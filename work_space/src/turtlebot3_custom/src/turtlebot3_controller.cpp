@@ -18,8 +18,7 @@
 #include <algorithm>
 #include <vector>
 
-enum class RobotState
-{
+enum class RobotState{
     MOVING_FORWARD,
     TURNING_LEFT,
     TURNING_RIGHT,
@@ -27,11 +26,9 @@ enum class RobotState
     SEARCHING_PATH
 };
 
-class TurtleBot3Controller : public rclcpp::Node
-{
+class TurtleBot3Controller : public rclcpp::Node {
 public:
-    TurtleBot3Controller() : Node("turtlebot3_controller")
-    {
+    TurtleBot3Controller() : Node("turtlebot3_controller") {
         cmd_vel_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
 
         laser_sub_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
@@ -276,7 +273,7 @@ private:
     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr laser_sub_;
     rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_sub_;
     rclcpp::TimerBase::SharedPtr control_timer_;
-
+    
     float front_distance_ = std::numeric_limits<float>::max();
     float left_distance_ = std::numeric_limits<float>::max();
     float right_distance_ = std::numeric_limits<float>::max();

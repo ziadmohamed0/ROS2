@@ -1,0 +1,1 @@
+Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/services_actions -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions

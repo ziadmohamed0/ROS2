@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "doc/tutorials/quickstart_in_rviz",
+		"source" : "doc/tutorials/quickstart_in_rviz"
+	}
+}

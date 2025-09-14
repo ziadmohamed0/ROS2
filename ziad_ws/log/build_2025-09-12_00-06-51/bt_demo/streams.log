@@ -1,0 +1,34 @@
+[0.023s] Invoking command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo -- -j4 -l4
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target bt_main[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/bt_main.dir/src/main.cpp.o[0m
+[2.059s] [01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/bt_demo/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.062s] [01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/bt_demo/src/main.cpp:5:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.062s]     5 | int main ([01;35m[Kint argc[m[K, char* argv[]) {
+[2.062s]       |           [01;35m[K~~~~^~~~[m[K
+[2.063s] [01m[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/bt_demo/src/main.cpp:5:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.063s]     5 | int main (int argc, [01;35m[Kchar* argv[][m[K) {
+[2.063s]       |                     [01;35m[K~~~~~~^~~~~~[m[K
+[3.532s] [100%] [32m[1mLinking CXX executable bt_main[0m
+[4.472s] [100%] Built target bt_main
+[4.501s] Invoked command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo -- -j4 -l4
+[4.527s] Invoking command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo
+[4.558s] -- Install configuration: ""
+[4.560s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/lib/bt_demo/bt_main
+[4.567s] -- Set runtime path of "/home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/lib/bt_demo/bt_main" to ""
+[4.568s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/my_tree.xml
+[4.568s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/ament_index/resource_index/package_run_dependencies/bt_demo
+[4.569s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/ament_index/resource_index/parent_prefix_path/bt_demo
+[4.569s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/ament_prefix_path.sh
+[4.570s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/ament_prefix_path.dsv
+[4.570s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/path.sh
+[4.570s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/path.dsv
+[4.571s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.bash
+[4.571s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.sh
+[4.572s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.zsh
+[4.572s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.dsv
+[4.572s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/package.dsv
+[4.573s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/ament_index/resource_index/packages/bt_demo
+[4.574s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/cmake/bt_demoConfig.cmake
+[4.575s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/cmake/bt_demoConfig-version.cmake
+[4.581s] -- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/package.xml
+[4.588s] Invoked command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo

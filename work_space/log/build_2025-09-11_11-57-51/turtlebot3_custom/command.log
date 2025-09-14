@@ -1,0 +1,1 @@
+Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom

@@ -1,0 +1,787 @@
+[0.160s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release'][0m
+[0.160s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7baea4aa8bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7baea4a1d840>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7baea4a1d840>>, mixin_verb=('build',))[0m
+[0.542s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.543s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.543s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.543s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.543s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.543s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.543s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/ziad/Ziad_WS/ROS2/work_space'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.569s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.570s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.570s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.572s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.572s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.572s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.573s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore'
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore_ament_install'
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_pkg']
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_pkg'
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_meta']
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_meta'
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ros']
+[0.574s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ros'
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['cmake', 'python']
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'cmake'
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python'
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['python_setup_py']
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python_setup_py'
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore'
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore_ament_install'
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_pkg']
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_pkg'
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_meta']
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_meta'
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ros']
+[0.575s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ros'
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'[0m
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cyber_robt) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cyber_robt) by extension 'ignore'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cyber_robt) by extension 'ignore_ament_install'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cyber_robt) by extensions ['colcon_pkg']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cyber_robt) by extension 'colcon_pkg'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cyber_robt) by extensions ['colcon_meta']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cyber_robt) by extension 'colcon_meta'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cyber_robt) by extensions ['ros']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cyber_robt) by extension 'ros'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cyber_robt' with type 'ros.ament_cmake' and name 'cyber_robt'[0m
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extension 'ignore'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extension 'ignore_ament_install'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extensions ['colcon_pkg']
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extension 'colcon_pkg'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extensions ['colcon_meta']
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extension 'colcon_meta'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extensions ['ros']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extension 'ros'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extensions ['cmake', 'python']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extension 'cmake'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extension 'python'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extensions ['python_setup_py']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2) by extension 'python_setup_py'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_bringup) by extension 'ignore'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_bringup) by extension 'ignore_ament_install'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_bringup) by extensions ['colcon_pkg']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_bringup) by extension 'colcon_pkg'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_bringup) by extensions ['colcon_meta']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_bringup) by extension 'colcon_meta'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_bringup) by extensions ['ros']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_bringup) by extension 'ros'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_bringup' with type 'ros.ament_cmake' and name 'franka_bringup'[0m
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_example_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_example_controllers) by extension 'ignore'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_example_controllers) by extension 'ignore_ament_install'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_example_controllers) by extensions ['colcon_pkg']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_example_controllers) by extension 'colcon_pkg'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_example_controllers) by extensions ['colcon_meta']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_example_controllers) by extension 'colcon_meta'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_example_controllers) by extensions ['ros']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_example_controllers) by extension 'ros'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_example_controllers' with type 'ros.ament_cmake' and name 'franka_example_controllers'[0m
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_fr3_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_fr3_moveit_config) by extension 'ignore'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_fr3_moveit_config) by extension 'ignore_ament_install'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_fr3_moveit_config) by extensions ['colcon_pkg']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_fr3_moveit_config) by extension 'colcon_pkg'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_fr3_moveit_config) by extensions ['colcon_meta']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_fr3_moveit_config) by extension 'colcon_meta'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_fr3_moveit_config) by extensions ['ros']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_fr3_moveit_config) by extension 'ros'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_fr3_moveit_config' with type 'ros.ament_cmake' and name 'franka_fr3_moveit_config'[0m
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extension 'ignore'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extension 'ignore_ament_install'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extensions ['colcon_pkg']
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extension 'colcon_pkg'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extensions ['colcon_meta']
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extension 'colcon_meta'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extensions ['ros']
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extension 'ros'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extensions ['cmake', 'python']
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extension 'cmake'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extension 'python'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extensions ['python_setup_py']
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo) by extension 'python_setup_py'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extension 'ignore'
+[0.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extension 'ignore_ament_install'
+[0.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extensions ['colcon_pkg']
+[0.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extension 'colcon_pkg'
+[0.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extensions ['colcon_meta']
+[0.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extension 'colcon_meta'
+[0.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extensions ['ros']
+[0.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_gazebo_bringup) by extension 'ros'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_gazebo/franka_gazebo_bringup' with type 'ros.ament_cmake' and name 'franka_gazebo_bringup'[0m
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extension 'ignore'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extension 'ignore_ament_install'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extensions ['colcon_pkg']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extension 'colcon_pkg'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extensions ['colcon_meta']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extension 'colcon_meta'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extensions ['ros']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gazebo/franka_ign_ros2_control) by extension 'ros'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_gazebo/franka_ign_ros2_control' with type 'ros.ament_cmake' and name 'franka_ign_ros2_control'[0m
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gripper) by extension 'ignore'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gripper) by extension 'ignore_ament_install'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gripper) by extensions ['colcon_pkg']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gripper) by extension 'colcon_pkg'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gripper) by extensions ['colcon_meta']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gripper) by extension 'colcon_meta'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gripper) by extensions ['ros']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_gripper) by extension 'ros'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_gripper' with type 'ros.ament_cmake' and name 'franka_gripper'[0m
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_hardware) by extension 'ignore'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_hardware) by extension 'ignore_ament_install'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_hardware) by extensions ['colcon_pkg']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_hardware) by extension 'colcon_pkg'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_hardware) by extensions ['colcon_meta']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_hardware) by extension 'colcon_meta'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_hardware) by extensions ['ros']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_hardware) by extension 'ros'
+[0.603s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_hardware' with type 'ros.ament_cmake' and name 'franka_hardware'[0m
+[0.603s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_msgs) by extension 'ignore'
+[0.603s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_msgs) by extension 'ignore_ament_install'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_msgs) by extensions ['colcon_pkg']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_msgs) by extension 'colcon_pkg'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_msgs) by extensions ['colcon_meta']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_msgs) by extension 'colcon_meta'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_msgs) by extensions ['ros']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_msgs) by extension 'ros'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_msgs' with type 'ros.ament_cmake' and name 'franka_msgs'[0m
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ignore'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ignore_ament_install'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['colcon_pkg']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'colcon_pkg'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['colcon_meta']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'colcon_meta'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_robot_state_broadcaster) by extensions ['ros']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_robot_state_broadcaster) by extension 'ros'
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_robot_state_broadcaster' with type 'ros.ament_cmake' and name 'franka_robot_state_broadcaster'[0m
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_ros2) by extension 'ignore'
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_ros2) by extension 'ignore_ament_install'
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_ros2) by extensions ['colcon_pkg']
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_ros2) by extension 'colcon_pkg'
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_ros2) by extensions ['colcon_meta']
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_ros2) by extension 'colcon_meta'
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_ros2) by extensions ['ros']
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_ros2) by extension 'ros'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_ros2' with type 'ros.ament_cmake' and name 'franka_ros2'[0m
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_semantic_components) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_semantic_components) by extension 'ignore'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_semantic_components) by extension 'ignore_ament_install'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_semantic_components) by extensions ['colcon_pkg']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_semantic_components) by extension 'colcon_pkg'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_semantic_components) by extensions ['colcon_meta']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_semantic_components) by extension 'colcon_meta'
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_semantic_components) by extensions ['ros']
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/franka_semantic_components) by extension 'ros'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/franka_semantic_components' with type 'ros.ament_cmake' and name 'franka_semantic_components'[0m
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/integration_launch_testing) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/integration_launch_testing) by extension 'ignore'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/integration_launch_testing) by extension 'ignore_ament_install'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/integration_launch_testing) by extensions ['colcon_pkg']
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/integration_launch_testing) by extension 'colcon_pkg'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/integration_launch_testing) by extensions ['colcon_meta']
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/integration_launch_testing) by extension 'colcon_meta'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/integration_launch_testing) by extensions ['ros']
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/franka_ros2/integration_launch_testing) by extension 'ros'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/franka_ros2/integration_launch_testing' with type 'ros.ament_cmake' and name 'integration_launch_testing'[0m
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/moveit2_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/moveit2_tutorials) by extension 'ignore'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/moveit2_tutorials) by extension 'ignore_ament_install'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/moveit2_tutorials) by extensions ['colcon_pkg']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/moveit2_tutorials) by extension 'colcon_pkg'
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/moveit2_tutorials) by extensions ['colcon_meta']
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/moveit2_tutorials) by extension 'colcon_meta'
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/moveit2_tutorials) by extensions ['ros']
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/moveit2_tutorials) by extension 'ros'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/moveit2_tutorials' with type 'ros.ament_cmake' and name 'moveit2_tutorials'[0m
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extension 'ignore'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extension 'ignore_ament_install'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extensions ['colcon_pkg']
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extension 'colcon_pkg'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extensions ['colcon_meta']
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extension 'colcon_meta'
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extensions ['ros']
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/publisher_subscriber) by extension 'ros'
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/publisher_subscriber' with type 'ros.ament_cmake' and name 'publisher_subscriber'[0m
+[0.616s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_model_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_model_gazebo) by extension 'ignore'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_model_gazebo) by extension 'ignore_ament_install'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_model_gazebo) by extensions ['colcon_pkg']
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_model_gazebo) by extension 'colcon_pkg'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_model_gazebo) by extensions ['colcon_meta']
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_model_gazebo) by extension 'colcon_meta'
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_model_gazebo) by extensions ['ros']
+[0.617s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot_model_gazebo) by extension 'ros'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/robot_model_gazebo' with type 'ros.ament_cmake' and name 'robot_model_gazebo'[0m
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_urdf) by extension 'ignore'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_urdf) by extension 'ignore_ament_install'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_urdf) by extensions ['colcon_pkg']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_urdf) by extension 'colcon_pkg'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_urdf) by extensions ['colcon_meta']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_urdf) by extension 'colcon_meta'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_urdf) by extensions ['ros']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_urdf) by extension 'ros'
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_urdf' with type 'ros.ament_cmake' and name 'ros2_urdf'[0m
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extension 'ignore'
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extension 'ignore_ament_install'
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extensions ['colcon_pkg']
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extension 'colcon_pkg'
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extensions ['colcon_meta']
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extension 'colcon_meta'
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extensions ['ros']
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/services_actions) by extension 'ros'
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/services_actions' with type 'ros.ament_cmake' and name 'services_actions'[0m
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_panda_control) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_panda_control) by extension 'ignore'
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_panda_control) by extension 'ignore_ament_install'
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_panda_control) by extensions ['colcon_pkg']
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_panda_control) by extension 'colcon_pkg'
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_panda_control) by extensions ['colcon_meta']
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_panda_control) by extension 'colcon_meta'
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_panda_control) by extensions ['ros']
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/simple_panda_control) by extension 'ros'
+[0.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/simple_panda_control' with type 'ros.ament_cmake' and name 'simple_panda_control'[0m
+[0.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_custom) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_custom) by extension 'ignore'
+[0.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_custom) by extension 'ignore_ament_install'
+[0.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_custom) by extensions ['colcon_pkg']
+[0.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_custom) by extension 'colcon_pkg'
+[0.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_custom) by extensions ['colcon_meta']
+[0.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_custom) by extension 'colcon_meta'
+[0.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_custom) by extensions ['ros']
+[0.622s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot3_custom) by extension 'ros'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot3_custom' with type 'ros.ament_cmake' and name 'turtlebot3_custom'[0m
+[0.624s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.624s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.624s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.624s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.624s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.648s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.649s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.651s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 14 installed packages in /home/ziad/Ziad_WS/ROS2/work_space/install[0m
+[0.653s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 415 installed packages in /opt/ros/humble[0m
+[0.656s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cyber_robt' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cyber_robt' build argument 'cmake_target' from command line to 'None'
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cyber_robt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cyber_robt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cyber_robt' build argument 'cmake_clean_first' from command line to 'False'
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cyber_robt' build argument 'cmake_force_configure' from command line to 'False'
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cyber_robt' build argument 'ament_cmake_args' from command line to 'None'
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cyber_robt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cyber_robt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cyber_robt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/cyber_robt', 'symlink_install': False, 'test_result_base': None}[0m
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.715s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_msgs' build argument 'cmake_target' from command line to 'None'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_msgs', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'integration_launch_testing' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'integration_launch_testing' build argument 'cmake_target' from command line to 'None'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'integration_launch_testing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'integration_launch_testing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'integration_launch_testing' build argument 'cmake_clean_first' from command line to 'False'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'integration_launch_testing' build argument 'cmake_force_configure' from command line to 'False'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'integration_launch_testing' build argument 'ament_cmake_args' from command line to 'None'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'integration_launch_testing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.716s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'integration_launch_testing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'integration_launch_testing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/integration_launch_testing', 'symlink_install': False, 'test_result_base': None}[0m
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'moveit2_tutorials' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'moveit2_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'moveit2_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'moveit2_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'moveit2_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'moveit2_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'moveit2_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'moveit2_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'moveit2_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.717s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'moveit2_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/moveit2_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/moveit2_tutorials', 'symlink_install': False, 'test_result_base': None}[0m
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'publisher_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'publisher_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber', 'symlink_install': False, 'test_result_base': None}[0m
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_model_gazebo' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_model_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_model_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.718s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_model_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_model_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_model_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_model_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_model_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_model_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'robot_model_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/robot_model_gazebo', 'symlink_install': False, 'test_result_base': None}[0m
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_urdf' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_urdf' build argument 'cmake_target' from command line to 'None'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/ros2_urdf', 'symlink_install': False, 'test_result_base': None}[0m
+[0.720s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.720s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_target' from command line to 'None'
+[0.720s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_clean_first' from command line to 'False'
+[0.720s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'cmake_force_configure' from command line to 'False'
+[0.720s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'ament_cmake_args' from command line to 'None'
+[0.720s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.720s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'services_actions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.720s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'services_actions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/services_actions', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions', 'symlink_install': False, 'test_result_base': None}[0m
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_panda_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_panda_control' build argument 'cmake_target' from command line to 'None'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_panda_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_panda_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_panda_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_panda_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_panda_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_panda_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'simple_panda_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'simple_panda_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control', 'symlink_install': False, 'test_result_base': None}[0m
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_custom' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_custom' build argument 'cmake_target' from command line to 'None'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_custom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_custom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_custom' build argument 'cmake_clean_first' from command line to 'False'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_custom' build argument 'cmake_force_configure' from command line to 'False'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_custom' build argument 'ament_cmake_args' from command line to 'None'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_custom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.721s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot3_custom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot3_custom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/turtlebot3_custom', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/turtlebot3_custom', 'symlink_install': False, 'test_result_base': None}[0m
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ur_simulation_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.722s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ur_simulation_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/ur_simulation_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/ur_simulation_gazebo', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo', 'symlink_install': False, 'test_result_base': None}[0m
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gripper' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gripper' build argument 'cmake_target' from command line to 'None'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gripper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gripper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gripper' build argument 'cmake_clean_first' from command line to 'False'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gripper' build argument 'cmake_force_configure' from command line to 'False'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gripper' build argument 'ament_cmake_args' from command line to 'None'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gripper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gripper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_gripper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_gripper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_gripper', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_gripper', 'symlink_install': False, 'test_result_base': None}[0m
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_hardware' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_hardware' build argument 'cmake_target' from command line to 'None'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.723s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_hardware', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_hardware', 'symlink_install': False, 'test_result_base': None}[0m
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_fr3_moveit_config' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_fr3_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_fr3_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_fr3_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_fr3_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_fr3_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_fr3_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_fr3_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_fr3_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.724s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_fr3_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_fr3_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_fr3_moveit_config', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_fr3_moveit_config', 'symlink_install': False, 'test_result_base': None}[0m
+[0.725s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ign_ros2_control' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.725s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ign_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.725s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ign_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.725s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ign_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.725s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ign_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.725s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ign_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.725s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ign_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.725s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ign_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.725s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ign_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.725s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_ign_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_ign_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_ign_ros2_control', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_gazebo/franka_ign_ros2_control', 'symlink_install': False, 'test_result_base': None}[0m
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_semantic_components' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_semantic_components' build argument 'cmake_target' from command line to 'None'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_semantic_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_semantic_components' build argument 'cmake_clean_cache' from command line to 'False'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_semantic_components' build argument 'cmake_clean_first' from command line to 'False'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_semantic_components' build argument 'cmake_force_configure' from command line to 'False'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_semantic_components' build argument 'ament_cmake_args' from command line to 'None'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_semantic_components' build argument 'catkin_cmake_args' from command line to 'None'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_semantic_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_semantic_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_semantic_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_semantic_components', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_semantic_components', 'symlink_install': False, 'test_result_base': None}[0m
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_example_controllers' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_example_controllers' build argument 'cmake_target' from command line to 'None'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_example_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_example_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_example_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_example_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_example_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.726s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_example_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_example_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_example_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_example_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_example_controllers', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_example_controllers', 'symlink_install': False, 'test_result_base': None}[0m
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gazebo_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gazebo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gazebo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gazebo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gazebo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gazebo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gazebo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gazebo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_gazebo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.727s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_gazebo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_gazebo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_gazebo_bringup', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_gazebo/franka_gazebo_bringup', 'symlink_install': False, 'test_result_base': None}[0m
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_robot_state_broadcaster' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_robot_state_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_robot_state_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_robot_state_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_robot_state_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_robot_state_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_robot_state_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_robot_state_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_robot_state_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_robot_state_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_robot_state_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_robot_state_broadcaster', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_robot_state_broadcaster', 'symlink_install': False, 'test_result_base': None}[0m
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_bringup' build argument 'cmake_target' from command line to 'None'
+[0.728s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_bringup', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_bringup', 'symlink_install': False, 'test_result_base': None}[0m
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ros2' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ros2' build argument 'cmake_target' from command line to 'None'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'franka_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.729s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'franka_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ziad/Ziad_WS/ROS2/work_space/install/franka_ros2', 'merge_install': False, 'path': '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_ros2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.730s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.731s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.731s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_msgs' with build type 'ament_cmake'
+[0.731s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/franka_msgs'
+[0.735s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.735s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.735s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.740s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/cyber_robt' with build type 'ament_cmake'
+[0.741s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/cyber_robt'
+[0.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.741s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.748s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/integration_launch_testing' with build type 'ament_cmake'
+[0.749s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/franka_ros2/integration_launch_testing'
+[0.749s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.749s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.755s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/moveit2_tutorials' with build type 'ament_cmake'
+[0.756s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/moveit2_tutorials'
+[0.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.756s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.769s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/franka_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/franka_msgs -- -j4 -l4[0m
+[0.775s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt -- -j4 -l4[0m
+[0.783s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing -- -j4 -l4[0m
+[0.791s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/moveit2_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/moveit2_tutorials -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials[0m
+[0.846s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt -- -j4 -l4[0m
+[0.876s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt[0m
+[0.886s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing -- -j4 -l4[0m
+[0.899s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing[0m
+[0.938s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(integration_launch_testing)
+[0.939s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/integration_launch_testing[0m
+[0.945s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing' for CMake module files
+[0.947s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing' for CMake config files
+[0.948s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('integration_launch_testing', 'cmake_prefix_path')
+[0.948s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.ps1'
+[0.950s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.dsv'
+[0.952s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.sh'
+[0.954s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/bin'
+[0.954s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/lib/pkgconfig/integration_launch_testing.pc'
+[0.955s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/lib/python3.10/site-packages'
+[0.956s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/bin'
+[0.956s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.ps1'
+[0.958s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.dsv'
+[0.960s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.sh'
+[0.962s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.bash'
+[0.964s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.zsh'
+[0.969s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/colcon-core/packages/integration_launch_testing)
+[0.971s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(integration_launch_testing)
+[0.971s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing' for CMake module files
+[0.972s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing' for CMake config files
+[0.973s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('integration_launch_testing', 'cmake_prefix_path')
+[0.973s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.ps1'
+[0.974s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.dsv'
+[0.975s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/hook/cmake_prefix_path.sh'
+[0.976s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/bin'
+[0.976s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/lib/pkgconfig/integration_launch_testing.pc'
+[0.977s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/lib/python3.10/site-packages'
+[0.977s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/bin'
+[0.978s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.ps1'
+[0.979s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.dsv'
+[0.981s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.sh'
+[0.982s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.bash'
+[0.983s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/integration_launch_testing/package.zsh'
+[0.984s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/integration_launch_testing/share/colcon-core/packages/integration_launch_testing)
+[0.989s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber' with build type 'ament_cmake'
+[0.989s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/publisher_subscriber'
+[0.990s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.990s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.014s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cyber_robt)
+[1.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt' for CMake module files
+[1.016s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt' for CMake config files
+[1.015s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt[0m
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cyber_robt', 'cmake_prefix_path')
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/hook/cmake_prefix_path.ps1'
+[1.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/hook/cmake_prefix_path.dsv'
+[1.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/hook/cmake_prefix_path.sh'
+[1.033s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/bin'
+[1.033s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/lib/pkgconfig/cyber_robt.pc'
+[1.033s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/lib/python3.10/site-packages'
+[1.035s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/bin'
+[1.036s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.ps1'
+[1.039s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.dsv'
+[1.040s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.sh'
+[1.042s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.bash'
+[1.043s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.zsh'
+[1.043s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/colcon-core/packages/cyber_robt)
+[1.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cyber_robt)
+[1.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt' for CMake module files
+[1.046s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt' for CMake config files
+[1.047s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cyber_robt', 'cmake_prefix_path')
+[1.048s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/hook/cmake_prefix_path.ps1'
+[1.049s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/hook/cmake_prefix_path.dsv'
+[1.049s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/hook/cmake_prefix_path.sh'
+[1.051s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/bin'
+[1.051s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/lib/pkgconfig/cyber_robt.pc'
+[1.051s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/lib/python3.10/site-packages'
+[1.052s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/bin'
+[1.053s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.ps1'
+[1.058s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.dsv'
+[1.059s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.sh'
+[1.063s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.bash'
+[1.065s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.zsh'
+[1.066s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/colcon-core/packages/cyber_robt)
+[1.068s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/robot_model_gazebo' with build type 'ament_cmake'
+[1.068s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/robot_model_gazebo'
+[1.069s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.069s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.100s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber -- -j4 -l4[0m
+[1.112s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo -- -j4 -l4[0m
+[1.211s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo -- -j4 -l4[0m
+[1.224s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo[0m
+[1.331s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber -- -j4 -l4[0m
+[1.342s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber[0m
+[1.429s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(publisher_subscriber)
+[1.430s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber' for CMake module files
+[1.431s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber' for CMake config files
+[1.433s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber[0m
+[1.434s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('publisher_subscriber', 'cmake_prefix_path')
+[1.435s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.ps1'
+[1.436s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.dsv'
+[1.443s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.sh'
+[1.445s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib'
+[1.448s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/bin'
+[1.448s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/pkgconfig/publisher_subscriber.pc'
+[1.450s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/python3.10/site-packages'
+[1.451s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/bin'
+[1.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.ps1'
+[1.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.dsv'
+[1.458s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.sh'
+[1.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.bash'
+[1.461s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.zsh'
+[1.462s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/colcon-core/packages/publisher_subscriber)
+[1.463s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(publisher_subscriber)
+[1.464s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber' for CMake module files
+[1.465s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber' for CMake config files
+[1.465s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('publisher_subscriber', 'cmake_prefix_path')
+[1.466s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.ps1'
+[1.467s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.dsv'
+[1.468s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/hook/cmake_prefix_path.sh'
+[1.469s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib'
+[1.469s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/bin'
+[1.469s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/pkgconfig/publisher_subscriber.pc'
+[1.470s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/lib/python3.10/site-packages'
+[1.470s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/bin'
+[1.471s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.ps1'
+[1.472s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.dsv'
+[1.473s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.sh'
+[1.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.bash'
+[1.475s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/publisher_subscriber/package.zsh'
+[1.476s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/publisher_subscriber/share/colcon-core/packages/publisher_subscriber)
+[1.476s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/ros2_urdf' with build type 'ament_cmake'
+[1.477s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/ros2_urdf'
+[1.478s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.478s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_model_gazebo)
+[1.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo' for CMake module files
+[1.493s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo[0m
+[1.493s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo' for CMake config files
+[1.495s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_model_gazebo', 'cmake_prefix_path')
+[1.495s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/hook/cmake_prefix_path.ps1'
+[1.496s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/hook/cmake_prefix_path.dsv'
+[1.497s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/hook/cmake_prefix_path.sh'
+[1.498s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/bin'
+[1.498s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/lib/pkgconfig/robot_model_gazebo.pc'
+[1.499s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/lib/python3.10/site-packages'
+[1.499s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/bin'
+[1.500s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/package.ps1'
+[1.501s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/package.dsv'
+[1.503s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/package.sh'
+[1.504s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/package.bash'
+[1.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/package.zsh'
+[1.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/colcon-core/packages/robot_model_gazebo)
+[1.507s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_model_gazebo)
+[1.509s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo' for CMake module files
+[1.510s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo' for CMake config files
+[1.511s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_model_gazebo', 'cmake_prefix_path')
+[1.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/hook/cmake_prefix_path.ps1'
+[1.512s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/hook/cmake_prefix_path.dsv'
+[1.514s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/hook/cmake_prefix_path.sh'
+[1.515s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/bin'
+[1.515s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/lib/pkgconfig/robot_model_gazebo.pc'
+[1.515s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/lib/python3.10/site-packages'
+[1.516s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/bin'
+[1.517s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/package.ps1'
+[1.518s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/package.dsv'
+[1.519s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/package.sh'
+[1.519s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/package.bash'
+[1.520s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/robot_model_gazebo/package.zsh'
+[1.521s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/robot_model_gazebo/share/colcon-core/packages/robot_model_gazebo)
+[1.523s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions' with build type 'ament_cmake'
+[1.523s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/services_actions'
+[1.524s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.524s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.540s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf -- -j4 -l4[0m
+[1.556s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/services_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/services_actions -- -j4 -l4[0m
+[1.705s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf -- -j4 -l4[0m
+[1.717s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf[0m
+[1.814s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_urdf)
+[1.814s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf' for CMake module files
+[1.816s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf' for CMake config files
+[1.819s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf[0m
+[1.819s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_urdf', 'cmake_prefix_path')
+[1.820s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/hook/cmake_prefix_path.ps1'
+[1.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/hook/cmake_prefix_path.dsv'
+[1.822s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/hook/cmake_prefix_path.sh'
+[1.826s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/lib'
+[1.826s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/bin'
+[1.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/lib/pkgconfig/ros2_urdf.pc'
+[1.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/lib/python3.10/site-packages'
+[1.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/bin'
+[1.831s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.ps1'
+[1.832s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.dsv'
+[1.833s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.sh'
+[1.837s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.bash'
+[1.841s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.zsh'
+[1.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/colcon-core/packages/ros2_urdf)
+[1.843s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_urdf)
+[1.844s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf' for CMake module files
+[1.845s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf' for CMake config files
+[1.846s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_urdf', 'cmake_prefix_path')
+[1.849s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/hook/cmake_prefix_path.ps1'
+[1.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/hook/cmake_prefix_path.dsv'
+[1.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/hook/cmake_prefix_path.sh'
+[1.856s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/lib'
+[1.856s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/bin'
+[1.856s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/lib/pkgconfig/ros2_urdf.pc'
+[1.857s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/lib/python3.10/site-packages'
+[1.857s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/bin'
+[1.858s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.ps1'
+[1.862s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.dsv'
+[1.863s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.sh'
+[1.867s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.bash'
+[1.868s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/ros2_urdf/package.zsh'
+[1.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/ros2_urdf/share/colcon-core/packages/ros2_urdf)
+[1.872s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control' with build type 'ament_cmake'
+[1.873s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control'
+[1.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.874s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.910s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/simple_panda_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/simple_panda_control -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/simple_panda_control[0m
+[3.728s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/moveit2_tutorials' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/work_space/src/moveit2_tutorials -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials[0m
+[3.749s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(moveit2_tutorials)
+[3.750s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials' for CMake module files
+[3.754s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials' for CMake config files
+[3.755s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials/bin'
+[3.755s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials/lib/pkgconfig/moveit2_tutorials.pc'
+[3.756s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials/lib/python3.10/site-packages'
+[3.756s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials/bin'
+[3.757s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials/share/moveit2_tutorials/package.ps1'
+[3.759s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv'
+[3.760s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials/share/moveit2_tutorials/package.sh'
+[3.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials/share/moveit2_tutorials/package.bash'
+[3.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials/share/moveit2_tutorials/package.zsh'
+[3.767s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ziad/Ziad_WS/ROS2/work_space/install/moveit2_tutorials/share/colcon-core/packages/moveit2_tutorials)
+[6.523s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[6.523s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[6.523s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[6.523s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[6.544s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.544s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.545s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[6.570s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[6.571s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ziad/Ziad_WS/ROS2/work_space/install/local_setup.ps1'
+[6.575s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ziad/Ziad_WS/ROS2/work_space/install/_local_setup_util_ps1.py'
+[6.582s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ziad/Ziad_WS/ROS2/work_space/install/setup.ps1'
+[6.588s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ziad/Ziad_WS/ROS2/work_space/install/local_setup.sh'
+[6.590s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ziad/Ziad_WS/ROS2/work_space/install/_local_setup_util_sh.py'
+[6.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ziad/Ziad_WS/ROS2/work_space/install/setup.sh'
+[6.599s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ziad/Ziad_WS/ROS2/work_space/install/local_setup.bash'
+[6.599s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ziad/Ziad_WS/ROS2/work_space/install/setup.bash'
+[6.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ziad/Ziad_WS/ROS2/work_space/install/local_setup.zsh'
+[6.602s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ziad/Ziad_WS/ROS2/work_space/install/setup.zsh'

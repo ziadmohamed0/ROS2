@@ -1,0 +1,41 @@
+[0.031s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt -- -j4 -l4
+[0.119s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt -- -j4 -l4
+[0.141s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt
+[0.154s] -- Install configuration: ""
+[0.156s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/config
+[0.157s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/config/joint_names_cyber_robt.yaml
+[0.157s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/launch
+[0.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/launch/gazebo.launch.xml
+[0.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/launch/gazebo.launch.py
+[0.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/launch/gazebo.launch
+[0.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/launch/display.launch
+[0.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes
+[0.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/U_B.STL
+[0.158s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/U_R.STL
+[0.166s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/W_F_R.STL
+[0.170s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/W_B_L.STL
+[0.170s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/U_F.STL
+[0.170s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/base_link.STL
+[0.170s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/Lidar.STL
+[0.170s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/W_F_L.STL
+[0.171s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/W_B_R.STL
+[0.171s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/U_L.STL
+[0.171s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/urdf
+[0.171s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/urdf/cyber_robt.urdf
+[0.171s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/urdf/cyber_robt.csv
+[0.171s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/ament_index/resource_index/package_run_dependencies/cyber_robt
+[0.172s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/ament_index/resource_index/parent_prefix_path/cyber_robt
+[0.172s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/environment/ament_prefix_path.sh
+[0.172s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/environment/ament_prefix_path.dsv
+[0.174s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/environment/path.sh
+[0.175s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/environment/path.dsv
+[0.175s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/local_setup.bash
+[0.175s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/local_setup.sh
+[0.175s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/local_setup.zsh
+[0.176s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/local_setup.dsv
+[0.176s] -- Installing: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.dsv
+[0.176s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/ament_index/resource_index/packages/cyber_robt
+[0.176s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/cmake/cyber_robtConfig.cmake
+[0.176s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/cmake/cyber_robtConfig-version.cmake
+[0.177s] -- Up-to-date: /home/ziad/Ziad_WS/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.xml
+[0.180s] Invoked command in '/home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt

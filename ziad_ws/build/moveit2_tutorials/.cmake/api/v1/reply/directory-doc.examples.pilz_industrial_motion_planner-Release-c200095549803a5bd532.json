@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "doc/examples/pilz_industrial_motion_planner",
+		"source" : "doc/examples/pilz_industrial_motion_planner"
+	}
+}

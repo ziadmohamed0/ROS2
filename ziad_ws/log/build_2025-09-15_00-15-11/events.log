@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.001014] (bt_demo) JobQueued: {'identifier': 'bt_demo', 'dependencies': OrderedDict()}
+[0.001316] (move_program) JobQueued: {'identifier': 'move_program', 'dependencies': OrderedDict()}
+[0.001349] (bt_demo) JobStarted: {'identifier': 'bt_demo'}
+[0.014071] (move_program) JobStarted: {'identifier': 'move_program'}
+[0.020195] (bt_demo) JobProgress: {'identifier': 'bt_demo', 'progress': 'cmake'}
+[0.026598] (bt_demo) JobProgress: {'identifier': 'bt_demo', 'progress': 'build'}
+[0.027748] (bt_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo', '--', '-j4', '-l4'], 'cwd': '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15537'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:13925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1506,unix/ziadfathy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '2871e8f4e9a341ef9406b3e1aeca2948'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T17PC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ccc532e0-9b75-4806-a69e-9fec6adafcba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.035520] (move_program) JobProgress: {'identifier': 'move_program', 'progress': 'cmake'}
+[0.037678] (move_program) Command: {'cmd': ['/usr/bin/cmake', '/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program', '-DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program'], 'cwd': '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15537'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:13925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1506,unix/ziadfathy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '2871e8f4e9a341ef9406b3e1aeca2948'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T17PC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ccc532e0-9b75-4806-a69e-9fec6adafcba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099686] (-) TimerEvent: {}
+[0.200051] (-) TimerEvent: {}
+[0.259887] (bt_demo) StdoutLine: {'line': b'[100%] Built target bt_main\n'}
+[0.275843] (bt_demo) CommandEnded: {'returncode': 0}
+[0.277522] (bt_demo) JobProgress: {'identifier': 'bt_demo', 'progress': 'install'}
+[0.291199] (bt_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo'], 'cwd': '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15537'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:13925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1506,unix/ziadfathy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '2871e8f4e9a341ef9406b3e1aeca2948'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T17PC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ccc532e0-9b75-4806-a69e-9fec6adafcba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.300207] (-) TimerEvent: {}
+[0.302979] (bt_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.304420] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/lib/bt_demo/bt_main\n'}
+[0.305721] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/my_tree.xml\n'}
+[0.306179] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/ament_index/resource_index/package_run_dependencies/bt_demo\n'}
+[0.306467] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/ament_index/resource_index/parent_prefix_path/bt_demo\n'}
+[0.306750] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/ament_prefix_path.sh\n'}
+[0.307032] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/ament_prefix_path.dsv\n'}
+[0.307300] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/path.sh\n'}
+[0.307445] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/environment/path.dsv\n'}
+[0.307581] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.bash\n'}
+[0.307717] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.sh\n'}
+[0.307860] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.zsh\n'}
+[0.308166] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/local_setup.dsv\n'}
+[0.308326] (bt_demo) StdoutLine: {'line': b'-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/package.dsv\n'}
+[0.308465] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/ament_index/resource_index/packages/bt_demo\n'}
+[0.308709] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/cmake/bt_demoConfig.cmake\n'}
+[0.308963] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/cmake/bt_demoConfig-version.cmake\n'}
+[0.309107] (bt_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/bt_demo/share/bt_demo/package.xml\n'}
+[0.311184] (bt_demo) CommandEnded: {'returncode': 0}
+[0.320029] (move_program) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.347452] (bt_demo) JobEnded: {'identifier': 'bt_demo', 'rc': 0}
+[0.400298] (-) TimerEvent: {}
+[0.467378] (move_program) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.479748] (move_program) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500459] (-) TimerEvent: {}
+[0.566222] (move_program) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.576619] (move_program) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.580233] (move_program) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.581246] (move_program) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.587229] (move_program) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600605] (-) TimerEvent: {}
+[0.685988] (move_program) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.697631] (move_program) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.697972] (move_program) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.698570] (move_program) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.700725] (-) TimerEvent: {}
+[0.710934] (move_program) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.800824] (-) TimerEvent: {}
+[0.901126] (-) TimerEvent: {}
+[1.001440] (-) TimerEvent: {}
+[1.101762] (-) TimerEvent: {}
+[1.202151] (-) TimerEvent: {}
+[1.302494] (-) TimerEvent: {}
+[1.402779] (-) TimerEvent: {}
+[1.503106] (-) TimerEvent: {}
+[1.603676] (-) TimerEvent: {}
+[1.704009] (-) TimerEvent: {}
+[1.804400] (-) TimerEvent: {}
+[1.900201] (move_program) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.904507] (-) TimerEvent: {}
+[2.004769] (-) TimerEvent: {}
+[2.105136] (-) TimerEvent: {}
+[2.108818] (move_program) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[2.205242] (-) TimerEvent: {}
+[2.305664] (-) TimerEvent: {}
+[2.406101] (-) TimerEvent: {}
+[2.406561] (move_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[2.506208] (-) TimerEvent: {}
+[2.520672] (move_program) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.531446] (move_program) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.548882] (move_program) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.574156] (move_program) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.603949] (move_program) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.606314] (-) TimerEvent: {}
+[2.706654] (-) TimerEvent: {}
+[2.806987] (-) TimerEvent: {}
+[2.907365] (-) TimerEvent: {}
+[3.007694] (-) TimerEvent: {}
+[3.045716] (move_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[3.107828] (-) TimerEvent: {}
+[3.160012] (move_program) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[3.207968] (-) TimerEvent: {}
+[3.241367] (move_program) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.257109] (move_program) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.308071] (-) TimerEvent: {}
+[3.408397] (-) TimerEvent: {}
+[3.421374] (move_program) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.465864] (move_program) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.508506] (-) TimerEvent: {}
+[3.538085] (move_program) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.563936] (move_program) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.608624] (-) TimerEvent: {}
+[3.660349] (move_program) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[3.708739] (-) TimerEvent: {}
+[3.716839] (move_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[3.811169] (-) TimerEvent: {}
+[3.911664] (-) TimerEvent: {}
+[3.921366] (move_program) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[3.978625] (move_program) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.978917] (move_program) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.011774] (-) TimerEvent: {}
+[4.112135] (-) TimerEvent: {}
+[4.212498] (-) TimerEvent: {}
+[4.243206] (move_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[4.292368] (move_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[4.312604] (-) TimerEvent: {}
+[4.332341] (move_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[4.389600] (move_program) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.412707] (-) TimerEvent: {}
+[4.513087] (-) TimerEvent: {}
+[4.545598] (move_program) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.545898] (move_program) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/include>\n'}
+[4.546106] (move_program) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.547332] (move_program) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.549085] (move_program) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.549430] (move_program) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.549911] (move_program) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.551807] (move_program) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.602345] (move_program) StdoutLine: {'line': b'-- Generating done\n'}
+[4.613216] (-) TimerEvent: {}
+[4.613692] (move_program) StdoutLine: {'line': b'-- Build files have been written to: /home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program\n'}
+[4.642679] (move_program) CommandEnded: {'returncode': 0}
+[4.643981] (move_program) JobProgress: {'identifier': 'move_program', 'progress': 'build'}
+[4.644589] (move_program) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program', '--', '-j4', '-l4'], 'cwd': '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ziad/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ziad/.nvm/versions/node/v18.20.8/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1279'), ('SYSTEMD_EXEC_PID', '2172'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15537'), ('NVM_DIR', '/home/ziad/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:13925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('IDF_PATH', '/home/ziad/esp-idf'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ziad/.local/bin:/path/to/bin:/home/ziad/.local/bin:/home/ziad/bin:/home/ziad/.local/bin:/home/ziad/.local/bin:/opt/ros/humble/bin:/home/ziad/.nvm/versions/node/v18.20.8/bin:/home/ziad/.local/bin:/home/ziad/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ziad/.local/bin'), ('SESSION_MANAGER', 'local/ziadfathy:@/tmp/.ICE-unix/1506,unix/ziadfathy:/tmp/.ICE-unix/1506'), ('INVOCATION_ID', '2871e8f4e9a341ef9406b3e1aeca2948'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T17PC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:ccc532e0-9b75-4806-a69e-9fec6adafcba'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_WSREP_START_POSITION', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.713369] (-) TimerEvent: {}
+[4.714285] (move_program) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_program.dir/src/move_program.cpp.o\x1b[0m\n'}
+[4.813482] (-) TimerEvent: {}
+[4.913819] (-) TimerEvent: {}
+[5.014151] (-) TimerEvent: {}
+[5.114486] (-) TimerEvent: {}
+[5.214873] (-) TimerEvent: {}
+[5.315214] (-) TimerEvent: {}
+[5.415550] (-) TimerEvent: {}
+[5.515879] (-) TimerEvent: {}
+[5.616237] (-) TimerEvent: {}
+[5.716555] (-) TimerEvent: {}
+[5.816890] (-) TimerEvent: {}
+[5.917241] (-) TimerEvent: {}
+[6.017825] (-) TimerEvent: {}
+[6.118264] (-) TimerEvent: {}
+[6.218845] (-) TimerEvent: {}
+[6.319241] (-) TimerEvent: {}
+[6.419600] (-) TimerEvent: {}
+[6.520012] (-) TimerEvent: {}
+[6.620483] (-) TimerEvent: {}
+[6.721998] (-) TimerEvent: {}
+[6.822370] (-) TimerEvent: {}
+[6.922675] (-) TimerEvent: {}
+[7.022993] (-) TimerEvent: {}
+[7.123319] (-) TimerEvent: {}
+[7.223741] (-) TimerEvent: {}
+[7.324112] (-) TimerEvent: {}
+[7.424471] (-) TimerEvent: {}
+[7.524936] (-) TimerEvent: {}
+[7.625245] (-) TimerEvent: {}
+[7.725604] (-) TimerEvent: {}
+[7.826081] (-) TimerEvent: {}
+[7.926393] (-) TimerEvent: {}
+[8.026702] (-) TimerEvent: {}
+[8.127022] (-) TimerEvent: {}
+[8.227318] (-) TimerEvent: {}
+[8.327689] (-) TimerEvent: {}
+[8.427990] (-) TimerEvent: {}
+[8.528312] (-) TimerEvent: {}
+[8.628682] (-) TimerEvent: {}
+[8.728999] (-) TimerEvent: {}
+[8.829337] (-) TimerEvent: {}
+[8.929614] (-) TimerEvent: {}
+[9.029911] (-) TimerEvent: {}
+[9.130212] (-) TimerEvent: {}
+[9.230521] (-) TimerEvent: {}
+[9.330849] (-) TimerEvent: {}
+[9.431201] (-) TimerEvent: {}
+[9.531557] (-) TimerEvent: {}
+[9.631949] (-) TimerEvent: {}
+[9.732320] (-) TimerEvent: {}
+[9.832682] (-) TimerEvent: {}
+[9.933044] (-) TimerEvent: {}
+[10.033424] (-) TimerEvent: {}
+[10.133790] (-) TimerEvent: {}
+[10.234146] (-) TimerEvent: {}
+[10.334496] (-) TimerEvent: {}
+[10.434896] (-) TimerEvent: {}
+[10.535308] (-) TimerEvent: {}
+[10.635681] (-) TimerEvent: {}
+[10.736072] (-) TimerEvent: {}
+[10.836473] (-) TimerEvent: {}
+[10.936858] (-) TimerEvent: {}
+[11.037249] (-) TimerEvent: {}
+[11.137628] (-) TimerEvent: {}
+[11.238018] (-) TimerEvent: {}
+[11.338423] (-) TimerEvent: {}
+[11.438798] (-) TimerEvent: {}
+[11.539176] (-) TimerEvent: {}
+[11.639805] (-) TimerEvent: {}
+[11.740193] (-) TimerEvent: {}
+[11.784362] (move_program) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/src/move_program.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.804621] (move_program) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/src/move_program.cpp:9:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.805058] (move_program) StderrLine: {'line': b'    9 | st node = std::make_shared<rclcpp::\x1b[01;31m\x1b[Knode\x1b[m\x1b[K>(\n'}
+[11.805235] (move_program) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.805393] (move_program) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[KNode\x1b[m\x1b[K\n'}
+[11.805547] (move_program) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/src/move_program.cpp:9:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >(const char [13], rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.805710] (move_program) StderrLine: {'line': b'    9 | st node = \x1b[01;31m\x1b[Kstd::make_shared<rclcpp::node>(\x1b[m\x1b[K\n'}
+[11.805840] (move_program) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.806004] (move_program) StderrLine: {'line': b'\n'}
+[11.806137] (move_program) StderrLine: {'line': b'   10 | \x1b[01;31m\x1b[Kprogram",\x1b[m\x1b[K\n'}
+[11.806265] (move_program) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~\x1b[m\x1b[K                                \n'}
+[11.806391] (move_program) StderrLine: {'line': b'\n'}
+[11.806519] (move_program) StderrLine: {'line': b'   11 | \x1b[01;31m\x1b[K::NodeOptions().automatically_declare_parameters_from_overrides(true)\x1b[m\x1b[K\n'}
+[11.806651] (move_program) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.806777] (move_program) StderrLine: {'line': b'\n'}
+[11.806911] (move_program) StderrLine: {'line': b'   12 | \n'}
+[11.807041] (move_program) StderrLine: {'line': b'      |                                          \n'}
+[11.807156] (move_program) StderrLine: {'line': b'\n'}
+[11.807261] (move_program) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[11.807365] (move_program) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/src/move_program.cpp:1\x1b[m\x1b[K:\n'}
+[11.807471] (move_program) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.807581] (move_program) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[11.807691] (move_program) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.807792] (move_program) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.807915] (move_program) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ziad/Ziad_WS/ROS2/ziad_ws/src/move_program/src/move_program.cpp:9:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[11.808028] (move_program) StderrLine: {'line': b'    9 | st node = \x1b[01;31m\x1b[Kstd::make_shared<rclcpp::node>(\x1b[m\x1b[K\n'}
+[11.808132] (move_program) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[11.808235] (move_program) StderrLine: {'line': b'\n'}
+[11.808343] (move_program) StderrLine: {'line': b'   10 | \x1b[01;31m\x1b[Kprogram",\x1b[m\x1b[K\n'}
+[11.808466] (move_program) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~\x1b[m\x1b[K                                \n'}
+[11.808585] (move_program) StderrLine: {'line': b'\n'}
+[11.808706] (move_program) StderrLine: {'line': b'   11 | \x1b[01;31m\x1b[K::NodeOptions().automatically_declare_parameters_from_overrides(true)\x1b[m\x1b[K\n'}
+[11.808828] (move_program) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.808965] (move_program) StderrLine: {'line': b'\n'}
+[11.809099] (move_program) StderrLine: {'line': b'   12 | \n'}
+[11.809238] (move_program) StderrLine: {'line': b'      |                                          \n'}
+[11.809367] (move_program) StderrLine: {'line': b'\n'}
+[11.840296] (-) TimerEvent: {}
+[11.940643] (-) TimerEvent: {}
+[12.040992] (-) TimerEvent: {}
+[12.141382] (-) TimerEvent: {}
+[12.241670] (-) TimerEvent: {}
+[12.342000] (-) TimerEvent: {}
+[12.442360] (-) TimerEvent: {}
+[12.542713] (-) TimerEvent: {}
+[12.643073] (-) TimerEvent: {}
+[12.743377] (-) TimerEvent: {}
+[12.843712] (-) TimerEvent: {}
+[12.944002] (-) TimerEvent: {}
+[13.044367] (-) TimerEvent: {}
+[13.144760] (-) TimerEvent: {}
+[13.245133] (-) TimerEvent: {}
+[13.345514] (-) TimerEvent: {}
+[13.445882] (-) TimerEvent: {}
+[13.546201] (-) TimerEvent: {}
+[13.646577] (-) TimerEvent: {}
+[13.746925] (-) TimerEvent: {}
+[13.847246] (-) TimerEvent: {}
+[13.947538] (-) TimerEvent: {}
+[14.047899] (-) TimerEvent: {}
+[14.148203] (-) TimerEvent: {}
+[14.248542] (-) TimerEvent: {}
+[14.348930] (-) TimerEvent: {}
+[14.449237] (-) TimerEvent: {}
+[14.549652] (-) TimerEvent: {}
+[14.649985] (-) TimerEvent: {}
+[14.750325] (-) TimerEvent: {}
+[14.850634] (-) TimerEvent: {}
+[14.874127] (move_program) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_program.dir/build.make:76: CMakeFiles/move_program.dir/src/move_program.cpp.o] Error 1\n'}
+[14.874452] (move_program) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_program.dir/all] Error 2\n'}
+[14.874672] (move_program) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.879021] (move_program) CommandEnded: {'returncode': 2}
+[14.894973] (move_program) JobEnded: {'identifier': 'move_program', 'rc': 2}
+[14.911339] (-) EventReactorShutdown: {}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "doc/tutorials/pick_and_place_with_moveit_task_constructor",
+		"source" : "doc/tutorials/pick_and_place_with_moveit_task_constructor"
+	}
+}

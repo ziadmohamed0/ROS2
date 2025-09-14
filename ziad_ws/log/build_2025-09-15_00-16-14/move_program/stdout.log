@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target move_program[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_program.dir/src/move_program.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_program[0m
+[100%] Built target move_program
+-- Install configuration: ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/lib/move_program/move_program
+-- Set runtime path of "/home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/lib/move_program/move_program" to ""
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/ament_index/resource_index/package_run_dependencies/move_program
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/ament_index/resource_index/parent_prefix_path/move_program
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/environment/ament_prefix_path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/environment/ament_prefix_path.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/environment/path.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/environment/path.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/local_setup.bash
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/local_setup.sh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/local_setup.zsh
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/local_setup.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/package.dsv
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/ament_index/resource_index/packages/move_program
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/cmake/move_programConfig.cmake
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/cmake/move_programConfig-version.cmake
+-- Installing: /home/ziad/Ziad_WS/ROS2/ziad_ws/install/move_program/share/move_program/package.xml

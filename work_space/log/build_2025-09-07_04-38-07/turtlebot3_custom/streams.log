@@ -1,0 +1,28 @@
+[0.044s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/turtlebot3_custom -- -j4 -l4
+[0.282s] [  2%] Built target turtlebot3_custom__cpp
+[0.290s] [ 10%] Built target turtlebot3_custom__rosidl_generator_c
+[0.307s] [ 14%] Built target turtlebot3_controller
+[0.335s] [ 14%] Built target ament_cmake_python_copy_turtlebot3_custom
+[0.375s] [ 22%] Built target turtlebot3_custom__rosidl_typesupport_cpp
+[0.407s] [ 30%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_cpp
+[0.428s] [ 38%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c
+[0.492s] [ 46%] Built target turtlebot3_custom__rosidl_typesupport_c
+[0.493s] [ 55%] Built target turtlebot3_custom__rosidl_typesupport_introspection_cpp
+[0.570s] [ 59%] Built target robot_status_server
+[0.586s] [ 63%] Built target status_client
+[0.628s] [ 67%] Built target navigation_action_server
+[0.696s] [ 75%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c
+[0.723s] [ 79%] Built target navigation_client
+[0.789s] [ 79%] Built target turtlebot3_custom
+[0.829s] [ 81%] Built target turtlebot3_custom__py
+[0.866s] [ 87%] Built target turtlebot3_custom__rosidl_generator_py
+[0.952s] [ 91%] Built target turtlebot3_custom__rosidl_typesupport_introspection_c__pyext
+[0.953s] [ 95%] Built target turtlebot3_custom__rosidl_typesupport_fastrtps_c__pyext
+[0.954s] [100%] Built target turtlebot3_custom__rosidl_typesupport_c__pyext
+[1.560s] running egg_info
+[1.595s] writing turtlebot3_custom.egg-info/PKG-INFO
+[1.596s] writing dependency_links to turtlebot3_custom.egg-info/dependency_links.txt
+[1.596s] writing top-level names to turtlebot3_custom.egg-info/top_level.txt
+[1.696s] reading manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[1.696s] writing manifest file 'turtlebot3_custom.egg-info/SOURCES.txt'
+[1.756s] [100%] Built target ament_cmake_python_build_turtlebot3_custom_egg
