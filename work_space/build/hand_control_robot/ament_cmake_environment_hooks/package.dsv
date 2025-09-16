@@ -1,4 +1,0 @@
-source;share/hand_control_robot/local_setup.bash
-source;share/hand_control_robot/local_setup.dsv
-source;share/hand_control_robot/local_setup.sh
-source;share/hand_control_robot/local_setup.zsh

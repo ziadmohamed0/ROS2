@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit_task_constructor_core/ament_cmake_environment_hooks/pythonpath.sh

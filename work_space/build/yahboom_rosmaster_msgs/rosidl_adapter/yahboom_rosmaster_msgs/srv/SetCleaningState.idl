@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from yahboom_rosmaster_msgs/srv/SetCleaningState.srv
+// generated code does not contain a copyright notice
+
+
+module yahboom_rosmaster_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct SetCleaningState_Request {
+      @verbatim (language="comment", text=
+        "Request: true to start cleaning, false to stop")
+      boolean desired_cleaning_state;
+    };
+    struct SetCleaningState_Response {
+      @verbatim (language="comment", text=
+        "Response: whether the request was successful")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Response: information about the result")
+      string message;
+    };
+  };
+};

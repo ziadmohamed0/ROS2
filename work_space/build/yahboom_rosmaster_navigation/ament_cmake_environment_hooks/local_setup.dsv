@@ -1,0 +1,3 @@
+source;share/yahboom_rosmaster_navigation/environment/ament_prefix_path.sh
+source;share/yahboom_rosmaster_navigation/environment/path.sh
+source;share/yahboom_rosmaster_navigation/environment/pythonpath.sh

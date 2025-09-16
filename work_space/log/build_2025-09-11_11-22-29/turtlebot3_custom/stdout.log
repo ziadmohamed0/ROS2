@@ -1,6 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target turtlebot3_controller[0m
-[35m[1mConsolidate compiler generated dependencies of target turtlebot3_custom__rosidl_generator_c[0m
-[  2%] Built target turtlebot3_custom__cpp
-[ 10%] Built target turtlebot3_custom__rosidl_generator_c
-[ 12%] [32m[1mLinking CXX executable turtlebot3_controller[0m
-[ 14%] Built target turtlebot3_controller

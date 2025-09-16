@@ -1,4 +1,0 @@
-Invoking command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo -- -j4 -l4
-Invoked command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo -- -j4 -l4
-Invoking command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo
-Invoked command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo

@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/ziad_ws/build/move_program/ament_cmake_core/move_programConfig.cmake

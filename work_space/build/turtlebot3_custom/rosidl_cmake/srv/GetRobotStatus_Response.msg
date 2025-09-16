@@ -1,5 +1,0 @@
-
-bool success
-string status_message
-geometry_msgs/Pose current_pose
-sensor_msgs/BatteryState battery_info

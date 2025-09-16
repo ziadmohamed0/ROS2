@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit_task_constructor/core/include/moveit/task_constructor/solvers/joint_interpolation.h

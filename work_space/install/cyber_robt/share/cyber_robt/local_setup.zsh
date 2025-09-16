@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/work_space/build/cyber_robt/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,46 @@
+[  0%] Built target ament_cmake_python_symlink_yahboom_rosmaster_navigation
+[100%] Built target cmd_vel_relay
+running egg_info
+writing yahboom_rosmaster_navigation.egg-info/PKG-INFO
+writing dependency_links to yahboom_rosmaster_navigation.egg-info/dependency_links.txt
+writing top-level names to yahboom_rosmaster_navigation.egg-info/top_level.txt
+reading manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+writing manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_yahboom_rosmaster_navigation_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/cmd_vel_relay
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/config/rosmaster_x3_nav2_default_params.yaml
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/config/rosmaster_x3_nav2_regulated_pure_pursuit_controller.yaml
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/cafe_world_map.pgm
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/cafe_world_map.yaml
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/house_world_map.pgm
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/house_world_map.yaml
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/rviz/nav2_default_view.rviz
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/pythonpath.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation/__init__.py
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation/posestamped_msg_generator.py
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/assisted_teleoperation.py
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/nav_to_pose.py
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/test_nav_to_pose.py
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_navigation
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_navigation
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/path.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/path.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.bash
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.zsh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/package.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/packages/yahboom_rosmaster_navigation
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/cmake/yahboom_rosmaster_navigationConfig.cmake
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/cmake/yahboom_rosmaster_navigationConfig-version.cmake
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/package.xml
+Listing '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation'...

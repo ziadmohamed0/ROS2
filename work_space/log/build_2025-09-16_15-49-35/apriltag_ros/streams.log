@@ -1,0 +1,33 @@
+[0.039s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/apriltag_ros -- -j4 -l4
+[0.182s] [ 20%] Built target tags
+[0.195s] [ 40%] Built target apriltag_node
+[0.206s] [ 60%] Built target conversion
+[0.288s] [ 80%] Built target pose_estimation
+[0.430s] [100%] Built target AprilTagNode
+[0.469s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/apriltag_ros -- -j4 -l4
+[0.472s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/apriltag_ros
+[0.495s] -- Install configuration: ""
+[0.496s] -- Execute custom install script
+[0.499s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/lib/apriltag_ros/apriltag_node
+[0.499s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh
+[0.502s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv
+[0.502s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/lib/libAprilTagNode.so
+[0.506s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml
+[0.510s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/launch/camera_36h11.launch.yml
+[0.510s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros
+[0.512s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros
+[0.515s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh
+[0.516s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv
+[0.516s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/environment/path.sh
+[0.519s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/environment/path.dsv
+[0.520s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/local_setup.bash
+[0.520s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/local_setup.sh
+[0.522s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/local_setup.zsh
+[0.523s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/local_setup.dsv
+[0.523s] -- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/package.dsv
+[0.543s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros
+[0.544s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros
+[0.545s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+[0.545s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+[0.545s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/apriltag_ros/share/apriltag_ros/package.xml
+[0.551s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/apriltag_ros

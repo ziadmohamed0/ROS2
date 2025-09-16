@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/work_space/build/ur_simulation_gazebo/ament_cmake_core/ur_simulation_gazeboConfig.cmake

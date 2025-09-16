@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit_task_constructor_core/python/bindings/pymoveit_mtc.cpython-310-x86_64-linux-gnu.so" "TARGETS" "pymoveit_mtc" "LIBRARY_DESTINATION" "local/lib/python3.10/dist-packages")

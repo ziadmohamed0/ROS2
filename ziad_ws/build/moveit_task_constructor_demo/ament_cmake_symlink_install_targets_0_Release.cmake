@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit_task_constructor_demo/libmoveit_task_constructor_demo_pick_place_task.so" "TARGETS" "moveit_task_constructor_demo_pick_place_task" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/moveit_task_constructor_demo")

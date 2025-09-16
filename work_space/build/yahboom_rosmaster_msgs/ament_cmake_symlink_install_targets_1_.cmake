@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_py/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/yahboom_rosmaster_msgs")

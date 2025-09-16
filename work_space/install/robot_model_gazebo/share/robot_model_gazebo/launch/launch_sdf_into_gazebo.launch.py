@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/work_space/src/robot_model_gazebo/launch/launch_sdf_into_gazebo.launch.py

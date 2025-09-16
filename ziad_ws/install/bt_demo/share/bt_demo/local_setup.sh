@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/ziad_ws/build/bt_demo/ament_cmake_environment_hooks/local_setup.sh

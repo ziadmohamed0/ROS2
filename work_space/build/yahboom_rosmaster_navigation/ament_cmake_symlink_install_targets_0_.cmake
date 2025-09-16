@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation/cmd_vel_relay" "TARGETS" "cmd_vel_relay" "DESTINATION" "lib/yahboom_rosmaster_navigation")

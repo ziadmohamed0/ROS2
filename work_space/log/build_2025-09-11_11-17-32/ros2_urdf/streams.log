@@ -1,4 +1,0 @@
-[0.057s] Invoking command in '/home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ziad/Ziad_WS/ROS2/work_space/build/ros2_urdf -- -j4 -l4
-[0.229s] [35m[1mConsolidate compiler generated dependencies of target move_to_goal[0m
-[0.450s] [ 50%] [32m[1mLinking CXX executable move_to_goal[0m
-[1.313s] [100%] Built target move_to_goal

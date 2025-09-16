@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit2_tutorials/doc/tutorials/quickstart_in_rviz/launch/demo.launch.py

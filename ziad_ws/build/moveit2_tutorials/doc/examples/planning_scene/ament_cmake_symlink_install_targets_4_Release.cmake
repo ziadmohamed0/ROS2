@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials/doc/examples/planning_scene/planning_scene_tutorial" "TARGETS" "planning_scene_tutorial" "DESTINATION" "lib/moveit2_tutorials")

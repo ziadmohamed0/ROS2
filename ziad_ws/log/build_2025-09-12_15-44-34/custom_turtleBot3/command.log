@@ -1,2 +1,0 @@
-Invoking command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/ziad_ws/src/custom_turtleBot3 -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_turtleBot3
-Invoked command in '/home/ziad/Ziad_WS/ROS2/ziad_ws/build/custom_turtleBot3' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/Ziad_WS/ROS2/ziad_ws/src/custom_turtleBot3 -DCMAKE_INSTALL_PREFIX=/home/ziad/Ziad_WS/ROS2/ziad_ws/install/custom_turtleBot3

@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/ziad_ws/src/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/launch/pilz_mtc.launch.py

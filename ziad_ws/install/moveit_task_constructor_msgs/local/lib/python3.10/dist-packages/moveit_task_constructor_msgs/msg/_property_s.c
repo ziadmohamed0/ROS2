@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit_task_constructor_msgs/rosidl_generator_py/moveit_task_constructor_msgs/msg/_property_s.c

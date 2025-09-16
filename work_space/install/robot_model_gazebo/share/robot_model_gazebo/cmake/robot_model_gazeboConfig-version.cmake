@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/work_space/build/robot_model_gazebo/ament_cmake_core/robot_model_gazeboConfig-version.cmake

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/Ziad_WS/ROS2/ziad_ws/build/moveit2_tutorials/doc/examples/moveit_cpp/moveit_cpp_tutorial" "TARGETS" "moveit_cpp_tutorial" "DESTINATION" "lib/moveit2_tutorials")

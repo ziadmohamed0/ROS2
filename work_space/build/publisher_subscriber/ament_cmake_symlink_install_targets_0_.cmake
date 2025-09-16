@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber/subscriber" "/home/ziad/Ziad_WS/ROS2/work_space/build/publisher_subscriber/publisher" "TARGETS" "subscriber" "publisher" "DESTINATION" "lib/publisher_subscriber")

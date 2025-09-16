@@ -1,1 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/work_space/build/robot_description/ament_cmake_core/robot_descriptionConfig-version.cmake

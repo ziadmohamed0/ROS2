@@ -1,0 +1,7 @@
+setup.py
+yahboom_rosmaster_navigation/__init__.py
+yahboom_rosmaster_navigation/posestamped_msg_generator.py
+yahboom_rosmaster_navigation.egg-info/PKG-INFO
+yahboom_rosmaster_navigation.egg-info/SOURCES.txt
+yahboom_rosmaster_navigation.egg-info/dependency_links.txt
+yahboom_rosmaster_navigation.egg-info/top_level.txt

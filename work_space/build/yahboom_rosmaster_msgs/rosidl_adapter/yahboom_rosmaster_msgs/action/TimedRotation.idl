@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from yahboom_rosmaster_msgs/action/TimedRotation.action
+// generated code does not contain a copyright notice
+
+
+module yahboom_rosmaster_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Request parameters for the timed rotation")
+    struct TimedRotation_Goal {
+      @verbatim (language="comment", text=
+        "Desired angular velocity in rad/s (positive for counterclockwise, negative for clockwise)")
+      double angular_velocity;
+
+      @verbatim (language="comment", text=
+        "Desired duration of the rotation in seconds")
+      double duration;
+    };
+    @verbatim (language="comment", text=
+      "Result of the completed rotation")
+    struct TimedRotation_Result {
+      @verbatim (language="comment", text=
+        "Indicates if the rotation was completed successfully")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Actual duration of the rotation in seconds")
+      double actual_duration;
+    };
+    @verbatim (language="comment", text=
+      "Continuous feedback during rotation")
+    struct TimedRotation_Feedback {
+      @verbatim (language="comment", text=
+        "Elapsed time since the start of the rotation in seconds")
+      double elapsed_time;
+
+      @verbatim (language="comment", text=
+        "Current status of the rotation:" "\n"
+        "GOAL_RECEIVED: The action server has received a goal" "\n"
+        "ROTATING: The rotation is in progress" "\n"
+        "GOAL_SUCCEEDED: The rotation has been completed successfully" "\n"
+        "GOAL_ABORTED: The rotation has been aborted due to an error or exceptional condition" "\n"
+        "GOAL_CANCELED: The client has canceled the rotation goal")
+      string status;
+    };
+  };
+};

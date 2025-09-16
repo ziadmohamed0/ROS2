@@ -1,6 +1,0 @@
-/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stages.so
-/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core_stage_plugins.so
-/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/lib/libmoveit_task_constructor_core.so
-/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/pybind11Targets.cmake
-/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport.cmake
-/home/ziad/Ziad_WS/ROS2/ziad_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake/moveit_task_constructor_coreTargetsExport-release.cmake
