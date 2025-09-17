@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-632686faebceab73d309.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "urdf_tutorial_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a555cdd2a090075dabd8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdf_tutorial_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdf_tutorial_cpp-cda29c84079a77a92453.json",
+					"name" : "urdf_tutorial_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdf_tutorial_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdf_tutorial_cpp_uninstall-93c9a53f8aa98624aeca.json",
+					"name" : "urdf_tutorial_cpp_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp",
+		"source" : "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/tutorials_work_sapce/src/urdf_tutorial_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

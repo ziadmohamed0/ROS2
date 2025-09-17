@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_msgs/include/**",
+                "/home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/include/**",
+                "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+                "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+                "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/include/**",
+                "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+                "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include/**",
+                "/opt/ros/jazzy/include/**",
+                "/home/ziad/ziad_ws/ROS2/work_space/src/custom_action_interfaces/include/**",
+                "/home/ziad/ziad_ws/ROS2/work_space/src/ros2_control_turtel_bot/include/**",
+                "/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/mecanum_drive_controller/include/**",
+                "/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster/include/**",
+                "/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_docking/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

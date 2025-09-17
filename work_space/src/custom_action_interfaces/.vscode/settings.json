@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

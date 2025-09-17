@@ -1,0 +1,4 @@
+source;share/ros2_control_turtel_bot/local_setup.bash
+source;share/ros2_control_turtel_bot/local_setup.dsv
+source;share/ros2_control_turtel_bot/local_setup.sh
+source;share/ros2_control_turtel_bot/local_setup.zsh

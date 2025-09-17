@@ -1,0 +1,55 @@
+[0.035s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/tutorials_work_sapce/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp
+[0.096s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.817s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.840s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.898s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.922s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.950s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.984s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.103s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.270s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.278s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.614s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[1.626s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.902s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.964s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.189s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.189s] -- Configured cppcheck include dirs: 
+[2.190s] -- Configured cppcheck exclude dirs and/or files: 
+[2.190s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.190s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.191s] -- Added test 'lint_cmake' to check CMake code style
+[2.193s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.195s] -- Added test 'uncrustify' to check C / C++ code style
+[2.196s] -- Configured uncrustify additional arguments: 
+[2.197s] -- Added test 'xmllint' to check XML markup files
+[2.200s] -- Configuring done (2.1s)
+[2.239s] -- Generating done (0.0s)
+[2.250s] -- Build files have been written to: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp
+[2.273s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/tutorials_work_sapce/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp
+[2.273s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp -- -j4 -l4
+[2.392s] [100%] Built target turtle_tf2_broadcaster
+[2.414s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp -- -j4 -l4
+[2.418s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp
+[2.434s] -- Install configuration: ""
+[2.435s] -- Execute custom install script
+[2.440s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[2.440s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/custom_luanch.launch.py
+[2.440s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo_launch.py
+[2.440s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[2.440s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[2.440s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[2.441s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[2.441s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[2.441s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[2.441s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[2.445s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[2.445s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[2.446s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[2.446s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[2.460s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[2.460s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[2.461s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[2.462s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[2.466s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp

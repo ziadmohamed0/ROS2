@@ -1,0 +1,45 @@
+[0.056s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/tutorials_work_sapce/src/urdf_tutorial_cpp -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp
+[0.137s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.519s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.551s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.785s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.862s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.947s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.529s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.645s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.882s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.887s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.832s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.850s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.861s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.583s] -- Configuring done (4.5s)
+[4.734s] -- Generating done (0.1s)
+[4.776s] -- Build files have been written to: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp
+[4.835s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/tutorials_work_sapce/src/urdf_tutorial_cpp -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp
+[4.836s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp -- -j4 -l4
+[5.051s] [100%] Built target urdf_tutorial_cpp
+[5.087s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp -- -j4 -l4
+[5.087s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp
+[5.118s] -- Install configuration: ""
+[5.120s] -- Execute custom install script
+[5.122s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/lib/urdf_tutorial_cpp/urdf_tutorial_cpp
+[5.123s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/launch/launch.py
+[5.124s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/urdf/r2d2.urdf.xml
+[5.126s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial_cpp
+[5.126s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial_cpp
+[5.127s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/ament_prefix_path.sh
+[5.127s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/ament_prefix_path.dsv
+[5.128s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/path.sh
+[5.130s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/path.dsv
+[5.131s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.bash
+[5.132s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.sh
+[5.134s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.zsh
+[5.136s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.dsv
+[5.136s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/package.dsv
+[5.162s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/ament_index/resource_index/packages/urdf_tutorial_cpp
+[5.176s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/cmake/urdf_tutorial_cppConfig.cmake
+[5.177s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/cmake/urdf_tutorial_cppConfig-version.cmake
+[5.177s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/package.xml
+[5.287s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp

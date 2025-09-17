@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/pub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/sub.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable publisher[0m
+[ 75%] Built target publisher
+[100%] [32m[1mLinking CXX executable subscriber[0m
+[100%] Built target subscriber
+-- Install configuration: ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/publisher
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/publisher" to ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/subscriber
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/subscriber" to ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/ament_index/resource_index/package_run_dependencies/simple_pub_sub
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/ament_index/resource_index/parent_prefix_path/simple_pub_sub
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.sh
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/path.sh
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/path.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.bash
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.sh
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.zsh
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/package.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/ament_index/resource_index/packages/simple_pub_sub
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig-version.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/package.xml

@@ -1,0 +1,125 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk
+[  7%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[ 23%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+running egg_info
+creating dynamixel_sdk.egg-info
+writing dynamixel_sdk.egg-info/PKG-INFO
+writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[ 53%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[ 53%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[100%] Built target dynamixel_sdk
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.4-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.4-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.4-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.4-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_sync_read.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_handler.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_arduino.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_linux.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_mac.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_windows.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+-- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+-- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+Listing '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk'...
+Compiling '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py'...
+-- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake

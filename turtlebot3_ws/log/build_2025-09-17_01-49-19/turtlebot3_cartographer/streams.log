@@ -1,0 +1,32 @@
+[0.029s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer
+[0.080s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.585s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.833s] -- Configuring done (0.8s)
+[0.841s] -- Generating done (0.0s)
+[0.845s] -- Build files have been written to: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer
+[0.855s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer
+[0.856s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer -- -j4 -l4
+[0.934s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer -- -j4 -l4
+[0.937s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer
+[0.951s] -- Install configuration: ""
+[0.952s] -- Execute custom install script
+[0.952s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[0.953s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[0.954s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[0.956s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[0.956s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[0.956s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[0.956s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[0.957s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[0.960s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[0.961s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[0.961s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[0.961s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[0.962s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[0.962s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[0.962s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[0.989s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[0.990s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[0.990s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[0.990s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[0.994s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer

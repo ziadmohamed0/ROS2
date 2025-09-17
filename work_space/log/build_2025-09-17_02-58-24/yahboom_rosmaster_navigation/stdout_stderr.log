@@ -1,0 +1,92 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found navigation2: 1.3.7 (/opt/ros/jazzy/share/navigation2/cmake)
+-- Found nav2_bringup: 1.3.7 (/opt/ros/jazzy/share/nav2_bringup/cmake)
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found slam_toolbox: 2.8.3 (/opt/ros/jazzy/share/slam_toolbox/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (12.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation
+[100%] Built target cmd_vel_relay
+[100%] Built target ament_cmake_python_symlink_yahboom_rosmaster_navigation
+running egg_info
+writing yahboom_rosmaster_navigation.egg-info/PKG-INFO
+writing dependency_links to yahboom_rosmaster_navigation.egg-info/dependency_links.txt
+writing top-level names to yahboom_rosmaster_navigation.egg-info/top_level.txt
+reading manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+writing manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_yahboom_rosmaster_navigation_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/cmd_vel_relay
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/config/rosmaster_x3_nav2_default_params.yaml
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/config/rosmaster_x3_nav2_regulated_pure_pursuit_controller.yaml
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/cafe_world_map.pgm
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/cafe_world_map.yaml
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/house_world_map.pgm
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/house_world_map.yaml
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/rviz/nav2_default_view.rviz
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/pythonpath.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation/__init__.py
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation/posestamped_msg_generator.py
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/assisted_teleoperation.py
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/nav_to_pose.py
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/test_nav_to_pose.py
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_navigation
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_navigation
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/path.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/path.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.bash
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.zsh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/package.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/packages/yahboom_rosmaster_navigation
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/cmake/yahboom_rosmaster_navigationConfig.cmake
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/cmake/yahboom_rosmaster_navigationConfig-version.cmake
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/package.xml
+Listing '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation'...

@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (-) JobUnselected: {'identifier': 'learning_tf2_cpp'}
+[0.000371] (-) JobUnselected: {'identifier': 'simple_pub_sub'}
+[0.000410] (urdf_tutorial_cpp) JobQueued: {'identifier': 'urdf_tutorial_cpp', 'dependencies': OrderedDict()}
+[0.001005] (urdf_tutorial_cpp) JobStarted: {'identifier': 'urdf_tutorial_cpp'}
+[0.016903] (urdf_tutorial_cpp) JobProgress: {'identifier': 'urdf_tutorial_cpp', 'progress': 'cmake'}
+[0.017575] (urdf_tutorial_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/urdf_tutorial_cpp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp'], 'cwd': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/urdf_tutorial_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ziad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ziad', 'OLDPWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/urdf_tutorial_cpp', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ziad/.config/autostart/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1927', 'SYSTEMD_EXEC_PID': '2164', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2471', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ziad', 'DESKTOP_AUTOSTART_ID': '1055e72228bbae896175803046715033700000021640016', 'JOURNAL_STREAM': '9:18641', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ziad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ziadfathy:@/tmp/.ICE-unix/2164,unix/ziadfathy:/tmp/.ICE-unix/2164', 'INVOCATION_ID': '5438e2d67bc54ae6bce9fca8f419406b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EDAPC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:12f0503d-5df7-4774-8250-81c56a80aae0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/urdf_tutorial_cpp', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099790] (-) TimerEvent: {}
+[0.200083] (-) TimerEvent: {}
+[0.300328] (-) TimerEvent: {}
+[0.385178] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.400451] (-) TimerEvent: {}
+[0.500784] (-) TimerEvent: {}
+[0.601046] (-) TimerEvent: {}
+[0.621151] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.646685] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701186] (-) TimerEvent: {}
+[0.801583] (-) TimerEvent: {}
+[0.824440] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.836238] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.837928] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.838746] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.854028] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.901705] (-) TimerEvent: {}
+[0.975044] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.987620] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.988064] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.988766] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.001826] (-) TimerEvent: {}
+[1.089420] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.101921] (-) TimerEvent: {}
+[1.202149] (-) TimerEvent: {}
+[1.292924] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.302263] (-) TimerEvent: {}
+[1.397576] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.402363] (-) TimerEvent: {}
+[1.492164] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.502475] (-) TimerEvent: {}
+[1.602882] (-) TimerEvent: {}
+[1.608673] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.700006] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.702950] (-) TimerEvent: {}
+[1.739727] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.779875] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.803045] (-) TimerEvent: {}
+[1.871676] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.903171] (-) TimerEvent: {}
+[1.938508] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.003277] (-) TimerEvent: {}
+[2.103624] (-) TimerEvent: {}
+[2.129645] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.137345] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.203770] (-) TimerEvent: {}
+[2.290462] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.303866] (-) TimerEvent: {}
+[2.322225] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.353604] (urdf_tutorial_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.403992] (-) TimerEvent: {}
+[2.504322] (-) TimerEvent: {}
+[2.604654] (-) TimerEvent: {}
+[2.658069] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[2.693223] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.695891] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.696174] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.704773] (-) TimerEvent: {}
+[2.805114] (-) TimerEvent: {}
+[2.844464] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Configuring done (2.8s)\n'}
+[2.870494] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.878449] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/urdf_tutorial_cpp\n'}
+[2.893113] (urdf_tutorial_cpp) CommandEnded: {'returncode': 0}
+[2.893760] (urdf_tutorial_cpp) JobProgress: {'identifier': 'urdf_tutorial_cpp', 'progress': 'build'}
+[2.894910] (urdf_tutorial_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/urdf_tutorial_cpp', '--', '-j4', '-l4'], 'cwd': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/urdf_tutorial_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ziad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ziad', 'OLDPWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/urdf_tutorial_cpp', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ziad/.config/autostart/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1927', 'SYSTEMD_EXEC_PID': '2164', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2471', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ziad', 'DESKTOP_AUTOSTART_ID': '1055e72228bbae896175803046715033700000021640016', 'JOURNAL_STREAM': '9:18641', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ziad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ziadfathy:@/tmp/.ICE-unix/2164,unix/ziadfathy:/tmp/.ICE-unix/2164', 'INVOCATION_ID': '5438e2d67bc54ae6bce9fca8f419406b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EDAPC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:12f0503d-5df7-4774-8250-81c56a80aae0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/urdf_tutorial_cpp', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.921457] (-) TimerEvent: {}
+[2.963236] (urdf_tutorial_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/urdf_tutorial_cpp.dir/src/urdf_tutorial.cpp.o\x1b[0m\n'}
+[3.021588] (-) TimerEvent: {}
+[3.121870] (-) TimerEvent: {}
+[3.222194] (-) TimerEvent: {}
+[3.322568] (-) TimerEvent: {}
+[3.422941] (-) TimerEvent: {}
+[3.523520] (-) TimerEvent: {}
+[3.623829] (-) TimerEvent: {}
+[3.724153] (-) TimerEvent: {}
+[3.824524] (-) TimerEvent: {}
+[3.924930] (-) TimerEvent: {}
+[4.025324] (-) TimerEvent: {}
+[4.125659] (-) TimerEvent: {}
+[4.226004] (-) TimerEvent: {}
+[4.326337] (-) TimerEvent: {}
+[4.426712] (-) TimerEvent: {}
+[4.527044] (-) TimerEvent: {}
+[4.627374] (-) TimerEvent: {}
+[4.727695] (-) TimerEvent: {}
+[4.828030] (-) TimerEvent: {}
+[4.928337] (-) TimerEvent: {}
+[5.028631] (-) TimerEvent: {}
+[5.128947] (-) TimerEvent: {}
+[5.229321] (-) TimerEvent: {}
+[5.329637] (-) TimerEvent: {}
+[5.429962] (-) TimerEvent: {}
+[5.530242] (-) TimerEvent: {}
+[5.630562] (-) TimerEvent: {}
+[5.731097] (-) TimerEvent: {}
+[5.831355] (-) TimerEvent: {}
+[5.931626] (-) TimerEvent: {}
+[6.031901] (-) TimerEvent: {}
+[6.132218] (-) TimerEvent: {}
+[6.232538] (-) TimerEvent: {}
+[6.332843] (-) TimerEvent: {}
+[6.433207] (-) TimerEvent: {}
+[6.533657] (-) TimerEvent: {}
+[6.634032] (-) TimerEvent: {}
+[6.734484] (-) TimerEvent: {}
+[6.834840] (-) TimerEvent: {}
+[6.935197] (-) TimerEvent: {}
+[7.035594] (-) TimerEvent: {}
+[7.135967] (-) TimerEvent: {}
+[7.236358] (-) TimerEvent: {}
+[7.336738] (-) TimerEvent: {}
+[7.437095] (-) TimerEvent: {}
+[7.537463] (-) TimerEvent: {}
+[7.637797] (-) TimerEvent: {}
+[7.738199] (-) TimerEvent: {}
+[7.838591] (-) TimerEvent: {}
+[7.938939] (-) TimerEvent: {}
+[8.039349] (-) TimerEvent: {}
+[8.139707] (-) TimerEvent: {}
+[8.240124] (-) TimerEvent: {}
+[8.340549] (-) TimerEvent: {}
+[8.440904] (-) TimerEvent: {}
+[8.541276] (-) TimerEvent: {}
+[8.641618] (-) TimerEvent: {}
+[8.741920] (-) TimerEvent: {}
+[8.842197] (-) TimerEvent: {}
+[8.942596] (-) TimerEvent: {}
+[9.042986] (-) TimerEvent: {}
+[9.143319] (-) TimerEvent: {}
+[9.243631] (-) TimerEvent: {}
+[9.343946] (-) TimerEvent: {}
+[9.444230] (-) TimerEvent: {}
+[9.544589] (-) TimerEvent: {}
+[9.644919] (-) TimerEvent: {}
+[9.745249] (-) TimerEvent: {}
+[9.845613] (-) TimerEvent: {}
+[9.945949] (-) TimerEvent: {}
+[10.046307] (-) TimerEvent: {}
+[10.146648] (-) TimerEvent: {}
+[10.246974] (-) TimerEvent: {}
+[10.347361] (-) TimerEvent: {}
+[10.447800] (-) TimerEvent: {}
+[10.532272] (urdf_tutorial_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable urdf_tutorial_cpp\x1b[0m\n'}
+[10.547918] (-) TimerEvent: {}
+[10.648259] (-) TimerEvent: {}
+[10.748641] (-) TimerEvent: {}
+[10.849052] (-) TimerEvent: {}
+[10.949450] (-) TimerEvent: {}
+[10.966419] (urdf_tutorial_cpp) StdoutLine: {'line': b'[100%] Built target urdf_tutorial_cpp\n'}
+[10.980419] (urdf_tutorial_cpp) CommandEnded: {'returncode': 0}
+[10.981240] (urdf_tutorial_cpp) JobProgress: {'identifier': 'urdf_tutorial_cpp', 'progress': 'install'}
+[10.992439] (urdf_tutorial_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/urdf_tutorial_cpp'], 'cwd': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/urdf_tutorial_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ziad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ziad', 'OLDPWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/urdf_tutorial_cpp', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ziad/.config/autostart/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1927', 'SYSTEMD_EXEC_PID': '2164', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2471', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ziad', 'DESKTOP_AUTOSTART_ID': '1055e72228bbae896175803046715033700000021640016', 'JOURNAL_STREAM': '9:18641', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ziad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ziadfathy:@/tmp/.ICE-unix/2164,unix/ziadfathy:/tmp/.ICE-unix/2164', 'INVOCATION_ID': '5438e2d67bc54ae6bce9fca8f419406b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EDAPC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:12f0503d-5df7-4774-8250-81c56a80aae0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/urdf_tutorial_cpp', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service:/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.002867] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.003488] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.004044] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/lib/urdf_tutorial_cpp/urdf_tutorial_cpp\n'}
+[11.015889] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/launch/launch.py\n'}
+[11.027682] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/urdf/r2d2.urdf.xml\n'}
+[11.039692] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial_cpp\n'}
+[11.049571] (-) TimerEvent: {}
+[11.053452] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial_cpp\n'}
+[11.065693] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/ament_prefix_path.sh\n'}
+[11.077768] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/ament_prefix_path.dsv\n'}
+[11.089796] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/path.sh\n'}
+[11.101924] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/path.dsv\n'}
+[11.114600] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.bash\n'}
+[11.125705] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.sh\n'}
+[11.138738] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.zsh\n'}
+[11.149705] (-) TimerEvent: {}
+[11.152421] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.dsv\n'}
+[11.164791] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/package.dsv\n'}
+[11.175590] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/ament_index/resource_index/packages/urdf_tutorial_cpp\n'}
+[11.186626] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/cmake/urdf_tutorial_cppConfig.cmake\n'}
+[11.197621] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/cmake/urdf_tutorial_cppConfig-version.cmake\n'}
+[11.209002] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/package.xml\n'}
+[11.222146] (urdf_tutorial_cpp) CommandEnded: {'returncode': 0}
+[11.249623] (urdf_tutorial_cpp) JobEnded: {'identifier': 'urdf_tutorial_cpp', 'rc': 0}
+[11.250703] (-) TimerEvent: {}
+[11.250811] (-) EventReactorShutdown: {}

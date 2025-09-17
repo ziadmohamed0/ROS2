@@ -1,0 +1,602 @@
+[0.000000] (-) TimerEvent: {}
+[0.001375] (ros2_service) JobQueued: {'identifier': 'ros2_service', 'dependencies': OrderedDict()}
+[0.001591] (simple_pub_sub) JobQueued: {'identifier': 'simple_pub_sub', 'dependencies': OrderedDict()}
+[0.001677] (ros2_service) JobStarted: {'identifier': 'ros2_service'}
+[0.016289] (simple_pub_sub) JobStarted: {'identifier': 'simple_pub_sub'}
+[0.028327] (ros2_service) JobProgress: {'identifier': 'ros2_service', 'progress': 'cmake'}
+[0.029961] (ros2_service) JobProgress: {'identifier': 'ros2_service', 'progress': 'build'}
+[0.030915] (ros2_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/ros2_service', '--', '-j4', '-l4'], 'cwd': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/ros2_service', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ziad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ziad', 'OLDPWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ziad/.config/autostart/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1927', 'SYSTEMD_EXEC_PID': '2164', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2471', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ziad', 'DESKTOP_AUTOSTART_ID': '1055e72228bbae896175803046715033700000021640016', 'JOURNAL_STREAM': '9:18641', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ziad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ziadfathy:@/tmp/.ICE-unix/2164,unix/ziadfathy:/tmp/.ICE-unix/2164', 'INVOCATION_ID': '5438e2d67bc54ae6bce9fca8f419406b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EDAPC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:12f0503d-5df7-4774-8250-81c56a80aae0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/ros2_service', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.039819] (simple_pub_sub) JobProgress: {'identifier': 'simple_pub_sub', 'progress': 'cmake'}
+[0.041907] (simple_pub_sub) JobProgress: {'identifier': 'simple_pub_sub', 'progress': 'build'}
+[0.042706] (simple_pub_sub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub', '--', '-j4', '-l4'], 'cwd': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ziad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ziad', 'OLDPWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ziad/.config/autostart/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1927', 'SYSTEMD_EXEC_PID': '2164', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2471', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ziad', 'DESKTOP_AUTOSTART_ID': '1055e72228bbae896175803046715033700000021640016', 'JOURNAL_STREAM': '9:18641', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ziad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ziadfathy:@/tmp/.ICE-unix/2164,unix/ziadfathy:/tmp/.ICE-unix/2164', 'INVOCATION_ID': '5438e2d67bc54ae6bce9fca8f419406b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EDAPC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:12f0503d-5df7-4774-8250-81c56a80aae0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099642] (-) TimerEvent: {}
+[0.200428] (-) TimerEvent: {}
+[0.217560] (simple_pub_sub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/pub.cpp.o\x1b[0m\n'}
+[0.218562] (ros2_service) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[0.226018] (simple_pub_sub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.242065] (ros2_service) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_ros2_service\n'}
+[0.300537] (-) TimerEvent: {}
+[0.400873] (-) TimerEvent: {}
+[0.503709] (-) TimerEvent: {}
+[0.607177] (-) TimerEvent: {}
+[0.707541] (-) TimerEvent: {}
+[0.812193] (-) TimerEvent: {}
+[0.915795] (-) TimerEvent: {}
+[0.981267] (ros2_service) StdoutLine: {'line': b'running egg_info\n'}
+[0.989511] (ros2_service) StdoutLine: {'line': b'creating ros2_service.egg-info\n'}
+[1.015938] (-) TimerEvent: {}
+[1.109944] (ros2_service) StdoutLine: {'line': b'[  1%] Built target ros2_service__rosidl_generator_type_description\n'}
+[1.116076] (-) TimerEvent: {}
+[1.188560] (ros2_service) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.217745] (-) TimerEvent: {}
+[1.243284] (ros2_service) StdoutLine: {'line': b'writing ros2_service.egg-info/PKG-INFO\n'}
+[1.245856] (ros2_service) StdoutLine: {'line': b'writing dependency_links to ros2_service.egg-info/dependency_links.txt\n'}
+[1.246115] (ros2_service) StdoutLine: {'line': b'writing top-level names to ros2_service.egg-info/top_level.txt\n'}
+[1.246264] (ros2_service) StdoutLine: {'line': b"writing manifest file 'ros2_service.egg-info/SOURCES.txt'\n"}
+[1.252148] (ros2_service) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.317849] (-) TimerEvent: {}
+[1.418165] (-) TimerEvent: {}
+[1.479721] (ros2_service) StdoutLine: {'line': b"reading manifest file 'ros2_service.egg-info/SOURCES.txt'\n"}
+[1.480644] (ros2_service) StdoutLine: {'line': b"writing manifest file 'ros2_service.egg-info/SOURCES.txt'\n"}
+[1.518298] (-) TimerEvent: {}
+[1.555478] (ros2_service) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_ros2_service_egg\n'}
+[1.618422] (-) TimerEvent: {}
+[1.718822] (-) TimerEvent: {}
+[1.819377] (-) TimerEvent: {}
+[1.919647] (-) TimerEvent: {}
+[2.020105] (-) TimerEvent: {}
+[2.120675] (-) TimerEvent: {}
+[2.220977] (-) TimerEvent: {}
+[2.321298] (-) TimerEvent: {}
+[2.423432] (-) TimerEvent: {}
+[2.523839] (-) TimerEvent: {}
+[2.624217] (-) TimerEvent: {}
+[2.728399] (-) TimerEvent: {}
+[2.831206] (-) TimerEvent: {}
+[2.933992] (-) TimerEvent: {}
+[3.034420] (-) TimerEvent: {}
+[3.135564] (-) TimerEvent: {}
+[3.242189] (-) TimerEvent: {}
+[3.344717] (-) TimerEvent: {}
+[3.445133] (-) TimerEvent: {}
+[3.545605] (-) TimerEvent: {}
+[3.649553] (-) TimerEvent: {}
+[3.736059] (ros2_service) StdoutLine: {'line': b'[  5%] Built target ros2_service__cpp\n'}
+[3.750173] (-) TimerEvent: {}
+[3.847854] (ros2_service) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/num__description.c.o\x1b[0m\n'}
+[3.850294] (-) TimerEvent: {}
+[3.866999] (ros2_service) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[3.868608] (ros2_service) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/num__functions.c.o\x1b[0m\n'}
+[3.880078] (ros2_service) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/sphere__description.c.o\x1b[0m\n'}
+[3.954233] (-) TimerEvent: {}
+[4.035800] (ros2_service) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[4.054969] (-) TimerEvent: {}
+[4.161540] (-) TimerEvent: {}
+[4.182484] (ros2_service) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/srv/detail/add_three_ints__description.c.o\x1b[0m\n'}
+[4.186943] (ros2_service) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[4.228494] (ros2_service) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[4.262256] (-) TimerEvent: {}
+[4.268691] (ros2_service) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[4.362400] (-) TimerEvent: {}
+[4.467385] (-) TimerEvent: {}
+[4.493713] (ros2_service) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libros2_service__rosidl_generator_c.so\x1b[0m\n'}
+[4.567509] (-) TimerEvent: {}
+[4.667914] (-) TimerEvent: {}
+[4.680927] (ros2_service) StdoutLine: {'line': b'[ 24%] Built target ros2_service__rosidl_generator_c\n'}
+[4.738838] (ros2_service) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.747133] (ros2_service) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.749992] (ros2_service) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.771243] (ros2_service) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.772035] (-) TimerEvent: {}
+[4.876811] (-) TimerEvent: {}
+[4.977163] (-) TimerEvent: {}
+[5.078999] (-) TimerEvent: {}
+[5.180519] (-) TimerEvent: {}
+[5.286103] (-) TimerEvent: {}
+[5.386461] (-) TimerEvent: {}
+[5.487120] (-) TimerEvent: {}
+[5.594124] (-) TimerEvent: {}
+[5.694523] (-) TimerEvent: {}
+[5.794929] (-) TimerEvent: {}
+[5.895330] (-) TimerEvent: {}
+[5.997368] (-) TimerEvent: {}
+[6.079779] (ros2_service) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_service/msg/num__type_support.cpp.o\x1b[0m\n'}
+[6.097556] (-) TimerEvent: {}
+[6.197912] (-) TimerEvent: {}
+[6.299734] (ros2_service) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_service/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[6.300039] (-) TimerEvent: {}
+[6.403610] (-) TimerEvent: {}
+[6.469184] (ros2_service) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_service/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[6.505418] (-) TimerEvent: {}
+[6.561944] (ros2_service) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_service/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[6.605540] (ros2_service) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_service/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[6.605918] (-) TimerEvent: {}
+[6.683068] (ros2_service) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libros2_service__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.706054] (-) TimerEvent: {}
+[6.748564] (ros2_service) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_service/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[6.806208] (-) TimerEvent: {}
+[6.907763] (-) TimerEvent: {}
+[6.934562] (ros2_service) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_service/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[6.961103] (ros2_service) StdoutLine: {'line': b'[ 46%] Built target ros2_service__rosidl_typesupport_c\n'}
+[7.007884] (-) TimerEvent: {}
+[7.026094] (ros2_service) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.109760] (ros2_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_service/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[7.110102] (-) TimerEvent: {}
+[7.210464] (-) TimerEvent: {}
+[7.226044] (ros2_service) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libros2_service__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.310590] (-) TimerEvent: {}
+[7.416566] (-) TimerEvent: {}
+[7.458607] (ros2_service) StdoutLine: {'line': b'[ 51%] Built target ros2_service__rosidl_typesupport_introspection_c\n'}
+[7.519600] (-) TimerEvent: {}
+[7.599434] (ros2_service) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.619743] (-) TimerEvent: {}
+[7.722634] (-) TimerEvent: {}
+[7.825276] (-) TimerEvent: {}
+[7.925691] (-) TimerEvent: {}
+[8.026151] (-) TimerEvent: {}
+[8.129427] (-) TimerEvent: {}
+[8.229893] (-) TimerEvent: {}
+[8.333327] (-) TimerEvent: {}
+[8.435203] (-) TimerEvent: {}
+[8.535676] (-) TimerEvent: {}
+[8.637665] (-) TimerEvent: {}
+[8.740644] (-) TimerEvent: {}
+[8.843727] (-) TimerEvent: {}
+[8.944236] (-) TimerEvent: {}
+[9.046429] (-) TimerEvent: {}
+[9.146863] (-) TimerEvent: {}
+[9.250520] (-) TimerEvent: {}
+[9.281253] (ros2_service) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_service/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[9.350650] (-) TimerEvent: {}
+[9.361781] (ros2_service) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_service/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[9.450763] (-) TimerEvent: {}
+[9.498326] (ros2_service) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_service/msg/num__type_support.cpp.o\x1b[0m\n'}
+[9.550886] (-) TimerEvent: {}
+[9.623371] (ros2_service) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_service/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[9.653422] (-) TimerEvent: {}
+[9.755862] (-) TimerEvent: {}
+[9.856290] (-) TimerEvent: {}
+[9.959713] (-) TimerEvent: {}
+[10.062453] (-) TimerEvent: {}
+[10.162901] (-) TimerEvent: {}
+[10.265841] (-) TimerEvent: {}
+[10.366265] (-) TimerEvent: {}
+[10.466664] (-) TimerEvent: {}
+[10.569387] (-) TimerEvent: {}
+[10.634315] (ros2_service) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_service/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[10.670108] (-) TimerEvent: {}
+[10.771124] (-) TimerEvent: {}
+[10.877421] (-) TimerEvent: {}
+[10.982566] (-) TimerEvent: {}
+[11.088234] (-) TimerEvent: {}
+[11.190471] (-) TimerEvent: {}
+[11.290858] (-) TimerEvent: {}
+[11.353433] (ros2_service) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_service/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[11.390989] (-) TimerEvent: {}
+[11.495753] (-) TimerEvent: {}
+[11.601347] (-) TimerEvent: {}
+[11.704627] (-) TimerEvent: {}
+[11.807292] (-) TimerEvent: {}
+[11.907723] (-) TimerEvent: {}
+[11.928120] (ros2_service) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_service/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[12.007839] (-) TimerEvent: {}
+[12.108237] (-) TimerEvent: {}
+[12.209579] (-) TimerEvent: {}
+[12.312847] (-) TimerEvent: {}
+[12.421464] (-) TimerEvent: {}
+[12.508420] (ros2_service) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_service/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[12.524696] (-) TimerEvent: {}
+[12.598773] (ros2_service) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_service/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[12.624938] (-) TimerEvent: {}
+[12.728495] (-) TimerEvent: {}
+[12.828880] (-) TimerEvent: {}
+[12.932569] (-) TimerEvent: {}
+[13.036777] (-) TimerEvent: {}
+[13.139907] (-) TimerEvent: {}
+[13.243929] (-) TimerEvent: {}
+[13.348416] (-) TimerEvent: {}
+[13.450004] (-) TimerEvent: {}
+[13.550416] (-) TimerEvent: {}
+[13.654490] (ros2_service) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_service/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[13.654835] (-) TimerEvent: {}
+[13.756370] (-) TimerEvent: {}
+[13.856824] (-) TimerEvent: {}
+[13.961508] (-) TimerEvent: {}
+[14.064895] (-) TimerEvent: {}
+[14.166636] (-) TimerEvent: {}
+[14.267426] (-) TimerEvent: {}
+[14.376967] (-) TimerEvent: {}
+[14.387667] (ros2_service) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libros2_service__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.477440] (-) TimerEvent: {}
+[14.583694] (-) TimerEvent: {}
+[14.686000] (-) TimerEvent: {}
+[14.787943] (-) TimerEvent: {}
+[14.889190] (-) TimerEvent: {}
+[14.992435] (-) TimerEvent: {}
+[15.096408] (-) TimerEvent: {}
+[15.185343] (ros2_service) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libros2_service__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.196540] (-) TimerEvent: {}
+[15.219468] (ros2_service) StdoutLine: {'line': b'[ 75%] Built target ros2_service__rosidl_typesupport_cpp\n'}
+[15.298703] (-) TimerEvent: {}
+[15.399126] (-) TimerEvent: {}
+[15.502491] (-) TimerEvent: {}
+[15.595619] (ros2_service) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libros2_service__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.602610] (-) TimerEvent: {}
+[15.637229] (ros2_service) StdoutLine: {'line': b'[ 77%] Built target ros2_service__rosidl_typesupport_fastrtps_cpp\n'}
+[15.702735] (-) TimerEvent: {}
+[15.796760] (ros2_service) StdoutLine: {'line': b'[ 77%] Built target ros2_service__rosidl_typesupport_fastrtps_c\n'}
+[15.802853] (-) TimerEvent: {}
+[15.904667] (-) TimerEvent: {}
+[16.010516] (-) TimerEvent: {}
+[16.123478] (-) TimerEvent: {}
+[16.143799] (ros2_service) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libros2_service__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.223707] (-) TimerEvent: {}
+[16.403813] (-) TimerEvent: {}
+[16.504186] (-) TimerEvent: {}
+[16.604689] (-) TimerEvent: {}
+[16.705051] (-) TimerEvent: {}
+[16.805414] (-) TimerEvent: {}
+[16.906485] (-) TimerEvent: {}
+[17.007009] (-) TimerEvent: {}
+[17.110497] (-) TimerEvent: {}
+[17.210937] (-) TimerEvent: {}
+[17.311301] (-) TimerEvent: {}
+[17.412805] (-) TimerEvent: {}
+[17.513254] (-) TimerEvent: {}
+[17.572488] (ros2_service) StdoutLine: {'line': b'[ 79%] Built target ros2_service__rosidl_typesupport_introspection_cpp\n'}
+[17.611119] (ros2_service) StdoutLine: {'line': b'[ 79%] Built target ros2_service\n'}
+[17.613469] (-) TimerEvent: {}
+[17.658619] (ros2_service) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.713592] (-) TimerEvent: {}
+[17.814010] (-) TimerEvent: {}
+[17.915021] (-) TimerEvent: {}
+[18.015366] (-) TimerEvent: {}
+[18.115697] (-) TimerEvent: {}
+[18.217265] (-) TimerEvent: {}
+[18.317709] (-) TimerEvent: {}
+[18.420655] (-) TimerEvent: {}
+[18.521523] (-) TimerEvent: {}
+[18.621890] (-) TimerEvent: {}
+[18.725550] (-) TimerEvent: {}
+[18.826223] (-) TimerEvent: {}
+[18.928741] (-) TimerEvent: {}
+[19.030211] (-) TimerEvent: {}
+[19.131130] (-) TimerEvent: {}
+[19.231650] (-) TimerEvent: {}
+[19.259568] (ros2_service) StdoutLine: {'line': b'[ 81%] Built target ros2_service__py\n'}
+[19.328321] (ros2_service) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_py.dir/rosidl_generator_py/ros2_service/msg/_num_s.c.o\x1b[0m\n'}
+[19.331766] (-) TimerEvent: {}
+[19.433615] (-) TimerEvent: {}
+[19.534035] (-) TimerEvent: {}
+[19.634422] (-) TimerEvent: {}
+[19.734792] (-) TimerEvent: {}
+[19.804413] (ros2_service) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_py.dir/rosidl_generator_py/ros2_service/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[19.834930] (-) TimerEvent: {}
+[19.938122] (-) TimerEvent: {}
+[20.038553] (-) TimerEvent: {}
+[20.139179] (-) TimerEvent: {}
+[20.239916] (-) TimerEvent: {}
+[20.340009] (ros2_service) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_py.dir/rosidl_generator_py/ros2_service/msg/_sphere_s.c.o\x1b[0m\n'}
+[20.340556] (-) TimerEvent: {}
+[20.455137] (-) TimerEvent: {}
+[20.555676] (-) TimerEvent: {}
+[20.659078] (-) TimerEvent: {}
+[20.759799] (-) TimerEvent: {}
+[20.801571] (simple_pub_sub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[20.837727] (ros2_service) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libros2_service__rosidl_generator_py.so\x1b[0m\n'}
+[20.859947] (-) TimerEvent: {}
+[20.961318] (-) TimerEvent: {}
+[21.030818] (ros2_service) StdoutLine: {'line': b'[ 88%] Built target ros2_service__rosidl_generator_py\n'}
+[21.061439] (-) TimerEvent: {}
+[21.079835] (ros2_service) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros2_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ros2_service/_ros2_service_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[21.161638] (-) TimerEvent: {}
+[21.262512] (-) TimerEvent: {}
+[21.351177] (ros2_service) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_service/ros2_service_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[21.363432] (-) TimerEvent: {}
+[21.365143] (simple_pub_sub) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[21.400394] (ros2_service) StdoutLine: {'line': b'[ 92%] Built target ros2_service_s__rosidl_typesupport_fastrtps_c\n'}
+[21.430023] (ros2_service) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros2_service_s__rosidl_typesupport_c.dir/rosidl_generator_py/ros2_service/_ros2_service_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[21.463547] (-) TimerEvent: {}
+[21.563921] (-) TimerEvent: {}
+[21.599431] (ros2_service) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_service/ros2_service_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.647432] (ros2_service) StdoutLine: {'line': b'[ 96%] Built target ros2_service_s__rosidl_typesupport_c\n'}
+[21.664048] (-) TimerEvent: {}
+[21.699847] (ros2_service) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/ros2_service_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ros2_service/_ros2_service_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[21.764198] (-) TimerEvent: {}
+[21.865435] (-) TimerEvent: {}
+[21.969804] (-) TimerEvent: {}
+[21.979586] (ros2_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_service/ros2_service_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[22.056376] (ros2_service) StdoutLine: {'line': b'[100%] Built target ros2_service_s__rosidl_typesupport_introspection_c\n'}
+[22.069928] (-) TimerEvent: {}
+[22.113109] (ros2_service) CommandEnded: {'returncode': 0}
+[22.122986] (ros2_service) JobProgress: {'identifier': 'ros2_service', 'progress': 'install'}
+[22.161408] (ros2_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/ros2_service'], 'cwd': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/ros2_service', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ziad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ziad', 'OLDPWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ziad/.config/autostart/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1927', 'SYSTEMD_EXEC_PID': '2164', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2471', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ziad', 'DESKTOP_AUTOSTART_ID': '1055e72228bbae896175803046715033700000021640016', 'JOURNAL_STREAM': '9:18641', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ziad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ziadfathy:@/tmp/.ICE-unix/2164,unix/ziadfathy:/tmp/.ICE-unix/2164', 'INVOCATION_ID': '5438e2d67bc54ae6bce9fca8f419406b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EDAPC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:12f0503d-5df7-4774-8250-81c56a80aae0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/ros2_service', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[22.172511] (-) TimerEvent: {}
+[22.197170] (ros2_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.198416] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ament_index/resource_index/rosidl_interfaces/ros2_service\n'}
+[22.199218] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Num.json\n'}
+[22.199651] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Sphere.json\n'}
+[22.200177] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/srv/AddThreeInts.json\n'}
+[22.201525] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service\n'}
+[22.204906] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv\n'}
+[22.205994] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/add_three_ints.h\n'}
+[22.207081] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail\n'}
+[22.207425] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__type_support.c\n'}
+[22.207761] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__struct.h\n'}
+[22.208002] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__type_support.h\n'}
+[22.208255] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__description.c\n'}
+[22.209995] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__functions.c\n'}
+[22.211679] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__functions.h\n'}
+[22.212056] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg\n'}
+[22.212229] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/sphere.h\n'}
+[22.212412] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/num.h\n'}
+[22.212663] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/rosidl_generator_c__visibility_control.h\n'}
+[22.212769] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail\n'}
+[22.212926] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__functions.c\n'}
+[22.213218] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__description.c\n'}
+[22.214237] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__functions.c\n'}
+[22.215019] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__type_support.h\n'}
+[22.215823] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__functions.h\n'}
+[22.216114] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__description.c\n'}
+[22.216407] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__type_support.c\n'}
+[22.218082] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__struct.h\n'}
+[22.218946] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__type_support.c\n'}
+[22.220867] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__type_support.h\n'}
+[22.221900] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__functions.h\n'}
+[22.223530] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__struct.h\n'}
+[22.223878] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/library_path.sh\n'}
+[22.224103] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/library_path.dsv\n'}
+[22.224497] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_generator_c.so\n'}
+[22.225906] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_generator_c.so" to ""\n'}
+[22.226250] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service\n'}
+[22.226624] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv\n'}
+[22.226888] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail\n'}
+[22.227076] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[22.227266] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg\n'}
+[22.227519] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[22.227981] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail\n'}
+[22.228290] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[22.228583] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[22.228789] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_fastrtps_c.so\n'}
+[22.228993] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.229229] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service\n'}
+[22.229487] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv\n'}
+[22.229753] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/add_three_ints.hpp\n'}
+[22.230026] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail\n'}
+[22.230651] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__traits.hpp\n'}
+[22.231543] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__struct.hpp\n'}
+[22.232463] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__type_support.hpp\n'}
+[22.233595] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__builder.hpp\n'}
+[22.234598] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg\n'}
+[22.243645] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/num.hpp\n'}
+[22.243904] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[22.244085] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/sphere.hpp\n'}
+[22.244237] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail\n'}
+[22.244542] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__builder.hpp\n'}
+[22.244705] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__builder.hpp\n'}
+[22.244852] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__traits.hpp\n'}
+[22.245000] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__type_support.hpp\n'}
+[22.245144] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__traits.hpp\n'}
+[22.245283] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__struct.hpp\n'}
+[22.245585] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__type_support.hpp\n'}
+[22.245776] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__struct.hpp\n'}
+[22.245934] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service\n'}
+[22.246165] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv\n'}
+[22.246314] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail\n'}
+[22.246522] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/dds_fastrtps\n'}
+[22.246874] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.247107] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg\n'}
+[22.247626] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail\n'}
+[22.248117] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.248365] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.249891] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/dds_fastrtps\n'}
+[22.250081] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.250286] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.250475] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[22.250629] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service\n'}
+[22.250777] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv\n'}
+[22.250922] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail\n'}
+[22.251075] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__type_support.c\n'}
+[22.253007] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[22.253292] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg\n'}
+[22.253517] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.253798] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail\n'}
+[22.253982] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__type_support.c\n'}
+[22.254165] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[22.254389] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__type_support.c\n'}
+[22.255013] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[22.255207] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_introspection_c.so\n'}
+[22.256232] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.256599] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_c.so\n'}
+[22.257962] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_c.so" to ""\n'}
+[22.260251] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service\n'}
+[22.261383] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv\n'}
+[22.261676] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail\n'}
+[22.261945] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.262155] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__type_support.cpp\n'}
+[22.262413] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg\n'}
+[22.262900] (ros2_service) StdoutLine: {'line': b'-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail\n'}
+[22.263364] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.263582] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__type_support.cpp\n'}
+[22.263745] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.263845] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__type_support.cpp\n'}
+[22.265165] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_introspection_cpp.so\n'}
+[22.266369] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[22.267075] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_cpp.so\n'}
+[22.269843] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_cpp.so" to ""\n'}
+[22.271243] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/pythonpath.sh\n'}
+[22.271636] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/pythonpath.dsv\n'}
+[22.272288] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service-0.0.0-py3.12.egg-info\n'}
+[22.272701] (-) TimerEvent: {}
+[22.273254] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[22.273792] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[22.274143] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[22.275003] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[22.275482] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service\n'}
+[22.275846] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_c.so\n'}
+[22.276282] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv\n'}
+[22.276644] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv/__init__.py\n'}
+[22.277055] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv/_add_three_ints.py\n'}
+[22.277530] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv/_add_three_ints_s.c\n'}
+[22.278127] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/_ros2_service_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[22.279250] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_introspection_c.so\n'}
+[22.279512] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/__init__.py\n'}
+[22.280233] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/_ros2_service_s.ep.rosidl_typesupport_c.c\n'}
+[22.280734] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_fastrtps_c.so\n'}
+[22.280942] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg\n'}
+[22.281122] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/__init__.py\n'}
+[22.281408] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_num.py\n'}
+[22.281629] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_num_s.c\n'}
+[22.281796] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_sphere_s.c\n'}
+[22.281969] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_sphere.py\n'}
+[22.282122] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/_ros2_service_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[22.372820] (-) TimerEvent: {}
+[22.373846] (ros2_service) StdoutLine: {'line': b"Listing '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service'...\n"}
+[22.374177] (ros2_service) StdoutLine: {'line': b"Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/__init__.py'...\n"}
+[22.374402] (ros2_service) StdoutLine: {'line': b"Listing '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg'...\n"}
+[22.374580] (ros2_service) StdoutLine: {'line': b"Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/__init__.py'...\n"}
+[22.374768] (ros2_service) StdoutLine: {'line': b"Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_num.py'...\n"}
+[22.374928] (ros2_service) StdoutLine: {'line': b"Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_sphere.py'...\n"}
+[22.375083] (ros2_service) StdoutLine: {'line': b"Listing '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv'...\n"}
+[22.375236] (ros2_service) StdoutLine: {'line': b"Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv/__init__.py'...\n"}
+[22.375436] (ros2_service) StdoutLine: {'line': b"Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv/_add_three_ints.py'...\n"}
+[22.388486] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_fastrtps_c.so\n'}
+[22.388917] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.389227] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_introspection_c.so\n'}
+[22.389792] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.390088] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_c.so\n'}
+[22.390535] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_c.so" to ""\n'}
+[22.390784] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_generator_py.so\n'}
+[22.391330] (ros2_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_generator_py.so" to ""\n'}
+[22.391621] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Num.idl\n'}
+[22.391924] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Sphere.idl\n'}
+[22.392153] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/srv/AddThreeInts.idl\n'}
+[22.392381] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Num.msg\n'}
+[22.392617] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Sphere.msg\n'}
+[22.392795] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/srv/AddThreeInts.srv\n'}
+[22.393031] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ament_index/resource_index/package_run_dependencies/ros2_service\n'}
+[22.393292] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ament_index/resource_index/parent_prefix_path/ros2_service\n'}
+[22.393646] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/ament_prefix_path.sh\n'}
+[22.393993] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/ament_prefix_path.dsv\n'}
+[22.394352] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/path.sh\n'}
+[22.394808] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/path.dsv\n'}
+[22.395072] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/local_setup.bash\n'}
+[22.395301] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/local_setup.sh\n'}
+[22.395619] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/local_setup.zsh\n'}
+[22.395984] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/local_setup.dsv\n'}
+[22.396269] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/package.dsv\n'}
+[22.396677] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ament_index/resource_index/packages/ros2_service\n'}
+[22.396955] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_generator_cExport.cmake\n'}
+[22.397353] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.397721] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.398427] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[22.398843] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_generator_cppExport.cmake\n'}
+[22.399356] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.399879] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[22.400437] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.400983] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.401489] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_cExport.cmake\n'}
+[22.402925] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.404247] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.405423] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.406484] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_cppExport.cmake\n'}
+[22.406871] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.407254] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_generator_pyExport.cmake\n'}
+[22.407649] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_generator_pyExport-noconfig.cmake\n'}
+[22.408024] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/rosidl_cmake-extras.cmake\n'}
+[22.408401] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.408903] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.409278] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.409666] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.410048] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.410507] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.410847] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_serviceConfig.cmake\n'}
+[22.411131] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_serviceConfig-version.cmake\n'}
+[22.411607] (ros2_service) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/package.xml\n'}
+[22.415170] (ros2_service) CommandEnded: {'returncode': 0}
+[22.473046] (-) TimerEvent: {}
+[22.506226] (ros2_service) JobEnded: {'identifier': 'ros2_service', 'rc': 0}
+[22.573209] (-) TimerEvent: {}
+[22.674127] (-) TimerEvent: {}
+[22.774707] (-) TimerEvent: {}
+[22.874984] (-) TimerEvent: {}
+[22.976178] (-) TimerEvent: {}
+[23.081796] (-) TimerEvent: {}
+[23.184489] (-) TimerEvent: {}
+[23.284902] (-) TimerEvent: {}
+[23.385267] (-) TimerEvent: {}
+[23.485733] (-) TimerEvent: {}
+[23.586283] (-) TimerEvent: {}
+[23.689560] (-) TimerEvent: {}
+[23.789968] (-) TimerEvent: {}
+[23.890788] (-) TimerEvent: {}
+[23.992321] (-) TimerEvent: {}
+[24.092700] (-) TimerEvent: {}
+[24.193054] (-) TimerEvent: {}
+[24.294496] (-) TimerEvent: {}
+[24.394884] (-) TimerEvent: {}
+[24.495260] (-) TimerEvent: {}
+[24.595683] (-) TimerEvent: {}
+[24.696721] (-) TimerEvent: {}
+[24.797629] (-) TimerEvent: {}
+[24.898029] (-) TimerEvent: {}
+[24.998366] (-) TimerEvent: {}
+[25.098702] (-) TimerEvent: {}
+[25.199066] (-) TimerEvent: {}
+[25.303319] (-) TimerEvent: {}
+[25.403761] (-) TimerEvent: {}
+[25.504101] (-) TimerEvent: {}
+[25.604424] (-) TimerEvent: {}
+[25.706464] (-) TimerEvent: {}
+[25.807801] (-) TimerEvent: {}
+[25.911733] (-) TimerEvent: {}
+[26.012198] (-) TimerEvent: {}
+[26.114528] (-) TimerEvent: {}
+[26.215232] (-) TimerEvent: {}
+[26.315657] (-) TimerEvent: {}
+[26.417610] (-) TimerEvent: {}
+[26.518098] (-) TimerEvent: {}
+[26.618396] (-) TimerEvent: {}
+[26.718978] (-) TimerEvent: {}
+[26.819347] (-) TimerEvent: {}
+[26.919731] (-) TimerEvent: {}
+[27.021166] (-) TimerEvent: {}
+[27.121726] (-) TimerEvent: {}
+[27.222165] (-) TimerEvent: {}
+[27.322888] (-) TimerEvent: {}
+[27.424250] (-) TimerEvent: {}
+[27.524587] (-) TimerEvent: {}
+[27.580853] (simple_pub_sub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[27.624686] (-) TimerEvent: {}
+[27.725715] (-) TimerEvent: {}
+[27.826393] (-) TimerEvent: {}
+[27.926882] (-) TimerEvent: {}
+[28.027307] (-) TimerEvent: {}
+[28.117103] (simple_pub_sub) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[28.127429] (-) TimerEvent: {}
+[28.132999] (simple_pub_sub) CommandEnded: {'returncode': 0}
+[28.134509] (simple_pub_sub) JobProgress: {'identifier': 'simple_pub_sub', 'progress': 'install'}
+[28.135022] (simple_pub_sub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub'], 'cwd': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ziad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ziad', 'OLDPWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ziad/.config/autostart/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1927', 'SYSTEMD_EXEC_PID': '2164', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2471', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ziad', 'DESKTOP_AUTOSTART_ID': '1055e72228bbae896175803046715033700000021640016', 'JOURNAL_STREAM': '9:18641', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ziad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ziadfathy:@/tmp/.ICE-unix/2164,unix/ziadfathy:/tmp/.ICE-unix/2164', 'INVOCATION_ID': '5438e2d67bc54ae6bce9fca8f419406b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EDAPC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:12f0503d-5df7-4774-8250-81c56a80aae0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[28.148218] (simple_pub_sub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.148574] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/publisher\n'}
+[28.150712] (simple_pub_sub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/publisher" to ""\n'}
+[28.150999] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/subscriber\n'}
+[28.155803] (simple_pub_sub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/subscriber" to ""\n'}
+[28.156288] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/ament_index/resource_index/package_run_dependencies/simple_pub_sub\n'}
+[28.156734] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/ament_index/resource_index/parent_prefix_path/simple_pub_sub\n'}
+[28.157269] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.sh\n'}
+[28.157572] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.dsv\n'}
+[28.157891] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/path.sh\n'}
+[28.158161] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/path.dsv\n'}
+[28.158441] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.bash\n'}
+[28.158789] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.sh\n'}
+[28.159121] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.zsh\n'}
+[28.159436] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.dsv\n'}
+[28.159744] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/package.dsv\n'}
+[28.160050] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/ament_index/resource_index/packages/simple_pub_sub\n'}
+[28.160322] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig.cmake\n'}
+[28.160921] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig-version.cmake\n'}
+[28.161590] (simple_pub_sub) StdoutLine: {'line': b'-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/package.xml\n'}
+[28.163903] (simple_pub_sub) CommandEnded: {'returncode': 0}
+[28.186540] (simple_pub_sub) JobEnded: {'identifier': 'simple_pub_sub', 'rc': 0}
+[28.187716] (-) EventReactorShutdown: {}

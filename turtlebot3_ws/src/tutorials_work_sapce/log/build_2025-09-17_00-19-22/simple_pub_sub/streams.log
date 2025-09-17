@@ -1,0 +1,30 @@
+[0.028s] Invoking command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub -- -j4 -l4
+[0.201s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/pub.cpp.o[0m
+[0.210s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/sub.cpp.o[0m
+[20.786s] [ 75%] [32m[1mLinking CXX executable publisher[0m
+[21.349s] [ 75%] Built target publisher
+[27.565s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[28.101s] [100%] Built target subscriber
+[28.117s] Invoked command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub -- -j4 -l4
+[28.120s] Invoking command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub
+[28.132s] -- Install configuration: ""
+[28.132s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/publisher
+[28.135s] -- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/publisher" to ""
+[28.135s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/subscriber
+[28.140s] -- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/lib/simple_pub_sub/subscriber" to ""
+[28.140s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/ament_index/resource_index/package_run_dependencies/simple_pub_sub
+[28.141s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/ament_index/resource_index/parent_prefix_path/simple_pub_sub
+[28.141s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.sh
+[28.141s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/ament_prefix_path.dsv
+[28.142s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/path.sh
+[28.142s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/environment/path.dsv
+[28.142s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.bash
+[28.143s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.sh
+[28.143s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.zsh
+[28.143s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/local_setup.dsv
+[28.144s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/package.dsv
+[28.144s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/ament_index/resource_index/packages/simple_pub_sub
+[28.144s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig.cmake
+[28.145s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/cmake/simple_pub_subConfig-version.cmake
+[28.145s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/simple_pub_sub/share/simple_pub_sub/package.xml
+[28.148s] Invoked command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub

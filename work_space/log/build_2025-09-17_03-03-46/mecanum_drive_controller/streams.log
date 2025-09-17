@@ -1,0 +1,37 @@
+[0.029s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/mecanum_drive_controller -- -j4 -l4
+[0.159s] [ 33%] Built target mecanum_drive_controller_parameters
+[0.228s] [100%] Built target mecanum_drive_controller
+[0.251s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/mecanum_drive_controller -- -j4 -l4
+[0.254s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/mecanum_drive_controller
+[0.272s] -- Install configuration: ""
+[0.274s] -- Execute custom install script
+[0.277s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp
+[0.282s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller//mecanum_drive_plugin.xml
+[0.282s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+[0.283s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+[0.283s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/speed_limiter.hpp
+[0.284s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h
+[0.287s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+[0.288s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+[0.288s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+[0.290s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+[0.291s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+[0.292s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+[0.293s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+[0.294s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+[0.295s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+[0.296s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+[0.297s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+[0.297s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+[0.298s] -- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+[0.321s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+[0.325s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+[0.326s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.327s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[0.333s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+[0.333s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+[0.333s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+[0.335s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+[0.341s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+[0.341s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-noconfig.cmake
+[0.351s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/mecanum_drive_controller

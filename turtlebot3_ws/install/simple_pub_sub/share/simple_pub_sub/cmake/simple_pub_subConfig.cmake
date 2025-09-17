@@ -1,0 +1,1 @@
+/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/simple_pub_sub/ament_cmake_core/simple_pub_subConfig.cmake

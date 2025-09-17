@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_teleop",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_example",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_teleop",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_example",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages",
+        "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

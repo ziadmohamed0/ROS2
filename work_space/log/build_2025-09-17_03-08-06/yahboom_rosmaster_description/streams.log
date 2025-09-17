@@ -1,0 +1,43 @@
+[0.031s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description -- -j4 -l4
+[0.216s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description -- -j4 -l4
+[0.240s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description
+[0.261s] -- Install configuration: ""
+[0.267s] -- Execute custom install script
+[0.290s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/config/rosmaster_x3/ros2_controllers.yaml
+[0.290s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/config/rosmaster_x3/ros2_controllers_template.yaml
+[0.293s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/launch/robot_state_publisher.launch.py
+[0.319s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/intel_realsense/visual/d435.stl
+[0.323s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/back_left_wheel_X3.STL
+[0.330s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/back_right_wheel_X3.STL
+[0.330s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/base_link_X3.STL
+[0.331s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/camera_link.STL
+[0.333s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/front_left_wheel_X3.STL
+[0.334s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/front_right_wheel_X3.STL
+[0.337s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/laser_link.STL
+[0.346s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rplidar/rplidar_s2.stl
+[0.389s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/control/gazebo_sim_ros2_control.urdf.xacro
+[0.389s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/control/rosmaster_x3_ros2_control.urdf.xacro
+[0.395s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/control/velocity_control_plugin.urdf.xacro
+[0.419s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/mech/mecanum_wheel.urdf.xacro
+[0.419s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/mech/rosmaster_x3_base.urdf.xacro
+[0.426s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/robots/rosmaster_x3.urdf.xacro
+[0.427s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/sensors/imu.urdf.xacro
+[0.433s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/sensors/lidar.urdf.xacro
+[0.434s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/sensors/rgbd_camera.urdf.xacro
+[0.468s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/rviz/yahboom_rosmaster_description.rviz
+[0.469s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_description
+[0.483s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_description
+[0.491s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/ament_prefix_path.sh
+[0.505s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/ament_prefix_path.dsv
+[0.510s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/path.sh
+[0.520s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/path.dsv
+[0.542s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.bash
+[0.550s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.sh
+[0.551s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.zsh
+[0.563s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.dsv
+[0.563s] -- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/package.dsv
+[0.659s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/ament_index/resource_index/packages/yahboom_rosmaster_description
+[0.666s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/cmake/yahboom_rosmaster_descriptionConfig.cmake
+[0.674s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/cmake/yahboom_rosmaster_descriptionConfig-version.cmake
+[0.678s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/package.xml
+[0.682s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros2_service__py",
+		"source" : "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/ros2_service/ros2_service__py"
+	}
+}

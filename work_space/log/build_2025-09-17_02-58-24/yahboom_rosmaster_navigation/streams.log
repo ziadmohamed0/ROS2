@@ -1,0 +1,98 @@
+[0.113s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_navigation -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation
+[0.305s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.787s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.845s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.065s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.219s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.729s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.479s] -- Found navigation2: 1.3.7 (/opt/ros/jazzy/share/navigation2/cmake)
+[3.532s] -- Found nav2_bringup: 1.3.7 (/opt/ros/jazzy/share/nav2_bringup/cmake)
+[3.533s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.004s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.065s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.840s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.497s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[5.502s] -- Found slam_toolbox: 2.8.3 (/opt/ros/jazzy/share/slam_toolbox/cmake)
+[7.088s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[7.121s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.396s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[8.440s] -- Found OGRE
+[8.440s] --   static     : OFF
+[8.440s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[8.441s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.441s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[8.446s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[8.446s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[8.454s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.454s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[8.454s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.454s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.454s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.455s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[9.737s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[11.715s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[12.490s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.506s] -- Configured cppcheck include dirs: 
+[12.507s] -- Configured cppcheck exclude dirs and/or files: 
+[12.511s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.517s] -- Configured 'flake8' exclude dirs and/or files: 
+[12.519s] -- Added test 'lint_cmake' to check CMake code style
+[12.520s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.525s] -- Added test 'uncrustify' to check C / C++ code style
+[12.525s] -- Configured uncrustify additional arguments: 
+[12.526s] -- Added test 'xmllint' to check XML markup files
+[12.551s] -- Configuring done (12.3s)
+[12.655s] -- Generating done (0.1s)
+[12.687s] -- Build files have been written to: /home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation
+[12.807s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_navigation -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation
+[12.810s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation -- -j4 -l4
+[13.293s] [100%] Built target cmd_vel_relay
+[13.470s] [100%] Built target ament_cmake_python_symlink_yahboom_rosmaster_navigation
+[15.524s] running egg_info
+[15.732s] writing yahboom_rosmaster_navigation.egg-info/PKG-INFO
+[15.741s] writing dependency_links to yahboom_rosmaster_navigation.egg-info/dependency_links.txt
+[15.742s] writing top-level names to yahboom_rosmaster_navigation.egg-info/top_level.txt
+[16.395s] reading manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+[16.397s] writing manifest file 'yahboom_rosmaster_navigation.egg-info/SOURCES.txt'
+[16.567s] [100%] Built target ament_cmake_python_build_yahboom_rosmaster_navigation_egg
+[16.663s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation -- -j4 -l4
+[16.672s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation
+[16.761s] -- Install configuration: ""
+[16.772s] -- Execute custom install script
+[16.784s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/cmd_vel_relay
+[16.791s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/config/rosmaster_x3_nav2_default_params.yaml
+[16.792s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/config/rosmaster_x3_nav2_regulated_pure_pursuit_controller.yaml
+[16.793s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/cafe_world_map.pgm
+[16.796s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/cafe_world_map.yaml
+[16.810s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/house_world_map.pgm
+[16.812s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/maps/house_world_map.yaml
+[16.817s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/rviz/nav2_default_view.rviz
+[16.819s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/pythonpath.sh
+[16.820s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/pythonpath.dsv
+[16.835s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/PKG-INFO
+[16.836s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/SOURCES.txt
+[16.840s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/dependency_links.txt
+[16.843s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation-0.0.0-py3.12.egg-info/top_level.txt
+[16.851s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation/__init__.py
+[16.851s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation/posestamped_msg_generator.py
+[16.851s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/assisted_teleoperation.py
+[16.852s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/nav_to_pose.py
+[16.852s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/yahboom_rosmaster_navigation/test_nav_to_pose.py
+[16.862s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_navigation
+[16.864s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_navigation
+[16.864s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/ament_prefix_path.sh
+[16.864s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/ament_prefix_path.dsv
+[16.867s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/path.sh
+[16.867s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/environment/path.dsv
+[16.878s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.bash
+[16.880s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.sh
+[16.880s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.zsh
+[16.882s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/local_setup.dsv
+[16.883s] -- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/package.dsv
+[16.944s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/ament_index/resource_index/packages/yahboom_rosmaster_navigation
+[16.946s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/cmake/yahboom_rosmaster_navigationConfig.cmake
+[16.957s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/cmake/yahboom_rosmaster_navigationConfig-version.cmake
+[16.957s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/share/yahboom_rosmaster_navigation/package.xml
+[17.269s] Listing '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation/lib/python3.12/site-packages/yahboom_rosmaster_navigation'...
+[17.315s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_navigation

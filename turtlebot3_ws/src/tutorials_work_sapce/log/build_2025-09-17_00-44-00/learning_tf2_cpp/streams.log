@@ -1,0 +1,54 @@
+[0.018s] Invoking command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/learning_tf2_cpp -- -j4 -l4
+[0.060s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.424s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.450s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.466s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.583s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.673s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.676s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.897s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.904s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.108s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.155s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.381s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.382s] -- Configured cppcheck include dirs: 
+[1.382s] -- Configured cppcheck exclude dirs and/or files: 
+[1.382s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.383s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.384s] -- Added test 'lint_cmake' to check CMake code style
+[1.384s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.386s] -- Added test 'uncrustify' to check C / C++ code style
+[1.386s] -- Configured uncrustify additional arguments: 
+[1.387s] -- Added test 'xmllint' to check XML markup files
+[1.389s] -- Configuring done (1.3s)
+[1.425s] -- Generating done (0.0s)
+[1.435s] -- Build files have been written to: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/learning_tf2_cpp
+[1.517s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[20.151s] [100%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[21.143s] [100%] Built target turtle_tf2_broadcaster
+[21.274s] Invoked command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/learning_tf2_cpp -- -j4 -l4
+[21.363s] Invoking command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/learning_tf2_cpp
+[21.377s] -- Install configuration: ""
+[21.377s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[21.383s] -- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster" to ""
+[21.383s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[21.383s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo_launch.py
+[21.384s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[21.385s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[21.385s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[21.386s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[21.386s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[21.386s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[21.386s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[21.387s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[21.387s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[21.387s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[21.387s] -- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[21.387s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[21.388s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[21.388s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[21.388s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[21.395s] Invoked command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/learning_tf2_cpp

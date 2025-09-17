@@ -1,0 +1,53 @@
+[0.019s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2
+[0.155s] -- The C compiler identification is GNU 13.3.0
+[0.281s] -- The CXX compiler identification is GNU 13.3.0
+[0.313s] -- Detecting C compiler ABI info
+[0.501s] -- Detecting C compiler ABI info - done
+[0.525s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.526s] -- Detecting C compile features
+[0.528s] -- Detecting C compile features - done
+[0.547s] -- Detecting CXX compiler ABI info
+[0.756s] -- Detecting CXX compiler ABI info - done
+[0.787s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.789s] -- Detecting CXX compile features
+[0.789s] -- Detecting CXX compile features - done
+[0.804s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.173s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.345s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.715s] -- Configuring done (1.7s)
+[1.721s] -- Generating done (0.0s)
+[1.724s] -- Build files have been written to: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2
+[1.738s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2
+[1.740s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[1.836s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[1.837s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2
+[1.851s] -- Install configuration: ""
+[1.852s] -- Execute custom install script
+[1.853s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.871s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.892s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.910s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.940s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[1.959s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[1.978s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[2.002s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[2.021s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[2.040s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[2.059s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[2.084s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[2.101s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[2.119s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[2.140s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[2.159s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[2.184s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[2.204s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[2.224s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[2.242s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[2.259s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[2.280s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[2.306s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[2.325s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[2.346s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[2.362s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[2.378s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[2.402s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_navigation2

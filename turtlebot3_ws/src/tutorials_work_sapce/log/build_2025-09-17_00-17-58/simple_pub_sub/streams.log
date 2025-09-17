@@ -1,0 +1,18 @@
+[0.017s] Invoking command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub -- -j4 -l4
+[0.087s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/pub.cpp.o[0m
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/sub.cpp.o[0m
+[0.458s] [01m[K/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/simple_pub_sub/src/sub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kros2_service/msg/num.hpp: No such file or directory
+[0.458s]     2 | #include [01;31m[K<ros2_service/msg/num.hpp>[m[K
+[0.458s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.458s] compilation terminated.
+[0.464s] gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/sub.cpp.o] Error 1
+[0.464s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/subscriber.dir/all] Error 2
+[0.465s] gmake[1]: *** Waiting for unfinished jobs....
+[0.527s] [01m[K/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/simple_pub_sub/src/pub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kros2_service/msg/num.hpp: No such file or directory
+[0.528s]     2 | #include [01;31m[K<ros2_service/msg/num.hpp>[m[K
+[0.528s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.528s] compilation terminated.
+[0.531s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/pub.cpp.o] Error 1
+[0.531s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] Error 2
+[0.532s] gmake: *** [Makefile:146: all] Error 2
+[0.535s] Invoked command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/simple_pub_sub -- -j4 -l4

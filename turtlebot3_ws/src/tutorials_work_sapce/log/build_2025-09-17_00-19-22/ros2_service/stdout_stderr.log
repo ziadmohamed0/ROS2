@@ -1,0 +1,278 @@
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_ros2_service
+running egg_info
+creating ros2_service.egg-info
+[  1%] Built target ros2_service__rosidl_generator_type_description
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+writing ros2_service.egg-info/PKG-INFO
+writing dependency_links to ros2_service.egg-info/dependency_links.txt
+writing top-level names to ros2_service.egg-info/top_level.txt
+writing manifest file 'ros2_service.egg-info/SOURCES.txt'
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+reading manifest file 'ros2_service.egg-info/SOURCES.txt'
+writing manifest file 'ros2_service.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_ros2_service_egg
+[  5%] Built target ros2_service__cpp
+[  7%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/num__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/num__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/num__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/sphere__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/sphere__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/srv/detail/add_three_ints__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/msg/detail/sphere__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/srv/detail/add_three_ints__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_c.dir/rosidl_generator_c/ros2_service/srv/detail/add_three_ints__type_support.c.o[0m
+[ 24%] [32m[1mLinking C shared library libros2_service__rosidl_generator_c.so[0m
+[ 24%] Built target ros2_service__rosidl_generator_c
+[ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_service/msg/num__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_service/msg/sphere__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_service/srv/add_three_ints__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_service/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_service/msg/detail/num__type_support.c.o[0m
+[ 42%] [32m[1mLinking CXX shared library libros2_service__rosidl_typesupport_c.so[0m
+[ 44%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_service/msg/detail/sphere__type_support.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_service/srv/detail/add_three_ints__type_support.c.o[0m
+[ 46%] Built target ros2_service__rosidl_typesupport_c
+[ 48%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_service/msg/detail/num__type_support_c.cpp.o[0m
+[ 51%] [32m[1mLinking C shared library libros2_service__rosidl_typesupport_introspection_c.so[0m
+[ 51%] Built target ros2_service__rosidl_typesupport_introspection_c
+[ 53%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_service/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_service/msg/detail/sphere__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_service/msg/num__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_service/msg/detail/num__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_service/msg/sphere__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_service/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_service/msg/detail/sphere__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_service/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_service/srv/add_three_ints__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ros2_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_service/srv/detail/add_three_ints__type_support.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library libros2_service__rosidl_typesupport_cpp.so[0m
+[ 75%] [32m[1mLinking CXX shared library libros2_service__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 75%] Built target ros2_service__rosidl_typesupport_cpp
+[ 77%] [32m[1mLinking CXX shared library libros2_service__rosidl_typesupport_fastrtps_c.so[0m
+[ 77%] Built target ros2_service__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target ros2_service__rosidl_typesupport_fastrtps_c
+[ 79%] [32m[1mLinking CXX shared library libros2_service__rosidl_typesupport_introspection_cpp.so[0m
+[ 79%] Built target ros2_service__rosidl_typesupport_introspection_cpp
+[ 79%] Built target ros2_service
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target ros2_service__py
+[ 83%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_py.dir/rosidl_generator_py/ros2_service/msg/_num_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_py.dir/rosidl_generator_py/ros2_service/srv/_add_three_ints_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/ros2_service__rosidl_generator_py.dir/rosidl_generator_py/ros2_service/msg/_sphere_s.c.o[0m
+[ 88%] [32m[1mLinking C shared library libros2_service__rosidl_generator_py.so[0m
+[ 88%] Built target ros2_service__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/ros2_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ros2_service/_ros2_service_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32m[1mLinking C shared module rosidl_generator_py/ros2_service/ros2_service_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 92%] Built target ros2_service_s__rosidl_typesupport_fastrtps_c
+[ 94%] [32mBuilding C object CMakeFiles/ros2_service_s__rosidl_typesupport_c.dir/rosidl_generator_py/ros2_service/_ros2_service_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32m[1mLinking C shared module rosidl_generator_py/ros2_service/ros2_service_s__rosidl_typesupport_c.so[0m
+[ 96%] Built target ros2_service_s__rosidl_typesupport_c
+[ 98%] [32mBuilding C object CMakeFiles/ros2_service_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ros2_service/_ros2_service_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/ros2_service/ros2_service_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target ros2_service_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ament_index/resource_index/rosidl_interfaces/ros2_service
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Num.json
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Sphere.json
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/srv/AddThreeInts.json
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/add_three_ints.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__type_support.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__struct.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__type_support.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__description.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__functions.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__functions.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/sphere.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/num.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__functions.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__description.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__functions.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__type_support.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__functions.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__description.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__type_support.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__struct.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__type_support.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__type_support.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__functions.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__struct.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/library_path.sh
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/library_path.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/add_three_ints.hpp
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__traits.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__struct.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__type_support.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__builder.hpp
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/num.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/sphere.hpp
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__builder.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__builder.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__traits.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__type_support.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__traits.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__struct.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__type_support.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__struct.hpp
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/dds_fastrtps
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/dds_fastrtps
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__type_support.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__type_support.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__type_support.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/srv/detail/add_three_ints__type_support.cpp
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/num__type_support.cpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/include/ros2_service/ros2_service/msg/detail/sphere__type_support.cpp
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/pythonpath.sh
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/pythonpath.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service-0.0.0-py3.12.egg-info
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_c.so
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv/__init__.py
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv/_add_three_ints.py
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv/_add_three_ints_s.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/_ros2_service_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/__init__.py
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/_ros2_service_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/__init__.py
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_num.py
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_num_s.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_sphere_s.c
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_sphere.py
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/_ros2_service_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service'...
+Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/__init__.py'...
+Listing '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg'...
+Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/__init__.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_num.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/msg/_sphere.py'...
+Listing '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv'...
+Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv/__init__.py'...
+Compiling '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/srv/_add_three_ints.py'...
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/python3.12/site-packages/ros2_service/ros2_service_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/lib/libros2_service__rosidl_generator_py.so" to ""
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Num.idl
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Sphere.idl
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/srv/AddThreeInts.idl
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Num.msg
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/msg/Sphere.msg
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/srv/AddThreeInts.srv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ament_index/resource_index/package_run_dependencies/ros2_service
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ament_index/resource_index/parent_prefix_path/ros2_service
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/ament_prefix_path.sh
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/ament_prefix_path.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/path.sh
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/environment/path.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/local_setup.bash
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/local_setup.sh
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/local_setup.zsh
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/local_setup.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/package.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ament_index/resource_index/packages/ros2_service
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_generator_cExport.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_generator_cppExport.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_service__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_generator_pyExport.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/export_ros2_service__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_serviceConfig.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/cmake/ros2_serviceConfig-version.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service/share/ros2_service/package.xml

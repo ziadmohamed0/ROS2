@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.so" "TARGETS" "turtlebot3_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/turtlebot3_msgs")

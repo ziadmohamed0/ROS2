@@ -1,0 +1,43 @@
+[0.017s] Invoking command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/ros2_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/ros2_service -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service
+[0.171s] -- The C compiler identification is GNU 13.3.0
+[0.289s] -- The CXX compiler identification is GNU 13.3.0
+[0.315s] -- Detecting C compiler ABI info
+[0.430s] -- Detecting C compiler ABI info - done
+[0.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.444s] -- Detecting C compile features
+[0.445s] -- Detecting C compile features - done
+[0.456s] -- Detecting CXX compiler ABI info
+[0.577s] -- Detecting CXX compiler ABI info - done
+[0.590s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.591s] -- Detecting CXX compile features
+[0.592s] -- Detecting CXX compile features - done
+[0.611s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.809s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.996s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.072s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.096s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.287s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.292s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.437s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.465s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.496s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.621s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.671s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.699s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.575s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.143s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.315s] -- Found PythonExtra: /usr/bin/python3  
+[4.891s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.984s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[4.985s]   ament_target_dependencies() the passed package name 'ros2_service' was not
+[4.985s]   found before
+[4.985s] Call Stack (most recent call first):
+[4.985s]   CMakeLists.txt:23 (ament_target_dependencies)
+[4.985s] 
+[4.986s] [0m
+[4.986s] -- Configuring incomplete, errors occurred!
+[5.002s] Invoked command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/ros2_service' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/ros2_service -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service
