@@ -1,0 +1,358 @@
+<sdf version='1.11'>
+  <model name='cerberus_anymal_b_visual_only'>
+    <static>true</static>
+    <link name='base_link'>
+      <visual name='LowerLegBL_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>LowerLegBL</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='ShoulderBR_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>ShoulderBR</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='UpperLegBR_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>UpperLegBR</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='LowerLegBR_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>LowerLegBR</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='ShoulderBL_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>ShoulderBL</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='UpperLegBL_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>UpperLegBL</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='LowerLegFR_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>LowerLegFR</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='ShoulderFL_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>ShoulderFL</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='UpperLegFL_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>UpperLegFL</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='LowerLegFL_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>LowerLegFL</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='ShoulderFR_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>ShoulderFR</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='UpperLegFR_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>UpperLegFR</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+      <visual name='Body_visual'>
+        <geometry>
+          <mesh>
+            <uri>model://Anymal/meshes/anymal.dae</uri>
+            <submesh>
+              <name>Body</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://Anymal/materials/textures/Anymal_Albedo.jpg</albedo_map>
+              <roughness_map>model://Anymal/materials/textures/Anymal_Roughness.jpg</roughness_map>
+              <metal_map>model://Anymal/materials/textures/Anymal_Metalness.jpg</metal_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://Anymal/materials/scripts/</uri>
+            <uri>model://Anymal/materials/textures/</uri>
+            <name>UrbanTile/Anymal_Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

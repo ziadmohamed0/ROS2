@@ -1,0 +1,170 @@
+
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }
+material UrbanTile/Anymal_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Anymal_Albedo.jpg
+        }
+      }
+    }
+  }

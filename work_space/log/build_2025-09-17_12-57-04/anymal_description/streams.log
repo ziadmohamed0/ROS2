@@ -1,0 +1,50 @@
+[0.017s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/anymal_description -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/anymal_description
+[0.083s] -- The C compiler identification is GNU 13.3.0
+[0.152s] -- The CXX compiler identification is GNU 13.3.0
+[0.170s] -- Detecting C compiler ABI info
+[0.276s] -- Detecting C compiler ABI info - done
+[0.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.288s] -- Detecting C compile features
+[0.289s] -- Detecting C compile features - done
+[0.301s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.440s] -- Detecting CXX compile features
+[0.441s] -- Detecting CXX compile features - done
+[0.451s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.696s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.920s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.088s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.088s] -- Configured cppcheck include dirs: 
+[1.089s] -- Configured cppcheck exclude dirs and/or files: 
+[1.091s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.092s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.095s] -- Added test 'lint_cmake' to check CMake code style
+[1.098s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.112s] -- Added test 'uncrustify' to check C / C++ code style
+[1.113s] -- Configured uncrustify additional arguments: 
+[1.115s] -- Added test 'xmllint' to check XML markup files
+[1.118s] -- Configuring done (1.1s)
+[1.122s] -- Generating done (0.0s)
+[1.124s] -- Build files have been written to: /home/ziad/ziad_ws/ROS2/work_space/build/anymal_description
+[1.130s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/anymal_description -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/anymal_description
+[1.131s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/anymal_description -- -j4 -l4
+[1.179s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/anymal_description -- -j4 -l4
+[1.191s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/anymal_description
+[1.201s] -- Install configuration: ""
+[1.202s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/ament_index/resource_index/package_run_dependencies/anymal_description
+[1.202s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/ament_index/resource_index/parent_prefix_path/anymal_description
+[1.203s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/environment/ament_prefix_path.sh
+[1.203s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/environment/ament_prefix_path.dsv
+[1.203s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/environment/path.sh
+[1.204s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/environment/path.dsv
+[1.204s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/local_setup.bash
+[1.205s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/local_setup.sh
+[1.205s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/local_setup.zsh
+[1.206s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/local_setup.dsv
+[1.206s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/package.dsv
+[1.206s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/ament_index/resource_index/packages/anymal_description
+[1.206s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/cmake/anymal_descriptionConfig.cmake
+[1.208s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/cmake/anymal_descriptionConfig-version.cmake
+[1.208s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/package.xml
+[1.210s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/anymal_description
