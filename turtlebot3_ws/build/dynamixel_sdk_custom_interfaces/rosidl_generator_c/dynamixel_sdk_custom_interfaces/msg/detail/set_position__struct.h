@@ -2,9 +2,6 @@
 // with input from dynamixel_sdk_custom_interfaces:msg/SetPosition.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "dynamixel_sdk_custom_interfaces/msg/set_position.h"
-
-
 #ifndef DYNAMIXEL_SDK_CUSTOM_INTERFACES__MSG__DETAIL__SET_POSITION__STRUCT_H_
 #define DYNAMIXEL_SDK_CUSTOM_INTERFACES__MSG__DETAIL__SET_POSITION__STRUCT_H_
 
@@ -16,6 +13,7 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
+
 
 // Constants defined in the message
 

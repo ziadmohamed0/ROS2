@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/urdf_tutorial_cpp/urdf_tutorial_cpp" "TARGETS" "urdf_tutorial_cpp" "DESTINATION" "lib/urdf_tutorial_cpp")

@@ -65,7 +65,7 @@ dynamixel_sdk_custom_interfaces__msg__SetPosition__copy(
 }
 
 dynamixel_sdk_custom_interfaces__msg__SetPosition *
-dynamixel_sdk_custom_interfaces__msg__SetPosition__create(void)
+dynamixel_sdk_custom_interfaces__msg__SetPosition__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   dynamixel_sdk_custom_interfaces__msg__SetPosition * msg = (dynamixel_sdk_custom_interfaces__msg__SetPosition *)allocator.allocate(sizeof(dynamixel_sdk_custom_interfaces__msg__SetPosition), allocator.state);

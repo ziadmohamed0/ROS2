@@ -313,17 +313,11 @@ message(STATUS "Execute custom install script")
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_type_description/dynamixel_sdk_custom_interfaces/msg/SetPosition.json" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/msg")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_type_description/dynamixel_sdk_custom_interfaces/msg/SetPosition.json" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/msg")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_type_description/dynamixel_sdk_custom_interfaces/srv/GetPosition.json" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/srv")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_type_description/dynamixel_sdk_custom_interfaces/srv/GetPosition.json" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/srv")
-
 # install(DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/" "DESTINATION" "include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces" "PATTERN" "*.h")
 ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_c/dynamixel_sdk_custom_interfaces/" "DESTINATION" "include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces" "PATTERN" "*.h")
 
-# install(FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
@@ -349,19 +343,19 @@ ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/Dyn
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
 
-# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces.egg-info/" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.8.4-py3.12.egg-info")
-ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces.egg-info/" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.8.4-py3.12.egg-info")
+# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.4-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.8.4-py3.10.egg-info")
 
-# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_py/dynamixel_sdk_custom_interfaces/" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_py/dynamixel_sdk_custom_interfaces/" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_py/dynamixel_sdk_custom_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_py/dynamixel_sdk_custom_interfaces/" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install("TARGETS" "dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces")
+# install("TARGETS" "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces")
 include("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces")
+# install("TARGETS" "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces")
 include("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces")
+# install("TARGETS" "dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces")
 include("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/msg")
@@ -376,20 +370,26 @@ ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/Dyn
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/srv")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/srv")
 
+# install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Request.msg" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/srv")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Request.msg" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/srv")
+
+# install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Response.msg" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/srv")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Response.msg" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/srv")
+
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dynamixel_sdk_custom_interfaces/environment")

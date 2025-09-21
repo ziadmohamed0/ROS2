@@ -2,9 +2,6 @@
 // with input from turtlebot3_msgs:srv/Dqn.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "turtlebot3_msgs/srv/dqn.hpp"
-
-
 #ifndef TURTLEBOT3_MSGS__SRV__DETAIL__DQN__BUILDER_HPP_
 #define TURTLEBOT3_MSGS__SRV__DETAIL__DQN__BUILDER_HPP_
 
@@ -142,80 +139,6 @@ inline
 auto build<::turtlebot3_msgs::srv::Dqn_Response>()
 {
   return turtlebot3_msgs::srv::builder::Init_Dqn_Response_state();
-}
-
-}  // namespace turtlebot3_msgs
-
-
-namespace turtlebot3_msgs
-{
-
-namespace srv
-{
-
-namespace builder
-{
-
-class Init_Dqn_Event_response
-{
-public:
-  explicit Init_Dqn_Event_response(::turtlebot3_msgs::srv::Dqn_Event & msg)
-  : msg_(msg)
-  {}
-  ::turtlebot3_msgs::srv::Dqn_Event response(::turtlebot3_msgs::srv::Dqn_Event::_response_type arg)
-  {
-    msg_.response = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::turtlebot3_msgs::srv::Dqn_Event msg_;
-};
-
-class Init_Dqn_Event_request
-{
-public:
-  explicit Init_Dqn_Event_request(::turtlebot3_msgs::srv::Dqn_Event & msg)
-  : msg_(msg)
-  {}
-  Init_Dqn_Event_response request(::turtlebot3_msgs::srv::Dqn_Event::_request_type arg)
-  {
-    msg_.request = std::move(arg);
-    return Init_Dqn_Event_response(msg_);
-  }
-
-private:
-  ::turtlebot3_msgs::srv::Dqn_Event msg_;
-};
-
-class Init_Dqn_Event_info
-{
-public:
-  Init_Dqn_Event_info()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
-  {}
-  Init_Dqn_Event_request info(::turtlebot3_msgs::srv::Dqn_Event::_info_type arg)
-  {
-    msg_.info = std::move(arg);
-    return Init_Dqn_Event_request(msg_);
-  }
-
-private:
-  ::turtlebot3_msgs::srv::Dqn_Event msg_;
-};
-
-}  // namespace builder
-
-}  // namespace srv
-
-template<typename MessageType>
-auto build();
-
-template<>
-inline
-auto build<::turtlebot3_msgs::srv::Dqn_Event>()
-{
-  return turtlebot3_msgs::srv::builder::Init_Dqn_Event_info();
 }
 
 }  // namespace turtlebot3_msgs

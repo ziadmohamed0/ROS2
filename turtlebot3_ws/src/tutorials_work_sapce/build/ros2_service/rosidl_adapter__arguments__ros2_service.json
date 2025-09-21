@@ -1,8 +1,0 @@
-{
-  "package_name": "ros2_service",
-  "non_idl_tuples": [
-    "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/ros2_service:msg/Num.msg",
-    "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/ros2_service:msg/Sphere.msg",
-    "/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/ros2_service:srv/AddThreeInts.srv"
-  ]
-}

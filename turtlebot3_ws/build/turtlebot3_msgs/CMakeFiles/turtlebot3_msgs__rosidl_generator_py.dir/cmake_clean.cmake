@@ -13,8 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/srv/_goal_s.c.o.d"
   "CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/srv/_sound_s.c.o"
   "CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/srv/_sound_s.c.o.d"
-  "libturtlebot3_msgs__rosidl_generator_py.pdb"
-  "libturtlebot3_msgs__rosidl_generator_py.so"
+  "rosidl_generator_py/turtlebot3_msgs/libturtlebot3_msgs__rosidl_generator_py.pdb"
+  "rosidl_generator_py/turtlebot3_msgs/libturtlebot3_msgs__rosidl_generator_py.so"
 )
 
 # Per-language clean rules from dependency scanning.

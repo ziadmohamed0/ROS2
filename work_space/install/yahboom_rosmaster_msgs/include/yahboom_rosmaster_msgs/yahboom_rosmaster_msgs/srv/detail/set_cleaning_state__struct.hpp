@@ -1,1 +1,0 @@
-/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_cpp/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__struct.hpp

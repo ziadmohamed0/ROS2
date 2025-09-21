@@ -313,17 +313,11 @@ message(STATUS "Execute custom install script")
 # install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/yahboom_rosmaster_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/yahboom_rosmaster_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_type_description/yahboom_rosmaster_msgs/action/TimedRotation.json" "DESTINATION" "share/yahboom_rosmaster_msgs/action")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_type_description/yahboom_rosmaster_msgs/action/TimedRotation.json" "DESTINATION" "share/yahboom_rosmaster_msgs/action")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_type_description/yahboom_rosmaster_msgs/srv/SetCleaningState.json" "DESTINATION" "share/yahboom_rosmaster_msgs/srv")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_type_description/yahboom_rosmaster_msgs/srv/SetCleaningState.json" "DESTINATION" "share/yahboom_rosmaster_msgs/srv")
-
 # install(DIRECTORY "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_c/yahboom_rosmaster_msgs/" "DESTINATION" "include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs" "PATTERN" "*.h")
 ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" DIRECTORY "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_c/yahboom_rosmaster_msgs/" "DESTINATION" "include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs" "PATTERN" "*.h")
 
-# install(FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
@@ -349,19 +343,19 @@ ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboo
 # install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
 
-# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_python/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs.egg-info/" "DESTINATION" "lib/python3.12/site-packages/yahboom_rosmaster_msgs-0.0.0-py3.12.egg-info")
-ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" DIRECTORY "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_python/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs.egg-info/" "DESTINATION" "lib/python3.12/site-packages/yahboom_rosmaster_msgs-0.0.0-py3.12.egg-info")
+# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_python/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/yahboom_rosmaster_msgs-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" DIRECTORY "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_python/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/yahboom_rosmaster_msgs-0.0.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_py/yahboom_rosmaster_msgs/" "DESTINATION" "lib/python3.12/site-packages/yahboom_rosmaster_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" DIRECTORY "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_py/yahboom_rosmaster_msgs/" "DESTINATION" "lib/python3.12/site-packages/yahboom_rosmaster_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_py/yahboom_rosmaster_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/yahboom_rosmaster_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" DIRECTORY "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_py/yahboom_rosmaster_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/yahboom_rosmaster_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install("TARGETS" "yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/yahboom_rosmaster_msgs")
+# install("TARGETS" "yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/yahboom_rosmaster_msgs")
 include("/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/yahboom_rosmaster_msgs")
+# install("TARGETS" "yahboom_rosmaster_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/yahboom_rosmaster_msgs")
 include("/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install("TARGETS" "yahboom_rosmaster_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/yahboom_rosmaster_msgs")
+# install("TARGETS" "yahboom_rosmaster_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/yahboom_rosmaster_msgs")
 include("/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_adapter/yahboom_rosmaster_msgs/action/TimedRotation.idl" "DESTINATION" "share/yahboom_rosmaster_msgs/action")
@@ -376,65 +370,8 @@ ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboo
 # install(FILES "/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs/srv/SetCleaningState.srv" "DESTINATION" "share/yahboom_rosmaster_msgs/srv")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs/srv/SetCleaningState.srv" "DESTINATION" "share/yahboom_rosmaster_msgs/srv")
 
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_cmake/srv/SetCleaningState_Request.msg" "DESTINATION" "share/yahboom_rosmaster_msgs/srv")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_cmake/srv/SetCleaningState_Request.msg" "DESTINATION" "share/yahboom_rosmaster_msgs/srv")
 
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
-
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs/environment")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yahboom_rosmaster_msgs")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yahboom_rosmaster_msgs")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yahboom_rosmaster_msgs")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yahboom_rosmaster_msgs")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yahboom_rosmaster_msgs")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yahboom_rosmaster_msgs")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yahboom_rosmaster_msgs")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_index/share/ament_index/resource_index/packages/yahboom_rosmaster_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_index/share/ament_index/resource_index/packages/yahboom_rosmaster_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_core/yahboom_rosmaster_msgsConfig.cmake" "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_core/yahboom_rosmaster_msgsConfig-version.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_core/yahboom_rosmaster_msgsConfig.cmake" "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/ament_cmake_core/yahboom_rosmaster_msgsConfig-version.cmake" "DESTINATION" "share/yahboom_rosmaster_msgs/cmake")
-
-# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs/package.xml" "DESTINATION" "share/yahboom_rosmaster_msgs")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs/package.xml" "DESTINATION" "share/yahboom_rosmaster_msgs")
+# install(FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_cmake/srv/SetCleaningState_Response.msg" "DESTINATION" "share/yahboom_rosmaster_msgs/srv")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs" FILES "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_cmake/srv/SetCleaningState_Response.msg" "DESTINATION" "share/yahboom_rosmaster_msgs/srv")

@@ -1,0 +1,25 @@
+[0.039s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer -- -j4 -l4
+[0.140s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer -- -j4 -l4
+[0.141s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer
+[0.153s] -- Install configuration: ""
+[0.154s] -- Execute custom install script
+[0.155s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[0.156s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[0.157s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[0.158s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[0.158s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[0.160s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[0.160s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[0.161s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[0.161s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[0.163s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[0.163s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[0.164s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[0.165s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[0.166s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[0.166s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[0.183s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[0.184s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[0.184s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[0.185s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[0.189s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer

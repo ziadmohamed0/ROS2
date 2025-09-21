@@ -17,7 +17,6 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/turtlebot3_msgs/msg/detail/version_info__struct.hpp"
   "rosidl_generator_cpp/turtlebot3_msgs/msg/detail/version_info__traits.hpp"
   "rosidl_generator_cpp/turtlebot3_msgs/msg/detail/version_info__type_support.hpp"
-  "rosidl_generator_cpp/turtlebot3_msgs/msg/rosidl_generator_cpp__visibility_control.hpp"
   "rosidl_generator_cpp/turtlebot3_msgs/msg/sensor_state.hpp"
   "rosidl_generator_cpp/turtlebot3_msgs/msg/sound.hpp"
   "rosidl_generator_cpp/turtlebot3_msgs/msg/version_info.hpp"

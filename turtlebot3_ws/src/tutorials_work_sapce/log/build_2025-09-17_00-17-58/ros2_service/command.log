@@ -1,1 +1,0 @@
-Invoking command in '/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/build/ros2_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ziad/ziad_ws/ROS2/tutorials_work_sapce/src/ros2_service -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/tutorials_work_sapce/install/ros2_service

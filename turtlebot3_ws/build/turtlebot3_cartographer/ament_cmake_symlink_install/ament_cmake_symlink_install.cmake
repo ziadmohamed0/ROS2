@@ -319,14 +319,14 @@ ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/tur
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_cartographer/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_cartographer/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_cartographer/environment")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_cartographer/environment")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot3_cartographer/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot3_cartographer/environment")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_cartographer/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_cartographer/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_cartographer/environment")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_cartographer/environment")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot3_cartographer/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_cartographer/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot3_cartographer/environment")

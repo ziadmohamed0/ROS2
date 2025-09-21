@@ -1,1 +1,0 @@
-/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/learning_tf2_cpp/ament_cmake_core/learning_tf2_cppConfig.cmake

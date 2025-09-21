@@ -1,1 +1,0 @@
-/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/rosidl_generator_c/yahboom_rosmaster_msgs/action/timed_rotation.h

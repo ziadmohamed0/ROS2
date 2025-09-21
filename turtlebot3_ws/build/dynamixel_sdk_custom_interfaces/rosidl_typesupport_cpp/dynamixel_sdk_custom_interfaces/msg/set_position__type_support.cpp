@@ -4,7 +4,6 @@
 
 #include "cstddef"
 #include "rosidl_runtime_c/message_type_support_struct.h"
-#include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h"
 #include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp"
 #include "rosidl_typesupport_cpp/identifier.hpp"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
@@ -73,9 +72,6 @@ static const rosidl_message_type_support_t SetPosition_message_type_support_hand
   ::rosidl_typesupport_cpp::typesupport_identifier,
   reinterpret_cast<const type_support_map_t *>(&_SetPosition_message_typesupport_map),
   ::rosidl_typesupport_cpp::get_message_typesupport_handle_function,
-  &dynamixel_sdk_custom_interfaces__msg__SetPosition__get_type_hash,
-  &dynamixel_sdk_custom_interfaces__msg__SetPosition__get_type_description,
-  &dynamixel_sdk_custom_interfaces__msg__SetPosition__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_cpp

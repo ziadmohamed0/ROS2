@@ -5,11 +5,9 @@
 
 
 #include <cassert>
-#include <cstddef>
 #include <limits>
 #include <string>
 #include "rosidl_typesupport_fastrtps_c/identifier.h"
-#include "rosidl_typesupport_fastrtps_c/serialization_helpers.hpp"
 #include "rosidl_typesupport_fastrtps_c/wstring_conversion.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
 #include "turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
@@ -42,12 +40,15 @@ extern "C"
 
 using _Sound__ros_msg_type = turtlebot3_msgs__msg__Sound;
 
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-bool cdr_serialize_turtlebot3_msgs__msg__Sound(
-  const turtlebot3_msgs__msg__Sound * ros_message,
+static bool _Sound__cdr_serialize(
+  const void * untyped_ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  if (!untyped_ros_message) {
+    fprintf(stderr, "ros message handle is null\n");
+    return false;
+  }
+  const _Sound__ros_msg_type * ros_message = static_cast<const _Sound__ros_msg_type *>(untyped_ros_message);
   // Field name: value
   {
     cdr << ros_message->value;
@@ -56,11 +57,15 @@ bool cdr_serialize_turtlebot3_msgs__msg__Sound(
   return true;
 }
 
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-bool cdr_deserialize_turtlebot3_msgs__msg__Sound(
+static bool _Sound__cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
-  turtlebot3_msgs__msg__Sound * ros_message)
+  void * untyped_ros_message)
 {
+  if (!untyped_ros_message) {
+    fprintf(stderr, "ros message handle is null\n");
+    return false;
+  }
+  _Sound__ros_msg_type * ros_message = static_cast<_Sound__ros_msg_type *>(untyped_ros_message);
   // Field name: value
   {
     cdr >> ros_message->value;
@@ -68,7 +73,6 @@ bool cdr_deserialize_turtlebot3_msgs__msg__Sound(
 
   return true;
 }  // NOLINT(readability/fn_size)
-
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t get_serialized_size_turtlebot3_msgs__msg__Sound(
@@ -84,7 +88,7 @@ size_t get_serialized_size_turtlebot3_msgs__msg__Sound(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: value
+  // field.name value
   {
     size_t item_size = sizeof(ros_message->value);
     current_alignment += item_size +
@@ -94,6 +98,12 @@ size_t get_serialized_size_turtlebot3_msgs__msg__Sound(
   return current_alignment - initial_alignment;
 }
 
+static uint32_t _Sound__get_serialized_size(const void * untyped_ros_message)
+{
+  return static_cast<uint32_t>(
+    get_serialized_size_turtlebot3_msgs__msg__Sound(
+      untyped_ros_message, 0));
+}
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__msg__Sound(
@@ -113,87 +123,10 @@ size_t max_serialized_size_turtlebot3_msgs__msg__Sound(
   full_bounded = true;
   is_plain = true;
 
-  // Field name: value
+  // member: value
   {
     size_t array_size = 1;
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
 
-
-  size_t ret_val = current_alignment - initial_alignment;
-  if (is_plain) {
-    // All members are plain, and type is not empty.
-    // We still need to check that the in-memory alignment
-    // is the same as the CDR mandated alignment.
-    using DataType = turtlebot3_msgs__msg__Sound;
-    is_plain =
-      (
-      offsetof(DataType, value) +
-      last_member_size
-      ) == ret_val;
-  }
-  return ret_val;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-bool cdr_serialize_key_turtlebot3_msgs__msg__Sound(
-  const turtlebot3_msgs__msg__Sound * ros_message,
-  eprosima::fastcdr::Cdr & cdr)
-{
-  // Field name: value
-  {
-    cdr << ros_message->value;
-  }
-
-  return true;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-size_t get_serialized_size_key_turtlebot3_msgs__msg__Sound(
-  const void * untyped_ros_message,
-  size_t current_alignment)
-{
-  const _Sound__ros_msg_type * ros_message = static_cast<const _Sound__ros_msg_type *>(untyped_ros_message);
-  (void)ros_message;
-
-  size_t initial_alignment = current_alignment;
-
-  const size_t padding = 4;
-  const size_t wchar_size = 4;
-  (void)padding;
-  (void)wchar_size;
-
-  // Field name: value
-  {
-    size_t item_size = sizeof(ros_message->value);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-
-  return current_alignment - initial_alignment;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-size_t max_serialized_size_key_turtlebot3_msgs__msg__Sound(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment)
-{
-  size_t initial_alignment = current_alignment;
-
-  const size_t padding = 4;
-  const size_t wchar_size = 4;
-  size_t last_member_size = 0;
-  (void)last_member_size;
-  (void)padding;
-  (void)wchar_size;
-
-  full_bounded = true;
-  is_plain = true;
-  // Field name: value
-  {
-    size_t array_size = 1;
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
@@ -210,41 +143,8 @@ size_t max_serialized_size_key_turtlebot3_msgs__msg__Sound(
       last_member_size
       ) == ret_val;
   }
+
   return ret_val;
-}
-
-
-static bool _Sound__cdr_serialize(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  const turtlebot3_msgs__msg__Sound * ros_message = static_cast<const turtlebot3_msgs__msg__Sound *>(untyped_ros_message);
-  (void)ros_message;
-  return cdr_serialize_turtlebot3_msgs__msg__Sound(ros_message, cdr);
-}
-
-static bool _Sound__cdr_deserialize(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  turtlebot3_msgs__msg__Sound * ros_message = static_cast<turtlebot3_msgs__msg__Sound *>(untyped_ros_message);
-  (void)ros_message;
-  return cdr_deserialize_turtlebot3_msgs__msg__Sound(cdr, ros_message);
-}
-
-static uint32_t _Sound__get_serialized_size(const void * untyped_ros_message)
-{
-  return static_cast<uint32_t>(
-    get_serialized_size_turtlebot3_msgs__msg__Sound(
-      untyped_ros_message, 0));
 }
 
 static size_t _Sound__max_serialized_size(char & bounds_info)
@@ -269,17 +169,13 @@ static message_type_support_callbacks_t __callbacks_Sound = {
   _Sound__cdr_serialize,
   _Sound__cdr_deserialize,
   _Sound__get_serialized_size,
-  _Sound__max_serialized_size,
-  nullptr
+  _Sound__max_serialized_size
 };
 
 static rosidl_message_type_support_t _Sound__type_support = {
   rosidl_typesupport_fastrtps_c__identifier,
   &__callbacks_Sound,
   get_message_typesupport_handle_function,
-  &turtlebot3_msgs__msg__Sound__get_type_hash,
-  &turtlebot3_msgs__msg__Sound__get_type_description,
-  &turtlebot3_msgs__msg__Sound__get_type_description_sources,
 };
 
 const rosidl_message_type_support_t *

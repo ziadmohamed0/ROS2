@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/simple_pub_sub/publisher" "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/simple_pub_sub/subscriber" "TARGETS" "publisher" "subscriber" "DESTINATION" "lib/simple_pub_sub")

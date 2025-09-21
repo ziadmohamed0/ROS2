@@ -1,0 +1,36 @@
+[0.026s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_bringup
+[0.145s] -- The C compiler identification is GNU 11.4.0
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.273s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.424s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.432s] -- Detecting CXX compiler ABI info
+[0.592s] -- Detecting CXX compiler ABI info - done
+[0.613s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.613s] -- Detecting CXX compile features
+[0.613s] -- Detecting CXX compile features - done
+[0.615s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.935s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.077s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.132s] -- Configuring incomplete, errors occurred!
+[1.132s] See also "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_bringup/CMakeFiles/CMakeOutput.log".
+[1.134s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[1.134s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[1.134s]   project has asked CMake to find a package configuration file provided by
+[1.134s]   "ament_lint_auto", but CMake did not find one.
+[1.135s] 
+[1.135s]   Could not find a package configuration file provided by "ament_lint_auto"
+[1.135s]   with any of the following names:
+[1.135s] 
+[1.135s]     ament_lint_autoConfig.cmake
+[1.135s]     ament_lint_auto-config.cmake
+[1.135s] 
+[1.136s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[1.138s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[1.138s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[1.138s]   sure it has been installed.
+[1.138s] 
+[1.138s] [0m
+[1.144s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_bringup' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_bringup

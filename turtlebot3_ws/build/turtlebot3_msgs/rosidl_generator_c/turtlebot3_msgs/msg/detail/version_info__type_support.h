@@ -2,9 +2,6 @@
 // with input from turtlebot3_msgs:msg/VersionInfo.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "turtlebot3_msgs/msg/version_info.h"
-
-
 #ifndef TURTLEBOT3_MSGS__MSG__DETAIL__VERSION_INFO__TYPE_SUPPORT_H_
 #define TURTLEBOT3_MSGS__MSG__DETAIL__VERSION_INFO__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   turtlebot3_msgs,
   msg,
   VersionInfo
-)(void);
+)();
 
 #ifdef __cplusplus
 }

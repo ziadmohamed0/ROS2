@@ -2,9 +2,6 @@
 // with input from turtlebot3_msgs:msg/Sound.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "turtlebot3_msgs/msg/sound.hpp"
-
-
 #ifndef TURTLEBOT3_MSGS__MSG__DETAIL__SOUND__BUILDER_HPP_
 #define TURTLEBOT3_MSGS__MSG__DETAIL__SOUND__BUILDER_HPP_
 

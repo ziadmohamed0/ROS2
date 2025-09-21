@@ -2,9 +2,6 @@
 // with input from turtlebot3_msgs:msg/VersionInfo.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "turtlebot3_msgs/msg/version_info.h"
-
-
 #ifndef TURTLEBOT3_MSGS__MSG__DETAIL__VERSION_INFO__FUNCTIONS_H_
 #define TURTLEBOT3_MSGS__MSG__DETAIL__VERSION_INFO__FUNCTIONS_H_
 
@@ -16,12 +13,6 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include "rosidl_runtime_c/action_type_support_struct.h"
-#include "rosidl_runtime_c/message_type_support_struct.h"
-#include "rosidl_runtime_c/service_type_support_struct.h"
-#include "rosidl_runtime_c/type_description/type_description__struct.h"
-#include "rosidl_runtime_c/type_description/type_source__struct.h"
-#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h"
 
@@ -62,7 +53,7 @@ turtlebot3_msgs__msg__VersionInfo__fini(turtlebot3_msgs__msg__VersionInfo * msg)
  */
 ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
 turtlebot3_msgs__msg__VersionInfo *
-turtlebot3_msgs__msg__VersionInfo__create(void);
+turtlebot3_msgs__msg__VersionInfo__create();
 
 /// Destroy msg/VersionInfo message.
 /**
@@ -101,30 +92,6 @@ bool
 turtlebot3_msgs__msg__VersionInfo__copy(
   const turtlebot3_msgs__msg__VersionInfo * input,
   turtlebot3_msgs__msg__VersionInfo * output);
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_type_hash_t *
-turtlebot3_msgs__msg__VersionInfo__get_type_hash(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeDescription *
-turtlebot3_msgs__msg__VersionInfo__get_type_description(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeSource *
-turtlebot3_msgs__msg__VersionInfo__get_individual_type_description_source(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-turtlebot3_msgs__msg__VersionInfo__get_type_description_sources(
-  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of msg/VersionInfo messages.
 /**

@@ -1,0 +1,58 @@
+[0.025s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples
+[0.049s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.352s] -- Found dynamixel_sdk: 3.8.4 (/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.361s] -- Found dynamixel_sdk_custom_interfaces: 3.8.4 (/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.416s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.421s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.434s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.554s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.649s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.653s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.825s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.917s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.919s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.085s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.088s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.088s] -- Configured cppcheck include dirs: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[1.088s] -- Configured cppcheck exclude dirs and/or files: 
+[1.089s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.090s] -- Configured cpplint exclude dirs and/or files: 
+[1.090s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.091s] -- Added test 'lint_cmake' to check CMake code style
+[1.093s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.095s] -- Added test 'uncrustify' to check C / C++ code style
+[1.095s] -- Configured uncrustify additional arguments: 
+[1.096s] -- Added test 'xmllint' to check XML markup files
+[1.098s] -- Configuring done
+[1.122s] -- Generating done
+[1.131s] -- Build files have been written to: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples
+[1.368s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples
+[1.370s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples -- -j4 -l4
+[1.442s] [35m[1mConsolidate compiler generated dependencies of target read_write_node[0m
+[1.475s] [ 50%] [32m[1mLinking CXX executable read_write_node[0m
+[2.356s] [100%] Built target read_write_node
+[2.377s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples -- -j4 -l4
+[2.378s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples
+[2.390s] -- Install configuration: ""
+[2.390s] -- Execute custom install script
+[2.391s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[2.404s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[2.416s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[2.433s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[2.449s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[2.466s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[2.478s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[2.490s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[2.507s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[2.523s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[2.539s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[2.555s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[2.573s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[2.592s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[2.608s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[2.624s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[2.645s] -- Symlinking: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[2.664s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk_examples

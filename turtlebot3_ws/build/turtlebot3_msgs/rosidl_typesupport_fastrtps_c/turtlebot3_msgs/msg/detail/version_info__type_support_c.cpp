@@ -5,11 +5,9 @@
 
 
 #include <cassert>
-#include <cstddef>
 #include <limits>
 #include <string>
 #include "rosidl_typesupport_fastrtps_c/identifier.h"
-#include "rosidl_typesupport_fastrtps_c/serialization_helpers.hpp"
 #include "rosidl_typesupport_fastrtps_c/wstring_conversion.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
 #include "turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
@@ -44,12 +42,15 @@ extern "C"
 
 using _VersionInfo__ros_msg_type = turtlebot3_msgs__msg__VersionInfo;
 
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-bool cdr_serialize_turtlebot3_msgs__msg__VersionInfo(
-  const turtlebot3_msgs__msg__VersionInfo * ros_message,
+static bool _VersionInfo__cdr_serialize(
+  const void * untyped_ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  if (!untyped_ros_message) {
+    fprintf(stderr, "ros message handle is null\n");
+    return false;
+  }
+  const _VersionInfo__ros_msg_type * ros_message = static_cast<const _VersionInfo__ros_msg_type *>(untyped_ros_message);
   // Field name: hardware
   {
     const rosidl_runtime_c__String * str = &ros_message->hardware;
@@ -95,11 +96,15 @@ bool cdr_serialize_turtlebot3_msgs__msg__VersionInfo(
   return true;
 }
 
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-bool cdr_deserialize_turtlebot3_msgs__msg__VersionInfo(
+static bool _VersionInfo__cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
-  turtlebot3_msgs__msg__VersionInfo * ros_message)
+  void * untyped_ros_message)
 {
+  if (!untyped_ros_message) {
+    fprintf(stderr, "ros message handle is null\n");
+    return false;
+  }
+  _VersionInfo__ros_msg_type * ros_message = static_cast<_VersionInfo__ros_msg_type *>(untyped_ros_message);
   // Field name: hardware
   {
     std::string tmp;
@@ -151,7 +156,6 @@ bool cdr_deserialize_turtlebot3_msgs__msg__VersionInfo(
   return true;
 }  // NOLINT(readability/fn_size)
 
-
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t get_serialized_size_turtlebot3_msgs__msg__VersionInfo(
   const void * untyped_ros_message,
@@ -166,17 +170,15 @@ size_t get_serialized_size_turtlebot3_msgs__msg__VersionInfo(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: hardware
+  // field.name hardware
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->hardware.size + 1);
-
-  // Field name: firmware
+  // field.name firmware
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->firmware.size + 1);
-
-  // Field name: software
+  // field.name software
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->software.size + 1);
@@ -184,6 +186,12 @@ size_t get_serialized_size_turtlebot3_msgs__msg__VersionInfo(
   return current_alignment - initial_alignment;
 }
 
+static uint32_t _VersionInfo__get_serialized_size(const void * untyped_ros_message)
+{
+  return static_cast<uint32_t>(
+    get_serialized_size_turtlebot3_msgs__msg__VersionInfo(
+      untyped_ros_message, 0));
+}
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__msg__VersionInfo(
@@ -203,9 +211,10 @@ size_t max_serialized_size_turtlebot3_msgs__msg__VersionInfo(
   full_bounded = true;
   is_plain = true;
 
-  // Field name: hardware
+  // member: hardware
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -214,10 +223,10 @@ size_t max_serialized_size_turtlebot3_msgs__msg__VersionInfo(
         1;
     }
   }
-
-  // Field name: firmware
+  // member: firmware
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -226,162 +235,10 @@ size_t max_serialized_size_turtlebot3_msgs__msg__VersionInfo(
         1;
     }
   }
-
-  // Field name: software
+  // member: software
   {
     size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
 
-
-  size_t ret_val = current_alignment - initial_alignment;
-  if (is_plain) {
-    // All members are plain, and type is not empty.
-    // We still need to check that the in-memory alignment
-    // is the same as the CDR mandated alignment.
-    using DataType = turtlebot3_msgs__msg__VersionInfo;
-    is_plain =
-      (
-      offsetof(DataType, software) +
-      last_member_size
-      ) == ret_val;
-  }
-  return ret_val;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-bool cdr_serialize_key_turtlebot3_msgs__msg__VersionInfo(
-  const turtlebot3_msgs__msg__VersionInfo * ros_message,
-  eprosima::fastcdr::Cdr & cdr)
-{
-  // Field name: hardware
-  {
-    const rosidl_runtime_c__String * str = &ros_message->hardware;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  // Field name: firmware
-  {
-    const rosidl_runtime_c__String * str = &ros_message->firmware;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  // Field name: software
-  {
-    const rosidl_runtime_c__String * str = &ros_message->software;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  return true;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-size_t get_serialized_size_key_turtlebot3_msgs__msg__VersionInfo(
-  const void * untyped_ros_message,
-  size_t current_alignment)
-{
-  const _VersionInfo__ros_msg_type * ros_message = static_cast<const _VersionInfo__ros_msg_type *>(untyped_ros_message);
-  (void)ros_message;
-
-  size_t initial_alignment = current_alignment;
-
-  const size_t padding = 4;
-  const size_t wchar_size = 4;
-  (void)padding;
-  (void)wchar_size;
-
-  // Field name: hardware
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->hardware.size + 1);
-
-  // Field name: firmware
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->firmware.size + 1);
-
-  // Field name: software
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->software.size + 1);
-
-  return current_alignment - initial_alignment;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-size_t max_serialized_size_key_turtlebot3_msgs__msg__VersionInfo(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment)
-{
-  size_t initial_alignment = current_alignment;
-
-  const size_t padding = 4;
-  const size_t wchar_size = 4;
-  size_t last_member_size = 0;
-  (void)last_member_size;
-  (void)padding;
-  (void)wchar_size;
-
-  full_bounded = true;
-  is_plain = true;
-  // Field name: hardware
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: firmware
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: software
-  {
-    size_t array_size = 1;
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -403,41 +260,8 @@ size_t max_serialized_size_key_turtlebot3_msgs__msg__VersionInfo(
       last_member_size
       ) == ret_val;
   }
+
   return ret_val;
-}
-
-
-static bool _VersionInfo__cdr_serialize(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  const turtlebot3_msgs__msg__VersionInfo * ros_message = static_cast<const turtlebot3_msgs__msg__VersionInfo *>(untyped_ros_message);
-  (void)ros_message;
-  return cdr_serialize_turtlebot3_msgs__msg__VersionInfo(ros_message, cdr);
-}
-
-static bool _VersionInfo__cdr_deserialize(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  turtlebot3_msgs__msg__VersionInfo * ros_message = static_cast<turtlebot3_msgs__msg__VersionInfo *>(untyped_ros_message);
-  (void)ros_message;
-  return cdr_deserialize_turtlebot3_msgs__msg__VersionInfo(cdr, ros_message);
-}
-
-static uint32_t _VersionInfo__get_serialized_size(const void * untyped_ros_message)
-{
-  return static_cast<uint32_t>(
-    get_serialized_size_turtlebot3_msgs__msg__VersionInfo(
-      untyped_ros_message, 0));
 }
 
 static size_t _VersionInfo__max_serialized_size(char & bounds_info)
@@ -462,17 +286,13 @@ static message_type_support_callbacks_t __callbacks_VersionInfo = {
   _VersionInfo__cdr_serialize,
   _VersionInfo__cdr_deserialize,
   _VersionInfo__get_serialized_size,
-  _VersionInfo__max_serialized_size,
-  nullptr
+  _VersionInfo__max_serialized_size
 };
 
 static rosidl_message_type_support_t _VersionInfo__type_support = {
   rosidl_typesupport_fastrtps_c__identifier,
   &__callbacks_VersionInfo,
   get_message_typesupport_handle_function,
-  &turtlebot3_msgs__msg__VersionInfo__get_type_hash,
-  &turtlebot3_msgs__msg__VersionInfo__get_type_description,
-  &turtlebot3_msgs__msg__VersionInfo__get_type_description_sources,
 };
 
 const rosidl_message_type_support_t *

@@ -1,0 +1,1 @@
+/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_manipulation_gazebo/ament_cmake_environment_hooks/local_setup.zsh

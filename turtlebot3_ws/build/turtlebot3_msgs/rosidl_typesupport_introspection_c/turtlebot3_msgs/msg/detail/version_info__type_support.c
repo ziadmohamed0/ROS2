@@ -43,7 +43,6 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__msg__V
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -61,7 +60,6 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__msg__V
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -79,7 +77,6 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__msg__V
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -99,7 +96,6 @@ static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs_
   "VersionInfo",  // message name
   3,  // number of fields
   sizeof(turtlebot3_msgs__msg__VersionInfo),
-  false,  // has_any_key_member_
   turtlebot3_msgs__msg__VersionInfo__rosidl_typesupport_introspection_c__VersionInfo_message_member_array,  // message members
   turtlebot3_msgs__msg__VersionInfo__rosidl_typesupport_introspection_c__VersionInfo_init_function,  // function to initialize message memory (memory has to be allocated)
   turtlebot3_msgs__msg__VersionInfo__rosidl_typesupport_introspection_c__VersionInfo_fini_function  // function to terminate message instance (will not free memory)
@@ -111,9 +107,6 @@ static rosidl_message_type_support_t turtlebot3_msgs__msg__VersionInfo__rosidl_t
   0,
   &turtlebot3_msgs__msg__VersionInfo__rosidl_typesupport_introspection_c__VersionInfo_message_members,
   get_message_typesupport_handle_function,
-  &turtlebot3_msgs__msg__VersionInfo__get_type_hash,
-  &turtlebot3_msgs__msg__VersionInfo__get_type_description,
-  &turtlebot3_msgs__msg__VersionInfo__get_type_description_sources,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs

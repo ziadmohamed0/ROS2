@@ -8,7 +8,13 @@ msg/VersionInfo.idl
 msg/VersionInfo.msg
 srv/Dqn.idl
 srv/Dqn.srv
+srv/Dqn_Request.msg
+srv/Dqn_Response.msg
 srv/Goal.idl
 srv/Goal.srv
+srv/Goal_Request.msg
+srv/Goal_Response.msg
 srv/Sound.idl
 srv/Sound.srv
+srv/Sound_Request.msg
+srv/Sound_Response.msg

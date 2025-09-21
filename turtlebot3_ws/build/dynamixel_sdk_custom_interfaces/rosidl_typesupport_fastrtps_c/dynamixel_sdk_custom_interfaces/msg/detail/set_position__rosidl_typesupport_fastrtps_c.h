@@ -9,23 +9,11 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
-#include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h"
-#include "fastcdr/Cdr.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces
-bool cdr_serialize_dynamixel_sdk_custom_interfaces__msg__SetPosition(
-  const dynamixel_sdk_custom_interfaces__msg__SetPosition * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces
-bool cdr_deserialize_dynamixel_sdk_custom_interfaces__msg__SetPosition(
-  eprosima::fastcdr::Cdr &,
-  dynamixel_sdk_custom_interfaces__msg__SetPosition * ros_message);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces
 size_t get_serialized_size_dynamixel_sdk_custom_interfaces__msg__SetPosition(
@@ -34,22 +22,6 @@ size_t get_serialized_size_dynamixel_sdk_custom_interfaces__msg__SetPosition(
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces
 size_t max_serialized_size_dynamixel_sdk_custom_interfaces__msg__SetPosition(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces
-bool cdr_serialize_key_dynamixel_sdk_custom_interfaces__msg__SetPosition(
-  const dynamixel_sdk_custom_interfaces__msg__SetPosition * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces
-size_t get_serialized_size_key_dynamixel_sdk_custom_interfaces__msg__SetPosition(
-  const void * untyped_ros_message,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces
-size_t max_serialized_size_key_dynamixel_sdk_custom_interfaces__msg__SetPosition(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);

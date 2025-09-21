@@ -112,7 +112,7 @@ turtlebot3_msgs__msg__VersionInfo__copy(
 }
 
 turtlebot3_msgs__msg__VersionInfo *
-turtlebot3_msgs__msg__VersionInfo__create(void)
+turtlebot3_msgs__msg__VersionInfo__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   turtlebot3_msgs__msg__VersionInfo * msg = (turtlebot3_msgs__msg__VersionInfo *)allocator.allocate(sizeof(turtlebot3_msgs__msg__VersionInfo), allocator.state);

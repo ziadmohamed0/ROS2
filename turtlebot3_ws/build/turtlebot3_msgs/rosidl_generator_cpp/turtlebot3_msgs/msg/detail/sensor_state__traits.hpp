@@ -2,9 +2,6 @@
 // with input from turtlebot3_msgs:msg/SensorState.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "turtlebot3_msgs/msg/sensor_state.hpp"
-
-
 #ifndef TURTLEBOT3_MSGS__MSG__DETAIL__SENSOR_STATE__TRAITS_HPP_
 #define TURTLEBOT3_MSGS__MSG__DETAIL__SENSOR_STATE__TRAITS_HPP_
 

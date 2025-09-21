@@ -1,4 +1,0 @@
-action/TimedRotation.action
-action/TimedRotation.idl
-srv/SetCleaningState.idl
-srv/SetCleaningState.srv

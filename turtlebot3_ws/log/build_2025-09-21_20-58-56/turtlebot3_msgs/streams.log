@@ -1,0 +1,36 @@
+[0.019s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs
+[0.046s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[0.316s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.380s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.387s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.399s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.421s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.539s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.555s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.578s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.370s] -- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.391s] -- Configuring incomplete, errors occurred!
+[1.391s] See also "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_msgs/CMakeFiles/CMakeOutput.log".
+[1.392s] [31mCMake Error at /opt/ros/humble/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake:184 (find_package):
+[1.393s]   By not providing "Findament_cmake_cpplint.cmake" in CMAKE_MODULE_PATH this
+[1.393s]   project has asked CMake to find a package configuration file provided by
+[1.393s]   "ament_cmake_cpplint", but CMake did not find one.
+[1.393s] 
+[1.393s]   Could not find a package configuration file provided by
+[1.393s]   "ament_cmake_cpplint" with any of the following names:
+[1.393s] 
+[1.393s]     ament_cmake_cpplintConfig.cmake
+[1.394s]     ament_cmake_cpplint-config.cmake
+[1.394s] 
+[1.394s]   Add the installation prefix of "ament_cmake_cpplint" to CMAKE_PREFIX_PATH
+[1.394s]   or set "ament_cmake_cpplint_DIR" to a directory containing one of the above
+[1.394s]   files.  If "ament_cmake_cpplint" provides a separate development package or
+[1.394s]   SDK, be sure it has been installed.
+[1.394s] Call Stack (most recent call first):
+[1.397s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.397s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.399s]   CMakeLists.txt:47 (rosidl_generate_interfaces)
+[1.399s] 
+[1.399s] [0m
+[1.408s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs

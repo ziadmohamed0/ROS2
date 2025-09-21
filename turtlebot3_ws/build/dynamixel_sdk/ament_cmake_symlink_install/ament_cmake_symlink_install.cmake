@@ -319,14 +319,14 @@ ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/Dyn
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
 
-# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/dynamixel_sdk.egg-info/" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk-3.8.4-py3.12.egg-info")
-ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/dynamixel_sdk.egg-info/" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk-3.8.4-py3.12.egg-info")
+# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/dynamixel_sdk.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/dynamixel_sdk.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.4-py3.10.egg-info")
 
-# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/" "DESTINATION" "lib/python3.12/site-packages/dynamixel_sdk" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" DIRECTORY "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/" "DESTINATION" "local/lib/python3.10/dist-packages/dynamixel_sdk" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
@@ -337,14 +337,14 @@ ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/Dyn
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
-ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
 
 # install(FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
 ament_cmake_symlink_install_files("/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk" FILES "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")

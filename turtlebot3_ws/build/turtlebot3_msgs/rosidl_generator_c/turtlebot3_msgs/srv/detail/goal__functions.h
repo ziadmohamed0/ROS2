@@ -2,9 +2,6 @@
 // with input from turtlebot3_msgs:srv/Goal.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "turtlebot3_msgs/srv/goal.h"
-
-
 #ifndef TURTLEBOT3_MSGS__SRV__DETAIL__GOAL__FUNCTIONS_H_
 #define TURTLEBOT3_MSGS__SRV__DETAIL__GOAL__FUNCTIONS_H_
 
@@ -16,40 +13,10 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include "rosidl_runtime_c/action_type_support_struct.h"
-#include "rosidl_runtime_c/message_type_support_struct.h"
-#include "rosidl_runtime_c/service_type_support_struct.h"
-#include "rosidl_runtime_c/type_description/type_description__struct.h"
-#include "rosidl_runtime_c/type_description/type_source__struct.h"
-#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h"
 
 #include "turtlebot3_msgs/srv/detail/goal__struct.h"
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_type_hash_t *
-turtlebot3_msgs__srv__Goal__get_type_hash(
-  const rosidl_service_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeDescription *
-turtlebot3_msgs__srv__Goal__get_type_description(
-  const rosidl_service_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeSource *
-turtlebot3_msgs__srv__Goal__get_individual_type_description_source(
-  const rosidl_service_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-turtlebot3_msgs__srv__Goal__get_type_description_sources(
-  const rosidl_service_type_support_t * type_support);
 
 /// Initialize srv/Goal message.
 /**
@@ -86,7 +53,7 @@ turtlebot3_msgs__srv__Goal_Request__fini(turtlebot3_msgs__srv__Goal_Request * ms
  */
 ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
 turtlebot3_msgs__srv__Goal_Request *
-turtlebot3_msgs__srv__Goal_Request__create(void);
+turtlebot3_msgs__srv__Goal_Request__create();
 
 /// Destroy srv/Goal message.
 /**
@@ -125,30 +92,6 @@ bool
 turtlebot3_msgs__srv__Goal_Request__copy(
   const turtlebot3_msgs__srv__Goal_Request * input,
   turtlebot3_msgs__srv__Goal_Request * output);
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_type_hash_t *
-turtlebot3_msgs__srv__Goal_Request__get_type_hash(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeDescription *
-turtlebot3_msgs__srv__Goal_Request__get_type_description(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeSource *
-turtlebot3_msgs__srv__Goal_Request__get_individual_type_description_source(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-turtlebot3_msgs__srv__Goal_Request__get_type_description_sources(
-  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of srv/Goal messages.
 /**
@@ -262,7 +205,7 @@ turtlebot3_msgs__srv__Goal_Response__fini(turtlebot3_msgs__srv__Goal_Response * 
  */
 ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
 turtlebot3_msgs__srv__Goal_Response *
-turtlebot3_msgs__srv__Goal_Response__create(void);
+turtlebot3_msgs__srv__Goal_Response__create();
 
 /// Destroy srv/Goal message.
 /**
@@ -301,30 +244,6 @@ bool
 turtlebot3_msgs__srv__Goal_Response__copy(
   const turtlebot3_msgs__srv__Goal_Response * input,
   turtlebot3_msgs__srv__Goal_Response * output);
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_type_hash_t *
-turtlebot3_msgs__srv__Goal_Response__get_type_hash(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeDescription *
-turtlebot3_msgs__srv__Goal_Response__get_type_description(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeSource *
-turtlebot3_msgs__srv__Goal_Response__get_individual_type_description_source(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-turtlebot3_msgs__srv__Goal_Response__get_type_description_sources(
-  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of srv/Goal messages.
 /**
@@ -403,181 +322,6 @@ turtlebot3_msgs__srv__Goal_Response__Sequence__copy(
   const turtlebot3_msgs__srv__Goal_Response__Sequence * input,
   turtlebot3_msgs__srv__Goal_Response__Sequence * output);
 
-/// Initialize srv/Goal message.
-/**
- * If the init function is called twice for the same message without
- * calling fini inbetween previously allocated memory will be leaked.
- * \param[in,out] msg The previously allocated message pointer.
- * Fields without a default value will not be initialized by this function.
- * You might want to call memset(msg, 0, sizeof(
- * turtlebot3_msgs__srv__Goal_Event
- * )) before or use
- * turtlebot3_msgs__srv__Goal_Event__create()
- * to allocate and initialize the message.
- * \return true if initialization was successful, otherwise false
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-bool
-turtlebot3_msgs__srv__Goal_Event__init(turtlebot3_msgs__srv__Goal_Event * msg);
-
-/// Finalize srv/Goal message.
-/**
- * \param[in,out] msg The allocated message pointer.
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-void
-turtlebot3_msgs__srv__Goal_Event__fini(turtlebot3_msgs__srv__Goal_Event * msg);
-
-/// Create srv/Goal message.
-/**
- * It allocates the memory for the message, sets the memory to zero, and
- * calls
- * turtlebot3_msgs__srv__Goal_Event__init().
- * \return The pointer to the initialized message if successful,
- * otherwise NULL
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-turtlebot3_msgs__srv__Goal_Event *
-turtlebot3_msgs__srv__Goal_Event__create(void);
-
-/// Destroy srv/Goal message.
-/**
- * It calls
- * turtlebot3_msgs__srv__Goal_Event__fini()
- * and frees the memory of the message.
- * \param[in,out] msg The allocated message pointer.
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-void
-turtlebot3_msgs__srv__Goal_Event__destroy(turtlebot3_msgs__srv__Goal_Event * msg);
-
-/// Check for srv/Goal message equality.
-/**
- * \param[in] lhs The message on the left hand size of the equality operator.
- * \param[in] rhs The message on the right hand size of the equality operator.
- * \return true if messages are equal, otherwise false.
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-bool
-turtlebot3_msgs__srv__Goal_Event__are_equal(const turtlebot3_msgs__srv__Goal_Event * lhs, const turtlebot3_msgs__srv__Goal_Event * rhs);
-
-/// Copy a srv/Goal message.
-/**
- * This functions performs a deep copy, as opposed to the shallow copy that
- * plain assignment yields.
- *
- * \param[in] input The source message pointer.
- * \param[out] output The target message pointer, which must
- *   have been initialized before calling this function.
- * \return true if successful, or false if either pointer is null
- *   or memory allocation fails.
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-bool
-turtlebot3_msgs__srv__Goal_Event__copy(
-  const turtlebot3_msgs__srv__Goal_Event * input,
-  turtlebot3_msgs__srv__Goal_Event * output);
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_type_hash_t *
-turtlebot3_msgs__srv__Goal_Event__get_type_hash(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeDescription *
-turtlebot3_msgs__srv__Goal_Event__get_type_description(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeSource *
-turtlebot3_msgs__srv__Goal_Event__get_individual_type_description_source(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-turtlebot3_msgs__srv__Goal_Event__get_type_description_sources(
-  const rosidl_message_type_support_t * type_support);
-
-/// Initialize array of srv/Goal messages.
-/**
- * It allocates the memory for the number of elements and calls
- * turtlebot3_msgs__srv__Goal_Event__init()
- * for each element of the array.
- * \param[in,out] array The allocated array pointer.
- * \param[in] size The size / capacity of the array.
- * \return true if initialization was successful, otherwise false
- * If the array pointer is valid and the size is zero it is guaranteed
- # to return true.
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-bool
-turtlebot3_msgs__srv__Goal_Event__Sequence__init(turtlebot3_msgs__srv__Goal_Event__Sequence * array, size_t size);
-
-/// Finalize array of srv/Goal messages.
-/**
- * It calls
- * turtlebot3_msgs__srv__Goal_Event__fini()
- * for each element of the array and frees the memory for the number of
- * elements.
- * \param[in,out] array The initialized array pointer.
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-void
-turtlebot3_msgs__srv__Goal_Event__Sequence__fini(turtlebot3_msgs__srv__Goal_Event__Sequence * array);
-
-/// Create array of srv/Goal messages.
-/**
- * It allocates the memory for the array and calls
- * turtlebot3_msgs__srv__Goal_Event__Sequence__init().
- * \param[in] size The size / capacity of the array.
- * \return The pointer to the initialized array if successful, otherwise NULL
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-turtlebot3_msgs__srv__Goal_Event__Sequence *
-turtlebot3_msgs__srv__Goal_Event__Sequence__create(size_t size);
-
-/// Destroy array of srv/Goal messages.
-/**
- * It calls
- * turtlebot3_msgs__srv__Goal_Event__Sequence__fini()
- * on the array,
- * and frees the memory of the array.
- * \param[in,out] array The initialized array pointer.
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-void
-turtlebot3_msgs__srv__Goal_Event__Sequence__destroy(turtlebot3_msgs__srv__Goal_Event__Sequence * array);
-
-/// Check for srv/Goal message array equality.
-/**
- * \param[in] lhs The message array on the left hand size of the equality operator.
- * \param[in] rhs The message array on the right hand size of the equality operator.
- * \return true if message arrays are equal in size and content, otherwise false.
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-bool
-turtlebot3_msgs__srv__Goal_Event__Sequence__are_equal(const turtlebot3_msgs__srv__Goal_Event__Sequence * lhs, const turtlebot3_msgs__srv__Goal_Event__Sequence * rhs);
-
-/// Copy an array of srv/Goal messages.
-/**
- * This functions performs a deep copy, as opposed to the shallow copy that
- * plain assignment yields.
- *
- * \param[in] input The source array pointer.
- * \param[out] output The target array pointer, which must
- *   have been initialized before calling this function.
- * \return true if successful, or false if either pointer
- *   is null or memory allocation fails.
- */
-ROSIDL_GENERATOR_C_PUBLIC_turtlebot3_msgs
-bool
-turtlebot3_msgs__srv__Goal_Event__Sequence__copy(
-  const turtlebot3_msgs__srv__Goal_Event__Sequence * input,
-  turtlebot3_msgs__srv__Goal_Event__Sequence * output);
 #ifdef __cplusplus
 }
 #endif

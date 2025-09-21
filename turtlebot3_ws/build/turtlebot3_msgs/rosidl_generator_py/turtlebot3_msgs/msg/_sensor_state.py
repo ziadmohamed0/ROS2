@@ -2,13 +2,6 @@
 # with input from turtlebot3_msgs:msg/SensorState.idl
 # generated code does not contain a copyright notice
 
-# This is being done at the module level and not on the instance level to avoid looking
-# for the same variable multiple times on each instance. This variable is not supposed to
-# change during runtime so it makes sense to only look for it once.
-from os import getenv
-
-ros_python_check_fields = getenv('ROS_PYTHON_CHECK_FIELDS', default='')
-
 
 # Import statements for member types
 
@@ -171,7 +164,6 @@ class SensorState(metaclass=Metaclass_SensorState):
         '_left_encoder',
         '_right_encoder',
         '_battery',
-        '_check_fields',
     ]
 
     _fields_and_field_types = {
@@ -188,8 +180,6 @@ class SensorState(metaclass=Metaclass_SensorState):
         'battery': 'float',
     }
 
-    # This attribute is used to store an rosidl_parser.definition variable
-    # related to the data type of each of the components the message.
     SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Header'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
@@ -205,14 +195,9 @@ class SensorState(metaclass=Metaclass_SensorState):
     )
 
     def __init__(self, **kwargs):
-        if 'check_fields' in kwargs:
-            self._check_fields = kwargs['check_fields']
-        else:
-            self._check_fields = ros_python_check_fields == '1'
-        if self._check_fields:
-            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
-                'Invalid arguments passed to constructor: %s' % \
-                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+            'Invalid arguments passed to constructor: %s' % \
+            ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         from std_msgs.msg import Header
         self.header = kwargs.get('header', Header())
         self.bumper = kwargs.get('bumper', int())
@@ -231,7 +216,7 @@ class SensorState(metaclass=Metaclass_SensorState):
         typename.pop()
         typename.append(self.__class__.__name__)
         args = []
-        for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
+        for s, t in zip(self.__slots__, self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
             # We use Python array type for fields that can be directly stored
@@ -245,12 +230,11 @@ class SensorState(metaclass=Metaclass_SensorState):
                 if len(field) == 0:
                     fieldstr = '[]'
                 else:
-                    if self._check_fields:
-                        assert fieldstr.startswith('array(')
+                    assert fieldstr.startswith('array(')
                     prefix = "array('X', "
                     suffix = ')'
                     fieldstr = fieldstr[len(prefix):-len(suffix)]
-            args.append(s + '=' + fieldstr)
+            args.append(s[1:] + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
     def __eq__(self, other):
@@ -292,7 +276,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @header.setter
     def header(self, value):
-        if self._check_fields:
+        if __debug__:
             from std_msgs.msg import Header
             assert \
                 isinstance(value, Header), \
@@ -306,7 +290,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @bumper.setter
     def bumper(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, int), \
                 "The 'bumper' field must be of type 'int'"
@@ -321,7 +305,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @cliff.setter
     def cliff(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, float), \
                 "The 'cliff' field must be of type 'float'"
@@ -336,7 +320,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @sonar.setter
     def sonar(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, float), \
                 "The 'sonar' field must be of type 'float'"
@@ -351,7 +335,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @illumination.setter
     def illumination(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, float), \
                 "The 'illumination' field must be of type 'float'"
@@ -366,7 +350,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @led.setter
     def led(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, int), \
                 "The 'led' field must be of type 'int'"
@@ -381,7 +365,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @button.setter
     def button(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, int), \
                 "The 'button' field must be of type 'int'"
@@ -396,7 +380,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @torque.setter
     def torque(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, bool), \
                 "The 'torque' field must be of type 'bool'"
@@ -409,7 +393,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @left_encoder.setter
     def left_encoder(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, int), \
                 "The 'left_encoder' field must be of type 'int'"
@@ -424,7 +408,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @right_encoder.setter
     def right_encoder(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, int), \
                 "The 'right_encoder' field must be of type 'int'"
@@ -439,7 +423,7 @@ class SensorState(metaclass=Metaclass_SensorState):
 
     @battery.setter
     def battery(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, float), \
                 "The 'battery' field must be of type 'float'"

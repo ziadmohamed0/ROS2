@@ -2,9 +2,6 @@
 // with input from dynamixel_sdk_custom_interfaces:msg/SetPosition.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "dynamixel_sdk_custom_interfaces/msg/set_position.hpp"
-
-
 #ifndef DYNAMIXEL_SDK_CUSTOM_INTERFACES__MSG__DETAIL__SET_POSITION__TRAITS_HPP_
 #define DYNAMIXEL_SDK_CUSTOM_INTERFACES__MSG__DETAIL__SET_POSITION__TRAITS_HPP_
 

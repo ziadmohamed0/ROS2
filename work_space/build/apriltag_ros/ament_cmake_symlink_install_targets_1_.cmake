@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/ziad_ws/ROS2/work_space/build/apriltag_ros/libAprilTagNode.so" "TARGETS" "AprilTagNode" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000415] (anymal_description) JobQueued: {'identifier': 'anymal_description', 'dependencies': OrderedDict()}
+[0.000473] (custom_action_interfaces) JobQueued: {'identifier': 'custom_action_interfaces', 'dependencies': OrderedDict()}
+[0.000507] (mecanum_drive_controller) JobQueued: {'identifier': 'mecanum_drive_controller', 'dependencies': OrderedDict()}
+[0.000536] (ros2_control_turtel_bot) JobQueued: {'identifier': 'ros2_control_turtel_bot', 'dependencies': OrderedDict()}
+[0.000565] (three_wheel_robot) JobQueued: {'identifier': 'three_wheel_robot', 'dependencies': OrderedDict()}
+[0.000593] (yahboom_rosmaster_bringup) JobQueued: {'identifier': 'yahboom_rosmaster_bringup', 'dependencies': OrderedDict()}
+[0.000620] (yahboom_rosmaster_description) JobQueued: {'identifier': 'yahboom_rosmaster_description', 'dependencies': OrderedDict()}
+[0.000646] (yahboom_rosmaster_docking) JobQueued: {'identifier': 'yahboom_rosmaster_docking', 'dependencies': OrderedDict()}
+[0.000682] (yahboom_rosmaster_gazebo) JobQueued: {'identifier': 'yahboom_rosmaster_gazebo', 'dependencies': OrderedDict()}
+[0.000710] (yahboom_rosmaster_localization) JobQueued: {'identifier': 'yahboom_rosmaster_localization', 'dependencies': OrderedDict()}
+[0.000738] (yahboom_rosmaster_msgs) JobQueued: {'identifier': 'yahboom_rosmaster_msgs', 'dependencies': OrderedDict()}
+[0.000766] (yahboom_rosmaster_navigation) JobQueued: {'identifier': 'yahboom_rosmaster_navigation', 'dependencies': OrderedDict()}
+[0.000794] (yahboom_rosmaster_system_tests) JobQueued: {'identifier': 'yahboom_rosmaster_system_tests', 'dependencies': OrderedDict([('yahboom_rosmaster_msgs', '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_msgs')])}
+[0.000826] (yahboom_rosmaster) JobQueued: {'identifier': 'yahboom_rosmaster', 'dependencies': OrderedDict([('yahboom_rosmaster_bringup', '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_bringup'), ('yahboom_rosmaster_description', '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description'), ('yahboom_rosmaster_docking', '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_docking'), ('yahboom_rosmaster_gazebo', '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_gazebo'), ('yahboom_rosmaster_localization', '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_localization'), ('yahboom_rosmaster_msgs', '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_msgs'), ('yahboom_rosmaster_navigation', '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_navigation'), ('yahboom_rosmaster_system_tests', '/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_system_tests')])}
+[0.000873] (yahboom_rosmaster_msgs) JobStarted: {'identifier': 'yahboom_rosmaster_msgs'}
+[0.005833] (yahboom_rosmaster_bringup) JobStarted: {'identifier': 'yahboom_rosmaster_bringup'}
+[0.008894] (yahboom_rosmaster_description) JobStarted: {'identifier': 'yahboom_rosmaster_description'}
+[0.012425] (yahboom_rosmaster_docking) JobStarted: {'identifier': 'yahboom_rosmaster_docking'}
+[0.018004] (yahboom_rosmaster_msgs) JobProgress: {'identifier': 'yahboom_rosmaster_msgs', 'progress': 'cmake'}
+[0.018481] (yahboom_rosmaster_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_msgs'], 'cwd': '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/ziad_ws/ROS2/turtlebot3_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '875'), ('SYSTEMD_EXEC_PID', '1266'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3853'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:8146'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ziad:@/tmp/.ICE-unix/1045,unix/ziad:/tmp/.ICE-unix/1045'), ('INVOCATION_ID', 'ee9bd89e3a1e4e3e8fa693038a67691a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DR8CD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5c726194-5df7-4bf1-a6af-2fe6ac154fd6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.021379] (yahboom_rosmaster_bringup) JobProgress: {'identifier': 'yahboom_rosmaster_bringup', 'progress': 'cmake'}
+[0.022430] (yahboom_rosmaster_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_bringup'], 'cwd': '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/ziad_ws/ROS2/turtlebot3_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '875'), ('SYSTEMD_EXEC_PID', '1266'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3853'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:8146'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ziad:@/tmp/.ICE-unix/1045,unix/ziad:/tmp/.ICE-unix/1045'), ('INVOCATION_ID', 'ee9bd89e3a1e4e3e8fa693038a67691a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DR8CD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5c726194-5df7-4bf1-a6af-2fe6ac154fd6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.032853] (yahboom_rosmaster_description) JobProgress: {'identifier': 'yahboom_rosmaster_description', 'progress': 'cmake'}
+[0.032942] (yahboom_rosmaster_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description'], 'cwd': '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/ziad_ws/ROS2/turtlebot3_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '875'), ('SYSTEMD_EXEC_PID', '1266'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3853'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:8146'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ziad:@/tmp/.ICE-unix/1045,unix/ziad:/tmp/.ICE-unix/1045'), ('INVOCATION_ID', 'ee9bd89e3a1e4e3e8fa693038a67691a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DR8CD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5c726194-5df7-4bf1-a6af-2fe6ac154fd6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044533] (yahboom_rosmaster_docking) JobProgress: {'identifier': 'yahboom_rosmaster_docking', 'progress': 'cmake'}
+[0.044623] (yahboom_rosmaster_docking) Command: {'cmd': ['/usr/bin/cmake', '/home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_docking', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_docking'], 'cwd': '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_docking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ziad'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ziad'), ('OLDPWD', '/home/ziad/ziad_ws/ROS2/turtlebot3_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '875'), ('SYSTEMD_EXEC_PID', '1266'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3853'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'ziad'), ('JOURNAL_STREAM', '8:8146'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ziad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ziad:@/tmp/.ICE-unix/1045,unix/ziad:/tmp/.ICE-unix/1045'), ('INVOCATION_ID', 'ee9bd89e3a1e4e3e8fa693038a67691a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DR8CD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5c726194-5df7-4bf1-a6af-2fe6ac154fd6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_docking'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ziad/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099814] (-) TimerEvent: {}
+[0.139265] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.139833] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.150759] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.155308] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.202360] (-) TimerEvent: {}
+[0.252639] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.266360] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.266676] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.266898] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.275292] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.279485] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.279883] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.287556] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.303574] (-) TimerEvent: {}
+[0.390275] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.403752] (-) TimerEvent: {}
+[0.408381] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.410019] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.410526] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.410759] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.416350] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.416727] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.422336] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.430118] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.430524] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.434225] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.434579] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.434770] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.434933] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.438752] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.440200] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.440711] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.441535] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.443069] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.451277] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.503867] (-) TimerEvent: {}
+[0.560424] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.577395] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.580284] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.581350] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.582842] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.596222] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.598306] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.603006] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.603930] (-) TimerEvent: {}
+[0.614693] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.614998] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.615911] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.619217] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.619501] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.619660] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.619803] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.621444] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.624113] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.625005] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.627279] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.629550] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.704068] (-) TimerEvent: {}
+[0.807485] (-) TimerEvent: {}
+[0.892986] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.907613] (-) TimerEvent: {}
+[0.937411] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.941619] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.966367] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.007731] (-) TimerEvent: {}
+[1.032266] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.074367] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.080583] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.083728] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.085238] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.091134] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.106299] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.107813] (-) TimerEvent: {}
+[1.118035] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.138374] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.138683] (yahboom_rosmaster_bringup) StdoutLine: {'line': b'See also "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[1.140237] (yahboom_rosmaster_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[1.140557] (yahboom_rosmaster_bringup) StderrLine: {'line': b'  By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.140739] (yahboom_rosmaster_bringup) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.140894] (yahboom_rosmaster_bringup) StderrLine: {'line': b'  "ament_lint_auto", but CMake did not find one.\n'}
+[1.141039] (yahboom_rosmaster_bringup) StderrLine: {'line': b'\n'}
+[1.141199] (yahboom_rosmaster_bringup) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_lint_auto"\n'}
+[1.141351] (yahboom_rosmaster_bringup) StderrLine: {'line': b'  with any of the following names:\n'}
+[1.141486] (yahboom_rosmaster_bringup) StderrLine: {'line': b'\n'}
+[1.141618] (yahboom_rosmaster_bringup) StderrLine: {'line': b'    ament_lint_autoConfig.cmake\n'}
+[1.141739] (yahboom_rosmaster_bringup) StderrLine: {'line': b'    ament_lint_auto-config.cmake\n'}
+[1.141850] (yahboom_rosmaster_bringup) StderrLine: {'line': b'\n'}
+[1.141961] (yahboom_rosmaster_bringup) StderrLine: {'line': b'  Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or\n'}
+[1.142080] (yahboom_rosmaster_bringup) StderrLine: {'line': b'  set "ament_lint_auto_DIR" to a directory containing one of the above files.\n'}
+[1.144390] (yahboom_rosmaster_bringup) StderrLine: {'line': b'  If "ament_lint_auto" provides a separate development package or SDK, be\n'}
+[1.144585] (yahboom_rosmaster_bringup) StderrLine: {'line': b'  sure it has been installed.\n'}
+[1.144708] (yahboom_rosmaster_bringup) StderrLine: {'line': b'\n'}
+[1.144835] (yahboom_rosmaster_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[1.150475] (yahboom_rosmaster_bringup) CommandEnded: {'returncode': 1}
+[1.167392] (yahboom_rosmaster_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[1.167718] (yahboom_rosmaster_description) StderrLine: {'line': b'  By not providing "Findurdf_tutorial.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.167907] (yahboom_rosmaster_description) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.168077] (yahboom_rosmaster_description) StderrLine: {'line': b'  "urdf_tutorial", but CMake did not find one.\n'}
+[1.168255] (yahboom_rosmaster_description) StderrLine: {'line': b'\n'}
+[1.168403] (yahboom_rosmaster_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "urdf_tutorial"\n'}
+[1.168547] (yahboom_rosmaster_description) StderrLine: {'line': b'  with any of the following names:\n'}
+[1.168687] (yahboom_rosmaster_description) StderrLine: {'line': b'\n'}
+[1.168823] (yahboom_rosmaster_description) StderrLine: {'line': b'    urdf_tutorialConfig.cmake\n'}
+[1.168957] (yahboom_rosmaster_description) StderrLine: {'line': b'    urdf_tutorial-config.cmake\n'}
+[1.169087] (yahboom_rosmaster_description) StderrLine: {'line': b'\n'}
+[1.169232] (yahboom_rosmaster_description) StderrLine: {'line': b'  Add the installation prefix of "urdf_tutorial" to CMAKE_PREFIX_PATH or set\n'}
+[1.169368] (yahboom_rosmaster_description) StderrLine: {'line': b'  "urdf_tutorial_DIR" to a directory containing one of the above files.  If\n'}
+[1.169488] (yahboom_rosmaster_description) StderrLine: {'line': b'  "urdf_tutorial" provides a separate development package or SDK, be sure it\n'}
+[1.169616] (yahboom_rosmaster_description) StderrLine: {'line': b'  has been installed.\n'}
+[1.169743] (yahboom_rosmaster_description) StderrLine: {'line': b'\n'}
+[1.169866] (yahboom_rosmaster_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.169995] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.170149] (yahboom_rosmaster_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.171825] (yahboom_rosmaster_description) StdoutLine: {'line': b'See also "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description/CMakeFiles/CMakeOutput.log".\n'}
+[1.180095] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.185774] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.186679] (yahboom_rosmaster_bringup) JobEnded: {'identifier': 'yahboom_rosmaster_bringup', 'rc': 1}
+[1.188208] (yahboom_rosmaster_description) JobEnded: {'identifier': 'yahboom_rosmaster_description', 'rc': 'SIGINT'}
+[1.191669] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.205144] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.207908] (-) TimerEvent: {}
+[1.225437] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.274152] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.308041] (-) TimerEvent: {}
+[1.314130] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.316595] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.408167] (-) TimerEvent: {}
+[1.415189] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.450632] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.502498] (yahboom_rosmaster_docking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.508262] (-) TimerEvent: {}
+[1.510846] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.595052] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.596976] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.597307] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.608375] (-) TimerEvent: {}
+[1.685919] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.687392] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.708485] (-) TimerEvent: {}
+[1.733370] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.746566] (yahboom_rosmaster_docking) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[1.746871] (yahboom_rosmaster_docking) StderrLine: {'line': b'  By not providing "Findapriltag_ros.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.747007] (yahboom_rosmaster_docking) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.747135] (yahboom_rosmaster_docking) StderrLine: {'line': b'  "apriltag_ros", but CMake did not find one.\n'}
+[1.747296] (yahboom_rosmaster_docking) StderrLine: {'line': b'\n'}
+[1.747422] (yahboom_rosmaster_docking) StderrLine: {'line': b'  Could not find a package configuration file provided by "apriltag_ros" with\n'}
+[1.747546] (yahboom_rosmaster_docking) StderrLine: {'line': b'  any of the following names:\n'}
+[1.747670] (yahboom_rosmaster_docking) StderrLine: {'line': b'\n'}
+[1.747792] (yahboom_rosmaster_docking) StderrLine: {'line': b'    apriltag_rosConfig.cmake\n'}
+[1.747910] (yahboom_rosmaster_docking) StderrLine: {'line': b'    apriltag_ros-config.cmake\n'}
+[1.748028] (yahboom_rosmaster_docking) StderrLine: {'line': b'\n'}
+[1.748152] (yahboom_rosmaster_docking) StderrLine: {'line': b'  Add the installation prefix of "apriltag_ros" to CMAKE_PREFIX_PATH or set\n'}
+[1.748315] (yahboom_rosmaster_docking) StderrLine: {'line': b'  "apriltag_ros_DIR" to a directory containing one of the above files.  If\n'}
+[1.748445] (yahboom_rosmaster_docking) StderrLine: {'line': b'  "apriltag_ros" provides a separate development package or SDK, be sure it\n'}
+[1.748568] (yahboom_rosmaster_docking) StderrLine: {'line': b'  has been installed.\n'}
+[1.748689] (yahboom_rosmaster_docking) StderrLine: {'line': b'\n'}
+[1.748811] (yahboom_rosmaster_docking) StderrLine: {'line': b'\x1b[0m\n'}
+[1.748927] (yahboom_rosmaster_docking) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.749050] (yahboom_rosmaster_docking) StdoutLine: {'line': b'See also "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_docking/CMakeFiles/CMakeOutput.log".\n'}
+[1.758413] (yahboom_rosmaster_docking) JobEnded: {'identifier': 'yahboom_rosmaster_docking', 'rc': 'SIGINT'}
+[1.808654] (-) TimerEvent: {}
+[1.836531] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.908781] (-) TimerEvent: {}
+[2.009051] (-) TimerEvent: {}
+[2.109382] (-) TimerEvent: {}
+[2.119982] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.148677] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.150320] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.179513] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.179837] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.179991] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.180118] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.203951] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.209478] (-) TimerEvent: {}
+[2.270903] (yahboom_rosmaster_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[2.271310] (yahboom_rosmaster_msgs) StderrLine: {'line': b'  By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.271445] (yahboom_rosmaster_msgs) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.271550] (yahboom_rosmaster_msgs) StderrLine: {'line': b'  "ament_lint_auto", but CMake did not find one.\n'}
+[2.271646] (yahboom_rosmaster_msgs) StderrLine: {'line': b'\n'}
+[2.271738] (yahboom_rosmaster_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_lint_auto"\n'}
+[2.271825] (yahboom_rosmaster_msgs) StderrLine: {'line': b'  with any of the following names:\n'}
+[2.271910] (yahboom_rosmaster_msgs) StderrLine: {'line': b'\n'}
+[2.271997] (yahboom_rosmaster_msgs) StderrLine: {'line': b'    ament_lint_autoConfig.cmake\n'}
+[2.272083] (yahboom_rosmaster_msgs) StderrLine: {'line': b'    ament_lint_auto-config.cmake\n'}
+[2.272175] (yahboom_rosmaster_msgs) StderrLine: {'line': b'\n'}
+[2.272267] (yahboom_rosmaster_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or\n'}
+[2.272350] (yahboom_rosmaster_msgs) StderrLine: {'line': b'  set "ament_lint_auto_DIR" to a directory containing one of the above files.\n'}
+[2.272431] (yahboom_rosmaster_msgs) StderrLine: {'line': b'  If "ament_lint_auto" provides a separate development package or SDK, be\n'}
+[2.272509] (yahboom_rosmaster_msgs) StderrLine: {'line': b'  sure it has been installed.\n'}
+[2.272588] (yahboom_rosmaster_msgs) StderrLine: {'line': b'\n'}
+[2.272666] (yahboom_rosmaster_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.272746] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.272839] (yahboom_rosmaster_msgs) StdoutLine: {'line': b'See also "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[2.280599] (yahboom_rosmaster_msgs) JobEnded: {'identifier': 'yahboom_rosmaster_msgs', 'rc': 'SIGINT'}
+[2.291197] (anymal_description) JobSkipped: {'identifier': 'anymal_description'}
+[2.291373] (custom_action_interfaces) JobSkipped: {'identifier': 'custom_action_interfaces'}
+[2.291414] (mecanum_drive_controller) JobSkipped: {'identifier': 'mecanum_drive_controller'}
+[2.291444] (ros2_control_turtel_bot) JobSkipped: {'identifier': 'ros2_control_turtel_bot'}
+[2.291470] (three_wheel_robot) JobSkipped: {'identifier': 'three_wheel_robot'}
+[2.291496] (yahboom_rosmaster_gazebo) JobSkipped: {'identifier': 'yahboom_rosmaster_gazebo'}
+[2.291519] (yahboom_rosmaster_localization) JobSkipped: {'identifier': 'yahboom_rosmaster_localization'}
+[2.291543] (yahboom_rosmaster_navigation) JobSkipped: {'identifier': 'yahboom_rosmaster_navigation'}
+[2.291568] (yahboom_rosmaster_system_tests) JobSkipped: {'identifier': 'yahboom_rosmaster_system_tests'}
+[2.291591] (yahboom_rosmaster) JobSkipped: {'identifier': 'yahboom_rosmaster'}
+[2.291615] (-) EventReactorShutdown: {}

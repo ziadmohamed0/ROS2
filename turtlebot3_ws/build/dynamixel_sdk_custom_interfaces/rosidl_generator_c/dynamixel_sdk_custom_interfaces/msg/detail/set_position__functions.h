@@ -2,9 +2,6 @@
 // with input from dynamixel_sdk_custom_interfaces:msg/SetPosition.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "dynamixel_sdk_custom_interfaces/msg/set_position.h"
-
-
 #ifndef DYNAMIXEL_SDK_CUSTOM_INTERFACES__MSG__DETAIL__SET_POSITION__FUNCTIONS_H_
 #define DYNAMIXEL_SDK_CUSTOM_INTERFACES__MSG__DETAIL__SET_POSITION__FUNCTIONS_H_
 
@@ -16,12 +13,6 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include "rosidl_runtime_c/action_type_support_struct.h"
-#include "rosidl_runtime_c/message_type_support_struct.h"
-#include "rosidl_runtime_c/service_type_support_struct.h"
-#include "rosidl_runtime_c/type_description/type_description__struct.h"
-#include "rosidl_runtime_c/type_description/type_source__struct.h"
-#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h"
 
@@ -62,7 +53,7 @@ dynamixel_sdk_custom_interfaces__msg__SetPosition__fini(dynamixel_sdk_custom_int
  */
 ROSIDL_GENERATOR_C_PUBLIC_dynamixel_sdk_custom_interfaces
 dynamixel_sdk_custom_interfaces__msg__SetPosition *
-dynamixel_sdk_custom_interfaces__msg__SetPosition__create(void);
+dynamixel_sdk_custom_interfaces__msg__SetPosition__create();
 
 /// Destroy msg/SetPosition message.
 /**
@@ -101,30 +92,6 @@ bool
 dynamixel_sdk_custom_interfaces__msg__SetPosition__copy(
   const dynamixel_sdk_custom_interfaces__msg__SetPosition * input,
   dynamixel_sdk_custom_interfaces__msg__SetPosition * output);
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_dynamixel_sdk_custom_interfaces
-const rosidl_type_hash_t *
-dynamixel_sdk_custom_interfaces__msg__SetPosition__get_type_hash(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_dynamixel_sdk_custom_interfaces
-const rosidl_runtime_c__type_description__TypeDescription *
-dynamixel_sdk_custom_interfaces__msg__SetPosition__get_type_description(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_dynamixel_sdk_custom_interfaces
-const rosidl_runtime_c__type_description__TypeSource *
-dynamixel_sdk_custom_interfaces__msg__SetPosition__get_individual_type_description_source(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_dynamixel_sdk_custom_interfaces
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-dynamixel_sdk_custom_interfaces__msg__SetPosition__get_type_description_sources(
-  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of msg/SetPosition messages.
 /**

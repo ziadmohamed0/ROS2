@@ -1,1 +1,0 @@
-/home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/tutorials_work_sapce/src/urdf_tutorial_cpp/launch/launch.py

@@ -2,9 +2,6 @@
 // with input from dynamixel_sdk_custom_interfaces:msg/SetPosition.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "dynamixel_sdk_custom_interfaces/msg/set_position.h"
-
-
 #ifndef DYNAMIXEL_SDK_CUSTOM_INTERFACES__MSG__DETAIL__SET_POSITION__TYPE_SUPPORT_H_
 #define DYNAMIXEL_SDK_CUSTOM_INTERFACES__MSG__DETAIL__SET_POSITION__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   dynamixel_sdk_custom_interfaces,
   msg,
   SetPosition
-)(void);
+)();
 
 #ifdef __cplusplus
 }

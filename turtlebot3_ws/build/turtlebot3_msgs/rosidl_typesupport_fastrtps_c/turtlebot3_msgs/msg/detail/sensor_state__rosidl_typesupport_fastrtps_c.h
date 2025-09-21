@@ -9,23 +9,11 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
-#include "turtlebot3_msgs/msg/detail/sensor_state__struct.h"
-#include "fastcdr/Cdr.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-bool cdr_serialize_turtlebot3_msgs__msg__SensorState(
-  const turtlebot3_msgs__msg__SensorState * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-bool cdr_deserialize_turtlebot3_msgs__msg__SensorState(
-  eprosima::fastcdr::Cdr &,
-  turtlebot3_msgs__msg__SensorState * ros_message);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t get_serialized_size_turtlebot3_msgs__msg__SensorState(
@@ -34,22 +22,6 @@ size_t get_serialized_size_turtlebot3_msgs__msg__SensorState(
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__msg__SensorState(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-bool cdr_serialize_key_turtlebot3_msgs__msg__SensorState(
-  const turtlebot3_msgs__msg__SensorState * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-size_t get_serialized_size_key_turtlebot3_msgs__msg__SensorState(
-  const void * untyped_ros_message,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
-size_t max_serialized_size_key_turtlebot3_msgs__msg__SensorState(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);

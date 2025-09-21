@@ -1,0 +1,35 @@
+[0.034s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/yahboom_rosmaster/yahboom_rosmaster_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/yahboom_rosmaster_description
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.257s] -- The CXX compiler identification is GNU 11.4.0
+[0.270s] -- Detecting C compiler ABI info
+[0.407s] -- Detecting C compiler ABI info - done
+[0.425s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.425s] -- Detecting C compile features
+[0.425s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.594s] -- Detecting CXX compiler ABI info - done
+[0.615s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.616s] -- Detecting CXX compile features
+[0.618s] -- Detecting CXX compile features - done
+[0.623s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.957s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.097s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.158s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.158s]   By not providing "Findurdf_tutorial.cmake" in CMAKE_MODULE_PATH this
+[1.158s]   project has asked CMake to find a package configuration file provided by
+[1.159s]   "urdf_tutorial", but CMake did not find one.
+[1.159s] 
+[1.159s]   Could not find a package configuration file provided by "urdf_tutorial"
+[1.159s]   with any of the following names:
+[1.159s] 
+[1.159s]     urdf_tutorialConfig.cmake
+[1.159s]     urdf_tutorial-config.cmake
+[1.160s] 
+[1.160s]   Add the installation prefix of "urdf_tutorial" to CMAKE_PREFIX_PATH or set
+[1.160s]   "urdf_tutorial_DIR" to a directory containing one of the above files.  If
+[1.160s]   "urdf_tutorial" provides a separate development package or SDK, be sure it
+[1.160s]   has been installed.
+[1.160s] 
+[1.160s] [0m
+[1.162s] -- Configuring incomplete, errors occurred!
+[1.162s] See also "/home/ziad/ziad_ws/ROS2/work_space/build/yahboom_rosmaster_description/CMakeFiles/CMakeOutput.log".

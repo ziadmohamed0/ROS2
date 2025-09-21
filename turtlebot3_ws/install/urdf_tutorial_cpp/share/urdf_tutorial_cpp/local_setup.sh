@@ -1,1 +1,0 @@
-/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/urdf_tutorial_cpp/ament_cmake_environment_hooks/local_setup.sh

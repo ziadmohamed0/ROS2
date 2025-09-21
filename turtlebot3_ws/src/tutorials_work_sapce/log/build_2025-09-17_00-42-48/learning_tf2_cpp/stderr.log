@@ -1,6 +1,0 @@
-[31mCMake Error at CMakeLists.txt:26 (install):
-  install TARGETS given target "static_turtle_tf2_broadcaster" which does not
-  exist.
-
-[0m
-gmake: *** [Makefile:267: cmake_check_build_system] Error 1

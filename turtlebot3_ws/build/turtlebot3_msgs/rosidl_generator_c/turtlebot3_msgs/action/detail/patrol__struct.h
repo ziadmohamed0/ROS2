@@ -2,9 +2,6 @@
 // with input from turtlebot3_msgs:action/Patrol.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "turtlebot3_msgs/action/patrol.h"
-
-
 #ifndef TURTLEBOT3_MSGS__ACTION__DETAIL__PATROL__STRUCT_H_
 #define TURTLEBOT3_MSGS__ACTION__DETAIL__PATROL__STRUCT_H_
 
@@ -40,6 +37,7 @@ typedef struct turtlebot3_msgs__action__Patrol_Goal__Sequence
   size_t capacity;
 } turtlebot3_msgs__action__Patrol_Goal__Sequence;
 
+
 // Constants defined in the message
 
 // Include directives for member types
@@ -61,6 +59,7 @@ typedef struct turtlebot3_msgs__action__Patrol_Result__Sequence
   /// The number of allocated items in data
   size_t capacity;
 } turtlebot3_msgs__action__Patrol_Result__Sequence;
+
 
 // Constants defined in the message
 
@@ -84,6 +83,7 @@ typedef struct turtlebot3_msgs__action__Patrol_Feedback__Sequence
   /// The number of allocated items in data
   size_t capacity;
 } turtlebot3_msgs__action__Patrol_Feedback__Sequence;
+
 
 // Constants defined in the message
 
@@ -110,6 +110,7 @@ typedef struct turtlebot3_msgs__action__Patrol_SendGoal_Request__Sequence
   size_t capacity;
 } turtlebot3_msgs__action__Patrol_SendGoal_Request__Sequence;
 
+
 // Constants defined in the message
 
 // Include directives for member types
@@ -133,41 +134,6 @@ typedef struct turtlebot3_msgs__action__Patrol_SendGoal_Response__Sequence
   size_t capacity;
 } turtlebot3_msgs__action__Patrol_SendGoal_Response__Sequence;
 
-// Constants defined in the message
-
-// Include directives for member types
-// Member 'info'
-#include "service_msgs/msg/detail/service_event_info__struct.h"
-
-// constants for array fields with an upper bound
-// request
-enum
-{
-  turtlebot3_msgs__action__Patrol_SendGoal_Event__request__MAX_SIZE = 1
-};
-// response
-enum
-{
-  turtlebot3_msgs__action__Patrol_SendGoal_Event__response__MAX_SIZE = 1
-};
-
-/// Struct defined in action/Patrol in the package turtlebot3_msgs.
-typedef struct turtlebot3_msgs__action__Patrol_SendGoal_Event
-{
-  service_msgs__msg__ServiceEventInfo info;
-  turtlebot3_msgs__action__Patrol_SendGoal_Request__Sequence request;
-  turtlebot3_msgs__action__Patrol_SendGoal_Response__Sequence response;
-} turtlebot3_msgs__action__Patrol_SendGoal_Event;
-
-// Struct for a sequence of turtlebot3_msgs__action__Patrol_SendGoal_Event.
-typedef struct turtlebot3_msgs__action__Patrol_SendGoal_Event__Sequence
-{
-  turtlebot3_msgs__action__Patrol_SendGoal_Event * data;
-  /// The number of valid items in data
-  size_t size;
-  /// The number of allocated items in data
-  size_t capacity;
-} turtlebot3_msgs__action__Patrol_SendGoal_Event__Sequence;
 
 // Constants defined in the message
 
@@ -191,6 +157,7 @@ typedef struct turtlebot3_msgs__action__Patrol_GetResult_Request__Sequence
   /// The number of allocated items in data
   size_t capacity;
 } turtlebot3_msgs__action__Patrol_GetResult_Request__Sequence;
+
 
 // Constants defined in the message
 
@@ -216,42 +183,6 @@ typedef struct turtlebot3_msgs__action__Patrol_GetResult_Response__Sequence
   size_t capacity;
 } turtlebot3_msgs__action__Patrol_GetResult_Response__Sequence;
 
-// Constants defined in the message
-
-// Include directives for member types
-// Member 'info'
-// already included above
-// #include "service_msgs/msg/detail/service_event_info__struct.h"
-
-// constants for array fields with an upper bound
-// request
-enum
-{
-  turtlebot3_msgs__action__Patrol_GetResult_Event__request__MAX_SIZE = 1
-};
-// response
-enum
-{
-  turtlebot3_msgs__action__Patrol_GetResult_Event__response__MAX_SIZE = 1
-};
-
-/// Struct defined in action/Patrol in the package turtlebot3_msgs.
-typedef struct turtlebot3_msgs__action__Patrol_GetResult_Event
-{
-  service_msgs__msg__ServiceEventInfo info;
-  turtlebot3_msgs__action__Patrol_GetResult_Request__Sequence request;
-  turtlebot3_msgs__action__Patrol_GetResult_Response__Sequence response;
-} turtlebot3_msgs__action__Patrol_GetResult_Event;
-
-// Struct for a sequence of turtlebot3_msgs__action__Patrol_GetResult_Event.
-typedef struct turtlebot3_msgs__action__Patrol_GetResult_Event__Sequence
-{
-  turtlebot3_msgs__action__Patrol_GetResult_Event * data;
-  /// The number of valid items in data
-  size_t size;
-  /// The number of allocated items in data
-  size_t capacity;
-} turtlebot3_msgs__action__Patrol_GetResult_Event__Sequence;
 
 // Constants defined in the message
 

@@ -2,9 +2,6 @@
 // with input from turtlebot3_msgs:msg/SensorState.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "turtlebot3_msgs/msg/sensor_state.h"
-
-
 #ifndef TURTLEBOT3_MSGS__MSG__DETAIL__SENSOR_STATE__STRUCT_H_
 #define TURTLEBOT3_MSGS__MSG__DETAIL__SENSOR_STATE__STRUCT_H_
 
@@ -16,6 +13,7 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
+
 
 // Constants defined in the message
 

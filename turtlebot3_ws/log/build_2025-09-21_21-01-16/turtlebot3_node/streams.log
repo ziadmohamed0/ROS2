@@ -1,0 +1,87 @@
+[0.029s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.261s] -- The CXX compiler identification is GNU 11.4.0
+[0.276s] -- Detecting C compiler ABI info
+[0.418s] -- Detecting C compiler ABI info - done
+[0.458s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.458s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.660s] -- Detecting CXX compiler ABI info - done
+[0.678s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.679s] -- Detecting CXX compile features
+[0.681s] -- Detecting CXX compile features - done
+[0.690s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.041s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.266s] -- Found dynamixel_sdk: 3.8.4 (/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.294s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.412s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.425s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.446s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.562s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.706s] -- Found message_filters: 4.3.8 (/opt/ros/humble/share/message_filters/cmake)
+[1.791s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.801s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.970s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.033s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.111s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.124s] -- Looking for pthread.h
+[2.243s] -- Looking for pthread.h - found
+[2.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.340s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.342s] -- Found Threads: TRUE  
+[2.401s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.428s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.450s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.470s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[2.481s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.577s] -- Found turtlebot3_msgs: 2.4.0 (/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[2.682s] -- Configuring done
+[2.705s] -- Generating done
+[2.712s] -- Build files have been written to: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node
+[2.738s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ziad/ziad_ws/ROS2/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node
+[2.739s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[2.798s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[2.798s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[2.799s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[2.799s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[10.143s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[11.491s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[11.580s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[11.760s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[11.923s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[21.309s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[22.092s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[41.279s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[42.495s] [ 85%] Built target turtlebot3_node_lib
+[42.520s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[46.570s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[49.489s] [100%] Built target turtlebot3_ros
+[49.582s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[49.629s] Invoking command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node
+[49.643s] -- Install configuration: ""
+[49.644s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param
+[49.644s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[49.644s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[49.644s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[49.644s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[49.656s] -- Set runtime path of "/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[49.657s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[49.657s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[49.657s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[49.658s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[49.658s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[49.658s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[49.658s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[49.658s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[49.659s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[49.659s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[49.659s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[49.659s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[49.659s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.659s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.659s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[49.660s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[49.660s] -- Installing: /home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[49.664s] Invoked command in '/home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/turtlebot3_ws/build/turtlebot3_node
