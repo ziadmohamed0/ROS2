@@ -1,0 +1,35 @@
+[0.043s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/navigation
+[0.073s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.661s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.797s] -- Found nav2_bringup: 1.1.18 (/opt/ros/humble/share/nav2_bringup/cmake)
+[0.801s] -- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+[1.275s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.299s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.376s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.845s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.864s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.326s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.774s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.935s] -- Found nav2_amcl: 1.1.18 (/opt/ros/humble/share/nav2_amcl/cmake)
+[2.972s] [31mCMake Error at CMakeLists.txt:29 (find_package):
+[2.972s]   By not providing "Findament_index_python.cmake" in CMAKE_MODULE_PATH this
+[2.972s]   project has asked CMake to find a package configuration file provided by
+[2.972s]   "ament_index_python", but CMake did not find one.
+[2.972s] 
+[2.972s]   Could not find a package configuration file provided by
+[2.972s]   "ament_index_python" with any of the following names:
+[2.972s] 
+[2.972s]     ament_index_pythonConfig.cmake
+[2.972s]     ament_index_python-config.cmake
+[2.972s] 
+[2.972s]   Add the installation prefix of "ament_index_python" to CMAKE_PREFIX_PATH or
+[2.972s]   set "ament_index_python_DIR" to a directory containing one of the above
+[2.972s]   files.  If "ament_index_python" provides a separate development package or
+[2.973s]   SDK, be sure it has been installed.
+[2.973s] 
+[2.973s] [0m
+[2.973s] -- Configuring incomplete, errors occurred!
+[2.973s] See also "/home/ziad/ziad_ws/ROS2/work_space/build/navigation/CMakeFiles/CMakeOutput.log".
+[2.986s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/navigation

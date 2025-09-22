@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot -- -j4 -l4
+[0.108s] [ 50%] Built target move_robot
+[0.109s] [100%] Built target stop_robot
+[0.147s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot -- -j4 -l4
+[0.149s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot
+[0.160s] -- Install configuration: ""
+[0.160s] -- Execute custom install script
+[0.161s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/lib/ros2_control_turtel_bot/move_robot
+[0.161s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/lib/ros2_control_turtel_bot/stop_robot
+[0.161s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ament_index/resource_index/package_run_dependencies/ros2_control_turtel_bot
+[0.162s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ament_index/resource_index/parent_prefix_path/ros2_control_turtel_bot
+[0.162s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/environment/ament_prefix_path.sh
+[0.162s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/environment/ament_prefix_path.dsv
+[0.163s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/environment/path.sh
+[0.163s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/environment/path.dsv
+[0.163s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/local_setup.bash
+[0.163s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/local_setup.sh
+[0.164s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/local_setup.zsh
+[0.164s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/local_setup.dsv
+[0.164s] -- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/package.dsv
+[0.177s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ament_index/resource_index/packages/ros2_control_turtel_bot
+[0.177s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/cmake/ros2_control_turtel_botConfig.cmake
+[0.177s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/cmake/ros2_control_turtel_botConfig-version.cmake
+[0.177s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/package.xml
+[0.180s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot

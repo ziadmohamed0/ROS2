@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_robot.dir/src/move_robot.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_robot[0m
+[100%] Built target move_robot
+-- Install configuration: ""
+-- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/lib/custom_robot/move_robot
+-- Set runtime path of "/home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/lib/custom_robot/move_robot" to ""
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/launch
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/launch/display.launch.py
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/launch/gazebo.launch.py
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/urdf
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/urdf/robot.urdf
+-- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/ament_index/resource_index/package_run_dependencies/custom_robot
+-- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/ament_index/resource_index/parent_prefix_path/custom_robot
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/environment/ament_prefix_path.sh
+-- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/environment/path.sh
+-- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/environment/path.dsv
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/local_setup.bash
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/local_setup.sh
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/local_setup.zsh
+-- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/local_setup.dsv
+-- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/package.dsv
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/ament_index/resource_index/packages/custom_robot
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/cmake/custom_robotConfig.cmake
+-- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/cmake/custom_robotConfig-version.cmake
+-- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/package.xml

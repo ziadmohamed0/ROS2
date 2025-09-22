@@ -1,0 +1,1 @@
+/home/ziad/ziad_ws/ROS2/work_space/src/anymal_description/launch/view_anymal.launch.py

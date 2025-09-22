@@ -1,0 +1,15 @@
+[01m[K/home/ziad/ziad_ws/ROS2/work_space/src/custom_robot/src/move_robot.cpp:[m[K In constructor ‘[01m[KMoveRobot::MoveRobot()[m[K’:
+[01m[K/home/ziad/ziad_ws/ROS2/work_space/src/custom_robot/src/move_robot.cpp:15:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   15 | ::bind(&MoveRobot::callback_velocity, this)[01;31m[K;[m[K
+      |                                            [01;31m[K^[m[K
+
+[01m[K/home/ziad/ziad_ws/ROS2/work_space/src/custom_robot/src/move_robot.cpp:13:50:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   13 |       this->timer = this->create_wall_timer[01;36m[K([m[K
+      |                                            [01;36m[K^[m[K
+
+[01m[K/home/ziad/ziad_ws/ROS2/work_space/src/custom_robot/src/move_robot.cpp:16:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   16 |             [01;31m[K)[m[K;
+      |             [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/move_robot.dir/build.make:76: CMakeFiles/move_robot.dir/src/move_robot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_robot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

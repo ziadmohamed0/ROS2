@@ -1,0 +1,43 @@
+[0.037s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/cyber_robt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/cyber_robt -- -j4 -l4
+[0.188s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/cyber_robt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/cyber_robt -- -j4 -l4
+[0.192s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/cyber_robt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/cyber_robt
+[0.205s] -- Install configuration: ""
+[0.206s] -- Execute custom install script
+[0.206s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/config/cyber_truck.rviz
+[0.207s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/config/joint_names_cyber_robt.yaml
+[0.208s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/launch/gazebo.launch.py
+[0.211s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/launch/ign.launch.py
+[0.212s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/Lidar.STL
+[0.212s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/U_B.STL
+[0.212s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/U_F.STL
+[0.213s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/U_L.STL
+[0.213s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/U_R.STL
+[0.217s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/W_B_L.STL
+[0.218s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/W_B_R.STL
+[0.218s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/W_F_L.STL
+[0.218s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/W_F_R.STL
+[0.218s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/meshes/base_link.STL
+[0.219s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/urdf/classic_plugins.xacro
+[0.220s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/urdf/cyber_robt.csv
+[0.220s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/urdf/cyber_robt.urdf.xacro
+[0.220s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/urdf/cyber_robt_base.urdf.xacro
+[0.221s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/urdf/cyber_robt_ign.urdf
+[0.221s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/urdf/ignition_plugins.xacro
+[0.223s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/worlds/classroom.sdf
+[0.236s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/worlds/wider_classroom.sdf
+[0.237s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/ament_index/resource_index/package_run_dependencies/cyber_robt
+[0.237s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/ament_index/resource_index/parent_prefix_path/cyber_robt
+[0.237s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/environment/ament_prefix_path.sh
+[0.239s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/environment/ament_prefix_path.dsv
+[0.241s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/environment/path.sh
+[0.250s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/environment/path.dsv
+[0.250s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/local_setup.bash
+[0.250s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/local_setup.sh
+[0.251s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/local_setup.zsh
+[0.251s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/local_setup.dsv
+[0.256s] -- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.dsv
+[0.272s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/ament_index/resource_index/packages/cyber_robt
+[0.273s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/cmake/cyber_robtConfig.cmake
+[0.276s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/cmake/cyber_robtConfig-version.cmake
+[0.276s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/cyber_robt/share/cyber_robt/package.xml
+[0.354s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/cyber_robt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/cyber_robt

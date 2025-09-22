@@ -1,0 +1,31 @@
+[0.034s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/custom_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/custom_robot -- -j4 -l4
+[0.114s] [35m[1mConsolidate compiler generated dependencies of target move_robot[0m
+[0.144s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot.dir/src/move_robot.cpp.o[0m
+[5.175s] [100%] [32m[1mLinking CXX executable move_robot[0m
+[5.468s] [100%] Built target move_robot
+[5.480s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/custom_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/custom_robot -- -j4 -l4
+[5.482s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/custom_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/custom_robot
+[5.491s] -- Install configuration: ""
+[5.491s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/lib/custom_robot/move_robot
+[5.492s] -- Set runtime path of "/home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/lib/custom_robot/move_robot" to ""
+[5.493s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/launch
+[5.493s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/launch/display.launch.py
+[5.493s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/launch/gazebo.launch.py
+[5.493s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/urdf
+[5.493s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/urdf/robot.urdf
+[5.494s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/ament_index/resource_index/package_run_dependencies/custom_robot
+[5.494s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/ament_index/resource_index/parent_prefix_path/custom_robot
+[5.494s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/environment/ament_prefix_path.sh
+[5.494s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/environment/ament_prefix_path.dsv
+[5.495s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/environment/path.sh
+[5.495s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/environment/path.dsv
+[5.495s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/local_setup.bash
+[5.495s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/local_setup.sh
+[5.495s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/local_setup.zsh
+[5.495s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/local_setup.dsv
+[5.496s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/package.dsv
+[5.496s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/ament_index/resource_index/packages/custom_robot
+[5.496s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/cmake/custom_robotConfig.cmake
+[5.496s] -- Up-to-date: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/cmake/custom_robotConfig-version.cmake
+[5.496s] -- Installing: /home/ziad/ziad_ws/ROS2/work_space/install/custom_robot/share/custom_robot/package.xml
+[5.499s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/custom_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/custom_robot

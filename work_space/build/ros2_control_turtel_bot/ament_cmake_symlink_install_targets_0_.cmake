@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot/move_robot" "/home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot/stop_robot" "TARGETS" "move_robot" "stop_robot" "DESTINATION" "lib/ros2_control_turtel_bot")

@@ -1,0 +1,7 @@
+[0.076s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot -- -j4 -l4
+[0.184s] [ 25%] [32mBuilding CXX object CMakeFiles/stop_robot.dir/src/stop_robot.cpp.o[0m
+[0.197s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot.dir/src/move_robot.cpp.o[0m
+[8.452s] [100%] [32m[1mLinking CXX executable move_robot[0m
+[8.452s] [100%] [32m[1mLinking CXX executable stop_robot[0m
+[8.975s] [100%] Built target stop_robot
+[8.980s] [100%] Built target move_robot

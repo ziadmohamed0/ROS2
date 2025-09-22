@@ -1,0 +1,9 @@
+/home/ziad/ziad_ws/ROS2/work_space/build/three_wheel_robot/CMakeFiles/uninstall.dir
+/home/ziad/ziad_ws/ROS2/work_space/build/three_wheel_robot/CMakeFiles/three_wheel_robot_uninstall.dir
+/home/ziad/ziad_ws/ROS2/work_space/build/three_wheel_robot/CMakeFiles/test.dir
+/home/ziad/ziad_ws/ROS2/work_space/build/three_wheel_robot/CMakeFiles/edit_cache.dir
+/home/ziad/ziad_ws/ROS2/work_space/build/three_wheel_robot/CMakeFiles/rebuild_cache.dir
+/home/ziad/ziad_ws/ROS2/work_space/build/three_wheel_robot/CMakeFiles/list_install_components.dir
+/home/ziad/ziad_ws/ROS2/work_space/build/three_wheel_robot/CMakeFiles/install.dir
+/home/ziad/ziad_ws/ROS2/work_space/build/three_wheel_robot/CMakeFiles/install/local.dir
+/home/ziad/ziad_ws/ROS2/work_space/build/three_wheel_robot/CMakeFiles/install/strip.dir

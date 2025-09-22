@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0b5b169d74084486a5a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_control_turtel_bot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "move_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_robot-6fae247e5ab8b51f5894.json",
+					"name" : "move_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_control_turtel_bot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_control_turtel_bot_uninstall-104c45df54aff262e893.json",
+					"name" : "ros2_control_turtel_bot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stop_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stop_robot-e43d7504aa43a88256e4.json",
+					"name" : "stop_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e69c34b7cd8b7b74a97c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot",
+		"source" : "/home/ziad/ziad_ws/ROS2/work_space/src/ros2_control_turtel_bot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

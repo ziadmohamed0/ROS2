@@ -1,0 +1,25 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ziad/ziad_ws/ROS2/work_space/build/three_wheel_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/ament_index/resource_index/package_run_dependencies/three_wheel_robot
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/ament_index/resource_index/parent_prefix_path/three_wheel_robot
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/environment/path.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/environment/path.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/local_setup.bash
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/local_setup.sh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/local_setup.zsh
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/local_setup.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/package.dsv
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/ament_index/resource_index/packages/three_wheel_robot
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/cmake/three_wheel_robotConfig.cmake
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/cmake/three_wheel_robotConfig-version.cmake
+-- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/package.xml

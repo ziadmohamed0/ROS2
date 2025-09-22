@@ -1,0 +1,15 @@
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/ament_index/resource_index/package_run_dependencies/three_wheel_robot
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/ament_index/resource_index/parent_prefix_path/three_wheel_robot
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/environment/ament_prefix_path.sh
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/environment/ament_prefix_path.dsv
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/environment/path.sh
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/environment/path.dsv
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/local_setup.bash
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/local_setup.sh
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/local_setup.zsh
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/local_setup.dsv
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/package.dsv
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/ament_index/resource_index/packages/three_wheel_robot
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/cmake/three_wheel_robotConfig.cmake
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/cmake/three_wheel_robotConfig-version.cmake
+/home/ziad/ziad_ws/ROS2/work_space/install/three_wheel_robot/share/three_wheel_robot/package.xml

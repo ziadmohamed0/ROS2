@@ -1,0 +1,1 @@
+/home/ziad/ziad_ws/ROS2/work_space/build/fusion_odom_imu/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/stop_robot.dir/src/stop_robot.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_robot.dir/src/move_robot.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_robot[0m
+[100%] [32m[1mLinking CXX executable stop_robot[0m
+[100%] Built target stop_robot
+[100%] Built target move_robot

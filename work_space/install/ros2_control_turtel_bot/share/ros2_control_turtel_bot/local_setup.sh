@@ -1,0 +1,1 @@
+/home/ziad/ziad_ws/ROS2/work_space/build/ros2_control_turtel_bot/ament_cmake_environment_hooks/local_setup.sh

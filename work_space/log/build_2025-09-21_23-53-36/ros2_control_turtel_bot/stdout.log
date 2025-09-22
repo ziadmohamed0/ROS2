@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot[0m
+[35m[1mConsolidate compiler generated dependencies of target stop_robot[0m
+[ 50%] Built target move_robot
+[100%] Built target stop_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/lib/ros2_control_turtel_bot/move_robot
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/lib/ros2_control_turtel_bot/stop_robot
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ament_index/resource_index/package_run_dependencies/ros2_control_turtel_bot
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ament_index/resource_index/parent_prefix_path/ros2_control_turtel_bot
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/environment/ament_prefix_path.sh
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/environment/path.sh
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/environment/path.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/local_setup.bash
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/local_setup.sh
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/local_setup.zsh
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/local_setup.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/package.dsv
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ament_index/resource_index/packages/ros2_control_turtel_bot
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/cmake/ros2_control_turtel_botConfig.cmake
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/cmake/ros2_control_turtel_botConfig-version.cmake
+-- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/ros2_control_turtel_bot/share/ros2_control_turtel_bot/package.xml

@@ -1,0 +1,45 @@
+[0.174s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/anymal_description -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/anymal_description
+[0.277s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.893s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.937s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.332s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.333s] -- Added test 'lint_cmake' to check CMake code style
+[1.334s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.338s] -- Added test 'xmllint' to check XML markup files
+[1.346s] -- Configuring done
+[1.358s] -- Generating done
+[1.362s] -- Build files have been written to: /home/ziad/ziad_ws/ROS2/work_space/build/anymal_description
+[1.377s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ziad/ziad_ws/ROS2/work_space/src/anymal_description -DCMAKE_INSTALL_PREFIX=/home/ziad/ziad_ws/ROS2/work_space/install/anymal_description
+[1.378s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/anymal_description -- -j4 -l4
+[1.479s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/anymal_description -- -j4 -l4
+[1.498s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/anymal_description
+[1.514s] -- Install configuration: ""
+[1.515s] -- Execute custom install script
+[1.518s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/launch/gazebo.launch.py
+[1.519s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/launch/view_anymal.launch.py
+[1.520s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/meshes/anymal.dae
+[1.526s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/meshes/materials/scripts/model.material
+[1.526s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/meshes/materials/textures/Anymal_Albedo.jpg
+[1.527s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/meshes/materials/textures/Anymal_Metalness.jpg
+[1.528s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/meshes/materials/textures/Anymal_Roughness.jpg
+[1.529s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/meshes/thumbnails/1.jpg
+[1.529s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/meshes/thumbnails/2.jpg
+[1.529s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/meshes/thumbnails/3.jpg
+[1.531s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/meshes/thumbnails/4.jpg
+[1.532s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/urdf/anymal.urdf.xacro
+[1.536s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/ament_index/resource_index/package_run_dependencies/anymal_description
+[1.536s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/ament_index/resource_index/parent_prefix_path/anymal_description
+[1.539s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/environment/ament_prefix_path.sh
+[1.544s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/environment/ament_prefix_path.dsv
+[1.544s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/environment/path.sh
+[1.548s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/environment/path.dsv
+[1.549s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/local_setup.bash
+[1.549s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/local_setup.sh
+[1.550s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/local_setup.zsh
+[1.552s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/local_setup.dsv
+[1.552s] -- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/package.dsv
+[1.573s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/ament_index/resource_index/packages/anymal_description
+[1.575s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/cmake/anymal_descriptionConfig.cmake
+[1.575s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/cmake/anymal_descriptionConfig-version.cmake
+[1.576s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/anymal_description/share/anymal_description/package.xml
+[1.580s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/anymal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/anymal_description

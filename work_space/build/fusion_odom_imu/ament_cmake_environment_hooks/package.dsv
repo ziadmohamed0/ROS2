@@ -1,0 +1,4 @@
+source;share/fusion_odom_imu/local_setup.bash
+source;share/fusion_odom_imu/local_setup.dsv
+source;share/fusion_odom_imu/local_setup.sh
+source;share/fusion_odom_imu/local_setup.zsh

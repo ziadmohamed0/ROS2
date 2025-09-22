@@ -1,0 +1,23 @@
+[0.041s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/fusion_odom_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/fusion_odom_imu -- -j4 -l4
+[0.112s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/fusion_odom_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ziad/ziad_ws/ROS2/work_space/build/fusion_odom_imu -- -j4 -l4
+[0.115s] Invoking command in '/home/ziad/ziad_ws/ROS2/work_space/build/fusion_odom_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/fusion_odom_imu
+[0.128s] -- Install configuration: ""
+[0.131s] -- Execute custom install script
+[0.131s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/config/ekf_node.yaml
+[0.132s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/launch/ekf.launch.py
+[0.132s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/ament_index/resource_index/package_run_dependencies/fusion_odom_imu
+[0.133s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/ament_index/resource_index/parent_prefix_path/fusion_odom_imu
+[0.133s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/environment/ament_prefix_path.sh
+[0.134s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/environment/ament_prefix_path.dsv
+[0.134s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/environment/path.sh
+[0.134s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/environment/path.dsv
+[0.135s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/local_setup.bash
+[0.135s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/local_setup.sh
+[0.135s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/local_setup.zsh
+[0.135s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/local_setup.dsv
+[0.135s] -- Symlinking: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/package.dsv
+[0.157s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/ament_index/resource_index/packages/fusion_odom_imu
+[0.158s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/cmake/fusion_odom_imuConfig.cmake
+[0.158s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/cmake/fusion_odom_imuConfig-version.cmake
+[0.158s] -- Up-to-date symlink: /home/ziad/ziad_ws/ROS2/work_space/install/fusion_odom_imu/share/fusion_odom_imu/package.xml
+[0.210s] Invoked command in '/home/ziad/ziad_ws/ROS2/work_space/build/fusion_odom_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_teleop:/home/ziad/ziad_ws/ROS2/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ziad/ziad_ws/ROS2/work_space/build/fusion_odom_imu
